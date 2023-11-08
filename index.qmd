@@ -1,6 +1,7 @@
 ---
 title: "(Forestry) Applications of GIS"
-subtitle: "Application of GIS for managing natural and cultural resources. Covers choropleth maps, dot maps, proportional figure maps, isarithmic maps, and others. Includes computer mapping and GIS exercises. Level: Undergraduate-Graduate"
+subtitle: |
+  Application of GIS for managing natural and cultural resources. Covers choropleth maps, dot maps, proportional figure maps, isarithmic maps, and others. Includes computer mapping and GIS exercises. Level: Undergraduate-Graduate"
 details: |
   FORS350 / GPHY488, Spring 2024<br>University of Montana<br>WA Franke College of Forestry & Conservation
 sidebar: false
