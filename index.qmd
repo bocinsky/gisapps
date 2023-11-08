@@ -1,8 +1,8 @@
 ---
-title: "Experimental Designs and Statistical Methods"
-subtitle: "Basic concepts for data collection planning; appropriate statistical analyses of these data and interpretation of results. Advantages and disadvantages of the various experimental designs."
+title: "Applications of GIS"
+subtitle: "Application of GIS for managing natural and cultural resources. Covers choropleth maps, dot maps, proportional figure maps, isarithmic maps, and others. Includes computer mapping and GIS exercises. Level: Undergraduate-Graduate"
 details: |
-  MATH 80667A, Winter 2023<br>HEC Montréal
+  FORS350 / GPHY488, Spring 2024<br>University of Montana<br>WA Franke College of Forestry & Conservation
 sidebar: false
 toc: false
 page-layout: full
