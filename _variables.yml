@@ -4,19 +4,30 @@ instructor:
   name: Dr. Kyle Bocinsky
   name_no_title: Kyle Bocinsky
   email: kyle.bocinsky@umontana.edu
-  url: "https://www.bocinsky.io"
+  teams: kyle.bocinsky@umt.edu
+  url: https://www.bocinsky.io
   github: bocinsky
-  office: "307 Forestry"
-  contact_policy: >-
-    I am best reached by email or Teams.
+  office: '[Forestry 307](https://map.umt.edu/?id=1906#!m/564283){target="_blank"}'
+  contact_policy:
+    student_hours: "Tu 3:00--4:00, W 4:00--5:00<br>or by appointment"
 
 course:
   number: "FORS 350 / GPHY 488"
   semester: "Spring 2024"
-  days: "Tues"
-  time: "8:30-11:30"
-  location: "TBA"
-  github: "https://www.github.com/bocinsky/gisapps"
+  title: "(Forestry) Applications of GIS"
+  subtitle: |
+    Application of GIS for managing natural and cultural resources.
+    Covers choropleth maps, dot maps, proportional figure maps, isarithmic maps, and others.
+    Includes computer mapping and GIS exercises.
+  details: |
+    FORS350 / GPHY488, Spring 2024<br>University of Montana<br>WA Franke College of Forestry & Conservation
+  lecture:
+    sessions: "Tu/Th, 2:00--2:50"
+    location: '[Forestry 305](https://map.umt.edu/?id=1906#!m/564283){target="_blank"}'
+  lab:
+    sessions: "W 2:00--3:50, Th 3:30--5:20"
+    location: '[Stone 218](https://map.umt.edu/?id=1906#!m/544584){target="_blank"}'
+  github: "https://www.github.com/umtgis/apps"
   copyright_year: "2023–2024"
 
 university:

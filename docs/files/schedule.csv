@@ -1,45 +1,48 @@
-group,subgroup,date,date_end,title,deadline,content,example,evaluations
-Introduction,Session 1,2022-09-02,,Introduction to experimental designs and motivation,,content/01-content,,
-Introduction,Session 1,2022-09-08,,Weekly check-in 1,12:00,,,evaluations/weekly-check-in
-Introduction,Session 1,2022-09-08,,Problem set 1,12:00,,,evaluations/01-problem-set
-Introduction,Session 1,2022-09-03,,Installing **R** and Rstudio,,,example/installation,
-Introduction,Session 2,2022-09-09,,Review of key statistics concepts,,content/02-content,,
-Introduction,Session 2,2022-09-15,,Example 1 – Introduction,,,example/introduction,
-Introduction,Session 2,2022-09-15,,Weekly check-in 2,12:00,,,evaluations/weekly-check-in
-Introduction,Session 2,2022-09-15,,Problem set 2,12:00,,,evaluations/02-problem-set
-Completely randomized designs,Session 3,2022-09-16,,Completely randomized designs with one factor,,content/03-content,,
-Completely randomized designs,Session 2,2022-09-16,,Example 2 – One-way ANOVA,,,example/onewayanova,
-Completely randomized designs,Session 3,2022-09-22,,Weekly check-in 3,12:00,,,evaluations/weekly-check-in
-Completely randomized designs,Session 3,2022-09-22,,Problem set 3,12:00,,,evaluations/03-problem-set
-Completely randomized designs,Session 4,2022-09-23,,Contrasts and multiple testing,,content/04-content,,
-Completely randomized designs,Session 4,2022-09-29,,Weekly check-in 4,12:00,,,evaluations/weekly-check-in
-Completely randomized designs,Session 4,2022-09-29,,Problem set 4,12:00,,,evaluations/04-problem-set
-Completely randomized designs,Session 5,2022-09-30,,Complete factorial designs,,content/05-content,,
-Completely randomized designs,Session 5,2022-10-06,,Weekly check-in 5,12:00,,,evaluations/weekly-check-in
-Completely randomized designs,Session 5,2022-10-06,,Problem set 5,12:00,,,evaluations/05-problem-set
-Advanced topics,Session 6,2022-10-07,,Multiway factorial designs,,content/06-content,,
-Advanced topics,Session 6,2022-10-13,,Weekly check-in 6,12:00,,,evaluations/weekly-check-in
-Advanced topics,Session 6,2022-10-13,,Problem set 6,12:00,,,evaluations/06-problem-set
-Advanced topics,Session 7,2022-10-14,,Block designs and analysis of covariance,,content/07-content,,
-Advanced topics,Session 7,2022-10-20,,Weekly check-in 7,12:00,,,evaluations/weekly-check-in
-Advanced topics,Session 7,2022-10-20,,Problem set 7,12:00,,,evaluations/07-problem-set
-Advanced topics,Break,2022-10-20,2022-10-26,Fall break,,,,
-Advanced topics,Session 8,2022-10-28,,Effect sizes and the replication crisis,,content/08-content,,
-Advanced topics,Session 8,2022-11-03,,Weekly check-in 8,12:00,,,evaluations/weekly-check-in
-Advanced topics,Session 8,2022-11-03,,Problem set 8,12:00,,,evaluations/08-problem-set
-Repeated measure designs,Session 9,2022-11-04,,Repeated measures,,content/09-content,,
-Repeated measure designs,Session 9,2022-11-10,,Weekly check-in 9,12:00,,,evaluations/weekly-check-in
-Repeated measure designs,Session 9,2022-11-10,,Problem set 9,12:00,,,evaluations/09-problem-set
-Repeated measure designs,Session 10,2022-11-11,,Mixed models,,content/10-content,,
-Repeated measure designs,Session 10,2022-11-17,,Weekly check-in 10,12:00,,,evaluations/weekly-check-in
-Repeated measure designs,Session 10,2022-11-17,,Problem set 10,12:00,,,evaluations/10-problem-set
-Causal inference,Session 11,2022-11-18,,Power and intro to causal inference,,content/11-content,,
-Causal inference,Session 11,2022-11-24,,Weekly check-in 11,12:00,,,evaluations/weekly-check-in
-Causal inference,Session 11,2022-11-24,,Problem set 11,12:00,,,evaluations/11-problem-set
-Causal inference,Session 12,2022-11-25,,Linear mediation analysis,,content/12-content,,
-Causal inference,Session 12,2022-12-01,,Weekly check-in 12,12:00,,,evaluations/weekly-check-in
-Causal inference,Session 12,2022-12-01,,Problem set 12,12:00,,,evaluations/12-problem-set
-Categorical data,Session 13,2022-12-02,,Categorical data and final review,,content/13-content,,
-Categorical data,Session 13,2022-12-08,,Weekly check-in 13,12:00,,,evaluations/weekly-check-in
-Final,End of term,2022-12-09,,Paper review,23:55,,,evaluations/paper-review
-Final,End of term,2022-12-13,,Final exam,13:30,,,evaluations/final-exam
+﻿group,subgroup,date,date_end,title,deadline,content,example,evaluations
+Introduction,Week 1,1/18/24,,"Welcome, Syllabus, ~Moodle~, Labs, Resources",,content/01-content,,
+Review & points of departure,Week 2,1/23/24,,How is GIS applied to the scientific method?,,,,evaluations/weekly-check-in
+Review & points of departure,Week 2,1/25/24,,"Projection, Scale, and Geodatabase Review",,,,evaluations/01-problem-set
+Review & points of departure,Week 2,1/24/25,1/25/24,LAB: Access ArcPro & map tutorials,,,example/installation,
+Review & points of departure,Week 3,1/30/24,,"Scales of Measurement, Map Tutorials",,content/02-content,,
+Review & points of departure,Week 3,2/1/24,,Review of Spatial Reference,,,example/introduction,
+Review & points of departure,Week 3,1/31/24,2/1/24,LAB: Continue with map tutorials,,,,evaluations/weekly-check-in
+Whence geospatial data?,Week 4,2/6/24,,Whence Geospatial Data I: All data are spatial,,,,
+Whence geospatial data?,Week 4,2/8/24,,Whence Geospatial Data II: (Mis)Placing things,,,,
+Whence geospatial data?,Week 4,2/7/24,2/8/24,LAB: Continue with map tutorials,,,,
+Whence geospatial data?,Week 5,2/13/24,,Whence Geospatial Data III: Humans in space,,,,
+Whence geospatial data?,Week 5,2/15/24,,Voices of GIS: Missoula City GIS Services with Lee Macholz,,,,
+Whence geospatial data?,Week 5,2/14/24,2/15/24,LAB: Continue with map tutorials,,,,
+GIS and the analytical mind,Week 6,2/20/24,,"GIS as process: Organizing space, data, and analysis",,,,
+GIS and the analytical mind,Week 6,2/22/24,,NO CLASS,,,,
+GIS and the analytical mind,Week 6,2/21/24,2/22/24,NO LAB,,,,
+GIS and the analytical mind,Week 7,2/27/24,,GIS as workflow: Introducing the Model Builder,,,,
+GIS and the analytical mind,Week 7,2/29/24,,Voices of GIS: Spatial Epidemiology with Dr. Kimothy Smith,,,,
+GIS and the analytical mind,Week 7,2/28/24,2/29/24,LAB 1: Exploring the Model Builder,,,,
+Communicating with maps,Week 8,3/5/24,,Quantitative maps: Choropleth Mapping,,,,
+Communicating with maps,Week 8,3/7/24,,Type & Color,,,,
+Communicating with maps,Week 8,3/6/24,3/7/24,LAB 2: Choropleth maps,,,,
+Communicating with maps,Week 9,3/12/24,,Qualitative maps: Classification,,,,
+Communicating with maps,Week 9,3/14/24,,Voices of GIS: Mapping Drought with Dr. Zach Hoylman,,,,
+Communicating with maps,Week 9,3/13/24,3/14/24,LAB 3: Graduated Symbol Maps,,,,
+SPRING BREAK,Week 10,3/19/24,,NO CLASS (Spring Break),,,,
+SPRING BREAK,Week 10,3/21/24,,NO CLASS (Spring Break),,,,
+SPRING BREAK,Week 10,3/20/24,3/21/24,NO LAB (Spring Break),,,,
+Storytelling with maps,Week 11,3/26/24,,Spatial Storytelling I: A Human Tradition,,,,
+Storytelling with maps,Week 11,3/28/24,,Spatial Storytelling II: Introducing ESRI StoryMaps,,,,
+Storytelling with maps,Week 11,3/27/24,3/28/24,LAB 4: Exploring StoryMaps,,,,
+Storytelling with maps,Week 12,4/2/24,,Spatial Storytelling III: Maps in the Media,,,,
+Storytelling with maps,Week 12,4/4/24,,Voices of GIS: Protecting Cultural Resources in the BLM with Liz Dolinar,,,,
+Storytelling with maps,Week 12,4/3/24,4/4/24,LAB 5: Isarithmic Maps - Climate Analysis ,,,,
+Lying with maps,Week 13,4/9/24,,Lying with Maps I: Little white lies,,,,
+Lying with maps,Week 13,4/11/24,,Lying with Maps II: Placemaking and placetaking,,,,
+Lying with maps,Week 13,4/10/24,4/11/24,LAB: Finish Labs and Work on Final Projects,,,,
+Applications of GIS,Week 14,4/16/24,,Watershed Hydrology in GIS,,,,
+Applications of GIS,Week 14,4/18/24,,Voices of GIS: Species Distribution Modeling with USFS Biologist,,,,
+Applications of GIS,Week 14,4/17/24,4/18/24,LAB: Work on Final Projects,,,,
+Applications of GIS,Week 15,4/23/24,,Mapping Montana's Climate,,,,
+Applications of GIS,Week 15,4/25/24,,"Voices of GIS: Mapping Public Access with Eric Siegfried, Founder of onX Maps",,,,
+Applications of GIS,Week 15,4/24/24,4/25/24,LAB: Work on Final Projects,,,,
+Tell your story,Week 16,4/30/24,,Project Presentations,,,,
+Tell your story,Week 16,5/2/24,,Project Presentations,,,,
+Tell your story,Week 16,5/1/24,5/2/24,LAB: Work on Final Projects,,,,
+Finals,Finals,5/8/24,,"FINAL EXAM: Wednesday, May 8, 1:10 – 3:10",,,,

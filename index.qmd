@@ -3,7 +3,7 @@ title: "(Forestry) Applications of GIS"
 subtitle: |
   Application of GIS for managing natural and cultural resources. 
   Covers choropleth maps, dot maps, proportional figure maps, isarithmic maps, and others. 
-  Includes computer mapping and GIS exercises. Level: Undergraduate-Graduate
+  Includes computer mapping and GIS exercises.
 details: |
   FORS350 / GPHY488, Spring 2024<br>University of Montana<br>WA Franke College of Forestry & Conservation
 sidebar: false
@@ -32,16 +32,14 @@ withr::with_dir(here::here(), {
 ### Instructor
 
 - {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
-- {{< fa university >}} &nbsp; {{< var instructor.office >}}
-- {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a>
+- {{< fa university >}} &nbsp; **Office:** {{< var instructor.office >}}
+- {{< fa envelope >}} &nbsp; [{{< var instructor.email >}}](mailto:{{< var instructor.email >}})
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 ### Course details
-- {{< fa calendar-alt >}} &nbsp; {{< var course.semester >}}
-- {{< fa calendar >}} &nbsp; {{< var course.days >}}
-- {{< fa clock >}} &nbsp; {{< var course.time >}}
-- {{< fa location-dot >}} &nbsp; {{< var course.location >}}
+- {{< fa person-chalkboard >}} &nbsp; **Lecture:**<br>{{< var course.lecture.sessions >}}<br>{{< var course.lecture.location >}}
+- {{< fa display >}} &nbsp; **Lab:**<br>{{< var course.lab.sessions >}}<br>{{< var course.lab.location >}}
 :::
 
 
@@ -49,7 +47,8 @@ withr::with_dir(here::here(), {
 ::: {.g-col-12 .g-col-md-4 .contact-policy}
 ### Contacting me
 
-{{< var instructor.contact_policy >}}
+- {{< fa clock >}} &nbsp; **Student Hours:**<br>{{< var instructor.contact_policy.student_hours >}}
+- {{< fa at >}} &nbsp; I am best reached by [email](mailto:{{< var instructor.email >}}) or [Teams chat](https://teams.microsoft.com/l/chat/0/0?users={{< var instructor.teams >}}){target="_blank"}.
 :::
 
 :::

@@ -3,14 +3,16 @@ title: "Schedule"
 sidebar: false
 toc: false
 page-layout: full
+editor_options: 
+  chunk_output_type: console
 ---
 
 ::: {.schedule-page}
 
 
 - [**Content**](/content/) ({{< fa book-open-reader >}}): This page contains the readings, slides, and recorded lectures for the week. Read and watch these **before** our in-person class.
-- [**Example**](/example/) ({{< fa laptop-code >}}): This page contains fully annotated R code and other supplementary information that you can use as a reference for your evaluations. This is only a reference page—you don't have to necessarily do anything here. Some sections also contain videos of me live coding the examples so you can see what it looks like to work in real time. This page will be *very* helpful as you work on your evaluations.
-- [**Evaluations**](/evaluations/) ({{< fa pen-ruler >}}): This page contains the instructions for each evaluation. Weekly check-ins and problem sets are due by **noon** on the day before class. 
+<!--- [**Example**](/example/) ({{< fa laptop-code >}}): This page contains fully annotated R code and other supplementary information that you can use as a reference for your evaluations. This is only a reference page—you don't have to necessarily do anything here. Some sections also contain videos of me live coding the examples so you can see what it looks like to work in real time. This page will be *very* helpful as you work on your evaluations.-->
+- [**Evaluations**](/evaluations/) ({{< fa pen-ruler >}}): This page contains the instructions for each evaluation. Weekly check-ins and problem sets are due by **noon** on the day before class.
 
 ```{r build-table, include=FALSE}
 library(tidyverse)
@@ -25,6 +27,8 @@ withr::with_dir(here::here(), {
 schedule_raw <- read_csv(schedule_file)
 
 schedule <- schedule_raw %>% 
+  mutate(date = lubridate::mdy(date),
+         date_end = lubridate::mdy(date_end)) %>%
   mutate(group = fct_inorder(group)) %>% 
   mutate(subgroup = fct_inorder(subgroup)) %>% 
   mutate(var_title = ifelse(!is.na(content), 
@@ -65,7 +69,7 @@ show_table <- function(group_id) {
   # Add a heading
   cat(as.character(paste("\n\n###", schedule_nested$group[[group_id]], "\n\n")))
   # Make the table
-  tbl <- schedule_nested$data[[group_id]] |>
+  tbl <- schedule_nested$data[[group_id]] %>%
     select(-subgroup) %>% 
     kbl(escape = FALSE, align = "rlccc", table.attr = 'class="schedule-table"') %>% 
     kable_styling() %>% 

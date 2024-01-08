@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Experimental Designs and Statistical Methods - Syllabus</title>
+<title>(Forestry) Applications of GIS - Syllabus</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -100,7 +100,7 @@ div.csl-indent {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Experimental Designs and Statistical Methods</span>
+    <span class="navbar-title">(Forestry) Applications of GIS</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -133,16 +133,6 @@ div.csl-indent {
     <a class="nav-link" href="https://lbelzile.github.io/math80667a"> 
 <span class="menu-text">Notes</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://edsmf22.slack.com"> <i class="bi bi-slack" role="img" aria-label="Slack">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://lbelzile.github.io/hecedsm"> <i class="bi bi-box" role="img" aria-label="Datasets">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -159,15 +149,17 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-content" id="toc-course-content" class="nav-link active" data-scroll-target="#course-content">Course content</a></li>
-  <li><a href="#target-audience-and-prerequisites" id="toc-target-audience-and-prerequisites" class="nav-link" data-scroll-target="#target-audience-and-prerequisites">Target audience and prerequisites</a></li>
-  <li><a href="#programming" id="toc-programming" class="nav-link" data-scroll-target="#programming">Programming</a>
+  <li><a href="#course-content" id="toc-course-content" class="nav-link active" data-scroll-target="#course-content">Course content</a>
   <ul class="collapse">
-  <li><a href="#learning-r" id="toc-learning-r" class="nav-link" data-scroll-target="#learning-r">Learning <strong>R</strong></a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
   </ul></li>
-  <li><a href="#course-materials" id="toc-course-materials" class="nav-link" data-scroll-target="#course-materials">Course materials</a>
+  <li><a href="#course-format" id="toc-course-format" class="nav-link" data-scroll-target="#course-format">Course Format</a></li>
+  <li><a href="#course-materials" id="toc-course-materials" class="nav-link" data-scroll-target="#course-materials">Course Materials</a>
   <ul class="collapse">
-  <li><a href="#textbooks" id="toc-textbooks" class="nav-link" data-scroll-target="#textbooks">Textbooks</a></li>
+  <li><a href="#required-text" id="toc-required-text" class="nav-link" data-scroll-target="#required-text">Required Text</a></li>
+  <li><a href="#recommended-text" id="toc-recommended-text" class="nav-link" data-scroll-target="#recommended-text">Recommended Text</a></li>
+  <li><a href="#required-storage" id="toc-required-storage" class="nav-link" data-scroll-target="#required-storage">Required Storage</a></li>
   <li><a href="#other-references" id="toc-other-references" class="nav-link" data-scroll-target="#other-references">Other references</a></li>
   </ul></li>
   <li><a href="#course-content-1" id="toc-course-content-1" class="nav-link" data-scroll-target="#course-content-1">Course content</a></li>
@@ -208,61 +200,79 @@ div.csl-indent {
 
 
 <div class="grid course-details course-details-smaller">
-<section id="instructor" class="level3 g-col-6">
+<section id="instructor" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
 <h3 class="anchored" data-anchor-id="instructor">Instructor</h3>
 <ul>
 <li><i class="fa-solid fa-user" aria-hidden="true"></i> &nbsp; <a href="https://www.bocinsky.io">Dr.&nbsp;Kyle Bocinsky</a></li>
-<li><i class="fa-solid fa-university" aria-hidden="true"></i> &nbsp; 307 Forestry</li>
-<li><i class="fa-solid fa-envelope" aria-hidden="true"></i> &nbsp; &lt;a href=“mailto:kyle.bocinsky@umontana.edu”&gt;kyle.bocinsky@umontana.edu</li>
+<li><i class="fa-solid fa-university" aria-hidden="true"></i> &nbsp; <strong>Office:</strong> <a href="https://map.umt.edu/?id=1906#!m/564283" target="_blank">Forestry 307</a></li>
+<li><i class="fa-solid fa-envelope" aria-hidden="true"></i> &nbsp; <a href="mailto:kyle.bocinsky@umontana.edu">kyle.bocinsky@umontana.edu</a></li>
 </ul>
 </section>
-<section id="course-details" class="level3 g-col-6">
+<section id="course-details" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
 <h3 class="anchored" data-anchor-id="course-details">Course details</h3>
 <ul>
-<li><i class="fa-solid fa-calendar-alt" aria-hidden="true"></i> &nbsp; Spring 2024</li>
-<li><i class="fa-solid fa-calendar" aria-hidden="true"></i> &nbsp; Tues</li>
-<li><i class="fa-solid fa-clock" aria-hidden="true"></i> &nbsp; 8:30-11:30</li>
-<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> &nbsp; TBA</li>
+<li><i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> &nbsp; <strong>Lecture:</strong><br>Tu/Th, 2:00–2:50<br><a href="https://map.umt.edu/?id=1906#!m/564283" target="_blank">Forestry 305</a></li>
+<li><i class="fa-solid fa-display" aria-hidden="true"></i> &nbsp; <strong>Lab:</strong><br>W 2:00–3:50, Th 3:30–5:20<br><a href="https://map.umt.edu/?id=1906#!m/544584" target="_blank">Stone 218</a></li>
+</ul>
+</section>
+<section id="contacting-me" class="level3 g-col-12 g-col-md-4 contact-policy">
+<h3 class="anchored" data-anchor-id="contacting-me">Contacting me</h3>
+<ul>
+<li><i class="fa-solid fa-clock" aria-hidden="true"></i> &nbsp; <strong>Student Hours:</strong><br>Tu 3:00–4:00, W 4:00–5:00<br>or by appointment</li>
+<li><i class="fa-solid fa-at" aria-hidden="true"></i> &nbsp; I am best reached by <a href="mailto:kyle.bocinsky@umontana.edu">email</a> or <a href="https://teams.microsoft.com/l/chat/0/0?users=kyle.bocinsky@umt.edu" target="_blank">Teams chat</a>.</li>
 </ul>
 </section>
 </div>
 <section id="course-content" class="level1">
 <h1>Course content</h1>
-<p>Basic concepts for data collection planning; appropriate statistical analyses of these data and interpretation of results. Advantages and disadvantages of the various experimental designs.</p>
-<p>This course has four main objectives:</p>
+<p>GIS is the science of answering spatial questions with the proper use of geographic information. The main concern is the analytical application of tools for investigating the distribution of physical and cultural phenomena on the surface of Earth. Unfortunately, the majority of maps in the modern discourse grossly distort the data and lie to the user. This most likely stems from a lack of basic cartographic knowledge and usually happens when a graphic designer is tasked with throwing data on a map. Decades of academic study into user perceptions, proper data management, and effective techniques inform a large body of geographic science that we will use as a foundation for applied GIS analysis. You will learn to ask appropriate spatial questions, construct methods for analysis, and produce maps that truthfully represent the answers.</p>
+<p>The course will discuss all the major concepts and theories behind several GIS applications and put those skills into practice with laboratory exercises using GIS software. We will sample the use of GIS science in multiple disciplines, highlighting the unique skills required to effectively use GIS in those fields. Also important, we will practice ways to leverage those skills for use in any GIS application. Finally, the entire course will be governed by a respect for map integrity and imbue the student with a reverence for the power of maps.</p>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
 <ul>
-<li>to present the major experimental designs used for research in management and in the behavioural sciences;</li>
-<li>to familiarize students with the statistical methods and a software to analyze experimental data (e.g., SPSS);</li>
-<li>to interpret and present results from the statistical analyses and discuss the validity and limits of the results;</li>
-<li>to understand and to critique the methodology and statistical results of published articles in the research fields of the students.</li>
+<li>To learn the tools of spatial analysis in order to properly make spatial decisions in a variety of GIS applications.</li>
+<li>To understand the structure and analysis of nominal, ordinal, interval, and ratio data in a spatial context.</li>
+<li>To become proficient in the construction of choropleth, dot density, proportional symbol, isarithmic, and cartogram maps.</li>
+<li>To develop software skills in programs used for GIS analysis in the modern geographic information workflow.</li>
+<li>To learn to overcome software limitations and produce aesthetically pleasing maps that convey design rather than automatic generation.</li>
 </ul>
 </section>
-<section id="target-audience-and-prerequisites" class="level1">
-<h1>Target audience and prerequisites</h1>
-<p>The course is part of the PhD program in Administration offered by HEC Montréal jointly with McGill, Concordia and Université du Québec à Montréal (UQÀM).</p>
-<p>The course is designed for non-specialists, but a college/freshman/undergraduate level exposition to statistics is assumed. I expect students to know what are data types (continuous, categorical, binary variables), basic graphical representation (histogram, box-and-whisker plots), descriptive statistics (mean, variance), how to perform an hypothesis test (e.g., a t-test for comparing two means, simple linear regression), etc. The pace the first few weeks will be quite fast if you have no prior exposure to statistics.</p>
-<p>What we cover, notably analysis of variance, could appear in an undergraduate level course. However, the course is calibrated for PhD students needs (how to write a statistical analysis in a paper, how to assess the statistical methodology of a paper as a peer-reviewer, how to avoid statistical fallacies that could invalidate your work, etc.)</p>
-<p>If you want to brush up, I can recommend the free ressource <a href="https://www.openintro.org/book/ahss/">Advanced High School Statistics by Open Intro</a> or <span class="citation" data-cites="OpenIntro4">Diez et al. (<a href="#ref-OpenIntro4" role="doc-biblioref">2019</a>)</span> — the material is pretty comprehensive and well structured. I expect many students will have at least this level of knowledge.</p>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<p>By the end of this course you will:</p>
+<ol type="1">
+<li>Understand the terminology, structures, concepts, and theories of GIS project management.</li>
+<li>Gain necessary skills to perform spatial analyses using various data within a GIS environment.</li>
+<li>Learn common GIS applications associated with managing natural and cultural resources.</li>
+<li>Be proficient in applying the scientific methods to spatial problem solving.</li>
+<li>Know the proper styles and formats for documenting research in a scientific report.</li>
+</ol>
 </section>
-<section id="programming" class="level1">
-<h1>Programming</h1>
-<p>Most programming language with dedicated statistics module can be used to perform the analyses we will cover in class<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<p>Property software options include <a href="https://www.ibm.com/products/spss-statistics">IBM SPSS Statistics</a> (Windows and Mac only) and SAS (Windows only). HEC Montréal provides download for <a href="https://hecmontreal.atlassian.net/wiki/spaces/DTIKB/pages/1952252037">SPSS</a> and SAS, but the latter can be freely accessed using the cloud-based version <a href="https://www.sas.com/en_us/software/on-demand-for-academics.html">SAS OnDemand for Academics</a>.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
-<p>I am a strong advocate of <a href="https://cran.r-project.org/"><strong>R</strong></a> and will provide code and material for the latter. There is a steep learning curve, but the user community is vibrant, so most routines of interest have been contributed by other users and you can get support through help forums. You can <a href="./example/installation/">find instructions for installing R, RStudio, and all the tidyverse packages here.</a></p>
-<p>If you are more comfortable with click-and-drop menus, <a href="https://www.jamovi.org/">JAMOVI</a>, <a href="https://www.gnu.org/software/pspp/">PSPP</a> and <a href="https://jasp-stats.org/">JASP</a> are suitable open-access options.</p>
-<section id="learning-r" class="level2">
-<h2 class="anchored" data-anchor-id="learning-r">Learning <strong>R</strong></h2>
-<p>Searching for help with <strong>R</strong> on Google can sometimes be tricky because the program name is a single letter. Google is generally smart enough to figure out what you mean when you search for “r scatterplot”, but if it does struggle, try searching for “rstats” instead (e.g., “rstats scatterplot”).</p>
-<p>Check out <a href="https://stackoverflow.com/">StackOverflow</a> (a Q&amp;A site with hundreds of thousands of answers to all sorts of programming questions) and <a href="https://community.rstudio.com/">RStudio Community</a> (a forum specifically designed for people using RStudio and the tidyverse).</p>
 </section>
+<section id="course-format" class="level1">
+<h1>Course Format</h1>
+<p>The general program for each week will be Tuesday and Thursday lectures, followed by a lab section. However, this schedule is subject to change, and will vary with the needs of the class, workload, or in special circumstances. This is especially true towards the end of the semester.</p>
+<p>Lecture days will start with announcements, and then move to group map critiques or class discussion of readings. This will be followed by a lecture on principles of GIS. Time permitting, there will be short on-screen demonstrations of valuable software techniques for use in the labs. These demos should be used to fulfill the Demonstration Tutorial write-up requirement.</p>
+<p>New lab assignments will be introduced during a Tuesday Lecture, so that each lab section has equal time to finish projects. The majority of the labs will not be written up in a button-by-button click format. You are expected to refer back to previous skills learned in other courses, tutorials provided by the instructor, the ESRI Help directory and outside resources found on the web. Utilize your time in the labs to ask questions of your fellow students, the TA, and the instructor.</p>
 </section>
 <section id="course-materials" class="level1">
-<h1>Course materials</h1>
+<h1>Course Materials</h1>
 <p>I will provide slides and videos. In addition to those, there will be assigned readings from textbook and reference papers.</p>
-<section id="textbooks" class="level2">
-<h2 class="anchored" data-anchor-id="textbooks">Textbooks</h2>
-<p>Course notes for the class can be found <a href="https://lbelzile.github.io/math80667a">online</a></p>
+<section id="required-text" class="level2">
+<h2 class="anchored" data-anchor-id="required-text">Required Text</h2>
+<p>Course notes for the class can be found <a href="https://umtgis.github.io/apps">on the course website</a>.</p>
 <p>I will also assign readings from <span class="citation" data-cites="Meier:2022">Meier (<a href="#ref-Meier:2022" role="doc-biblioref">2022</a>)</span> <a href="https://stat.ethz.ch/~meier/teaching/anova/">ANOVA and Mixed Models: A Short Intro Using R</a>, which is available online for free reading.</p>
+</section>
+<section id="recommended-text" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-text">Recommended Text</h2>
+<p>GIS for Environmental Management, by Robert Scally, ESRI Press. 2006. (Available on Amazon)</p>
+<p>Cartography: Thematic Map Design, by Borden Dent, McGraw Hill. 6th Ed. 2009 (or 5th Ed.).</p>
+<p>Geographic Information Systems: Applications in Forestry and Natural Resource Management, by Michael G. Wing and Pete Bettinger, Oxford University Press (ISBN: 019542610X). 2nd Ed. 2008.</p>
+<p>There will be various supplemental readings supplied as pdf’s throughout the semester, many from the recommended books above. Every student should have an atlas. They are great resources for those that are interested in the world andwill continue to make maps in their professional fields.</p>
+</section>
+<section id="required-storage" class="level2">
+<h2 class="anchored" data-anchor-id="required-storage">Required Storage</h2>
+<p>You will need a thumb-drive or external hard drive with at least 4 GB of space. Create a Word doc on the drive called “1st Owner Information.” Use the number one in the title and it will always be on top in the file list. Type up all you contact information so when you lose your drive, and you will, it can be returned. A reward can be an incentive. Drives left in the lab should be turned into and collected from Angie, the geography administrative associate.</p>
 </section>
 <section id="other-references" class="level2">
 <h2 class="anchored" data-anchor-id="other-references">Other references</h2>
@@ -380,11 +390,11 @@ div.csl-indent {
 <h1>Course policies</h1>
 <section id="student-hours" class="level2">
 <h2 class="anchored" data-anchor-id="student-hours">Student hours</h2>
-<p>I am available Friday after class and from 13:30-15:00. My office, 4.850, is located next to the southern elevators in Côte-Sainte-Catherine building.</p>
+<p>I am available Tuesday after class from 3:00–4:00, Wednesday after lab from 4:00–5:00, and by appointment. My office, Forestry 307, is located next to the lecture hall for this class (Forestry 305) and across from the Coke machine.</p>
 <p>Please watch this video:</p>
 <iframe src="https://player.vimeo.com/video/270014784" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" style="display: block; margin: 0 auto 1rem;">
 </iframe>
-<p>Student hours are set times dedicated to all of you (most professors call these “office hours”; I don’t<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>). This means that I will be in my office waiting for you to come by if you want to talk to me in person (or remotely) with whatever questions you have. This is the best and easiest way to find me and the best chance for discussing class material and concerns.</p>
+<p>Student hours are set times dedicated to all of you (most professors call these “office hours”; I don’t<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>). This means that I will be in my office waiting for you to come by if you want to talk to me in person (or remotely) with whatever questions you have. This is the best and easiest way to find me and the best chance for discussing class material and concerns.</p>
 </section>
 <section id="late-work" class="level2">
 <h2 class="anchored" data-anchor-id="late-work">Late work</h2>
@@ -406,7 +416,7 @@ div.csl-indent {
 </section>
 <section id="family-policy" class="level2">
 <h2 class="anchored" data-anchor-id="family-policy">Family policy</h2>
-<p>HEC does not have an official family policy, so the following guidelines reflect my own beliefs and commitments towards parent students<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p>HEC does not have an official family policy, so the following guidelines reflect my own beliefs and commitments towards parent students<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
 <ol type="1">
 <li>Babies are welcome in class as often as necessary for support feeding relationship.</li>
 <li>You are welcome to bring your child to class in order to cover unforeseeable gaps in childcare.</li>
@@ -421,8 +431,8 @@ div.csl-indent {
 <div class="centered-table">
 <table class="table">
 <colgroup>
-<col style="width: 44%">
-<col style="width: 12%">
+<col style="width: 29%">
+<col style="width: 15%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -432,24 +442,52 @@ div.csl-indent {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Weekly check-in (12 × 0.5 pt)</td>
-<td style="text-align: center;">6</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Problem set (11 x 4 pt)</td>
-<td style="text-align: center;">44</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Paper review (10 pt)</td>
-<td style="text-align: center;">10</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Final examination (40 pt)</td>
-<td style="text-align: center;">40</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Total</td>
+<td style="text-align: left;">Lab 1</td>
 <td style="text-align: center;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lab 2</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Lab 3</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lab 4</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Lab 5</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Map Tutorials</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Resource Notebook</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Demo Tutorials (5)</td>
+<td style="text-align: center;">50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Midterm Exam</td>
+<td style="text-align: center;">200</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Final Exam</td>
+<td style="text-align: center;">250</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Final Projects</td>
+<td style="text-align: center;">400</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Total</strong></td>
+<td style="text-align: center;"><strong>1600</strong></td>
 </tr>
 </tbody>
 </table>
@@ -461,42 +499,41 @@ div.csl-indent {
 <table class="table">
 <colgroup>
 <col style="width: 11%">
-<col style="width: 13%">
-<col style="width: 11%">
-<col style="width: 12%">
+<col style="width: 15%">
+<col style="width: 8%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Grade</th>
 <th style="text-align: center;">Range</th>
-<th style="text-align: left;">Grade</th>
-<th style="text-align: center;">Range</th>
+<th style="text-align: left;">GPA</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">A+</td>
-<td style="text-align: center;">90-100%</td>
-<td style="text-align: left;">B</td>
-<td style="text-align: center;">70-75%</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: center;">80–100%</td>
+<td style="text-align: left;">4</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">A</td>
-<td style="text-align: center;">85–90%</td>
-<td style="text-align: left;">B-</td>
-<td style="text-align: center;">65-70%</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: center;">70–79%</td>
+<td style="text-align: left;">3</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">A-</td>
-<td style="text-align: center;">80–85%</td>
-<td style="text-align: left;">C+</td>
-<td style="text-align: center;">60-65%</td>
+<td style="text-align: left;">C</td>
+<td style="text-align: center;">60–69%</td>
+<td style="text-align: left;">2</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">B+</td>
-<td style="text-align: center;">75-80%</td>
+<td style="text-align: left;">D</td>
+<td style="text-align: center;">50–59%</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">F</td>
-<td style="text-align: center;">&lt;60%</td>
+<td style="text-align: center;">&lt;50%</td>
+<td style="text-align: left;">0</td>
 </tr>
 </tbody>
 </table>
@@ -521,9 +558,6 @@ Cox, D. R. (1958). <em>Planning of experiments</em>. Wiley.
 <div id="ref-Dean:2017" class="csl-entry" role="listitem">
 Dean, A., Voss, D., &amp; Draguljić, D. (2017). <em>Design and analysis of experiments</em>. Springer. <a href="https://www.springer.com/gp/book/9783319522487">https://www.springer.com/gp/book/9783319522487</a>
 </div>
-<div id="ref-OpenIntro4" class="csl-entry" role="listitem">
-Diez, D., Çetinkaya-Rundel, M., &amp; Barr, C. D. (2019). <em>OpenIntro statistics</em> (4th ed.). OpenIntro.
-</div>
 <div id="ref-Keppel/Wickens:2004" class="csl-entry" role="listitem">
 Keppel, G., &amp; Wickens, T. D. (2004). <em>Design and analysis: A researcher’s handbook</em>. Pearson Prentice Hall.
 </div>
@@ -539,10 +573,8 @@ VanderWeele, T. (2015). <em>Explanation in causal inference: Methods for mediati
 </div></section><aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>The ability to compute custom contrasts and fit linear mixed models are deal breakers.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>This is the easiest way to set up SAS and does not require a virtual machine with Windows alongside a Unix operating system.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>There’s fairly widespread misunderstanding about what office hours actually are! <a href="https://www.chronicle.com/article/Can-This-Man-Change-How-Elite/245714/">Many students often think that they are the times I <em>shouldn’t</em> be disturbed</a>, which is the exact opposite of what they’re for!<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Shamelessly stolen/adapted from similar policy by Drs. Melissa Cheney, Guy Grossman and Rohan Alexander<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>There’s fairly widespread misunderstanding about what office hours actually are! <a href="https://www.chronicle.com/article/Can-This-Man-Change-How-Elite/245714/">Many students often think that they are the times I <em>shouldn’t</em> be disturbed</a>, which is the exact opposite of what they’re for!<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Shamelessly stolen/adapted from similar policy by Drs. Melissa Cheney, Guy Grossman and Rohan Alexander<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </aside></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -945,7 +977,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Made with <i class="fa-brands fa-r-project" aria-hidden="true"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://www.github.com/bocinsky/gisapps">View the source at <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a></p>
+<p>Made with <i class="fa-brands fa-r-project" aria-hidden="true"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://www.github.com/umtgis/apps">View the source at <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a></p>
 </div>
   </div>
 </footer>

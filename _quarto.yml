@@ -22,9 +22,9 @@ bibliography: files/bib/references.bib
 csl: files/bib/apa.csl
 
 website:
-  title: "Experimental Designs and Statistical Methods"
-  site-url: "https://edsm.rbind.io"
-  description: "Basic concepts for data collection planning; appropriate statistical analyses of these data and interpretation of results. Advantages and disadvantages of the various experimental designs."
+  title: "{{< var course.title >}}"
+  site-url: "https://umtgis.github.io/apps/"
+  description: "{{< var course.subtitle >}}"
 
   navbar:
     pinned: true
@@ -40,12 +40,12 @@ website:
         file: example/index.qmd
       - text: "Notes"
         href: "https://lbelzile.github.io/math80667a"
-      - icon: slack
-        href: "https://edsmf22.slack.com"
-        aria-label: Slack
-      - icon: box
-        href: "https://lbelzile.github.io/hecedsm"
-        aria-label: Datasets
+      # - icon: slack
+      #   href: "https://edsmf22.slack.com"
+      #   aria-label: Slack
+      # - icon: box
+      #   href: "https://lbelzile.github.io/hecedsm"
+      #   aria-label: Datasets
 
   sidebar:
     - title: "Content"
@@ -168,7 +168,7 @@ preview:
   browser: true
   watch-inputs: true
   navigate: true
-  
+
 format:
   html:
     theme:
