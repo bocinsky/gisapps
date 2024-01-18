@@ -57,10 +57,10 @@ list(
                pattern = "\\.html",
                full.names = TRUE)
   }),
-  # tar_target(xaringan_pdfs,
-  #            xaringan_to_pdf(xaringan_html_files),
-  #            pattern = map(xaringan_html_files),
-  #            format = "file"),
+  tar_target(xaringan_pdfs,
+             xaringan_to_pdf(xaringan_html_files),
+             pattern = map(xaringan_html_files),
+             format = "file"),
 
 
   ## Project folders ----

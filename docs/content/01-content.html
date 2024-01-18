@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -91,7 +71,7 @@ div.csl-indent {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -117,7 +97,7 @@ div.csl-indent {
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../content/index.html"> 
+    <a class="nav-link active" href="../content/index.html" aria-current="page"> 
 <span class="menu-text">Content</span></a>
   </li>  
   <li class="nav-item">
@@ -130,10 +110,61 @@ div.csl-indent {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/01-content.html">Course content</a></li><li class="breadcrumb-item"><a href="../content/01-content.html">1: Introduction</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Overview</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Readings and Lectures</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Course content</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/01-content.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">1: Introduction</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -141,12 +172,9 @@ div.csl-indent {
    
   <ul>
   <li><a href="#content" id="toc-content" class="nav-link active" data-scroll-target="#content">Content</a></li>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
-  <li><a href="#preliminaries" id="toc-preliminaries" class="nav-link" data-scroll-target="#preliminaries">Preliminaries</a></li>
-  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
-  <li><a href="#complementary-readings" id="toc-complementary-readings" class="nav-link" data-scroll-target="#complementary-readings">Complementary readings</a></li>
+  <li><a href="#winter-break-map-20-minutes" id="toc-winter-break-map-20-minutes" class="nav-link" data-scroll-target="#winter-break-map-20-minutes">Winter Break Map (20 minutes)</a></li>
+  <li><a href="#syllabus-intro-and-discussion" id="toc-syllabus-intro-and-discussion" class="nav-link" data-scroll-target="#syllabus-intro-and-discussion">Syllabus Intro and Discussion</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
-  <li><a href="#case-study" id="toc-case-study" class="nav-link" data-scroll-target="#case-study">Case study</a></li>
   </ul>
 </nav>
     </div>
@@ -157,7 +185,7 @@ div.csl-indent {
 <h1 class="title display-7">Introduction</h1>
 
 <div class="date-block bg-content text-white p-2">
-  <p class="date">Content for Friday, September 2, 2022</p>
+  <p class="date">Content for Thursday, January 18, 2024</p>
 </div>
 </header>
 
@@ -165,78 +193,23 @@ div.csl-indent {
 <section id="content" class="level2">
 <h2 class="anchored" data-anchor-id="content">Content</h2>
 <ul>
-<li>Syllabus and learning objectives</li>
-<li>Review
-<ul>
-<li>Population and samples</li>
-<li>Observational versus experimental studies</li>
-<li>Sampling schemes: random, stratified and cluster sampling</li>
-</ul></li>
-<li>Introduction to experimental designs</li>
-<li>Terminology of experimental design</li>
-<li>Requirements for a good experiment</li>
+<li>What I did during my winter break… as a map!</li>
+<li>Introductions</li>
+<li><a href="../syllabus">Syllabus</a>, <a href="../schedule/">schedule</a>, and learning objectives</li>
 </ul>
 </section>
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
-<ul>
-<li>Learning the terminology associated to experiments.</li>
-<li>Assessing the generalizability of a study based on the consideration of the sample characteristics, sampling scheme and population.</li>
-<li>Distinguishing between observational and experimental studies.</li>
-<li>Understanding the rationale behind the requirements for good experimental studies.</li>
-</ul>
+<section id="winter-break-map-20-minutes" class="level2">
+<h2 class="anchored" data-anchor-id="winter-break-map-20-minutes">Winter Break Map (20 minutes)</h2>
+<p>Draw a map (on paper, with your hands) that communicates something about what you did during winter break. Think about how your map tells a story… what would one of your colleagues or I glean from your map? How did you use text, color, and other map elements to convey your story? <strong>Please write your name on top of your map.</strong></p>
+<p>After you complete your map in 20 minutes, trade maps with the person next to you and try to interpret what your partner’s map is trying to convey. What elements are confusing, or clear, about your partner’s map? How would you tell the same story differently? Discuss.</p>
 </section>
-<section id="preliminaries" class="level2">
-<h2 class="anchored" data-anchor-id="preliminaries">Preliminaries</h2>
-<ul>
-<li>Familiarize yourself with the <a href="../syllabus">syllabus</a>, <a href="../content/">content</a>, <a href="../example/">examples</a>, and <a href="../evaluations/">evaluations</a> pages for this class.</li>
-<li><i class="fa-solid fa-book" aria-hidden="true"></i> Read Chapter 1 (Intro to Data) of <a href="https://www.openintro.org/book/os/">OpenIntro Statistics</a> and the accompanying <i class="fa-brands fa-youtube" aria-hidden="true"></i> <a href="https://www.youtube.com/playlist?list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8">videos</a></li>
-</ul>
-</section>
-<section id="readings" class="level2">
-<h2 class="anchored" data-anchor-id="readings">Readings</h2>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>These readings should be completed before class, to ensure timely understanding and let us discuss the concepts together through various examples and case studies — the strict minimum being the course notes. If you feel a section is redundant and overlaps with the latter, feel free to skim through the rest of the material.</p>
-</div>
-</div>
-<ul>
-<li><i class="fa-solid fa-book" aria-hidden="true"></i> Chapter 1 of the <a href="https://lbelzile.github.io/math80667a/introduction.html">Course notes</a></li>
-<li><i class="fa-solid fa-book" aria-hidden="true"></i> Chapter 2 of <a href="https://openintro-ims.netlify.app/data-design.html"><em>Introduction to Modern Statistics</em></a></li>
-</ul>
-<p>Feel free to inform me in the weekly check-in of your take on these references.</p>
-</section>
-<section id="complementary-readings" class="level2">
-<h2 class="anchored" data-anchor-id="complementary-readings">Complementary readings</h2>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Complementary readings are additional sources of information that are not required readings, but may be useful substitutes. Sometimes, they go beyond the scope of what we cover (in more details).</p>
-</div>
-</div>
-<ul>
-<li><i class="fa-solid fa-book" aria-hidden="true"></i> Chapter 1 (<em>Preliminaries</em>) in <em>Planning of experiments</em> <span class="citation" data-cites="Cox:1958">(<a href="#ref-Cox:1958" role="doc-biblioref">Cox, 1958</a>)</span>. Out of print, but addresses the basic concepts using a variety of examples (mostly from agricultural field trials), and particularly well written.</li>
-<li><i class="fa-solid fa-book" aria-hidden="true"></i> Chapter 1 and Sections 2.1-2.2 in <em>Design and Analysis of Experiments</em> <span class="citation" data-cites="Dean:2017">(<a href="#ref-Dean:2017" role="doc-biblioref">Dean et al., 2017</a>)</span></li>
-</ul>
+<section id="syllabus-intro-and-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="syllabus-intro-and-discussion">Syllabus Intro and Discussion</h2>
+<p>Familiarize yourself with the <a href="../syllabus">syllabus</a>, <a href="../schedule/">schedule</a>, <a href="../content/">content</a>, and <a href="../evaluations/">evaluations</a> pages for this class.</p>
 </section>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<p>The slides for today’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.</p>
+<p>The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.</p>
 <p>
 <a class="btn btn-danger" target="_blank" href="../slides/01-slides.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> View all slides in new window</a> <a class="btn btn-danger" target="_blank" href="../slides/01-slides.pdf" role="button"><i class="fa-solid fa-file-pdf"></i> Download PDF of all slides</a>
 </p>
@@ -261,35 +234,11 @@ Tip
 <p><strong>Fun fact</strong>: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of slide-specific commands.</p>
 </div>
 </div>
-</section>
-<section id="case-study" class="level2">
-<h2 class="anchored" data-anchor-id="case-study">Case study</h2>
-<p>We will discuss the summary of <span class="citation" data-cites="Mask:2022">Abaluck et al. (<a href="#ref-Mask:2022" role="doc-biblioref">2022</a>)</span> <a href="https://www.poverty-action.org/printpdf/47486">“The Impact of Mask Distribution and Promotion on Mask Uptake and COVID-19 in Bangladesh”</a> in class.</p>
-<p>During the activity, you will be asked to identify in teams the following:</p>
-<ul>
-<li>the objective of the study</li>
-<li>the target population (which findings generalize?)</li>
-<li>the sampling scheme</li>
-<li>the observational and experimental units</li>
-<li>the treatments</li>
-<li>the outcome variable(s)</li>
-</ul>
-
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-Mask:2022" class="csl-entry" role="listitem">
-Abaluck, J., Kwong, L. H., Styczynski, A., Haque, A., Kabir, Md. A., Bates-Jefferys, E., Crawford, E., Benjamin-Chung, J., Raihan, S., Rahman, S., Benhachmi, S., Bintee, N. Z., Winch, P. J., Hossain, M., Reza, H. M., Jaber, A. A., Momen, S. G., Rahman, A., Banti, F. L., … Mobarak, A. M. (2022). Impact of community masking on <span>COVID-19</span>: A cluster-randomized trial in <span>B</span>angladesh. <em>Science</em>, <em>375</em>(6577). <a href="https://doi.org/10.1126/science.abi9069">https://doi.org/10.1126/science.abi9069</a>
-</div>
-<div id="ref-Cox:1958" class="csl-entry" role="listitem">
-Cox, D. R. (1958). <em>Planning of experiments</em>. Wiley.
-</div>
-<div id="ref-Dean:2017" class="csl-entry" role="listitem">
-Dean, A., Voss, D., &amp; Draguljić, D. (2017). <em>Design and analysis of experiments</em>. Springer. <a href="https://www.springer.com/gp/book/9783319522487">https://www.springer.com/gp/book/9783319522487</a>
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

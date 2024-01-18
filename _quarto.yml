@@ -58,10 +58,10 @@ website:
         - section: "Overview"
           contents:
             - content/index.qmd
-        # - section: "Course content"
-        #   contents:
-            # - text: "1: Introduction"
-            #   file: content/01-content.qmd
+        - section: "Course content"
+          contents:
+            - text: "1: Introduction"
+              file: content/01-content.qmd
             # - text: "2: Hypothesis testing"
             #   file: content/02-content.qmd
             # - text: "3: One way ANOVA"
