@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://umtgis.github.io/apps/syllabus.html</loc>
-    <lastmod>2024-01-18T17:54:22.876Z</lastmod>
+    <loc>https://umtgis.github.io/apps/syllabus/index.html</loc>
+    <lastmod>2024-01-18T18:34:55.353Z</lastmod>
   </url>
   <url>
     <loc>https://umtgis.github.io/apps/index.html</loc>
@@ -129,7 +129,7 @@
     <lastmod>2023-11-08T16:34:50.365Z</lastmod>
   </url>
   <url>
-    <loc>https://umtgis.github.io/apps/schedule.html</loc>
+    <loc>https://umtgis.github.io/apps/schedule/index.html</loc>
     <lastmod>2023-12-28T18:52:49.881Z</lastmod>
   </url>
 </urlset>

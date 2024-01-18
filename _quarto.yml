@@ -30,8 +30,10 @@ website:
     pinned: true
     background: "#ad1aac"
     right:
-      - syllabus.qmd
-      - schedule.qmd
+      - text: "Syllabus"
+        file: syllabus/index.qmd
+      - text: "Schedule"
+        file: schedule/index.qmd
       - text: "Content"
         file: content/index.qmd
       - text: "Evaluations"
@@ -56,8 +58,8 @@ website:
         - section: "Overview"
           contents:
             - content/index.qmd
-        - section: "Course content"
-          contents:
+        # - section: "Course content"
+        #   contents:
             # - text: "1: Introduction"
             #   file: content/01-content.qmd
             # - text: "2: Hypothesis testing"

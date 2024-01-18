@@ -79,18 +79,16 @@ On occasional Thursdays during the lecture hour, we will hear from *Voices of GI
 
 New lab assignments will be introduced during Tuesday lectures and will be due a week after they are assigned. The majority of the labs will not be written up in a button-by-button click format. You are expected to refer back to previous skills learned in other courses, tutorials provided by the instructor, the ESRI Help directory and outside resources found on the web. Utilize your time in the labs to ask questions of your fellow students, the TA, and the instructor.
 
-
-
 # Course Materials
-I will provide slides. In addition to those, there will be assigned readings from textbooks and reference papers.
+I will provide slides, and sometimes notes. In addition to those, there will be assigned readings from textbooks and reference papers.
 
 ## Course Software
 The labs are written for [ArcGIS Pro 3.2.1 (ArcPro)](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview). ArcPro is installed on the computers in the lab in Stone Hall. You are welcome to use your own computers for the labs if you'd like, but beware as your mileage may vary. I've prepared installation instructions for [Windows](https://umtgis.github.io/guides/install/windows.html), [MacOS (Apple Silicon)](https://umtgis.github.io/guides/install/mac_apple_silicon.html), and [MacOS (Intel)](https://umtgis.github.io/guides/install/mac_intel.html), and the course instructors will be available during the lab section on Thursday, January 18 to troubleshoot getting it up and running on your computers. Access to ArcPro is provided at no cost to students. Be mindful of the [ArcPro system requirements](https://pro.arcgis.com/en/pro-app/latest/get-started/arcgis-pro-system-requirements.htm), but note my instructions on how to get it up and running on MacOS.
 
-Students are welcome to attempt to do the labs using alternative software, such as [QGIS](https://www.qgis.org/en/site/), [R](https://www.r-project.org), or [Python](https://www.python.org). You won't be graded on the software you use, only on the quality of your results. The course instructors will try to advise and assist with other software as best they can.
+Students are welcome to attempt to do the labs using alternative software, such as [QGIS](https://www.qgis.org/en/site/), [R](https://www.r-project.org), or [Python](https://www.python.org). You won't be graded on the software you use, only on the quality of your writeup and results. The course instructors will try to advise and assist with other software as best they can.
 
 ## Course Texts
-Course notes for the class can be found [on the course website](https://umtgis.github.io/apps). There will also be assigned readings from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping) [@Manson:2017], which is available online for free reading. There will be various supplemental readings supplied as pdfs throughout the semester. The [GIS&T Body of Knowledge](https://gistbok.ucgis.org) is an impressive resource for geographic information sciences, and you'd be wise to familiarize yourself with it.
+Course notes for the class can be found [on the course website](/). There will also be assigned readings from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping) [@Manson:2017], which is available online for free reading. There will be various supplemental readings supplied as pdfs throughout the semester. The [GIS&T Body of Knowledge](https://gistbok.ucgis.org) is an impressive resource for geographic information sciences, and you'd be wise to familiarize yourself with it.
 
 ## Storage
 
