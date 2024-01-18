@@ -90,19 +90,19 @@ website:
       style: "docked"
       search: false
       foreground: "#ad1aac"
-      contents:
-        - section: "Overview"
-          contents:
-            - text: "Syllabus Quiz"
-              file: evaluations/syllabus-quiz.qmd
-            - text: "Map Tutorials"
-              file: evaluations/map-tutorials.qmd
-            - evaluations/index.qmd
-            - text: "Weekly check-in"
-              file: evaluations/weekly-check-in.qmd
-            - evaluations/midterm-exam.qmd
-            - evaluations/final-exam.qmd
-            - evaluations/final-project.qmd
+      # contents:
+        # - section: "Overview"
+        #   contents:
+        #     - text: "Syllabus Quiz"
+        #       file: evaluations/syllabus-quiz.qmd
+        #     - text: "Map Tutorials"
+        #       file: evaluations/map-tutorials.qmd
+        #     - evaluations/index.qmd
+        #     - text: "Weekly check-in"
+        #       file: evaluations/weekly-check-in.qmd
+        #     - evaluations/midterm-exam.qmd
+        #     - evaluations/final-exam.qmd
+        #     - evaluations/final-project.qmd
         # - section: "Labs"
         #   contents:
         # - evaluations/01-problem-set.qmd
