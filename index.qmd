@@ -34,6 +34,11 @@ withr::with_dir(here::here(), {
 - {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
 - {{< fa university >}} &nbsp; **Office:** {{< var instructor.office >}}
 - {{< fa envelope >}} &nbsp; [{{< var instructor.email >}}](mailto:{{< var instructor.email >}})
+
+### Teaching Assistant
+- {{< fa user >}} &nbsp; {{< var ta.name >}}
+- {{< fa university >}} &nbsp; **Office:** {{< var ta.office >}}
+- {{< fa clock >}} &nbsp; **Student Hours:**<br>{{< var ta.contact_policy.student_hours >}}
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
@@ -48,7 +53,7 @@ withr::with_dir(here::here(), {
 ### Contacting me
 
 - {{< fa clock >}} &nbsp; **Student Hours:**<br>{{< var instructor.contact_policy.student_hours >}}
-- {{< fa at >}} &nbsp; I am best reached by [email](mailto:{{< var instructor.email >}}) or [Teams chat](https://teams.microsoft.com/l/chat/0/0?users={{< var instructor.teams >}}){target="_blank"}.
+- {{< fa at >}} &nbsp; **The best way to get reach me is to visit my [student hours](/syllabus.html#sec-student-hours).** If necessary, I can be reached by [email](mailto:{{< var instructor.email >}}) or [Teams chat](https://teams.microsoft.com/l/chat/0/0?users={{< var instructor.teams >}}){target="_blank"}.
 :::
 
 :::

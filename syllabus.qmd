@@ -18,6 +18,11 @@ library(pander)
 - {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
 - {{< fa university >}} &nbsp; **Office:** {{< var instructor.office >}}
 - {{< fa envelope >}} &nbsp; [{{< var instructor.email >}}](mailto:{{< var instructor.email >}})
+
+### Teaching Assistant
+- {{< fa user >}} &nbsp; {{< var ta.name >}}
+- {{< fa university >}} &nbsp; **Office:** {{< var ta.office >}}
+- {{< fa clock >}} &nbsp; **Student Hours:**<br>{{< var ta.contact_policy.student_hours >}}
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
@@ -30,17 +35,21 @@ library(pander)
 ### Contacting me
 
 - {{< fa clock >}} &nbsp; **Student Hours:**<br>{{< var instructor.contact_policy.student_hours >}}
-- {{< fa at >}} &nbsp; I am best reached by [email](mailto:{{< var instructor.email >}}) or [Teams chat](https://teams.microsoft.com/l/chat/0/0?users={{< var instructor.teams >}}){target="_blank"}.
+- {{< fa at >}} &nbsp; **The best way to get reach me is to visit my [student hours](/syllabus.html#sec-student-hours).** If necessary, I can be reached by [email](mailto:{{< var instructor.email >}}) or [Teams chat](https://teams.microsoft.com/l/chat/0/0?users={{< var instructor.teams >}}){target="_blank"}.
 :::
 
 :::
 
 
-# Course content
+# TL;DR
+
+Good try! Read the syllabus. It is your best bet for success in this course, and any other courses you may be taking.
+
+# Overview
 
 GIS is the science of answering spatial questions with the proper use of geographic information. The main concern is the analytical application of tools for investigating the distribution of physical and cultural phenomena on the surface of Earth. Unfortunately, the majority of maps in the modern discourse grossly distort the data and lie to the user. This most likely stems from a lack of basic cartographic knowledge and usually happens when a graphic designer is tasked with throwing data on a map. Decades of academic study into user perceptions, proper data management, and effective techniques inform a large body of geographic science that we will use as a foundation for applied GIS analysis. You will learn to ask appropriate spatial questions, construct methods for analysis, and produce maps that truthfully represent the answers.
 
-The course will discuss all the major concepts and theories behind several GIS applications and put those skills into practice with laboratory exercises using GIS software. We will sample the use of GIS science in multiple disciplines, highlighting the unique skills required to effectively use GIS in those fields. Also important, we will practice ways to leverage those skills for use in any GIS application. Finally, the entire course will be governed by a respect for map integrity and imbue the student with a reverence for the power of maps.
+The course will discuss major concepts and theories behind several GIS applications and put those skills into practice with laboratory exercises using GIS software. We will sample the use of GIS science in multiple disciplines, highlighting the unique skills required to effectively use GIS in those fields.
 
 ## Objectives
 
@@ -64,134 +73,63 @@ By the end of this course you will:
 
 The general program for each week will be Tuesday and Thursday lectures, followed by a lab section. However, this schedule is subject to change, and will vary with the needs of the class, workload, or in special circumstances. This is especially true towards the end of the semester.
 
-Lecture days will start with announcements, and then move to group map critiques or class discussion of readings. This will be followed by a lecture on principles of GIS. Time permitting, there will be short on-screen demonstrations of valuable software techniques for use in the labs. These demos should be used to fulfill the Demonstration Tutorial write-up requirement. 
+Lecture days will start with announcements, and then move to group map critiques or class discussion of readings. This will be followed by a lecture on principles of GIS.
 
-New lab assignments will be introduced during a Tuesday Lecture, so that each lab section has equal time to finish projects. The majority of the labs will not be written up in a button-by-button click format. You are expected to refer back to previous skills learned in other courses, tutorials provided by the instructor, the ESRI Help directory and outside resources found on the web. Utilize your time in the labs to ask questions of your fellow students, the TA, and the instructor. 
+On occasional Thursdays during the lecture hour, we will hear from *Voices of GIS*. I have invited several people I feel are doing impactful work with geospatial data to join us in class and be interviewed. Each guest speaker will share a tool, paper, app, or analysis thy have had a hand in developing, and we'll have a discussion about potential geospatial careers in their field. **You will be responsible for submitting thoughtful questions for our guests ahead of time.** I'll parse through your questions and let them guide the interviews.
+
+New lab assignments will be introduced during Tuesday lectures and will be due a week after they are assigned. The majority of the labs will not be written up in a button-by-button click format. You are expected to refer back to previous skills learned in other courses, tutorials provided by the instructor, the ESRI Help directory and outside resources found on the web. Utilize your time in the labs to ask questions of your fellow students, the TA, and the instructor.
+
+
 
 # Course Materials
-I will provide slides and videos. In addition to those, there will be assigned readings from textbook and reference papers.
+I will provide slides. In addition to those, there will be assigned readings from textbooks and reference papers.
 
 ## Course Software
-ArcGIS Pro 3.2.1
+The labs are written for [ArcGIS Pro 3.2.1 (ArcPro)](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview). ArcPro is installed on the computers in the lab in Stone Hall. You are welcome to use your own computers for the labs if you'd like, but beware as your mileage may vary. I've prepared installation instructions for [Windows](https://umtgis.github.io/guides/install/windows.html), [MacOS (Apple Silicon)](https://umtgis.github.io/guides/install/mac_apple_silicon.html), and [MacOS (Intel)](https://umtgis.github.io/guides/install/mac_intel.html), and the course instructors will be available during the lab section on Thursday, January 18 to troubleshoot getting it up and running on your computers. Access to ArcPro is provided at no cost to students. Be mindful of the [ArcPro system requirements](https://pro.arcgis.com/en/pro-app/latest/get-started/arcgis-pro-system-requirements.htm), but note my instructions on how to get it up and running on MacOS.
 
-### Installation Instructions
-
-### Windows
-
-### Mac
+Students are welcome to attempt to do the labs using alternative software, such as [QGIS](https://www.qgis.org/en/site/), [R](https://www.r-project.org), or [Python](https://www.python.org). You won't be graded on the software you use, only on the quality of your results. The course instructors will try to advise and assist with other software as best they can.
 
 ## Course Texts
-Course notes for the class can be found [on the course website](https://umtgis.github.io/apps).
+Course notes for the class can be found [on the course website](https://umtgis.github.io/apps). There will also be assigned readings from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping) [@Manson:2017], which is available online for free reading. There will be various supplemental readings supplied as pdfs throughout the semester. The [GIS&T Body of Knowledge](https://gistbok.ucgis.org) is an impressive resource for geographic information sciences, and you'd be wise to familiarize yourself with it.
 
-I will also assign readings from @Manson:2017
-[Maps, Society, and Technology](https://open.lib.umn.edu/mapping), which is available online for free reading.
+## Storage
 
-There will be various supplemental readings supplied as pdf’s throughout the semester, many from the recommended books above. Every student should have an atlas. They are great resources for those that are interested in the world and\or will continue to make maps in their professional fields.
+### UM FCFC File Server ("T:\\\\ Drive")
+The FCFC IT team has created a folder for our GISApps class under our **Classes/GISApps** folder on the UM FCFC file server. **The *Classes/GISApps* folder is by far the easiest place to store your ArcPro data while in this class.**
+ 
+The Classes folder will automatically map for everyone in the Stone Hall labs as the "T:\\\\" drive. However, if you need to access the drive from the library or another location on campus, you need to follow the instructions below to map the **Classes** drive. You need to be connected to ethernet on campus, or *eduroam* wifi to access the **Classes** folder. 
+ 
+Drive mapping instructions: <https://umtqsg.atlassian.net/l/cp/Pp2Vgu2M>
 
+- Server and Share name for Windows: **\\data.cfc.umt.edu\\Classes$**
+- **<smb://data.cfc.umt.edu/Classes$>** for MacOS (available via the **Finder menu bar &rarr; Go &rarr; Connect to Server...**)
+- Username: **first.last@umt.edu** and your normal password
+ 
+That will take you to the root of the classes folder, you can see some instructions for signing into available software and general lab info in the root of that folder. Your folder is GISApps and within that, you will see a **Labs** folder and a **Students** folder. **Labs** is intended to store materials/data that that we will share with you prior to the labs. **Students** will contain a folder for each student in our class where you can store whatever they want/need and is named with your NetID. The only folder students may view or modify is their own folder. The **Labs** folder is read only for students.
 
-https://gistbok.ucgis.org
+### Flash Drive (optional)
+A thumb-drive or external hard drive with at least 4 GB of space may prove useful.
 
+**Pro tip:** Create a Word doc on the drive called "1st Owner Information." Use the number one in the title and it will always be on top in the file list. Type up all you contact information so when you lose your drive it can be returned.
 
+# Important Dates
+Please keep these dates in mind this semester. The course instructors will try and remind you about them. A more complete list of dates, including information on residency classification and adding classes, is available on the [UM Registrar website](https://www.umt.edu/registrar/calendar/spring.php).
 
-## Required Storage
-You will need a thumb-drive or external hard drive with at least 4 GB of space. Create a Word doc on the drive called “1st Owner Information.” Use the number one in the title and it will always be on top in the file list. Type up all you contact information so when you lose your drive, and you will, it can be returned. A reward can be an incentive. Drives left in the lab should be turned into and collected from Angie, the geography administrative associate.
+Feb. 7. 2024
+: **Last day to drop individual classes on CyberBear with no W on transcript; refunds where applicable.** Spring registration bill payment deadline.
 
-## Other references
+March 28, 2024
+: **Last day to drop a class without Dean approval.** Students will receive a W on their transcript.
 
-There will occasionally be additional articles to read; links to these other resources will be included on the content page for that session.
+May 3, 2024
+: **Last day to drop a class.** Requires Dean, instructor, and advisor approval. A WP or WF will appear on the transcript for dropped classes.
 
-Other good references for (some or most of) the content we will cover includes
+May 17, 2024
+: Grades post to CyberBear and to student transcripts on or around this date.
 
-- @Keppel/Wickens:2004: out of print; comprehensive reference with a focus on effect size and marginal effects, all calculations are done by hand.
-- @Cox:1958: out of print, but beautifully written and nontechnical.
-- @Dean:2017: comprehensive and freely available via Springer link; students last year found it too dry and technical.
-- @Box/Hunter:1978.
-- @Vanderweele:2015.
-- @Pearl:2016.
+# Student Hours {#sec-student-hours}
 
-
-# Important dates
-Feb. 6: Last day to drop/add in Cyberbear or change to “Audit” with partial refund.
-Mar. 28: Last day to drop w/ drop/add link in Cyberbear (w/ prof & advisor sigs), $10 fee, & “W” grade.
-May 5: Last day to drop w/ link (w/ prof, advisor, & dean sigs), $10 fee, & “WP” or “WF” grade.
-
-
-# Course content
-
-Below is a tentative schedule for the semester. 
-
-1. **Introduction and motivation**
-    - Review (population and samples, observational versus experimental studies)
-    - Introduction to experimental designs
-    - Terminology and key concepts of experimental design
-    - Requirements for a good experiment
-2. **Review of key statistics concepts**
-    - Sampling variability
-    - Hypothesis testing
-    - Confidence intervals
-    - Examples of basic tests
-        - two sample t-test and Welch's t-test
-        - chi-square test for contingency table
-        - permutation test
-3. **Completely randomized designs with one factor**
-    - Introduction to one-way analysis of variance
-    - $F$-statistic and sum of square decomposition
-    - Parametrization
-    - Model assumptions
-4. **Contrasts and multiple testing**
-    - Contrasts
-    - Multiple testing, family-wise error rate and false discovery rate
-    - Methods for control: methods for ANOVA (Tukey, Dunnett and Scheffé) 
-    - General methods (Bonferroni, Holm and Benjamini-Hochberg)
-5. **Completely randomized designs with two factors**
-    - Interactions
-    - Marginal and conditional contrasts
-6. **General completely randomized designs**
-    - Unbalanced designs and implications for inference 
-    - Three-way ANOVA: Simple, marginal and conditional means
-7. **Blocked designs and analysis of covariance**
-    - Designs to reduce the error
-    - Terminology (blocking factor, covariate, noise variable)
-    - Complete block design
-    - Repeated measure designs and tests of sphericity
-    - Analysis of covariance and equal slope assumptions
-8. **Effect sizes and power**
-    - Effect sizes
-    - Interplay between sample size, effect and power
-    - Power calculations
-9. **General design principles**
-    - More general linear regression models
-    - Nonparametric tests (rank tests, via linear model)
-    - AB testing and stopping rules
-    - Repeated measures and tests of sphericity
-10. **Mixed models**
-    - Intro to random effects
-    - Linear mixed models
-    - Model specification: crossed and nested factors
-    - Showcase: replication and meta-analysis
-11. **Replication crisis and introduction to causal inference**
-    - Replication crisis and reproducibility
-    - Statistical fallacies
-    - Solutions to replication crisis
-    - Directed acyclic graphs
-    - Types of association: causation, mediation, confounding and collision
-12. **Causal inference (continued) and linear mediation model**
-    - Assumptions for causal inference
-    - *do*-operator and backdoor
-    - Baron--Kenny linear mediation model: Sobol's statistic and introduction to the bootstrap.
-    - Linear mediation model
-13. **Categorical data analysis and final review**
-    - Contingency tables and count data
-    - Goodness-of-fit, independence, Fisher and McNemar tests
-    - Q&A, final review and practice exam
-
-
-# Course policies
-
-
-## Student hours
-
-I am available Tuesday after class from 3:00--4:00, Wednesday after lab from 4:00--5:00, and by appointment. My office, Forestry 307, is located next to the lecture hall for this class (Forestry 305) and across from the Coke machine.
+I am available Tuesday after class from 3:00--4:00, Wednesday after lab from 4:00--5:00, and by appointment. My office, Forestry 307, is located next to the lecture hall for this class (Forestry 305) and across from the Coke machine. Additionally, the course TA, Patrick Benson, will have student hours from 1--2pm on Wednesdays in Stone Hall 213.
 
 Please watch this video:
 
@@ -199,189 +137,211 @@ Please watch this video:
 
 Student hours are set times dedicated to all of you (most professors call these "office hours"; I don't^[There's fairly widespread misunderstanding about what office hours actually are! [Many students often think that they are the times I *shouldn't* be disturbed](https://www.chronicle.com/article/Can-This-Man-Change-How-Elite/245714/), which is the exact opposite of what they're for!]). This means that I will be in my office waiting for you to come by if you want to talk to me in person (or remotely) with whatever questions you have. This is the best and easiest way to find me and the best chance for discussing class material and concerns.
 
-## Late work
+# Course content
 
-Problem sets and weekly check-ins are due by Thursday the week after class. Strictly speaking, there is no deadline, but timely submission will allow me to discuss problem sets in class. The submission modules will stay open for two weeks after the due date. I will not assign penalties, but will gently nudge you to stay on track.
+Below is a tentative schedule for the semester. A more complete, day-by-day schedule is available on the [Schedule](/schedule/) page, but is subject to change.
+
+1. **Introduction and motivation**
+    - Welcome, Syllabus, Moodle, Labs, Resources
+2. **Review & points of departure**
+    - How is GIS applied to the scientific method?
+    - Projection, Scale, and Geodatabases
+    - Scales of Measurement
+    - Review of Spatial Reference
+3. **Whence geospatial data?**
+    - Whence Geospatial Data I: All data are spatial
+    - Whence Geospatial Data II: (Mis)Placing things
+    - Whence Geospatial Data III: Humans in space
+4. **GIS and the analytical mind**
+    - GIS as process: Organizing space, data, and analysis
+    - GIS as workflow: Introducing the Model Builder
+    - **LAB 1**: Exploring the Model Builder
+5. **Communicating with maps**
+    - Quantitative maps: Choropleth Mapping
+    - Type & Color
+    - **LAB 2**: Choropleth maps
+    - Qualitative maps: Classification
+    - **LAB 3**: Graduated Symbol Maps
+6. **Storytelling with maps**
+    - Spatial Storytelling I: A Human Tradition
+    - Spatial Storytelling II: Introducing ESRI StoryMaps
+    - **LAB 4**: Exploring StoryMaps
+    - Spatial Storytelling III: Maps in the Media
+    - **LAB 5**: Isarithmic Maps --- Climate Analysis
+7. **Lying with maps**
+    - Lying with Maps I: Little white lies
+    - Lying with Maps II: Placemaking and placetaking
+8. **Applications of GIS**
+    - Watershed Hydrology in GIS
+    - Mapping Montana’s Climate
+9. **Tell your story**
+   - Final Project Presentations
+
+# Evaluations and grades
+
+You can find descriptions for the assignments on the [evaluations](/evaluations/) page. There are **2000** total points available in this course; so far, **20** points have been assigned (this will update as the semester progresses). To calculate your current grade at any point, simply divide the number of points you've earned by the number of points that have been assigned thus far.
 
 
-## Intellectual integrity
+```{r assignments-grades, include=FALSE}
+assignments <- 
+  tibble::tribble(
+~Assignment,   ~Points,  ~Awarded,
+"Syllabus Quiz", 10, NA,
+"Participation/Quizzes/Check-ins", 140, 20,
+"Map Tutorials (3 x 50)", 150, NA,
+"Labs (5 x 100)", 500, NA,
+"Resource Notebook", 100, NA,
+"Voices of GIS Questions (5 x 10)", 50, NA,
+"Midterm Exam", 200, NA,
+"Final Exam", 250, NA,
+"Final Project", 600, NA
+)
 
-Please don't cheat! The [official policy](https://www.hec.ca/direction_services/secretariat_general/juridique/reglements_politiques/documents/REG_intellectual-integrity-students-v2.pdf) lists the school rules regarding plagiarism and academic integrity.
+grading <- tibble::tribble(
+  ~Grade, ~Points, ~Range,  ~GPA,
+  "A", "1800--2000", "90--100%", 4,
+  "B", "1600--1799", "80--89%",  3,
+  "C", "1400--1599", "70--79%",  2,
+  "D", "1200--1399", "60--69%",  1,
+  "F", "<1200"     , "<60%"   ,  0
+)
+```
 
-## Student services
+<div class="centered-table">
 
-Students with special needs should feel free to approach me so we can best discuss accommodations. Do check out [HEC Montréal's disabled students](https://www.hec.ca/en/students/support-resources/support-disabled-students/index.html) and [psychological] (https://www.hec.ca/en/students/support-resources/psychological-support/index.html) support services.
+```{r show-assignments-table, echo=FALSE, results="asis"}
+assignments_total <- tibble(Assignment = "**Total**",
+                            Points = paste0("**",sum(assignments$Points),"**"),
+                            Awarded = paste0("**",sum(assignments$Awarded, na.rm = TRUE),"**"))
+assignments %>%
+  dplyr::mutate(dplyr::across(dplyr::everything(), as.character)) %>%
+bind_rows(assignments_total) %>% 
+  select(Assignment, Points, Awarded) %>% 
+  pandoc.table(justify = "lcc", missing = "—")
+```
+</div>
 
-## Harassment and sexual violence
+<div class="centered-table">
 
-The Center for Harassment Intervention (BIMH) is the unique access point for all members of the community subject to harassment or sexual violence. You can reach them at 514 343-7020 or by email at [`harcelement@hec.ca`](mailto:harcelement@hec.ca) from Monday until Friday, from 8:30 until 4:30pm.
+```{r show-grades-table, echo=FALSE, results="asis"}
+grading %>%
+  pandoc.table(justify = "lccl", 
+               col.names = c("Grade", "Points", "Percentages", "GPA"))
+```
 
-If you are in an emergency situation or fear for your safety, call emergency services at 911, followed by HEC Montréal security services at 514 340-6611.
+<div>
 
-[Check the school official policy on these matters](https://www.hec.ca/direction_services/secretariat_general/juridique/reglements_politiques/documents/policy-to-prevent-and-fight-sexual-violence.pdf) for more details.
+# Course policies
 
-## Family policy
+## Expectations
 
-HEC does not have an official family policy, so the following guidelines reflect my own beliefs and commitments towards parent students^[Shamelessly stolen/adapted from similar policy by Drs. Melissa Cheney, Guy Grossman and Rohan Alexander]
+### Emails
+On a daily basis, I receive 40--50 emails that are related to the work that I do for the university. I often spend several hours a day reading and responding to emails. Before emailing me, please read the syllabus to see if your question is answered in the syllabus. Try to ask assignment questions in class when I ask if there are any questions. For questions you may not want to ask in front of the whole class, you may speak to me after class. If none of those options will work, please email me or see me during
+student hours.
+
+When emailing, please compose a polite, concise email *from your UM email address* with a clear subject line. This will ensure that your email isn't inadvertently sent to my junk mail.
+
+All professors and TAs are only expected to respond to emails during working hours and business days, and generally within two business days. Don’t expect responses on the weekends. If I don't get back to you within 2 business days, please email me again.
+
+
+### Classroom Participation
+Students are expected to attend all classes in person unless they have communicated a reason for absence with the instructor---if you are going to miss class, please communicate that to me ahead of time. Students are individually responsible for all information presented in lectures, *Voices of GIS* interviews, assigned readings, and class assignments. Classroom participation will be assessed via attendance, attention, pop-quizzes, and active participation in group-discussions. There will be several unannounced reading and participation quizzes. Combined, these quizzes and your participation total 10 percent of your grade. Thus, consistent attendance and regularly doing the readings are required to do well in the course.
+
+#### Cultural Leave Policy
+Cultural or ceremonial leave allows excused absences for cultural, religious, and ceremonial purposes to meet the student's customs and traditions or to participate in related activities. To receive an authorized absence for a cultural, religious or ceremonial event the student or their advisor (proxy) must submit a formal written request to the instructor. This must include a brief description (with inclusive dates) of the cultural event or ceremony and the importance of the student's attendance or participation. Authorization for the absence is subject to approval by the instructor. Appeals may be made to the Chair, Dean or Provost. The excused absence or leave may not exceed five academic calendar days (not including weekends or holidays). Students remain responsible for completion or make-up of assignments as defined in the syllabus, at the discretion of the instructor.
+
+#### Family Policy
+UM does not have an official family policy, so the following guidelines reflect my own beliefs and commitments towards parent students^[Shamelessly stolen/adapted from similar policy by Drs. Melissa Cheney, Guy Grossman and Rohan Alexander]
 
 1. Babies are welcome in class as often as necessary for support feeding relationship.
 2. You are welcome to bring your child to class in order to cover unforeseeable gaps in childcare. 
 3. If you come with babies or toddler, I ask that you sit close to the door so that, in case your little one needs special attention and is disrupting the learning of other students, you may step outside of class until their needs are met. Seats close to the door are reserved for parents attending class with their child.
 
-Course Syllabus & Communication – Refer to this syllabus and to the Moodle website throughout the course.
-Any changes to the syllabus will be posted on Moodle and distributed by e-mail. Please note that I am only
-allowed to use your official UM email or Moodle to communicate with you. This is required to comply with
-FERPA (the Federal Educational Rights and Privacy Act).
-Time Expectations – Online classes do not require classroom attendance, but the amount of time needed to
-successfully complete the course will be generally the same or more. You are responsible for completing
-assignments by prescribed deadlines. With this class expect to spend 9-12 hours/week for this course,
-including reading, videos, assignments, and exams. Incompletes may be given for emergencies, and must be
-completed within 1 year (https://catalog.umt.edu/academics/policies-procedures).
 Student Conduct Code – UM’s student conduct code is clearly addressed at: https://www.umt.edu/student-
 affairs/community-standards/default.php. Students failing to follow the code will be reported to the proper
 offices and receive a failing grade for the course.
-Disability modifications – UM assures equal access to instruction through collaboration between students with
-disabilities, instructors, and the Office for Disability Equity (https://www.umt.edu/disability/). If you think
-you may have a disability adversely affecting your academic performance, and you have not already registered
-with Disability Equity, please contact ODE in Aber Hall or call 406.243.2243. I will work with you and ODE
-to provide appropriate modification.
 
 
-Quizzes
-All quizzes are in the online textbook or on Moodle.
-Pre-Assessment Quiz 10pts You get all points for just taking this quiz.
-Post-Assessment Quiz 10pts
-Syllabus Quiz 10pts
-Textbook and Moodle Quizzes 10pts* Each
-*There will likely be between 12-15 quizzes. This applies to all quizzes. You will always have at least a
-week to prepare. No final exam; only a quiz worth 10 points. The final quiz may be a mix of
-cumulative questions and questions from readings. All quizzes are taken online outside of class.
-Assignments Due Dates 11:59 PM On Moodle in PDF Format
-My Wildlife Story 20pts Thursday, Jan 26
-Resume 40pts Thursday, Feb. 23
-Cover Letter 50pts Thursday, March 30
-Long Term Career Plan 40pts Thursday, April 27
-Optional Bonus Assignment 10pts Friday, May 5
-Note: All assignments must be submitted in PDF format by 11:59 PM to Moodle. If any other format,
-the assignment will be docked 10%. If you turn in a copy that can not be opened, we will assume you
-didn't turn it in because you effectively didn't.
-Convert Word Doc to PDF Tutorial Convert Google Docs to PDF Tutorial
-WILD 180 SpringFall 2023
-I reserve the right to change the syllabus with reasonable notice given to the students.
-4
-Forums and Discussions
-Online Textbook Forums and Discussions 1pt per forum or discussion.
-Attendance Policy
-Students are expected to attend all classes in person unless they have accommodation or have already
-communicated a reason for absence or zoom attendance with me. I will pass around a physical sign-in
-sheet for students to sign.
-All students get 4 free absences. Please do not email the instructor or the TA regarding a single absence.
-Missing more than 4 classes will result in a 2% total grade deduction, missing five classes will be an
-additional 4% deduction, and 6 absences will result in an additional 6% deduction. Having more than 6
-absences will result in course failure. Attendance is mandatory; your desire to learn and do well in the
-course will dictate your presence. Students are individually responsible for all information presented in
-lectures, guest lectures, assigned textbook readings, posted readings on the course Moodle website, and
-class assignments. In the case of medical or other emergencies (e.g., legitimate, planned absences). Formal
-documentation may be required for legitimate emergencies that require a student to miss an assignment or
-quiz. Before you email me and ask me if you will or have missed something important, read this humorous
-essay.
-I suggest checking your email before coming to class, as Dr. Gómez can get sick too.
-Speaker Series
-● List of speakers will be posted on Moodle
-● Speakers typically present on Thursday
-● Please ask questions to the guest speakers.
-● Please do not have private conversations when a guest is speaking or I am speaking.
-Emails
-Note: On a daily basis, I receive 20-40 emails that are related to the work that I do for the university. I
-spend several hours a day reading and responding to emails. Before emailing me, please read the
-syllabus to see if your question is answered in the syllabus. Try to ask assignment questions in class
-when I ask if there are any questions. For questions you may not want to ask in front of the whole class,
-you may speak to me after class. If none of those options will work, please email me or see me during
-office hours.
-Email Policy
-All professors and TA’s, not just Dr. Gómez, are only expected to respond to emails during working hours
-and business days, and generally within two business days. Don’t expect responses on the weekends.
-If I don't get back to you within 2 business days, please email me again.
-Audio Responses to Emails
-I may respond to emails with a short audio or video clip to save time and be more effective. Please do
-not share or post these recordings. I do this because I can give students a quicker and more detailed
-response this way. If you would rather have a written response, please say that in the email or reply
-asking for a written message.
-Sending Professor or TA an email
-WILD 180 SpringFall 2023
-I reserve the right to change the syllabus with reasonable notice given to the students.
-5
-I expect emails to myself and the teaching assistant from students to be composed professionally, with
-a CLEAR subject line that CLEARLY identifies the COURSE [i.e., Subject: WBIO 180: Descriptive Subject
-Heading], and a clear, concise question. Here is a link on how to email a professor. As a professional, you
-will need to send lots of emails. Think of this as practice.
-Email Example
-Subject Line: WILD 370 Question on next week's assignment.
-Hello Dr. Gómez,
-I am a student in your Wildlife Habitat course. I have a question about the report due next Thursday and I
-was not able to find the answer on the assignment details. Should our report draw only on readings listed
-on the syllabus, or can I incorporate scholarly articles I read on my own as long as it fits with the subject of
-the assignment?
-Best,
-Monica Rodriguez
-Setting up a meeting
-An Outlook invitation is required for meetings with me. Please send an outlook invitation once a
-meeting time has been agreed upon, even if the meeting time is during office hours. If a meeting isn't in
-my Outlook Calendar, don't expect me to be available. In my mind, if the meeting isn't in my Outlook
-calendar, the meeting does not exist. As a professional, you will need to send Outlook invitations.
-Students are responsible for sending an Outlook invitation for meetings. If you want to meet with me
-during office hours, please send an Outlook invite because I may already have a student meeting with
-me. Below are general instructions for sending an Outlook invite. However, there are multiple resources
-you can search for online if you need further assistance.
-1. Home to www.umt.edu/my
-2. See UMConnect Email www.umt.edu/umconnect
-3. In Outlook Calendar, select New Appointment.
-4. If you want, select Invite Attendees to add people and make your appointment a meeting.
-5. Add people in the To field, and then enter a Subject, Location, Start time and End time.
-6. Select Scheduling Assistant to check the availability for attendees.
-7. Select Send to send the meeting invitation.
-Tutorial for Outlook Application
-Academic Dishonesty
-The assignments and assessments are designed to help students learn concepts and skills and
-demonstrate mastery of them. The students themselves must do the work. Academic misconduct
-includes taking shortcuts, exploiting loopholes, gaming the system, or not following assignment
-instructions honestly. No use of artificial intelligence to write papers or other assignments.
-All students must practice academic honesty. Academic misconduct is subject to an academic penalty by the
-course instructor and/or a disciplinary sanction by the University. All students need to be familiar with the
-Student Conduct Code. Plagiarism qualifies as academic misconduct. Students often misunderstand
-plagiarism, particularly when reporting information from the web or other digital sources. Anytime a student
-extracts information from another source for an assignment or paper, it is critical that students cite the
-source. If a student includes text verbatim, students must place the text in quotes and cite the source
-WILD 180 SpringFall 2023
-I reserve the right to change the syllabus with reasonable notice given to the students.
-6
-accordingly. We are less concerned with the format of a student's citations at this point than the fact that
-the student attempts to appropriately reference the source.
-A student will receive a zero for an assignment if there is academic misconduct. Further, a student may fail
-the course and be reported to Academic Dean (or designee) and Academic Conduct Board which may have
-their own sanctions as per the Student Conduct Code.
-Accessibility Statement
-The University of Montana assures equal access to instruction through collaboration between students
-with disabilities, instructors, and the Office for Disability Equity (ODE). If you anticipate or experience
-barriers based on disability, please contact the ODE at: (406) 243-2243, ode@umontana.edu, or visit
-www.umt.edu/disability for more information. Retroactive accommodation requests will not be
-honored, so please, do not delay. As your instructor, I will work with you and the ODE to implement an
-effective accommodation, and you are welcome to contact me privately if you wish.
-Any student who faces challenges securing their food or housing and believes this may affect their
-performance in the course is urged to contact the Office for Student Success for support. There is also the
-UM Food Pantry. Furthermore, please notify the professor if you are comfortable doing so.
-COVID Policy
-● Consider wearing a N95, KN95, or KF94 to class
-● Don't come to class if you have COVID symptoms
-● Zoom into class if you can't come to class in-person. No need to email the professor.
-● Contact the Office for Disability Equity (ODE) if you need accommodation
-● If you feel sick and/or are exhibiting COVID symptoms, please don't come to class and contact
-the Curry Health Center at (406) 243-4330.
-● UM recommends students get the COVID vaccine and booster. Please direct your questions or
-concerns about vaccines to the Curry Health Center.
+### Late Assignments and Exams
+The lab write-ups and assignments due in class on the day indicated in the assignment description, generally the Thursday of the following week. Late lab write-ups or other assignments will not be accepted. If you anticipate problems with any deadlines, talk with or notify me prior to missing an assignment or exam. Make-up exams will only be given in the rarest of circumstances.
 
-## Curry Health Center Counseling
-Counseling assists students by addressing their personal counseling and psychotherapy needs for the purpose of helping them gain the most from their time on campus. When a student's mental health care needs are beyond the scope of our services, we will assist with referrals to community-based providers for specialized or longer-term care.
+### Classroom Etiquette
+As a learning community, it is important for us to work together to ensure that we are fostering a positive and respectful learning environment for all. Below are some selected guidelines.
+
+- Please ensure that you are prepared for class by doing the assignments, having supplies in hand, and being prepared to learn and participate.
+- Note-taking with devices (e.g. laptops, iPads) is allowed, but please stay on task. Doing other homework, checking your Reddit, Snapchat, Tik Tok, stocks, the UM basketball score, or anything else not related to the class is not only distracting to you but also to your neighbors.
+- Please be considerate about your food choices, especially those that are noisy or particularly odorous. Coffee is encouraged.
+- Unless we are doing group work, please do not carry on private conversations with others.
+- While I do want you to enjoy this course, please be respectful and act professionally towards your colleagues and me.
+- Please do not text while I am lecturing. Why? It is really distracting to me.
+
+### Disruptive Behavior
+Faculty members at the University of Montana have the independent authority to exclude a student from any class session in which the student displays disruptive behavior that threatens the learning environment and/or safety and well-being of others in the classroom.
+
+1. If circumstances warrant dismissal from a class session for behavior reasons, the faculty member should contact the [Student Conduct Officer](https://www.umt.edu/campus-life/community-standards/) immediately following the class to discuss the situation and make a determination about whether [Student Conduct Code](https://www.umt.edu/campus-life/community-standards/um_student_code_of_conduct.pdf) charges will be initiated.
+2. The student remains eligible to return to the next class session.
+3. The faculty member maintains the authority to remove the student from any future class session during which the student is disruptive.
+4. The student may be suspended permanently from a class upon recommendation of the Dean of the college or school offering the class in accordance with the disciplinary procedures outlined in the *Article V: Proscribed General Conduct* section of the [Student Conduct Code](https://www.umt.edu/campus-life/community-standards/um_student_code_of_conduct.pdf).
+
+### Academic Conduct
+For a full list of regulations and procedures please see the [Student Conduct Code](https://www.umt.edu/campus-life/community-standards/um_student_code_of_conduct.pdf).
+
+Students at the University of Montana are expected to practice academic honesty at all times. Academic misconduct is subject to academic penalties by the course instructor and/or University sanctions by the University through the Provost and Vice Provost for Academic Affairs.
+
+Academic misconduct is defined as all forms of academic dishonesty, including but not limited to:
+
+1. **Plagiarism:** Representing another person's words, ideas, data, or materials as one's own.
+2. **Misconduct during an examination or academic exercise:** Copying from another student's paper, consulting unauthorized material, giving information to another student, collaborating with one or more students without authorization, or otherwise failing to abide by the University or instructor's rules governing the examination or academic exercise without the instructor's permission.
+3. **Unauthorized possession of examination or other course materials:** Acquiring or possessing an examination or other course materials without authorization by the instructor.
+4. **Tampering with course materials:** Destroying, hiding, or otherwise tampering with source materials, library materials, laboratory materials, computer equipment or programs, or other course materials.
+5. **Submitting false information:** Knowingly submitting false, altered, or invented information, data, quotations, citations, or documentation in connection with an academic exercise.
+6. **Submitting work previously presented in another course:** Knowingly making such submission in violation of stated course requirements.
+7. **Improperly influencing conduct:** Acting calculatedly to influence an instructor to assign a grade other than the grade actually earned.
+8. **Substituting, or arranging substitution, for another student during an examination or other academic exercise:** Knowingly allowing others to offer one's work as their own.
+9. **Facilitating academic dishonesty:** Knowingly helping or attempting to help another person commit an act of academic dishonesty, including assistance in an arrangement whereby any work, classroom performance, examination activity, or other academic exercise is submitted or performed by a person other than the student under whose name the work is submitted or performed.
+10. **Altering transcripts, grades, examinations, or other academically related documents:** Falsifying, tampering with, or misrepresenting a transcript, other academic records, or any material relevant to academic performance, enrollment, or admission, or causing falsification or misrepresentation of any of the above.
+
+#### Penalties for academic misconduct
+Depending on the severity of the academic misconduct, a student may incur one or more of the following penalties:
+
+1. **Academic Penalty(ies) by the Course Instructor:** The student may receive a failing or reduced grade in an academic exercise, examination, or course, and/or be assigned additional work which may include re-examination.
+2. **University Sanction(s):** The University may also impose a sanction that exceeds the academic penalty. Sanctions (c) through (f) require administrative review and approval by the Provost and Vice Provost for Academic Affairs:
+  a. **Disciplinary Warning:** The student is warned that further misconduct may result in more severe disciplinary sanctions.
+  b. **Disciplinary Probation:** The student is warned that further misconduct may result in suspension or expulsion. Conditions may be placed on continued enrollment for a specified period of time.
+  c. **Suspension:** The student is separated from the University for a specified period of time and may also be excluded from participation in any University-sponsored activity.
+  d. **Expulsion:** The student is permanently separated from the University and may also be excluded from any University-owned and/or -controlled property or events.
+  e. **Denial of a Degree:** A degree is not awarded.
+  f. **Revocation of a Degree:** A previously awarded degree is rescinded.
+
+#### A Note on GenerativeAI
+UM does not currently have a specific policy on the use of generative artificial intelligence (AI), as this is a new and rapidly developing technology. As such, I reviewed emerging guidance on the use of AI in courses such as this one. I've adapted the following statement from a [resource at North Carolina State University](https://teaching-resources.delta.ncsu.edu/develop-an-ai-syllabus-statement/). Most of the text was adapted from a conversation with the AI tool Bing Chat (powered by GPT-4).
+
+This course permits you to use AI tools, such as chatbots, text generators, paraphrasers, summarizers, or solvers, to get guidance on assignments, as long as you do so in an ethical and responsible manner. Essentially, you can think of these tools as ways to help you learn (and to problem-solve particular ArcGIS tasks) but not to entirely create text for assignments like labs, final projects, discussion wuestions. AI is more like your tutor or TA, not a replacement for your independent thinking.
+
+This means that you must:
+
+- Not use AI tools to replace your own thinking or analysis or to avoid engaging with the course content.
+- Cite or explain any AI tools you use. Provide the name of the AI tool, the date of access, the URL of the interface, and the specific prompt or query you used to generate the output. This is especially critical for any creative solution you come across.
+- Be transparent and honest about how you used the AI tool and how it contributed to your assignment. Explain what you learned from the AI tool, how you verified its accuracy and reliability, how you integrated its output with your own work, and how you acknowledged its limitations and biases.
+
+You are accountable for any mistakes or errors made by the AI tool. Do not rely on the AI tool to produce flawless or correct results. Always check and edit the output before submitting your work. If you discover any inaccuracies or inconsistencies in the output after submission, notify the instructor immediately and correct them as soon as possible.
+
+Using AI tools in an unethical or irresponsible manner, such as copying or paraphrasing the output without citation or transparency, using the output as your own work without verification or integration, or using the output to misrepresent your knowledge or skills, is considered a form of academic dishonesty and will result in a zero grade for the assignment and possible disciplinary action. If you have any questions about what constitutes ethical and responsible use of AI tools, please consult with the instructor before submitting your work.
+
+Also, please remember that AI tools are only as unbiased as the data they are trained on. If the training data for the AI includes bias, the results generated by the AI will also be biased. In this way, AI tools can perpetuate the biases present in their original training sets, leading to discrimination against certain groups of people and reinforcing pre-existing inequalities and stereotypes. I encourage you to reflect on the limitations and potential biases of AI-generated content and to use it responsibly.
+
+## University Resources
+
+### Accessibility
+The University of Montana assures equal access to instruction through collaboration between students with disabilities, instructors, and the [Office for Disability Equity (ODE)](https://www.umt.edu/disability/). If you have a disability that adversely affects your academic performance, and you have not already registered with the ODE, please contact them in Lommasson Center 154 or 406.243.2243. I will work with you and ODE to provide an appropriate modification.
+
+### Office of Equal Opportunity, Title IX and Mandatory Reporting
+The Office of Equal Opportunity and Title IX supports UM’s commitment to diverse and inclusive working and learning environments free from all forms of discrimination, harassment, and sexual misconduct. We work to eliminate barriers inhibiting individuals from achieving their full potential in education, employment, and other programs at the University. To learn more: <https://www.umt.edu/equal-opportunity-title-IX/>
+
+Please be aware that all university employees must, within 24 hours of receiving the information, report information they have about discrimination based on sex and sexual harassment involving students, as defined by [UM's Discrimination, Harassment, and Retaliation Policy](https://www.umt.edu/equal-opportunity-title-IX//_docs/policy.pdf), to the EO/Title IX Coordinator. The employee must provide the EO/Title IX Coordinator with all information they have directly related to the incident. This includes, but is not limited to the names of people involved, as well as facts, including the date(s), time(s), and location(s). Dr. Bocinsky is subject to this reporting.
+
+### Curry Health Center Counseling
+[Curry Health Center Counseling](https://www.umt.edu/curry-health-center/counseling/) assists students by addressing their personal counseling and psychotherapy needs for the purpose of helping them gain the most from their time on campus. When a student's mental health care needs are beyond the scope of our services, we will assist with referrals to community-based providers for specialized or longer-term care.
 
 Services provided:
 
@@ -399,290 +359,40 @@ Call 406-243-4712 to make an appointment. For crisis, call the National Suicide 
 
 From Curry Health Center Counseling Services: 
 
-We provide a confidential and inclusive environment to address the personal, behavioral, and mental health needs of all UM students. We specialize in addressing the concerns and goals of our diverse UM community. Every student must navigate a wide variety of stressors and challenges during their college career and we're here to offer support as well as assist in getting connected to resources on and off campus. Our licensed counselors, social workers, and psychologists, as well as advanced graduate students, offer individual and group therapy in addition to urgent counseling.
+> We provide a confidential and inclusive environment to address the personal, behavioral, and mental health needs of all UM students. We specialize in addressing the concerns and goals of our diverse UM community. Every student must navigate a wide variety of stressors and challenges during their college career and we're here to offer support as well as assist in getting connected to resources on and off campus. Our licensed counselors, social workers, and psychologists, as well as advanced graduate students, offer individual and group therapy in addition to urgent counseling.
 
-# Classroom Etiquette
-As a learning community, it is important for us to work together to ensure that we are fostering a positive and respectful learning environment for all. Below are some selected guidelines.
+### Career Readiness
+The College of Forestry and Conservation is committed to the career success of our students and encourages you to participate in [ElevateU](https://www.umt.edu/experiential-learning-career-success/elevate-u/default.php) --- UM's signature career readiness program --- to ensure that you graduate career-ready, with the education, skills, and tools needed to launch, carry-on, and pivot your post-graduation career. Participation in ElevateU is free and can be started at any time, no matter where you are in your academic or career journey. Suggested ways to get started with ElevateU: 
 
-- Please ensure that you are prepared for class by doing the assignments, having supplies in
-hand, and being prepared to learn and participate.
-- Note-taking with devices (e.g. laptops, iPads) is allowed, but please stay on task. Doing other homework, checking your Reddit, Snapchat, Tik Tok, stocks, the GU Basketball score, or
-anything else not related to the class is not only distracting to you but also to your neighbors.
-- Please be considerate about your food choices, especially those that are noisy or particularly odorous. Coffee is encouraged.
-- Unless we are doing group work, please do not carry on private conversations with others.
-- While I do want you to enjoy this course, please be respectful and act professionally towards your colleagues and me.
-- Please do not text while I am lecturing. Why? It is really distracting to me.
+- Create a profile on UM's [Handshake](https://umt.joinhandshake.com/) platform to search for jobs and internships.
+- [Schedule an appointment](https://www.umt.edu/experiential-learning-career-success/appointments.php) with an [Experiential Learning and Career Success (ELCS)](https://www.umt.edu/experiential-learning-career-success/default.php) career coach or advisor or with a career professional in your college.^[While all UM students may utilize ELCS's services, students in the following colleges also have access to dedicated career support within their colleges: College of Business, Davidson Honors College, College of Humanities and Sciences, Missoula College.]
+- Take the [Strong Interest Inventory](https://www.umt.edu/experiential-learning-career-success/students/career-center/strong-interest-inventory.php) to explore career and/or major options aligned with your interests.
+- Participate in a live group coaching session with industry experts or complete any of 22 career learning journeys within [ElevateU Online](https://www.umt.edu/experiential-learning-career-success/elevate-u/elevateu-online-students.php).
+- Find your next opportunity by connecting with employers at a [career fair](https://www.umt.edu/experiential-learning-career-success/students/student-events.php): 
+  - Industry and Trades: Careers and Internships Fair, Missoula College, 02/06/23
+  - Educators’ Career Roundtable, ALi Auditorium, 3/14/24
+  - Hire Griz! Spring Career Fair, UC Ballroom, 03/28/24
+  - Summer Opportunities Fair, on the Oval, 04/25/24
+- Attend events such as employer and alumni panels, salary negotiation workshops, networking events and more. [Search and register for ELCS events](https://umt.joinhandshake.com/events) in Handshake. 
+- **Put Together the Pieces to Improve Your Interviews** and **Stick the Landing with Applications** through [ElevateU Online](https://app.careercore.org/courses/37/pages/curriculum-outline).
 
-## Title IX and Mandatory Reporting
-Please be aware that all university employees must, within 24 hours of receiving the information, report information they have about discrimination based on sex and sexual harassment involving students, as defined by UM's Discrimination, Harassment, and Retaliation Policy, to the EO/Title IX Coordinator. The employee must provide the EO/Title IX Coordinator with all information they have directly related to the incident. This includes, but is not limited to the names of people involved, as well as facts, including the date(s), time(s), and location(s). Dr. Bocinsky is subject to this reporting.
-
-
-8. Course Resources and University Policies
-Tutoring
-There are many resources on campus for tutoring to provide support for courses:
-https://www.umt.edu/oss/for-students/tutoring.php
-Writing Center
-The Writing and Public Speaking Center provides one-on-one tutoring to students at all levels and at any
-time in the writing process. Visit now. Visit often. We’re ready when you are. www.umt.edu/writingcenter.
-Mental Health Resources
-University of Montana provides many resources to support your mental health and wellbeing through
-Curry Health Center. Check out this link to see a full list of resources: https://www.umt.edu/wildlife-
-PTRM 485 / Spring 2023 7
-biology/resources/mental-health-resources.php
-Food and Housing Insecurity
+### Food and Housing Insecurity
 Any student who faces challenges securing food or housing, and believes that this could affect their
 performance in this course, is urged to contact any or all of the following campuses resources:
-1. Food Pantry Program
-UM offers a food pantry that students can access for emergency food. The pantry is open on
-Tuesdays from 12 to 5 PM and Fridays from 10 AM to 5 PM. The pantry is located in UC 119 (in
-the former ASUM Childcare offices). Pantry staff operate several satellite food cupboards on
-campus (including one at Missoula College). For more information about this program,
-email umpantry@mso.umt.edu, visit the UM Food Pantry website or contact the pantry on social
-media (@pantryUm on twitter, @UMPantry on Facebook, um_pantry on Instagram).
-2. ASUM Renter Center
-The Renter Center has compiled a list of resources (https://medium.com/griz-renter-blog) for UM
-students at risk of homelessness or food insecurity. Students can schedule an appointment with
-Renter Center staff to discuss their situation and receive information, support, and referrals.
-3. TRiO Student Support Services
-TRiO serves UM students who are low-income, first-generation college students or have
-documented disabilities. TRiO services include a textbook loan program, scholarships and
-financial aid help, academic advising, coaching, and tutoring.
-Students can check their eligibility (www.umt.edu/triosss/apply.php) for TRiO services online. If
-you are comfortable, please come see members of the teaching team. We will do our best to help
-connect you with additional resources.
-Legal Support
-Students can get free legal advice. To learn more: https://www.umt.edu/asum/agencies/legal/
-Office of Equal Opportunity and Title IX
-The Office of Equal Opportunity and Title IX supports UM’s commitment to diverse and inclusive working
-and learning environments free from all forms of discrimination, harassment, and sexual misconduct. We
-work to eliminate barriers inhibiting individuals from achieving their full potential in education,
-employment, and other programs at the University. To learn more: https://www.umt.edu/equal-
-opportunity-title-IX/
-Disability Equity
-Access is a civil right. Programs at the University must be readily accessible to and usable by people with
-disabilities. The University is not barrier-free. However, reasonable modifications will be made to
-guarantee program access. All modifications’ requests will be given due process and consideration.
-Students can file a grievance when they have been denied or have limited participation in the benefits of
-any program based solely on a disability.
-Students are encouraged to discuss their concerns with their Office of Disability Equity coordinator or with
-the director. If the grievance is not resolved informally or a student wishes to pursue a formal complaint or
-grievance, the following options are available:
-• Report barriers by using the online barrier report. This method does not constitute a formal
-complaint or grievance. The University will attempt to follow up in a timely manner as the
-information provided permits.
-• Contact the Americans with Disabilities Act (ADA) Team. Bernadine Gantert (Co-Chair) at
-406.243.5306 and Lucy France (Interim Co-Chair) at 406.243.6786.
-University Standards for Academic Conduct
-(for a full list of regulations and procedures please see the Student Conduct Code)
-PTRM 485 / Spring 2023 8
-Students at the University of Montana are expected to practice academic honesty at all times. Academic
-misconduct is subject to Academic Penalty (or penalties) by the course instructor and/or University
-Sanction(s) by the University through the Provost and Vice Provost for Academic Affairs. Academic
-misconduct is defined as all forms of academic dishonesty, including but not limited to:
-1. Plagiarism: Representing another person's words, ideas, data, or materials as one's own.
-2. Misconduct during an examination or academic exercise: Copying from another student's
-paper, consulting unauthorized material, giving information to another student, collaborating with
-one or more students without authorization, or otherwise failing to abide by the University or
-instructor's rules governing the examination or academic exercise without the instructor's
-permission.
-3. Unauthorized possession of examination or other course materials: Acquiring or possessing
-an examination or other course materials without authorization by the instructor.
-4. Tampering with course materials: Destroying, hiding, or otherwise tampering with source
-materials, library materials, laboratory materials, computer equipment or programs, or other course
-materials.
-5. Submitting false information: Knowingly submitting false, altered, or invented information, data,
-quotations, citations, or documentation in connection with an academic exercise.
-6. Submitting work previously presented in another course: Knowingly making such submission in
-violation of stated course requirements.
-7. Improperly influencing conduct: Acting calculatedly to influence an instructor to assign a grade
-other than the grade actually earned.
-8. Substituting, or arranging substitution, for another student during an examination or other
-academic exercise: Knowingly allowing others to offer one's work as their own.
-9. Facilitating academic dishonesty: Knowingly helping or attempting to help another person commit
-an act of academic dishonesty, including assistance in an arrangement whereby any work,
-classroom performance, examination activity, or other academic exercise is submitted or performed
-by a person other than the student under whose name the work is submitted or performed.
-10. Altering transcripts, grades, examinations, or other academically related documents:
-Falsifying, tampering with, or misrepresenting a transcript, other academic records, or any material
-relevant to academic performance, enrollment, or admission, or causing falsification or
-misrepresentation of any of the above.
-Penalties for academic misconduct
-Depending on the severity of the academic misconduct, a student may incur one or more of the following
-penalties:
-1. Academic Penalty(ies) by the Course Instructor: The student may receive a failing or reduced
-grade in an academic exercise, examination, or course, and/or be assigned additional work which
-may include re-examination.
-2. University Sanction(s): The University may also impose a sanction that exceeds the academic
-penalty. Sanctions (c) through (f) require administrative review and approval by the Provost and
-Vice Provost for Academic Affairs:
-a. Disciplinary Warning: The student is warned that further misconduct may result in more
-severe disciplinary sanctions.
-PTRM 485 / Spring 2023 9
-b. Disciplinary Probation: The student is warned that further misconduct may result in
-suspension or expulsion. Conditions may be placed on continued enrollment for a specified
-period of time.
-c. Suspension: The student is separated from the University for a specified period of time and
-may also be excluded from participation in any University-sponsored activity.
-d. Expulsion: The student is permanently separated from the University and may also be
-excluded from any University-owned and/or -controlled property or events.
-e. Denial of a Degree: A degree is not awarded.
-f. Revocation of a Degree: A previously awarded degree is rescinded.
-Behavioral Policies
-Faculty members at the University of Montana have the independent authority to exclude a student from
-any class session in which the student displays disruptive behavior that threatens the learning
-environment and/or safety and well-being of others in the classroom.
-1. If circumstances warrant dismissal from a class session for behavior reasons, the faculty member
-should contact the Student Conduct Officer immediately following the class to discuss the situation
-and make a determination about whether Student Conduct Code charges will be initiated.
-2. The student remains eligible to return to the next class session.
-3. The faculty member maintains the authority to remove the student from any future class session
-during which the student is disruptive.
-4. The student may be suspended permanently from a class upon recommendation of the Dean of the
-college or school offering the class in accordance with the disciplinary procedures outlined in the
-“General Conduct” section of this Code.
-Transportation Policy
-Students are allowed to drive their own vehicles to any field trip, but need to communicate with the
-instructor at least 48 hours prior to the day of the field trip. Students are welcome to, but not required to
-drive to field learning sites. Students who drive their own vehicles will not be reimbursed for mileage and
-are covered only by their own auto insurance. If students choose to drive together (carpool), please note
-the driver is liable for not only themselves but also the passenger (as with any private vehicle).
-Cultural Leave Policy
-Cultural or ceremonial leave allows excused absences for cultural, religious, and ceremonial purposes to
-meet the student's customs and traditions or to participate in related activities. To receive an authorized
-absence for a cultural, religious or ceremonial event the student or their advisor (proxy) must submit a
-formal written request to the instructor. This must include a brief description (with inclusive dates) of the
-cultural event or ceremony and the importance of the student's attendance or participation. Authorization
-for the absence is subject to approval by the instructor. Appeals may be made to the Chair, Dean or
-Provost. The excused absence or leave may not exceed five academic calendar days (not including
-weekends or holidays). Students remain responsible for completion or make-up of assignments as
-defined in the syllabus, at the discretion of the instructor.
-This syllabus is subject to change. We will follow the schedule outlined in this document to the best of
-our ability, but adjustments may have to be made due to unforeseen factors, including weather.
-Remaining in the course after reading this syllabus will signify that you accept the possibility of changes
-and responsibility for being aware of these changes. These changes, should they occur, will be discussed
-during class periods, and sent out via email or Moodle.
 
+#### ASUM Bear Necessities
+[Bear Necessities](https://www.umt.edu/asum/agencies/bear-necessities/) provides support for students living through or on the edge of basic needs insecurity. Through connecting students with badly-needed resources, helping determine priorities and next steps, and providing emotional support, Bear Necessities staff can wade through difficult situations with students so they do not need to go it alone. Poverty can feel like a full-time job! We are here to help students find ways to have their needs met while also protecting their time to succeed in academics and their personal life.
 
-ElevateU Career readiness
-The University is committed to the career success of our students and encourages you to participate in ElevateU -UM’s signature
-career readiness program- to ensure that you graduate career-ready, with the education, skills, and tools needed to launch, carry-
-on, and pivot your post-graduate career. Participation in ElevateU is free and can be started at any time, no matter where you are in
-your academic career or career journey. Get started by creating a profile on Handshake to search for jobs and internships or by
-scheduling an appointment with an Experiential Learning and Career Success (ELCS) career coach or advisor.
-Land Acknowledgement
-“The university of Montana acknowledges that we are in the aboriginal territories of the Salish and Kalispel people. Today, we honor
-the path they have always shown us in caring for this place for generations to come.”
+#### UM Food Pantry
+The [UM Food Pantry](https://www.umt.edu/asum/agencies/food-pantry/default.php) supports UM students facing food insecurity. The pantry is open on Mondays and Wednesdays from 10:30am--3:00pm, Tuesdays and Thursdays from 5:00pm--7:00pm, and Saturdays from 11:00am--3:00pm. The main food pantry is located on the southwest side of the first floor of the University Center, down the hallway adjacent to ASUM. A Grab-N-Go shelf outside the pantry is accessible at all time the University Center is open.
 
-Class Attendance Policies:
-You are expected to attend all class meetings, complete all assignments, and take
-5
-all of the exams during the semester. If you are expecting to incur excused
-absences (for athletic or other University purposes), please consult with me early
-in the semester to ensure that we plan accordingly for make-up work and to help
-you maintain momentum in the course. All other excuses (medical, family
-emergencies, and so forth) need to be verified with documentation. Please keep me
-informed so that I can make every effort to work with you to help you catch up on
-missed work.
-Respect, Inclusiveness and Diversity of Thoughts, Ideas and People
-We believe that all students are entitled to and deserve respect, courtesy and
-tolerance, regardless of their race, background, religious affiliation, gender,
-sexual preference, disability or any other perceived difference. Likewise,
-faculty, staff and fellow students deserve the same treatment from other
-students. We will make every effort to promote and create a safe space for
-diverse thoughts, regardless of the form of communication. Please see the
-UM Diversity webpage for additional background:
-https://www.umt.edu/diversity/.
-Equal Access
-The University of Montana assures equal access to instruction through
-collaboration between students with disabilities, instructors, and the Office
-for Disability Equity (ODE). If you anticipate or experience barriers based on
-disability, please contact ODE by phone at (406) 243-2243, by email at
-ode@umontana.edu, or visit the Office of Disability Equity
-(https://www.umt.edu/disability/) online for more information. As your
-instructors, we will work with you and ODE to implement an effective
-accommodation, and you are welcome to contact us privately if you wish to
-ask questions and discuss.
-Academic Honesty:
-All course activities are governed by the Student Conduct Code, with embodies the
-ideals of academic honesty, integrity, human rights, and responsible citizenship.
-All students must practice academic honesty. Academic misconduct is subject to
-an academic penalty by the course instructor and/or a discipline sanction by the
-university. Please familiarize yourself with the UM Student Council Code. The
-Code is available online at: www.umt.edu/SA/VPSA/index.cfm/page1321.
-Course Correspondence:
-University policy requires that all correspondence between faculty and students be
-conducted using official UM email addresses only. Please feel free to come to my
-office hours or to catch me before or after class with questions. I am also available
-by appointment if the regular office hours do not fit your schedule.
-Course Withdrawal Deadlines Statement:
-For full policy, please see the policy at:
-https://www.umt.edu/registrar/students/dropadd.php. If you need to drop this
-course, I recommend that you do so as soon as possible. Please consult the
-deadlines that apply during the semester. I would be happy to review the details
-with you as needed.
-Basic Needs Security Statement:
-Any student who faces challenges securing food or housing and believes this may
-affect performance in the course is urged to contact the Office of Student Success
-for support. Furthermore, please feel free to notify me if you are comfortable in
-doing so. This would enable me to identify any resources that may be relevant.
+### TRiO Student Support Services
+[TRiO Student Support Services](https://www.umt.edu/triosss/) serves UM students who are low-income, first-generation college students or have documented disabilities. TRiO services include a textbook loan program, scholarships and financial aid help, academic advising, coaching, and tutoring. Students can check their eligibility (<www.umt.edu/triosss/apply.php>) for TRiO services online. If you are comfortable, please come see members of the teaching team. We will do our best to help connect you with additional resources.
 
-# Evaluations and grades
+### Legal Support
+Students can get free legal advice. To learn more: <https://www.umt.edu/asum/agencies/legal/>.
 
-You can find descriptions for all the assignments on the [evaluations](/evaluations/) page.
-
-
-
-Your final grade will be based on weekly assignments and feedback, a methodological review of a paper and a final examination. The exam will take place on Tuesday, December 13th, 2022, from 13:30--16:30. 
-
-
-```{r assignments-grades, include=FALSE}
-assignments <- 
-  tibble::tribble(
-~Assignment,   ~Points,  
-"Lab 1", 100,
-"Lab 2", 100,
-"Lab 3", 100,
-"Lab 4", 100,
-"Lab 5", 100,
-"Map Tutorials", 100,
-"Resource Notebook", 100,
-"Demo Tutorials (5)", 50,
-"Midterm Exam", 200,
-"Final Exam", 250,
-"Final Projects", 400
-)
-
-grading <- tibble::tribble(
-  ~Grade, ~Range,  ~GPA,
-  "A", "80--100%", 4,
-  "B", "70--79%",  3,
-  "C", "60--69%",  2,
-  "D", "50--59%",  1,
-  "F", "<50%",     0
-)
-```
-
-<div class="centered-table">
-
-```{r show-assignments-table, echo=FALSE, results="asis"}
-assignments_total <- tibble(Assignment = "**Total**",
-                            Points = paste0("**",sum(assignments$Points),"**"))
-assignments %>%
-  dplyr::mutate(dplyr::across(dplyr::everything(), as.character)) %>%
-bind_rows(assignments_total) %>% 
-  select(Assignment, Points) %>% 
-  pandoc.table(justify = "lc", missing = "—")
-```
-</div>
-
-<div class="centered-table">
-
-```{r show-grades-table, echo=FALSE, results="asis"}
-grading %>%
-  pandoc.table(justify = "lcl", 
-               col.names = c("Grade", "Range", "GPA"))
-```
-
-<div>
+# Syllabus Disclaimer
+This syllabus is subject to change. We will follow the schedule outlined in this document to the best of our ability, but adjustments may have to be made due to unforeseen factors, including weather. Remaining in the course after reading this syllabus will signify that you accept the possibility of changes and responsibility for being aware of these changes. These changes, should they occur, will be discussed during class periods, and sent out via email.
 
 # References {-}

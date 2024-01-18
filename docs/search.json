@@ -4,132 +4,98 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Dr. Kyle Bocinsky\n   Office: Forestry 307\n   kyle.bocinsky@umontana.edu\n\n\n\n\n\n   Lecture:Tu/Th, 2:00–2:50Forestry 305\n   Lab:W 2:00–3:50, Th 3:30–5:20Stone 218\n\n\n\n\n\n   Student Hours:Tu 3:00–4:00, W 4:00–5:00or by appointment\n   I am best reached by email or Teams chat."
+    "text": "Dr. Kyle Bocinsky\n   Office: Forestry 307\n   kyle.bocinsky@umontana.edu\n\n\n\n\n\n   Patrick Benson\n   Office: Stone 213\n   Student Hours:W 1:00–2:00\n\n\n\n\n\n\n   Lecture:Tu/Th, 2:00–2:50Forestry 305\n   Lab:W 2:00–3:50, Th 3:30–5:20Stone 218\n\n\n\n\n\n   Student Hours:Tu 3:00–4:00, W 4:00–5:00or by appointment\n   The best way to get reach me is to visit my student hours. If necessary, I can be reached by email or Teams chat."
   },
   {
-    "objectID": "syllabus.html#learning-r",
-    "href": "syllabus.html#learning-r",
+    "objectID": "syllabus.html#objectives",
+    "href": "syllabus.html#objectives",
     "title": "Syllabus",
-    "section": "Learning R",
-    "text": "Learning R\nSearching for help with R on Google can sometimes be tricky because the program name is a single letter. Google is generally smart enough to figure out what you mean when you search for “r scatterplot”, but if it does struggle, try searching for “rstats” instead (e.g., “rstats scatterplot”).\nCheck out StackOverflow (a Q&A site with hundreds of thousands of answers to all sorts of programming questions) and RStudio Community (a forum specifically designed for people using RStudio and the tidyverse)."
+    "section": "Objectives",
+    "text": "Objectives\n\nTo learn the tools of spatial analysis in order to properly make spatial decisions in a variety of GIS applications.\nTo understand the structure and analysis of nominal, ordinal, interval, and ratio data in a spatial context.\nTo become proficient in the construction of choropleth, dot density, proportional symbol, isarithmic, and cartogram maps.\nTo develop software skills in programs used for GIS analysis in the modern geographic information workflow.\nTo learn to overcome software limitations and produce aesthetically pleasing maps that convey design rather than automatic generation."
   },
   {
-    "objectID": "syllabus.html#textbooks",
-    "href": "syllabus.html#textbooks",
+    "objectID": "syllabus.html#learning-outcomes",
+    "href": "syllabus.html#learning-outcomes",
     "title": "Syllabus",
-    "section": "Textbooks",
-    "text": "Textbooks\nCourse notes for the class can be found online\nI will also assign readings from Meier (2022) ANOVA and Mixed Models: A Short Intro Using R, which is available online for free reading."
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nBy the end of this course you will:\n\nUnderstand the terminology, structures, concepts, and theories of GIS project management.\nGain necessary skills to perform spatial analyses using various data within a GIS environment.\nLearn common GIS applications associated with managing natural and cultural resources.\nBe proficient in applying the scientific methods to spatial problem solving.\nKnow the proper styles and formats for documenting research in a scientific report."
   },
   {
-    "objectID": "syllabus.html#other-references",
-    "href": "syllabus.html#other-references",
+    "objectID": "syllabus.html#course-software",
+    "href": "syllabus.html#course-software",
     "title": "Syllabus",
-    "section": "Other references",
-    "text": "Other references\nThere will occasionally be additional articles to read; links to these other resources will be included on the content page for that session.\nOther good references for (some or most of) the content we will cover includes\n\nKeppel & Wickens (2004): out of print; comprehensive reference with a focus on effect size and marginal effects, all calculations are done by hand.\nCox (1958): out of print, but beautifully written and nontechnical.\nDean et al. (2017): comprehensive and freely available via Springer link; students last year found it too dry and technical.\nBox et al. (1978).\nVanderWeele (2015).\nPearl et al. (2016)."
+    "section": "Course Software",
+    "text": "Course Software\nThe labs are written for ArcGIS Pro 3.2.1 (ArcPro). ArcPro is installed on the computers in the lab in Stone Hall. You are welcome to use your own computers for the labs if you’d like, but beware as your mileage may vary. I’ve prepared installation instructions for Windows, MacOS (Apple Silicon), and MacOS (Intel), and the course instructors will be available during the lab section on Thursday, January 18 to troubleshoot getting it up and running on your computers. Access to ArcPro is provided at no cost to students. Be mindful of the ArcPro system requirements, but note my instructions on how to get it up and running on MacOS.\nStudents are welcome to attempt to do the labs using alternative software, such as QGIS, R, or Python. You won’t be graded on the software you use, only on the quality of your results. The course instructors will try to advise and assist with other software as best they can."
   },
   {
-    "objectID": "syllabus.html#student-hours",
-    "href": "syllabus.html#student-hours",
+    "objectID": "syllabus.html#course-texts",
+    "href": "syllabus.html#course-texts",
     "title": "Syllabus",
-    "section": "Student hours",
-    "text": "Student hours\nI am available Tuesday after class from 3:00–4:00, Wednesday after lab from 4:00–5:00, and by appointment. My office, Forestry 307, is located next to the lecture hall for this class (Forestry 305) and across from the Coke machine.\nPlease watch this video:\n\n\nStudent hours are set times dedicated to all of you (most professors call these “office hours”; I don’t1). This means that I will be in my office waiting for you to come by if you want to talk to me in person (or remotely) with whatever questions you have. This is the best and easiest way to find me and the best chance for discussing class material and concerns."
+    "section": "Course Texts",
+    "text": "Course Texts\nCourse notes for the class can be found on the course website. There will also be assigned readings from Mapping, Society, and Technology (Manson, 2017), which is available online for free reading. There will be various supplemental readings supplied as pdfs throughout the semester. The GIS&T Body of Knowledge is an impressive resource for geographic information sciences, and you’d be wise to familiarize yourself with it."
   },
   {
-    "objectID": "syllabus.html#late-work",
-    "href": "syllabus.html#late-work",
+    "objectID": "syllabus.html#storage",
+    "href": "syllabus.html#storage",
     "title": "Syllabus",
-    "section": "Late work",
-    "text": "Late work\nProblem sets and weekly check-ins are due by Thursday the week after class. Strictly speaking, there is no deadline, but timely submission will allow me to discuss problem sets in class. The submission modules will stay open for two weeks after the due date. I will not assign penalties, but will gently nudge you to stay on track."
+    "section": "Storage",
+    "text": "Storage\n\nUM FCFC File Server (“T:\\\\ Drive”)\nThe FCFC IT team has created a folder for our GISApps class under our Classes/GISApps folder on the UM FCFC file server. The Classes/GISApps folder is by far the easiest place to store your ArcPro data while in this class.\nThe Classes folder will automatically map for everyone in the Stone Hall labs as the “T:\\\\” drive. However, if you need to access the drive from the library or another location on campus, you need to follow the instructions below to map the Classes drive. You need to be connected to ethernet on campus, or eduroam wifi to access the Classes folder.\nDrive mapping instructions: https://umtqsg.atlassian.net/l/cp/Pp2Vgu2M\n\nServer and Share name for Windows: \\data.cfc.umt.edu\\Classes$\nsmb://data.cfc.umt.edu/Classes$ for MacOS (available via the Finder menu bar → Go → Connect to Server…)\nUsername: first.last@umt.edu and your normal password\n\nThat will take you to the root of the classes folder, you can see some instructions for signing into available software and general lab info in the root of that folder. Your folder is GISApps and within that, you will see a Labs folder and a Students folder. Labs is intended to store materials/data that that we will share with you prior to the labs. Students will contain a folder for each student in our class where you can store whatever they want/need and is named with your NetID. The only folder students may view or modify is their own folder. The Labs folder is read only for students.\n\n\nFlash Drive (optional)\nA thumb-drive or external hard drive with at least 4 GB of space may prove useful.\nPro tip: Create a Word doc on the drive called “1st Owner Information.” Use the number one in the title and it will always be on top in the file list. Type up all you contact information so when you lose your drive it can be returned."
   },
   {
-    "objectID": "syllabus.html#intellectual-integrity",
-    "href": "syllabus.html#intellectual-integrity",
+    "objectID": "syllabus.html#expectations",
+    "href": "syllabus.html#expectations",
     "title": "Syllabus",
-    "section": "Intellectual integrity",
-    "text": "Intellectual integrity\nPlease don’t cheat! The official policy lists the school rules regarding plagiarism and academic integrity."
+    "section": "Expectations",
+    "text": "Expectations\n\nEmails\nOn a daily basis, I receive 40–50 emails that are related to the work that I do for the university. I often spend several hours a day reading and responding to emails. Before emailing me, please read the syllabus to see if your question is answered in the syllabus. Try to ask assignment questions in class when I ask if there are any questions. For questions you may not want to ask in front of the whole class, you may speak to me after class. If none of those options will work, please email me or see me during student hours.\nWhen emailing, please compose a polite, concise email from your UM email address with a clear subject line. This will ensure that your email isn’t inadvertently sent to my junk mail.\nAll professors and TAs are only expected to respond to emails during working hours and business days, and generally within two business days. Don’t expect responses on the weekends. If I don’t get back to you within 2 business days, please email me again.\n\n\nClassroom Participation\nStudents are expected to attend all classes in person unless they have communicated a reason for absence with the instructor—if you are going to miss class, please communicate that to me ahead of time. Students are individually responsible for all information presented in lectures, Voices of GIS interviews, assigned readings, and class assignments. Classroom participation will be assessed via attendance, attention, pop-quizzes, and active participation in group-discussions. There will be several unannounced reading and participation quizzes. Combined, these quizzes and your participation total 10 percent of your grade. Thus, consistent attendance and regularly doing the readings are required to do well in the course.\n\nCultural Leave Policy\nCultural or ceremonial leave allows excused absences for cultural, religious, and ceremonial purposes to meet the student’s customs and traditions or to participate in related activities. To receive an authorized absence for a cultural, religious or ceremonial event the student or their advisor (proxy) must submit a formal written request to the instructor. This must include a brief description (with inclusive dates) of the cultural event or ceremony and the importance of the student’s attendance or participation. Authorization for the absence is subject to approval by the instructor. Appeals may be made to the Chair, Dean or Provost. The excused absence or leave may not exceed five academic calendar days (not including weekends or holidays). Students remain responsible for completion or make-up of assignments as defined in the syllabus, at the discretion of the instructor.\n\n\nFamily Policy\nUM does not have an official family policy, so the following guidelines reflect my own beliefs and commitments towards parent students2\n\nBabies are welcome in class as often as necessary for support feeding relationship.\nYou are welcome to bring your child to class in order to cover unforeseeable gaps in childcare.\nIf you come with babies or toddler, I ask that you sit close to the door so that, in case your little one needs special attention and is disrupting the learning of other students, you may step outside of class until their needs are met. Seats close to the door are reserved for parents attending class with their child.\n\nStudent Conduct Code – UM’s student conduct code is clearly addressed at: https://www.umt.edu/student- affairs/community-standards/default.php. Students failing to follow the code will be reported to the proper offices and receive a failing grade for the course.\n\n\n\nLate Assignments and Exams\nThe lab write-ups and assignments due in class on the day indicated in the assignment description, generally the Thursday of the following week. Late lab write-ups or other assignments will not be accepted. If you anticipate problems with any deadlines, talk with or notify me prior to missing an assignment or exam. Make-up exams will only be given in the rarest of circumstances.\n\n\nClassroom Etiquette\nAs a learning community, it is important for us to work together to ensure that we are fostering a positive and respectful learning environment for all. Below are some selected guidelines.\n\nPlease ensure that you are prepared for class by doing the assignments, having supplies in hand, and being prepared to learn and participate.\nNote-taking with devices (e.g. laptops, iPads) is allowed, but please stay on task. Doing other homework, checking your Reddit, Snapchat, Tik Tok, stocks, the UM basketball score, or anything else not related to the class is not only distracting to you but also to your neighbors.\nPlease be considerate about your food choices, especially those that are noisy or particularly odorous. Coffee is encouraged.\nUnless we are doing group work, please do not carry on private conversations with others.\nWhile I do want you to enjoy this course, please be respectful and act professionally towards your colleagues and me.\nPlease do not text while I am lecturing. Why? It is really distracting to me.\n\n\n\nDisruptive Behavior\nFaculty members at the University of Montana have the independent authority to exclude a student from any class session in which the student displays disruptive behavior that threatens the learning environment and/or safety and well-being of others in the classroom.\n\nIf circumstances warrant dismissal from a class session for behavior reasons, the faculty member should contact the Student Conduct Officer immediately following the class to discuss the situation and make a determination about whether Student Conduct Code charges will be initiated.\nThe student remains eligible to return to the next class session.\nThe faculty member maintains the authority to remove the student from any future class session during which the student is disruptive.\nThe student may be suspended permanently from a class upon recommendation of the Dean of the college or school offering the class in accordance with the disciplinary procedures outlined in the Article V: Proscribed General Conduct section of the Student Conduct Code.\n\n\n\nAcademic Conduct\nFor a full list of regulations and procedures please see the Student Conduct Code.\nStudents at the University of Montana are expected to practice academic honesty at all times. Academic misconduct is subject to academic penalties by the course instructor and/or University sanctions by the University through the Provost and Vice Provost for Academic Affairs.\nAcademic misconduct is defined as all forms of academic dishonesty, including but not limited to:\n\nPlagiarism: Representing another person’s words, ideas, data, or materials as one’s own.\nMisconduct during an examination or academic exercise: Copying from another student’s paper, consulting unauthorized material, giving information to another student, collaborating with one or more students without authorization, or otherwise failing to abide by the University or instructor’s rules governing the examination or academic exercise without the instructor’s permission.\nUnauthorized possession of examination or other course materials: Acquiring or possessing an examination or other course materials without authorization by the instructor.\nTampering with course materials: Destroying, hiding, or otherwise tampering with source materials, library materials, laboratory materials, computer equipment or programs, or other course materials.\nSubmitting false information: Knowingly submitting false, altered, or invented information, data, quotations, citations, or documentation in connection with an academic exercise.\nSubmitting work previously presented in another course: Knowingly making such submission in violation of stated course requirements.\nImproperly influencing conduct: Acting calculatedly to influence an instructor to assign a grade other than the grade actually earned.\nSubstituting, or arranging substitution, for another student during an examination or other academic exercise: Knowingly allowing others to offer one’s work as their own.\nFacilitating academic dishonesty: Knowingly helping or attempting to help another person commit an act of academic dishonesty, including assistance in an arrangement whereby any work, classroom performance, examination activity, or other academic exercise is submitted or performed by a person other than the student under whose name the work is submitted or performed.\nAltering transcripts, grades, examinations, or other academically related documents: Falsifying, tampering with, or misrepresenting a transcript, other academic records, or any material relevant to academic performance, enrollment, or admission, or causing falsification or misrepresentation of any of the above.\n\n\nPenalties for academic misconduct\nDepending on the severity of the academic misconduct, a student may incur one or more of the following penalties:\n\nAcademic Penalty(ies) by the Course Instructor: The student may receive a failing or reduced grade in an academic exercise, examination, or course, and/or be assigned additional work which may include re-examination.\nUniversity Sanction(s): The University may also impose a sanction that exceeds the academic penalty. Sanctions (c) through (f) require administrative review and approval by the Provost and Vice Provost for Academic Affairs:\n\n\nDisciplinary Warning: The student is warned that further misconduct may result in more severe disciplinary sanctions.\nDisciplinary Probation: The student is warned that further misconduct may result in suspension or expulsion. Conditions may be placed on continued enrollment for a specified period of time.\nSuspension: The student is separated from the University for a specified period of time and may also be excluded from participation in any University-sponsored activity.\nExpulsion: The student is permanently separated from the University and may also be excluded from any University-owned and/or -controlled property or events.\nDenial of a Degree: A degree is not awarded.\nRevocation of a Degree: A previously awarded degree is rescinded.\n\n\n\nA Note on GenerativeAI\nUM does not currently have a specific policy on the use of generative artificial intelligence (AI), as this is a new and rapidly developing technology. As such, I reviewed emerging guidance on the use of AI in courses such as this one. I’ve adapted the following statement from a resource at North Carolina State University. Most of the text was adapted from a conversation with the AI tool Bing Chat (powered by GPT-4).\nThis course permits you to use AI tools, such as chatbots, text generators, paraphrasers, summarizers, or solvers, to get guidance on assignments, as long as you do so in an ethical and responsible manner. Essentially, you can think of these tools as ways to help you learn (and to problem-solve particular ArcGIS tasks) but not to entirely create text for assignments like labs, final projects, discussion wuestions. AI is more like your tutor or TA, not a replacement for your independent thinking.\nThis means that you must:\n\nNot use AI tools to replace your own thinking or analysis or to avoid engaging with the course content.\nCite or explain any AI tools you use. Provide the name of the AI tool, the date of access, the URL of the interface, and the specific prompt or query you used to generate the output. This is especially critical for any creative solution you come across.\nBe transparent and honest about how you used the AI tool and how it contributed to your assignment. Explain what you learned from the AI tool, how you verified its accuracy and reliability, how you integrated its output with your own work, and how you acknowledged its limitations and biases.\n\nYou are accountable for any mistakes or errors made by the AI tool. Do not rely on the AI tool to produce flawless or correct results. Always check and edit the output before submitting your work. If you discover any inaccuracies or inconsistencies in the output after submission, notify the instructor immediately and correct them as soon as possible.\nUsing AI tools in an unethical or irresponsible manner, such as copying or paraphrasing the output without citation or transparency, using the output as your own work without verification or integration, or using the output to misrepresent your knowledge or skills, is considered a form of academic dishonesty and will result in a zero grade for the assignment and possible disciplinary action. If you have any questions about what constitutes ethical and responsible use of AI tools, please consult with the instructor before submitting your work.\nAlso, please remember that AI tools are only as unbiased as the data they are trained on. If the training data for the AI includes bias, the results generated by the AI will also be biased. In this way, AI tools can perpetuate the biases present in their original training sets, leading to discrimination against certain groups of people and reinforcing pre-existing inequalities and stereotypes. I encourage you to reflect on the limitations and potential biases of AI-generated content and to use it responsibly."
   },
   {
-    "objectID": "syllabus.html#student-services",
-    "href": "syllabus.html#student-services",
+    "objectID": "syllabus.html#university-resources",
+    "href": "syllabus.html#university-resources",
     "title": "Syllabus",
-    "section": "Student services",
-    "text": "Student services\nStudents with special needs should feel free to approach me so we can best discuss accommodations. Do check out HEC Montréal’s disabled students and [psychological] (https://www.hec.ca/en/students/support-resources/psychological-support/index.html) support services."
-  },
-  {
-    "objectID": "syllabus.html#harassment-and-sexual-violence",
-    "href": "syllabus.html#harassment-and-sexual-violence",
-    "title": "Syllabus",
-    "section": "Harassment and sexual violence",
-    "text": "Harassment and sexual violence\nThe Center for Harassment Intervention (BIMH) is the unique access point for all members of the community subject to harassment or sexual violence. You can reach them at 514 343-7020 or by email at harcelement@hec.ca from Monday until Friday, from 8:30 until 4:30pm.\nIf you are in an emergency situation or fear for your safety, call emergency services at 911, followed by HEC Montréal security services at 514 340-6611.\nCheck the school official policy on these matters for more details."
-  },
-  {
-    "objectID": "syllabus.html#family-policy",
-    "href": "syllabus.html#family-policy",
-    "title": "Syllabus",
-    "section": "Family policy",
-    "text": "Family policy\nHEC does not have an official family policy, so the following guidelines reflect my own beliefs and commitments towards parent students2\n\nBabies are welcome in class as often as necessary for support feeding relationship.\nYou are welcome to bring your child to class in order to cover unforeseeable gaps in childcare.\nIf you come with babies or toddler, I ask that you sit close to the door so that, in case your little one needs special attention and is disrupting the learning of other students, you may step outside of class until their needs are met. Seats close to the door are reserved for parents attending class with their child."
+    "section": "University Resources",
+    "text": "University Resources\n\nAccessibility\nThe University of Montana assures equal access to instruction through collaboration between students with disabilities, instructors, and the Office for Disability Equity (ODE). If you have a disability that adversely affects your academic performance, and you have not already registered with the ODE, please contact them in Lommasson Center 154 or 406.243.2243. I will work with you and ODE to provide an appropriate modification.\n\n\nOffice of Equal Opportunity, Title IX and Mandatory Reporting\nThe Office of Equal Opportunity and Title IX supports UM’s commitment to diverse and inclusive working and learning environments free from all forms of discrimination, harassment, and sexual misconduct. We work to eliminate barriers inhibiting individuals from achieving their full potential in education, employment, and other programs at the University. To learn more: https://www.umt.edu/equal-opportunity-title-IX/\nPlease be aware that all university employees must, within 24 hours of receiving the information, report information they have about discrimination based on sex and sexual harassment involving students, as defined by UM’s Discrimination, Harassment, and Retaliation Policy, to the EO/Title IX Coordinator. The employee must provide the EO/Title IX Coordinator with all information they have directly related to the incident. This includes, but is not limited to the names of people involved, as well as facts, including the date(s), time(s), and location(s). Dr. Bocinsky is subject to this reporting.\n\n\nCurry Health Center Counseling\nCurry Health Center Counseling assists students by addressing their personal counseling and psychotherapy needs for the purpose of helping them gain the most from their time on campus. When a student’s mental health care needs are beyond the scope of our services, we will assist with referrals to community-based providers for specialized or longer-term care.\nServices provided:\n\nIndividual Counseling (telecounseling only)\nGroup Therapy - (telecounseling only)\nTopical Seminar - (telecounseling only)\nUrgent one-time Appointments Available\nLimited Psychological Assessments\nPsychiatric Consultation\nConsultation with concerned others\nReferrals to community-based resources\nBehavioral Health Options for alcohol, other drugs, gambling, and weight management\n\nCall 406-243-4712 to make an appointment. For crisis, call the National Suicide Lifeline at 1-800-273-8255, contact the Crisis Text Line: text MT to 741-741, or contact your nearest Emergency Department.\nFrom Curry Health Center Counseling Services:\n\nWe provide a confidential and inclusive environment to address the personal, behavioral, and mental health needs of all UM students. We specialize in addressing the concerns and goals of our diverse UM community. Every student must navigate a wide variety of stressors and challenges during their college career and we’re here to offer support as well as assist in getting connected to resources on and off campus. Our licensed counselors, social workers, and psychologists, as well as advanced graduate students, offer individual and group therapy in addition to urgent counseling.\n\n\n\nCareer Readiness\nThe College of Forestry and Conservation is committed to the career success of our students and encourages you to participate in ElevateU — UM’s signature career readiness program — to ensure that you graduate career-ready, with the education, skills, and tools needed to launch, carry-on, and pivot your post-graduation career. Participation in ElevateU is free and can be started at any time, no matter where you are in your academic or career journey. Suggested ways to get started with ElevateU:\n\nCreate a profile on UM’s Handshake platform to search for jobs and internships.\nSchedule an appointment with an Experiential Learning and Career Success (ELCS) career coach or advisor or with a career professional in your college.3\nTake the Strong Interest Inventory to explore career and/or major options aligned with your interests.\nParticipate in a live group coaching session with industry experts or complete any of 22 career learning journeys within ElevateU Online.\nFind your next opportunity by connecting with employers at a career fair:\n\nIndustry and Trades: Careers and Internships Fair, Missoula College, 02/06/23\nEducators’ Career Roundtable, ALi Auditorium, 3/14/24\nHire Griz! Spring Career Fair, UC Ballroom, 03/28/24\nSummer Opportunities Fair, on the Oval, 04/25/24\n\nAttend events such as employer and alumni panels, salary negotiation workshops, networking events and more. Search and register for ELCS events in Handshake.\nPut Together the Pieces to Improve Your Interviews and Stick the Landing with Applications through ElevateU Online.\n\n\n\nFood and Housing Insecurity\nAny student who faces challenges securing food or housing, and believes that this could affect their performance in this course, is urged to contact any or all of the following campuses resources:\n\nASUM Bear Necessities\nBear Necessities provides support for students living through or on the edge of basic needs insecurity. Through connecting students with badly-needed resources, helping determine priorities and next steps, and providing emotional support, Bear Necessities staff can wade through difficult situations with students so they do not need to go it alone. Poverty can feel like a full-time job! We are here to help students find ways to have their needs met while also protecting their time to succeed in academics and their personal life.\n\n\nUM Food Pantry\nThe UM Food Pantry supports UM students facing food insecurity. The pantry is open on Mondays and Wednesdays from 10:30am–3:00pm, Tuesdays and Thursdays from 5:00pm–7:00pm, and Saturdays from 11:00am–3:00pm. The main food pantry is located on the southwest side of the first floor of the University Center, down the hallway adjacent to ASUM. A Grab-N-Go shelf outside the pantry is accessible at all time the University Center is open.\n\n\n\nTRiO Student Support Services\nTRiO Student Support Services serves UM students who are low-income, first-generation college students or have documented disabilities. TRiO services include a textbook loan program, scholarships and financial aid help, academic advising, coaching, and tutoring. Students can check their eligibility (&lt;www.umt.edu/triosss/apply.php&gt;) for TRiO services online. If you are comfortable, please come see members of the teaching team. We will do our best to help connect you with additional resources.\n\n\nLegal Support\nStudents can get free legal advice. To learn more: https://www.umt.edu/asum/agencies/legal/."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "\n            (Forestry) Applications of GIS\n        ",
     "section": "",
-    "text": "(Forestry) Applications of GIS\n        \n        \n            Application of GIS for managing natural and cultural resources. Covers choropleth maps, dot maps, proportional figure maps, isarithmic maps, and others. Includes computer mapping and GIS exercises.\n        \n        \n            FORS350 / GPHY488, Spring 2024University of MontanaWA Franke College of Forestry & Conservation\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n\n\n\nInstructor\n\n   Dr. Kyle Bocinsky\n   Office: Forestry 307\n   kyle.bocinsky@umontana.edu\n\n\n\nCourse details\n\n   Lecture:Tu/Th, 2:00–2:50Forestry 305\n   Lab:W 2:00–3:50, Th 3:30–5:20Stone 218\n\n\n\nContacting me\n\n   Student Hours:Tu 3:00–4:00, W 4:00–5:00or by appointment\n   I am best reached by email or Teams chat."
+    "text": "(Forestry) Applications of GIS\n        \n        \n            Application of GIS for managing natural and cultural resources. Covers choropleth maps, dot maps, proportional figure maps, isarithmic maps, and others. Includes computer mapping and GIS exercises.\n        \n        \n            FORS350 / GPHY488, Spring 2024University of MontanaWA Franke College of Forestry & Conservation\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n\n\n\n\nInstructor\n\n   Dr. Kyle Bocinsky\n   Office: Forestry 307\n   kyle.bocinsky@umontana.edu\n\n\n\nTeaching Assistant\n\n   Patrick Benson\n   Office: Stone 213\n   Student Hours:W 1:00–2:00\n\n\n\n\nCourse details\n\n   Lecture:Tu/Th, 2:00–2:50Forestry 305\n   Lab:W 2:00–3:50, Th 3:30–5:20Stone 218\n\n\n\nContacting me\n\n   Student Hours:Tu 3:00–4:00, W 4:00–5:00or by appointment\n   The best way to get reach me is to visit my student hours. If necessary, I can be reached by email or Teams chat."
   },
   {
     "objectID": "example/index.html",
     "href": "example/index.html",
     "title": "Examples",
     "section": "",
-    "text": "This section will contain annotated R code along with worked out examples. If time permits, I will also include videos of me life-coding, so you can see me making programming mistakes in real time!\nUseful resources for learning R, the tidyverse and Rmarkdown basics include\n\nThe Introduction to R and RStudio by Open Intro Stat\nTeacups, giraffes & statistics: basic statistical concepts and programming\nthe notebook RYouWithMe from R-Ladies Sydney\nthe book R for Data Science, which adheres to the tidyverse principles.\nthe R package DoSStoolkit, developped at the University of Toronto.\nthe introverse documentation.\nthe RStudio cheatsheets, also available from RStudio menu in Help &gt; Cheat Sheets\n\nTo install all R packages used throughout the course, use the command\n\n\nCode\nlib &lt;- c(\"afex\", \"car\", \"emmeans\", \"effectsize\", \n         \"lme4\", \"lmerTest\", \"mediate\", \"nlme\", \n         \"pwr\", \"tidyverse\", \"tidymodels\", \"WebPower\")\ninstall.packages(lib)",
-    "crumbs": [
-      "Overview",
-      "Examples"
-    ]
+    "text": "This section will contain annotated R code along with worked out examples. If time permits, I will also include videos of me life-coding, so you can see me making programming mistakes in real time!\nUseful resources for learning R, the tidyverse and Rmarkdown basics include\n\nThe Introduction to R and RStudio by Open Intro Stat\nTeacups, giraffes & statistics: basic statistical concepts and programming\nthe notebook RYouWithMe from R-Ladies Sydney\nthe book R for Data Science, which adheres to the tidyverse principles.\nthe R package DoSStoolkit, developped at the University of Toronto.\nthe introverse documentation.\nthe RStudio cheatsheets, also available from RStudio menu in Help &gt; Cheat Sheets\n\nTo install all R packages used throughout the course, use the command\n\n\nCode\nlib &lt;- c(\"afex\", \"car\", \"emmeans\", \"effectsize\", \n         \"lme4\", \"lmerTest\", \"mediate\", \"nlme\", \n         \"pwr\", \"tidyverse\", \"tidymodels\", \"WebPower\")\ninstall.packages(lib)"
   },
   {
     "objectID": "evaluations/paper-review.html",
     "href": "evaluations/paper-review.html",
     "title": "Paper review",
     "section": "",
-    "text": "You will be assigned a scientific paper with open access material (data, code, etc.) to criticize. The purpose of the project is to let you practice peer-reviewing, focusing on reproducibility and correctness of the statistical analyses therein.\nComment on the methodology, the statistical analyses and the report of the statistical results in the paper. If your selected paper has more than one study, you will be assigned to a particular one for the purpose of the project.\nYou should focus on the following elements in your review:\n\nStrengths and weaknesses of the methodology used to test the research hypotheses.\nAppropriateness of experimental design and the choice of dependent variables, control variables, treatment conditions.\nAppropriateness of statistical analyses.\nPresentation and discussion of the results (e.g., descriptive statistics, estimation of effect sizes, power calculations, etc.)\nDiscussion of the limits of the study\nPossible sources of bias\nPre-registration, reproducibility and transparency of the study. Assessment of the potential for replicability.\n\nIn addition to the material seen in class, see Wilkinson (1999) and Campion (1993) to inform your review.",
-    "crumbs": [
-      "Overview",
-      "Paper review"
-    ]
+    "text": "You will be assigned a scientific paper with open access material (data, code, etc.) to criticize. The purpose of the project is to let you practice peer-reviewing, focusing on reproducibility and correctness of the statistical analyses therein.\nComment on the methodology, the statistical analyses and the report of the statistical results in the paper. If your selected paper has more than one study, you will be assigned to a particular one for the purpose of the project.\nYou should focus on the following elements in your review:\n\nStrengths and weaknesses of the methodology used to test the research hypotheses.\nAppropriateness of experimental design and the choice of dependent variables, control variables, treatment conditions.\nAppropriateness of statistical analyses.\nPresentation and discussion of the results (e.g., descriptive statistics, estimation of effect sizes, power calculations, etc.)\nDiscussion of the limits of the study\nPossible sources of bias\nPre-registration, reproducibility and transparency of the study. Assessment of the potential for replicability.\n\nIn addition to the material seen in class, see Wilkinson (1999) and Campion (1993) to inform your review."
   },
   {
     "objectID": "evaluations/paper-review.html#description-of-the-task",
     "href": "evaluations/paper-review.html#description-of-the-task",
     "title": "Paper review",
     "section": "",
-    "text": "You will be assigned a scientific paper with open access material (data, code, etc.) to criticize. The purpose of the project is to let you practice peer-reviewing, focusing on reproducibility and correctness of the statistical analyses therein.\nComment on the methodology, the statistical analyses and the report of the statistical results in the paper. If your selected paper has more than one study, you will be assigned to a particular one for the purpose of the project.\nYou should focus on the following elements in your review:\n\nStrengths and weaknesses of the methodology used to test the research hypotheses.\nAppropriateness of experimental design and the choice of dependent variables, control variables, treatment conditions.\nAppropriateness of statistical analyses.\nPresentation and discussion of the results (e.g., descriptive statistics, estimation of effect sizes, power calculations, etc.)\nDiscussion of the limits of the study\nPossible sources of bias\nPre-registration, reproducibility and transparency of the study. Assessment of the potential for replicability.\n\nIn addition to the material seen in class, see Wilkinson (1999) and Campion (1993) to inform your review.",
-    "crumbs": [
-      "Overview",
-      "Paper review"
-    ]
+    "text": "You will be assigned a scientific paper with open access material (data, code, etc.) to criticize. The purpose of the project is to let you practice peer-reviewing, focusing on reproducibility and correctness of the statistical analyses therein.\nComment on the methodology, the statistical analyses and the report of the statistical results in the paper. If your selected paper has more than one study, you will be assigned to a particular one for the purpose of the project.\nYou should focus on the following elements in your review:\n\nStrengths and weaknesses of the methodology used to test the research hypotheses.\nAppropriateness of experimental design and the choice of dependent variables, control variables, treatment conditions.\nAppropriateness of statistical analyses.\nPresentation and discussion of the results (e.g., descriptive statistics, estimation of effect sizes, power calculations, etc.)\nDiscussion of the limits of the study\nPossible sources of bias\nPre-registration, reproducibility and transparency of the study. Assessment of the potential for replicability.\n\nIn addition to the material seen in class, see Wilkinson (1999) and Campion (1993) to inform your review."
   },
   {
     "objectID": "evaluations/paper-review.html#deliverables",
     "href": "evaluations/paper-review.html#deliverables",
     "title": "Paper review",
     "section": "Deliverables",
-    "text": "Deliverables\nA portable document file (PDF) of your critique (maximum 3 pages, excluding bibliography)",
-    "crumbs": [
-      "Overview",
-      "Paper review"
-    ]
+    "text": "Deliverables\nA portable document file (PDF) of your critique (maximum 3 pages, excluding bibliography)"
   },
   {
     "objectID": "evaluations/paper-review.html#grading-rubric",
     "href": "evaluations/paper-review.html#grading-rubric",
     "title": "Paper review",
     "section": "Grading rubric",
-    "text": "Grading rubric\n\nIdentification of strength and weaknesses: 10\nCorrectness of the interpretation of statistical results: 10\nScope: 10\nClarity of report: 10\nUsefulness of suggestions: 5\nWriting and referencing: 5",
-    "crumbs": [
-      "Overview",
-      "Paper review"
-    ]
+    "text": "Grading rubric\n\nIdentification of strength and weaknesses: 10\nCorrectness of the interpretation of statistical results: 10\nScope: 10\nClarity of report: 10\nUsefulness of suggestions: 5\nWriting and referencing: 5"
   },
   {
     "objectID": "evaluations/final-exam.html",
@@ -147,967 +113,619 @@
     "href": "evaluations/10-problem-set.html",
     "title": "Problem set 10",
     "section": "",
-    "text": "Complete this task individually or in teams of up to three students.\nSubmission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nRead the chocolate example from Meier (2022) and some of the examples from the course notes.\nConsider the model of Hatano et al. (2022) for Experiment 4. The authors fitted a linear mixed model for the intrinsic motivation score, a scale, with a continuous covariate (interim rating time) and the rating type (either predicted pre-experiment, or the true rating post-experiment). The rating time was centered. Using Oehlert (2000) approach\n\nIdentify sources of variation\nIdentify whether factors are crossed or nested\nDetermine whether factors should be fixed or random\nFigure out which interactions can exist and whether they can be fitted.\n\nNow, fit the linear mixed model using the following code\n\nlibrary(lmerTest)\ndata(HOSM22_E4, package = \"hecedsm\")\nmixmod &lt;- lmer(imscore ~ #TODO add covariates, etc.\n               data = HOSM22_E4)\nsummary(mixmod) # coefficients\nanova(mixmod) # type III analysis of variance table\n\n\nReport the results for the interaction test: is the interaction significative at level 5%? If not, compute estimated marginal means for rating type.\nCompute the correlation between measurements from the same students.\n\n\n\n\n\nReferences\n\nHatano, A., Ogulmus, C., Shigemasu, H., & Murayama, K. (2022). Thinking about thinking: People underestimate how enjoyable and engaging just waiting is. Journal of Experimental Psychology: General, 151(12), 3213–3229. https://doi.org/https://doi.org/10.1037/xge0001255\n\n\nMeier, L. (2022). ANOVA and mixed models: A short introduction using R (Chapman & Hall/CRC, Eds.). https://doi.org/10.1201/9781003146216\n\n\nOehlert, G. (2000). A first course in design and analysis of experiments. W. H. Freeman. http://users.stat.umn.edu/~gary/Book.html",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 10"
-    ]
+    "text": "Complete this task individually or in teams of up to three students.\nSubmission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nRead the chocolate example from Meier (2022) and some of the examples from the course notes.\nConsider the model of Hatano et al. (2022) for Experiment 4. The authors fitted a linear mixed model for the intrinsic motivation score, a scale, with a continuous covariate (interim rating time) and the rating type (either predicted pre-experiment, or the true rating post-experiment). The rating time was centered. Using Oehlert (2000) approach\n\nIdentify sources of variation\nIdentify whether factors are crossed or nested\nDetermine whether factors should be fixed or random\nFigure out which interactions can exist and whether they can be fitted.\n\nNow, fit the linear mixed model using the following code\n\nlibrary(lmerTest)\ndata(HOSM22_E4, package = \"hecedsm\")\nmixmod &lt;- lmer(imscore ~ #TODO add covariates, etc.\n               data = HOSM22_E4)\nsummary(mixmod) # coefficients\nanova(mixmod) # type III analysis of variance table\n\n\nReport the results for the interaction test: is the interaction significative at level 5%? If not, compute estimated marginal means for rating type.\nCompute the correlation between measurements from the same students.\n\n\n\n\n\nReferences\n\nHatano, A., Ogulmus, C., Shigemasu, H., & Murayama, K. (2022). Thinking about thinking: People underestimate how enjoyable and engaging just waiting is. Journal of Experimental Psychology: General, 151(12), 3213–3229. https://doi.org/https://doi.org/10.1037/xge0001255\n\n\nMeier, L. (2022). ANOVA and mixed models: A short introduction using R (Chapman & Hall/CRC, Eds.). https://doi.org/10.1201/9781003146216\n\n\nOehlert, G. (2000). A first course in design and analysis of experiments. W. H. Freeman. http://users.stat.umn.edu/~gary/Book.html"
   },
   {
     "objectID": "evaluations/08-problem-set.html",
     "href": "evaluations/08-problem-set.html",
     "title": "Problem set 8",
     "section": "",
-    "text": "Submission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nLook at the effect size and power; this should be helpful in completing the problem set.\nThe following text is a quote from Investigating variation in replicability: A “Many Labs” Replication Project by Richard A. Klein, Kate A. Ratliff, and Brian A. Nosek (pp. 13-14) about a replication of Oppenheimer & Monin (2009) work on the retrospective gambler fallacy.\n\nThe differences between groups was reliable, omnibus \\(F(2, 77) = 4.8\\), […] Cohen’s \\(f = 0.18\\). Pairwise comparisons showed that all differences between conditions were reliable as well, \\(t(47, 48, 57) = 1.94, 2.32, 2.65\\); \\(p &lt; .05\\), Cohen’s \\(d\\) = \\((.56, .67, .69)\\).\n\n\nUsing the information from the quote, compute the effect size \\(\\widehat{\\omega}^2\\).1 Also check that you get the same value of Cohen’s \\(f\\) (up to rounding) that is reported.\nCompute the overall sample size necessary to replicate this study with a power of at least \\(0.99\\): compute the power for both the overall effect and the three pairwise \\(t\\)-tests based on the reported values of Cohen’s \\(d\\) and pick the maximum sample size needed.\nRead the results of the replication in ManyLabs1; these are illustrated in Figure 1 and summary statistics about standardized mean differences (Cohen’s \\(d\\)) are reported in Table 2 (Klein et al., 2014) under retrospective gambler fallacy. Comment about the success of the replication.\nBased on observation of Figure 1 of Klein et al. (2014), why might one object to using estimated effect size reported in peer-reviewed papers?2\n\n\n\n\n\n\nReferences\n\nKlein, R. A., Ratliff, K. A., Vianello, M., Adams Jr., R. B., Bahník, Š., Bernstein, M. J., Bocian, K., Brandt, M. J., Brooks, B., Brumbaugh, C. C., Cemalcilar, Z., Chandler, J., Cheong, W., Davis, W. E., Devos, T., Eisner, M., Frankowska, N., Furrow, D., Galliani, E. M., … Nosek, B. A. (2014). Investigating variation in replicability: A “many labs” replication project. Social Psychology, 45, 142–152. https://doi.org/10.1027/1864-9335/a000178\n\n\nOppenheimer, D. M., & Monin, B. (2009). The retrospective gambler’s fallacy: Unlikely events, constructing the past, and multiple universes. Judgment and Decision Making, 4, 326–334.\n\nFootnotes\n\n\nIn R, check out the function F_to_omega2 from the effectsize package. You can also use the formula presented in the slides.↩︎\nHint: are the original effect size in line with the replications or not?↩︎",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 8"
-    ]
+    "text": "Submission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nLook at the effect size and power; this should be helpful in completing the problem set.\nThe following text is a quote from Investigating variation in replicability: A “Many Labs” Replication Project by Richard A. Klein, Kate A. Ratliff, and Brian A. Nosek (pp. 13-14) about a replication of Oppenheimer & Monin (2009) work on the retrospective gambler fallacy.\n\nThe differences between groups was reliable, omnibus \\(F(2, 77) = 4.8\\), […] Cohen’s \\(f = 0.18\\). Pairwise comparisons showed that all differences between conditions were reliable as well, \\(t(47, 48, 57) = 1.94, 2.32, 2.65\\); \\(p &lt; .05\\), Cohen’s \\(d\\) = \\((.56, .67, .69)\\).\n\n\nUsing the information from the quote, compute the effect size \\(\\widehat{\\omega}^2\\).1 Also check that you get the same value of Cohen’s \\(f\\) (up to rounding) that is reported.\nCompute the overall sample size necessary to replicate this study with a power of at least \\(0.99\\): compute the power for both the overall effect and the three pairwise \\(t\\)-tests based on the reported values of Cohen’s \\(d\\) and pick the maximum sample size needed.\nRead the results of the replication in ManyLabs1; these are illustrated in Figure 1 and summary statistics about standardized mean differences (Cohen’s \\(d\\)) are reported in Table 2 (Klein et al., 2014) under retrospective gambler fallacy. Comment about the success of the replication.\nBased on observation of Figure 1 of Klein et al. (2014), why might one object to using estimated effect size reported in peer-reviewed papers?2\n\n\n\n\n\n\nReferences\n\nKlein, R. A., Ratliff, K. A., Vianello, M., Adams Jr., R. B., Bahník, Š., Bernstein, M. J., Bocian, K., Brandt, M. J., Brooks, B., Brumbaugh, C. C., Cemalcilar, Z., Chandler, J., Cheong, W., Davis, W. E., Devos, T., Eisner, M., Frankowska, N., Furrow, D., Galliani, E. M., … Nosek, B. A. (2014). Investigating variation in replicability: A “many labs” replication project. Social Psychology, 45, 142–152. https://doi.org/10.1027/1864-9335/a000178\n\n\nOppenheimer, D. M., & Monin, B. (2009). The retrospective gambler’s fallacy: Unlikely events, constructing the past, and multiple universes. Judgment and Decision Making, 4, 326–334.\n\nFootnotes\n\n\nIn R, check out the function F_to_omega2 from the effectsize package. You can also use the formula presented in the slides.↩︎\nHint: are the original effect size in line with the replications or not?↩︎"
   },
   {
     "objectID": "evaluations/06-problem-set.html",
     "href": "evaluations/06-problem-set.html",
     "title": "Problem set 6",
     "section": "",
-    "text": "Submission information: please submit on ZoneCours",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 6"
-    ]
+    "text": "Submission information: please submit on ZoneCours"
   },
   {
     "objectID": "evaluations/06-problem-set.html#task-1",
     "href": "evaluations/06-problem-set.html#task-1",
     "title": "Problem set 6",
     "section": "Task 1",
-    "text": "Task 1\nRead Wilkinson (1999)’s guidelines for reporting statistical analyses.\nNext, look at one of the experiments conducted in Stekelenburg et al. (2021). Cross-check with the guidelines and formulate criticism (positive or negative) in relation with the reporting done by the authors.",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 6"
-    ]
+    "text": "Task 1\nRead Wilkinson (1999)’s guidelines for reporting statistical analyses.\nNext, look at one of the experiments conducted in Stekelenburg et al. (2021). Cross-check with the guidelines and formulate criticism (positive or negative) in relation with the reporting done by the authors."
   },
   {
     "objectID": "evaluations/06-problem-set.html#task-2",
     "href": "evaluations/06-problem-set.html#task-2",
     "title": "Problem set 6",
     "section": "Task 2",
-    "text": "Task 2\nRead Nosek et al. (2018) and list three benefits of preregistration. Reflect on the practical aspects and on the impact.1\nWe will organize a discussion in the near future in class on preregistration and the replication crisis.",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 6"
-    ]
+    "text": "Task 2\nRead Nosek et al. (2018) and list three benefits of preregistration. Reflect on the practical aspects and on the impact.1\nWe will organize a discussion in the near future in class on preregistration and the replication crisis."
   },
   {
     "objectID": "evaluations/04-problem-set.html",
     "href": "evaluations/04-problem-set.html",
     "title": "Problem set 4",
     "section": "",
-    "text": "Submission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nfollowing the naming convention PS4-studentid.extension where studentid is replaced with your student ID and extension is the file extension (e.g., .pdf, .R, .Rmd, .sps)\nInstructions: We consider data collected for Study 3 of Grossmann & Kross (2014) (click the links to download the paper and the Supplementary material). You can access these data directly from R from the hecedsm package or download the SPSS data.\nThe purpose of the exercise is to reproduce part of Table S4 of the Supplementary material. We will compute linear contrasts and adjust the resulting comparisons to account for multiple testing.1\nWe will fit one-way ANOVA model for each of the four response (compr,limits,persp and change) and for each age group separately. Thus, we will have four contrasts for each of the eight models (one per outcome and age group). The size of the family, assuming the global \\(F\\)-tests are not of interest, is thus \\(m=32\\).\nUse the helper code provided. Don’t be intimidated: this task will involve a lot of copy-pasting. Fill the helper file code by replacing the #TODO statements and reach out for help if you are stuck.\n\nDetermine the contrast vectors (i.e., the weights) for the four hypothesis tests outlined in Grossmann & Kross (2014).\nCompute the contrasts in the preplanned comparisons reported in Table S4. Check whether these match the reported values.2\nUsing the helper code, obtain adjusted p-values using Bonferroni’s method and compare them to (a) the raw p-values and (b) the Bonferroni-Holm adjusted p-values. How many of the planned comparisons are significant at level \\(\\alpha=0.05\\) if you modify the p-values?\nAnother way to present the results of the two-sided t-test for contrasts is to report confidence intervals rather than p-values. Which interval would be the largest between (a) an unadjusted confidence interval and (b) one derived using Bonferroni’s method? Justify your answer.3\n\n\n\n\n\n\nReferences\n\nGrossmann, I., & Kross, E. (2014). Exploring Solomon’s paradox: Self-distancing eliminates the self-other asymmetry in wise reasoning about close relationships in younger and older adults. Psychological Science, 25(8), 1571–1580. https://doi.org/10.1177/0956797614535400\n\nFootnotes\n\n\nTechnical aside: there are four correlated outcome variables, so this is technically a multivariate problem. ↩︎\nThe sign may be different from the paper depending on how you set up the contrasts, but the conclusion is the same.↩︎\nHint: Bonferroni’s method amounts to making the tests at level \\(\\alpha/m\\). Try modifying the level in the code for the confidence intervals to see which is largest.↩︎",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 4"
-    ]
+    "text": "Submission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nfollowing the naming convention PS4-studentid.extension where studentid is replaced with your student ID and extension is the file extension (e.g., .pdf, .R, .Rmd, .sps)\nInstructions: We consider data collected for Study 3 of Grossmann & Kross (2014) (click the links to download the paper and the Supplementary material). You can access these data directly from R from the hecedsm package or download the SPSS data.\nThe purpose of the exercise is to reproduce part of Table S4 of the Supplementary material. We will compute linear contrasts and adjust the resulting comparisons to account for multiple testing.1\nWe will fit one-way ANOVA model for each of the four response (compr,limits,persp and change) and for each age group separately. Thus, we will have four contrasts for each of the eight models (one per outcome and age group). The size of the family, assuming the global \\(F\\)-tests are not of interest, is thus \\(m=32\\).\nUse the helper code provided. Don’t be intimidated: this task will involve a lot of copy-pasting. Fill the helper file code by replacing the #TODO statements and reach out for help if you are stuck.\n\nDetermine the contrast vectors (i.e., the weights) for the four hypothesis tests outlined in Grossmann & Kross (2014).\nCompute the contrasts in the preplanned comparisons reported in Table S4. Check whether these match the reported values.2\nUsing the helper code, obtain adjusted p-values using Bonferroni’s method and compare them to (a) the raw p-values and (b) the Bonferroni-Holm adjusted p-values. How many of the planned comparisons are significant at level \\(\\alpha=0.05\\) if you modify the p-values?\nAnother way to present the results of the two-sided t-test for contrasts is to report confidence intervals rather than p-values. Which interval would be the largest between (a) an unadjusted confidence interval and (b) one derived using Bonferroni’s method? Justify your answer.3\n\n\n\n\n\n\nReferences\n\nGrossmann, I., & Kross, E. (2014). Exploring Solomon’s paradox: Self-distancing eliminates the self-other asymmetry in wise reasoning about close relationships in younger and older adults. Psychological Science, 25(8), 1571–1580. https://doi.org/10.1177/0956797614535400\n\nFootnotes\n\n\nTechnical aside: there are four correlated outcome variables, so this is technically a multivariate problem. ↩︎\nThe sign may be different from the paper depending on how you set up the contrasts, but the conclusion is the same.↩︎\nHint: Bonferroni’s method amounts to making the tests at level \\(\\alpha/m\\). Try modifying the level in the code for the confidence intervals to see which is largest.↩︎"
   },
   {
     "objectID": "evaluations/01-problem-set.html",
     "href": "evaluations/01-problem-set.html",
     "title": "Problem set 1",
     "section": "",
-    "text": "Task 1: Identifying information.\nClayton (2018) considers measures of implicit bias for multiple participants from an “in-field implicit association tests”. The codebook contains a description of the data.\n\nWhat is the population under study?\nIdentify the type of sampling.\nWhat are the observational and experimental units? How many observations are there for each in the sample?\nComment on the quality of the sample and the generalizability of the findings.\nIdentify the response variable, the factor and the treatment levels.\n\nConsider next the first field experiment of Goldstein et al. (2008):\n\nBriefly describe the experimental setup\nWhat is the population of interest?\nIdentify the experimental units and the sample size.\n\n\n\nTask 2: Getting started with programming\nStarting from next week, you will need to perform statistical analyses using a suitable software of your choosing.\nYour job is to install a software of your liking. Tell me which one you chose and report back on your success! Also go through tutorials to get started with loading data, producing basic plots and computing simple descriptive statistics.\n\n\n\n\n\n\nReferences\n\nClayton, A. (2018). Do gender quotas really reduce bias? Evidence from a policy experiment in Southern Africa. Journal of Experimental Political Science, 5(3), 182--194. https://doi.org/10.1017/XPS.2018.8\n\n\nGoldstein, N. J., Cialdini, R. B., & Griskevicius, V. (2008). A room with a viewpoint: Using social norms to motivate environmental conservation in hotels. Journal of Consumer Research, 35(3), 472–482. https://doi.org/10.1086/586910",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 1"
-    ]
+    "text": "Task 1: Identifying information.\nClayton (2018) considers measures of implicit bias for multiple participants from an “in-field implicit association tests”. The codebook contains a description of the data.\n\nWhat is the population under study?\nIdentify the type of sampling.\nWhat are the observational and experimental units? How many observations are there for each in the sample?\nComment on the quality of the sample and the generalizability of the findings.\nIdentify the response variable, the factor and the treatment levels.\n\nConsider next the first field experiment of Goldstein et al. (2008):\n\nBriefly describe the experimental setup\nWhat is the population of interest?\nIdentify the experimental units and the sample size.\n\n\n\nTask 2: Getting started with programming\nStarting from next week, you will need to perform statistical analyses using a suitable software of your choosing.\nYour job is to install a software of your liking. Tell me which one you chose and report back on your success! Also go through tutorials to get started with loading data, producing basic plots and computing simple descriptive statistics.\n\n\n\n\n\n\nReferences\n\nClayton, A. (2018). Do gender quotas really reduce bias? Evidence from a policy experiment in Southern Africa. Journal of Experimental Political Science, 5(3), 182--194. https://doi.org/10.1017/XPS.2018.8\n\n\nGoldstein, N. J., Cialdini, R. B., & Griskevicius, V. (2008). A room with a viewpoint: Using social norms to motivate environmental conservation in hotels. Journal of Consumer Research, 35(3), 472–482. https://doi.org/10.1086/586910"
   },
   {
     "objectID": "content/13-content.html",
     "href": "content/13-content.html",
     "title": "Nonparametric tests and count data",
     "section": "",
-    "text": "Nonparametric tests\nModels and tests for count data",
-    "crumbs": [
-      "Course content",
-      "13: Nonparametric tests and count data"
-    ]
+    "text": "Nonparametric tests\nModels and tests for count data"
   },
   {
     "objectID": "content/13-content.html#content",
     "href": "content/13-content.html#content",
     "title": "Nonparametric tests and count data",
     "section": "",
-    "text": "Nonparametric tests\nModels and tests for count data",
-    "crumbs": [
-      "Course content",
-      "13: Nonparametric tests and count data"
-    ]
+    "text": "Nonparametric tests\nModels and tests for count data"
   },
   {
     "objectID": "content/13-content.html#learning-objectives",
     "href": "content/13-content.html#learning-objectives",
     "title": "Nonparametric tests and count data",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nUnderstand the benefits and drawback of rank-based tests\nPerform tests for count data (Fisher exact test, \\(\\chi^2\\) tests) and correctly report their output with effect sizes",
-    "crumbs": [
-      "Course content",
-      "13: Nonparametric tests and count data"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nUnderstand the benefits and drawback of rank-based tests\nPerform tests for count data (Fisher exact test, \\(\\chi^2\\) tests) and correctly report their output with effect sizes"
   },
   {
     "objectID": "content/13-content.html#readings",
     "href": "content/13-content.html#readings",
     "title": "Nonparametric tests and count data",
     "section": "Readings",
-    "text": "Readings\n\nChapter 12 Categorical data analysis of Navarro (2019)\nChapter 12 of the course notes",
-    "crumbs": [
-      "Course content",
-      "13: Nonparametric tests and count data"
-    ]
+    "text": "Readings\n\nChapter 12 Categorical data analysis of Navarro (2019)\nChapter 12 of the course notes"
   },
   {
     "objectID": "content/13-content.html#slides",
     "href": "content/13-content.html#slides",
     "title": "Nonparametric tests and count data",
     "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "13: Nonparametric tests and count data"
-    ]
+    "text": "Slides\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/11-content.html",
     "href": "content/11-content.html",
     "title": "Introduction to causal inference",
     "section": "",
-    "text": "Introduction to causal inference",
-    "crumbs": [
-      "Course content",
-      "11: Intro to causal inference"
-    ]
+    "text": "Introduction to causal inference"
   },
   {
     "objectID": "content/11-content.html#content",
     "href": "content/11-content.html#content",
     "title": "Introduction to causal inference",
     "section": "",
-    "text": "Introduction to causal inference",
-    "crumbs": [
-      "Course content",
-      "11: Intro to causal inference"
-    ]
+    "text": "Introduction to causal inference"
   },
   {
     "objectID": "content/11-content.html#learning-objectives",
     "href": "content/11-content.html#learning-objectives",
     "title": "Introduction to causal inference",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nunderstanding the importance of listing potential confounders\ndetermining which variables to control for (confounders vs colliders)\ndrawing a directed acyclic graph describing the interrelation between variables\nexplaining the differences between experimental and observational studies for studying mediation",
-    "crumbs": [
-      "Course content",
-      "11: Intro to causal inference"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nunderstanding the importance of listing potential confounders\ndetermining which variables to control for (confounders vs colliders)\ndrawing a directed acyclic graph describing the interrelation between variables\nexplaining the differences between experimental and observational studies for studying mediation"
   },
   {
     "objectID": "content/11-content.html#readings",
     "href": "content/11-content.html#readings",
     "title": "Introduction to causal inference",
     "section": "Readings",
-    "text": "Readings\n\nChapter 2 of VanderWeele (2015)\n\nAndrew Heiss’ course notes on directed acyclic graphs (DAG) and types of association.\n\nCausal models (video and slides)\nPaths, doors, and adjustment (video and slides)\n\nThe structural equation modelling (SEM) approach to mediation\n\nPaper popularizing linear mediation (Baron & Kenny, 1986)\nLimitations of the linear mediation model approach (Bullock et al., 2010)\n\nThe causal inference approach\n\nPearl (2014)\nImai et al. (2010)",
-    "crumbs": [
-      "Course content",
-      "11: Intro to causal inference"
-    ]
+    "text": "Readings\n\nChapter 2 of VanderWeele (2015)\n\nAndrew Heiss’ course notes on directed acyclic graphs (DAG) and types of association.\n\nCausal models (video and slides)\nPaths, doors, and adjustment (video and slides)\n\nThe structural equation modelling (SEM) approach to mediation\n\nPaper popularizing linear mediation (Baron & Kenny, 1986)\nLimitations of the linear mediation model approach (Bullock et al., 2010)\n\nThe causal inference approach\n\nPearl (2014)\nImai et al. (2010)"
   },
   {
     "objectID": "content/11-content.html#complementary-readings",
     "href": "content/11-content.html#complementary-readings",
     "title": "Introduction to causal inference",
     "section": "Complementary readings",
-    "text": "Complementary readings\n\nPearl et al. (2016), Chapter 3\nRohrer (2018)",
-    "crumbs": [
-      "Course content",
-      "11: Intro to causal inference"
-    ]
+    "text": "Complementary readings\n\nPearl et al. (2016), Chapter 3\nRohrer (2018)"
   },
   {
     "objectID": "content/11-content.html#slides",
     "href": "content/11-content.html#slides",
     "title": "Introduction to causal inference",
     "section": "Slides",
-    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "11: Intro to causal inference"
-    ]
+    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/09-content.html",
     "href": "content/09-content.html",
     "title": "Repeated measures and multivariate ANOVA",
     "section": "",
-    "text": "Analysis of within-subject designs\nRepeated measures and test of sphericity\nMultivariate analysis of variance",
-    "crumbs": [
-      "Course content",
-      "9: Repeated measures"
-    ]
+    "text": "Analysis of within-subject designs\nRepeated measures and test of sphericity\nMultivariate analysis of variance"
   },
   {
     "objectID": "content/09-content.html#content",
     "href": "content/09-content.html#content",
     "title": "Repeated measures and multivariate ANOVA",
     "section": "",
-    "text": "Analysis of within-subject designs\nRepeated measures and test of sphericity\nMultivariate analysis of variance",
-    "crumbs": [
-      "Course content",
-      "9: Repeated measures"
-    ]
+    "text": "Analysis of within-subject designs\nRepeated measures and test of sphericity\nMultivariate analysis of variance"
   },
   {
     "objectID": "content/09-content.html#learning-objectives",
     "href": "content/09-content.html#learning-objectives",
     "title": "Repeated measures and multivariate ANOVA",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nadequately modelling repeated measures\ncorrectly interpreting tests of sphericity using software\nexplaining the benefits and disadvantages of repeated-measure designs\ntesting model assumptions in multivariate model",
-    "crumbs": [
-      "Course content",
-      "9: Repeated measures"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nadequately modelling repeated measures\ncorrectly interpreting tests of sphericity using software\nexplaining the benefits and disadvantages of repeated-measure designs\ntesting model assumptions in multivariate model"
   },
   {
     "objectID": "content/09-content.html#readings",
     "href": "content/09-content.html#readings",
     "title": "Repeated measures and multivariate ANOVA",
     "section": "Readings",
-    "text": "Readings\n\n Chapter 9 of the course notes",
-    "crumbs": [
-      "Course content",
-      "9: Repeated measures"
-    ]
+    "text": "Readings\n\n Chapter 9 of the course notes"
   },
   {
     "objectID": "content/09-content.html#complementary-readings",
     "href": "content/09-content.html#complementary-readings",
     "title": "Repeated measures and multivariate ANOVA",
     "section": "Complementary readings",
-    "text": "Complementary readings\n\n\n Chapter 5.2 of Price et al. (2017)\n Chapter 16 to 18 of Keppel & Wickens (2004)",
-    "crumbs": [
-      "Course content",
-      "9: Repeated measures"
-    ]
+    "text": "Complementary readings\n\n\n Chapter 5.2 of Price et al. (2017)\n Chapter 16 to 18 of Keppel & Wickens (2004)"
   },
   {
     "objectID": "content/09-content.html#slides",
     "href": "content/09-content.html#slides",
     "title": "Repeated measures and multivariate ANOVA",
     "section": "Slides",
-    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "9: Repeated measures"
-    ]
+    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/07-content.html",
     "href": "content/07-content.html",
     "title": "Designs to reduce the error",
     "section": "",
-    "text": "Blocking\nAnalysis of covariance",
-    "crumbs": [
-      "Course content",
-      "7: Designs to reduce the error"
-    ]
+    "text": "Blocking\nAnalysis of covariance"
   },
   {
     "objectID": "content/07-content.html#content",
     "href": "content/07-content.html#content",
     "title": "Designs to reduce the error",
     "section": "",
-    "text": "Blocking\nAnalysis of covariance",
-    "crumbs": [
-      "Course content",
-      "7: Designs to reduce the error"
-    ]
+    "text": "Blocking\nAnalysis of covariance"
   },
   {
     "objectID": "content/07-content.html#learning-objectives",
     "href": "content/07-content.html#learning-objectives",
     "title": "Designs to reduce the error",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nexplain the benefits of blocked design and ANCOVA over completely randomized designs\nusing control covariates or blocking factors\ntesting equality of slopes",
-    "crumbs": [
-      "Course content",
-      "7: Designs to reduce the error"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nexplain the benefits of blocked design and ANCOVA over completely randomized designs\nusing control covariates or blocking factors\ntesting equality of slopes"
   },
   {
     "objectID": "content/07-content.html#readings",
     "href": "content/07-content.html#readings",
     "title": "Designs to reduce the error",
     "section": "Readings",
-    "text": "Readings\n\n Chapter 6 of the course notes\n Chapter 5 (Complete Block Designs) of Meier (2022) (5.1-5.2)",
-    "crumbs": [
-      "Course content",
-      "7: Designs to reduce the error"
-    ]
+    "text": "Readings\n\n Chapter 6 of the course notes\n Chapter 5 (Complete Block Designs) of Meier (2022) (5.1-5.2)"
   },
   {
     "objectID": "content/07-content.html#complementary-readings",
     "href": "content/07-content.html#complementary-readings",
     "title": "Designs to reduce the error",
     "section": "Complementary readings",
-    "text": "Complementary readings\n\n Chapter 4 of Cox (1958).",
-    "crumbs": [
-      "Course content",
-      "7: Designs to reduce the error"
-    ]
+    "text": "Complementary readings\n\n Chapter 4 of Cox (1958)."
   },
   {
     "objectID": "content/07-content.html#videos",
     "href": "content/07-content.html#videos",
     "title": "Designs to reduce the error",
     "section": "Videos",
-    "text": "Videos",
-    "crumbs": [
-      "Course content",
-      "7: Designs to reduce the error"
-    ]
+    "text": "Videos"
   },
   {
     "objectID": "content/07-content.html#slides",
     "href": "content/07-content.html#slides",
     "title": "Designs to reduce the error",
     "section": "Slides",
-    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "7: Designs to reduce the error"
-    ]
+    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/05-content.html",
     "href": "content/05-content.html",
     "title": "Complete factorial designs",
     "section": "",
-    "text": "Benefits of factorial designs\nInteractions\nSimple, marginal and interaction contrasts",
-    "crumbs": [
-      "Course content",
-      "5: Complete factorial designs"
-    ]
+    "text": "Benefits of factorial designs\nInteractions\nSimple, marginal and interaction contrasts"
   },
   {
     "objectID": "content/05-content.html#content",
     "href": "content/05-content.html#content",
     "title": "Complete factorial designs",
     "section": "",
-    "text": "Benefits of factorial designs\nInteractions\nSimple, marginal and interaction contrasts",
-    "crumbs": [
-      "Course content",
-      "5: Complete factorial designs"
-    ]
+    "text": "Benefits of factorial designs\nInteractions\nSimple, marginal and interaction contrasts"
   },
   {
     "objectID": "content/05-content.html#learning-objectives",
     "href": "content/05-content.html#learning-objectives",
     "title": "Complete factorial designs",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nlisting the benefits of factorial designs\ninterpreting an interaction plot and being aware of it’s limitation\ninterpreting model effects in sum-to-zero parametrization\nreporting results from a two-way analysis of variance\ndetermining whether or not simple or main effects are most suitable",
-    "crumbs": [
-      "Course content",
-      "5: Complete factorial designs"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nlisting the benefits of factorial designs\ninterpreting an interaction plot and being aware of it’s limitation\ninterpreting model effects in sum-to-zero parametrization\nreporting results from a two-way analysis of variance\ndetermining whether or not simple or main effects are most suitable"
   },
   {
     "objectID": "content/05-content.html#readings",
     "href": "content/05-content.html#readings",
     "title": "Complete factorial designs",
     "section": "Readings",
-    "text": "Readings\n\n Chapter 4 of Meier (2022)\n Chapter 5 of the course notes",
-    "crumbs": [
-      "Course content",
-      "5: Complete factorial designs"
-    ]
+    "text": "Readings\n\n Chapter 4 of Meier (2022)\n Chapter 5 of the course notes"
   },
   {
     "objectID": "content/05-content.html#complementary-readings",
     "href": "content/05-content.html#complementary-readings",
     "title": "Complete factorial designs",
     "section": "Complementary readings",
-    "text": "Complementary readings\n\n Chapters 10-13 of Keppel & Wickens (2004).",
-    "crumbs": [
-      "Course content",
-      "5: Complete factorial designs"
-    ]
+    "text": "Complementary readings\n\n Chapters 10-13 of Keppel & Wickens (2004)."
   },
   {
     "objectID": "content/05-content.html#slides",
     "href": "content/05-content.html#slides",
     "title": "Complete factorial designs",
     "section": "Slides",
-    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "5: Complete factorial designs"
-    ]
+    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/03-content.html",
     "href": "content/03-content.html",
     "title": "Analysis of variance",
     "section": "",
-    "text": "ANOVA and F-test statistic\nPower of the F-test\nModel assumptions",
-    "crumbs": [
-      "Course content",
-      "3: One way ANOVA"
-    ]
+    "text": "ANOVA and F-test statistic\nPower of the F-test\nModel assumptions"
   },
   {
     "objectID": "content/03-content.html#content",
     "href": "content/03-content.html#content",
     "title": "Analysis of variance",
     "section": "",
-    "text": "ANOVA and F-test statistic\nPower of the F-test\nModel assumptions",
-    "crumbs": [
-      "Course content",
-      "3: One way ANOVA"
-    ]
+    "text": "ANOVA and F-test statistic\nPower of the F-test\nModel assumptions"
   },
   {
     "objectID": "content/03-content.html#learning-objectives",
     "href": "content/03-content.html#learning-objectives",
     "title": "Analysis of variance",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\ncarry-out a one-way analysis of variance test\nlist and explain which factors impact the power of the F-test\ncheck model assumptions using hypothesis tests and graphics.",
-    "crumbs": [
-      "Course content",
-      "3: One way ANOVA"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\ncarry-out a one-way analysis of variance test\nlist and explain which factors impact the power of the F-test\ncheck model assumptions using hypothesis tests and graphics."
   },
   {
     "objectID": "content/03-content.html#readings",
     "href": "content/03-content.html#readings",
     "title": "Analysis of variance",
     "section": "Readings",
-    "text": "Readings\n\n Chapter 3 of the Course notes",
-    "crumbs": [
-      "Course content",
-      "3: One way ANOVA"
-    ]
+    "text": "Readings\n\n Chapter 3 of the Course notes"
   },
   {
     "objectID": "content/03-content.html#complementary-readings",
     "href": "content/03-content.html#complementary-readings",
     "title": "Analysis of variance",
     "section": "Complementary readings",
-    "text": "Complementary readings\n\n Chapter 2 of Meier (2022)\n Chapter 3 and 7 of Keppel & Wickens (2004).",
-    "crumbs": [
-      "Course content",
-      "3: One way ANOVA"
-    ]
+    "text": "Complementary readings\n\n Chapter 2 of Meier (2022)\n Chapter 3 and 7 of Keppel & Wickens (2004)."
   },
   {
     "objectID": "content/03-content.html#slides",
     "href": "content/03-content.html#slides",
     "title": "Analysis of variance",
     "section": "Slides",
-    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "3: One way ANOVA"
-    ]
+    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/01-content.html",
     "href": "content/01-content.html",
     "title": "Introduction",
     "section": "",
-    "text": "Syllabus and learning objectives\nReview\n\nPopulation and samples\nObservational versus experimental studies\nSampling schemes: random, stratified and cluster sampling\n\nIntroduction to experimental designs\nTerminology of experimental design\nRequirements for a good experiment",
-    "crumbs": [
-      "Course content",
-      "1: Introduction"
-    ]
+    "text": "Syllabus and learning objectives\nReview\n\nPopulation and samples\nObservational versus experimental studies\nSampling schemes: random, stratified and cluster sampling\n\nIntroduction to experimental designs\nTerminology of experimental design\nRequirements for a good experiment"
   },
   {
     "objectID": "content/01-content.html#content",
     "href": "content/01-content.html#content",
     "title": "Introduction",
     "section": "",
-    "text": "Syllabus and learning objectives\nReview\n\nPopulation and samples\nObservational versus experimental studies\nSampling schemes: random, stratified and cluster sampling\n\nIntroduction to experimental designs\nTerminology of experimental design\nRequirements for a good experiment",
-    "crumbs": [
-      "Course content",
-      "1: Introduction"
-    ]
+    "text": "Syllabus and learning objectives\nReview\n\nPopulation and samples\nObservational versus experimental studies\nSampling schemes: random, stratified and cluster sampling\n\nIntroduction to experimental designs\nTerminology of experimental design\nRequirements for a good experiment"
   },
   {
     "objectID": "content/01-content.html#learning-objectives",
     "href": "content/01-content.html#learning-objectives",
     "title": "Introduction",
     "section": "Learning objectives",
-    "text": "Learning objectives\n\nLearning the terminology associated to experiments.\nAssessing the generalizability of a study based on the consideration of the sample characteristics, sampling scheme and population.\nDistinguishing between observational and experimental studies.\nUnderstanding the rationale behind the requirements for good experimental studies.",
-    "crumbs": [
-      "Course content",
-      "1: Introduction"
-    ]
+    "text": "Learning objectives\n\nLearning the terminology associated to experiments.\nAssessing the generalizability of a study based on the consideration of the sample characteristics, sampling scheme and population.\nDistinguishing between observational and experimental studies.\nUnderstanding the rationale behind the requirements for good experimental studies."
   },
   {
     "objectID": "content/01-content.html#preliminaries",
     "href": "content/01-content.html#preliminaries",
     "title": "Introduction",
     "section": "Preliminaries",
-    "text": "Preliminaries\n\nFamiliarize yourself with the syllabus, content, examples, and evaluations pages for this class.\n Read Chapter 1 (Intro to Data) of OpenIntro Statistics and the accompanying  videos",
-    "crumbs": [
-      "Course content",
-      "1: Introduction"
-    ]
+    "text": "Preliminaries\n\nFamiliarize yourself with the syllabus, content, examples, and evaluations pages for this class.\n Read Chapter 1 (Intro to Data) of OpenIntro Statistics and the accompanying  videos"
   },
   {
     "objectID": "content/01-content.html#readings",
     "href": "content/01-content.html#readings",
     "title": "Introduction",
     "section": "Readings",
-    "text": "Readings\n\n\n\n\n\n\nWarning\n\n\n\nThese readings should be completed before class, to ensure timely understanding and let us discuss the concepts together through various examples and case studies — the strict minimum being the course notes. If you feel a section is redundant and overlaps with the latter, feel free to skim through the rest of the material.\n\n\n\n Chapter 1 of the Course notes\n Chapter 2 of Introduction to Modern Statistics\n\nFeel free to inform me in the weekly check-in of your take on these references.",
-    "crumbs": [
-      "Course content",
-      "1: Introduction"
-    ]
+    "text": "Readings\n\n\n\n\n\n\nWarning\n\n\n\nThese readings should be completed before class, to ensure timely understanding and let us discuss the concepts together through various examples and case studies — the strict minimum being the course notes. If you feel a section is redundant and overlaps with the latter, feel free to skim through the rest of the material.\n\n\n\n Chapter 1 of the Course notes\n Chapter 2 of Introduction to Modern Statistics\n\nFeel free to inform me in the weekly check-in of your take on these references."
   },
   {
     "objectID": "content/01-content.html#complementary-readings",
     "href": "content/01-content.html#complementary-readings",
     "title": "Introduction",
     "section": "Complementary readings",
-    "text": "Complementary readings\n\n\n\n\n\n\nWarning\n\n\n\nComplementary readings are additional sources of information that are not required readings, but may be useful substitutes. Sometimes, they go beyond the scope of what we cover (in more details).\n\n\n\n Chapter 1 (Preliminaries) in Planning of experiments (Cox, 1958). Out of print, but addresses the basic concepts using a variety of examples (mostly from agricultural field trials), and particularly well written.\n Chapter 1 and Sections 2.1-2.2 in Design and Analysis of Experiments (Dean et al., 2017)",
-    "crumbs": [
-      "Course content",
-      "1: Introduction"
-    ]
+    "text": "Complementary readings\n\n\n\n\n\n\nWarning\n\n\n\nComplementary readings are additional sources of information that are not required readings, but may be useful substitutes. Sometimes, they go beyond the scope of what we cover (in more details).\n\n\n\n Chapter 1 (Preliminaries) in Planning of experiments (Cox, 1958). Out of print, but addresses the basic concepts using a variety of examples (mostly from agricultural field trials), and particularly well written.\n Chapter 1 and Sections 2.1-2.2 in Design and Analysis of Experiments (Dean et al., 2017)"
   },
   {
     "objectID": "content/01-content.html#slides",
     "href": "content/01-content.html#slides",
     "title": "Introduction",
     "section": "Slides",
-    "text": "Slides\nThe slides for today’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "1: Introduction"
-    ]
+    "text": "Slides\nThe slides for today’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/01-content.html#case-study",
     "href": "content/01-content.html#case-study",
     "title": "Introduction",
     "section": "Case study",
-    "text": "Case study\nWe will discuss the summary of Abaluck et al. (2022) “The Impact of Mask Distribution and Promotion on Mask Uptake and COVID-19 in Bangladesh” in class.\nDuring the activity, you will be asked to identify in teams the following:\n\nthe objective of the study\nthe target population (which findings generalize?)\nthe sampling scheme\nthe observational and experimental units\nthe treatments\nthe outcome variable(s)",
-    "crumbs": [
-      "Course content",
-      "1: Introduction"
-    ]
+    "text": "Case study\nWe will discuss the summary of Abaluck et al. (2022) “The Impact of Mask Distribution and Promotion on Mask Uptake and COVID-19 in Bangladesh” in class.\nDuring the activity, you will be asked to identify in teams the following:\n\nthe objective of the study\nthe target population (which findings generalize?)\nthe sampling scheme\nthe observational and experimental units\nthe treatments\nthe outcome variable(s)"
   },
   {
     "objectID": "content/02-content.html",
     "href": "content/02-content.html",
     "title": "Hypothesis testing",
     "section": "",
-    "text": "Sampling variability\nHypothesis testing\nPairwise comparisons",
-    "crumbs": [
-      "Course content",
-      "2: Hypothesis testing"
-    ]
+    "text": "Sampling variability\nHypothesis testing\nPairwise comparisons"
   },
   {
     "objectID": "content/02-content.html#content",
     "href": "content/02-content.html#content",
     "title": "Hypothesis testing",
     "section": "",
-    "text": "Sampling variability\nHypothesis testing\nPairwise comparisons",
-    "crumbs": [
-      "Course content",
-      "2: Hypothesis testing"
-    ]
+    "text": "Sampling variability\nHypothesis testing\nPairwise comparisons"
   },
   {
     "objectID": "content/02-content.html#learning-objectives",
     "href": "content/02-content.html#learning-objectives",
     "title": "Hypothesis testing",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nunderstanding the mechanics behind generic hypothesis tests\ninterpreting the output of generic tests\ncorrectly reporting the output of a testing procedure",
-    "crumbs": [
-      "Course content",
-      "2: Hypothesis testing"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nunderstanding the mechanics behind generic hypothesis tests\ninterpreting the output of generic tests\ncorrectly reporting the output of a testing procedure"
   },
   {
     "objectID": "content/02-content.html#readings",
     "href": "content/02-content.html#readings",
     "title": "Hypothesis testing",
     "section": "Readings",
-    "text": "Readings\n\n Chapter 5 (Foundations for inference) of Matthew Crump’s course notes. These notes are non-technical, but do a good job at explaining the notion of sampling variability and chance. If you find them too basic, skip directly to the next item.\n Chapter 2 of the Course notes\n The permutation test by Jared Wilson",
-    "crumbs": [
-      "Course content",
-      "2: Hypothesis testing"
-    ]
+    "text": "Readings\n\n Chapter 5 (Foundations for inference) of Matthew Crump’s course notes. These notes are non-technical, but do a good job at explaining the notion of sampling variability and chance. If you find them too basic, skip directly to the next item.\n Chapter 2 of the Course notes\n The permutation test by Jared Wilson"
   },
   {
     "objectID": "content/02-content.html#complementary-readings",
     "href": "content/02-content.html#complementary-readings",
     "title": "Hypothesis testing",
     "section": "Complementary readings",
-    "text": "Complementary readings\n\n Chapter 3 of Keppel & Wickens (2004).",
-    "crumbs": [
-      "Course content",
-      "2: Hypothesis testing"
-    ]
+    "text": "Complementary readings\n\n Chapter 3 of Keppel & Wickens (2004)."
   },
   {
     "objectID": "content/02-content.html#slides",
     "href": "content/02-content.html#slides",
     "title": "Hypothesis testing",
     "section": "Slides",
-    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "2: Hypothesis testing"
-    ]
+    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/02-content.html#case-study",
     "href": "content/02-content.html#case-study",
     "title": "Hypothesis testing",
     "section": "Case study",
-    "text": "Case study\nWe will look at the way authors report the conclusion of their statistical tests with\n\nRosen & Jerdee (1974)\nBrucks & Levav (2022)\nLiu et al. (2022+), Experiment 1",
-    "crumbs": [
-      "Course content",
-      "2: Hypothesis testing"
-    ]
+    "text": "Case study\nWe will look at the way authors report the conclusion of their statistical tests with\n\nRosen & Jerdee (1974)\nBrucks & Levav (2022)\nLiu et al. (2022+), Experiment 1"
   },
   {
     "objectID": "content/04-content.html",
     "href": "content/04-content.html",
     "title": "Contrasts and multiple testing",
     "section": "",
-    "text": "Contrasts\nMultiple testing",
-    "crumbs": [
-      "Course content",
-      "4: Contrasts and multiple testing"
-    ]
+    "text": "Contrasts\nMultiple testing"
   },
   {
     "objectID": "content/04-content.html#content",
     "href": "content/04-content.html#content",
     "title": "Contrasts and multiple testing",
     "section": "",
-    "text": "Contrasts\nMultiple testing",
-    "crumbs": [
-      "Course content",
-      "4: Contrasts and multiple testing"
-    ]
+    "text": "Contrasts\nMultiple testing"
   },
   {
     "objectID": "content/04-content.html#learning-objectives",
     "href": "content/04-content.html#learning-objectives",
     "title": "Contrasts and multiple testing",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nspecifying and calculating custom contrasts in factorial designs\ndetermining the number of tests in a family that need to be corrected for\nunderstanding how to correct p-values to account for multiple testing\nlisting multiplicity testing methods suitable depending on context",
-    "crumbs": [
-      "Course content",
-      "4: Contrasts and multiple testing"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nspecifying and calculating custom contrasts in factorial designs\ndetermining the number of tests in a family that need to be corrected for\nunderstanding how to correct p-values to account for multiple testing\nlisting multiplicity testing methods suitable depending on context"
   },
   {
     "objectID": "content/04-content.html#readings",
     "href": "content/04-content.html#readings",
     "title": "Contrasts and multiple testing",
     "section": "Readings",
-    "text": "Readings\n\n Chapter 3 of Meier (2022)\n One-way ANOVA example",
-    "crumbs": [
-      "Course content",
-      "4: Contrasts and multiple testing"
-    ]
+    "text": "Readings\n\n Chapter 3 of Meier (2022)\n One-way ANOVA example"
   },
   {
     "objectID": "content/04-content.html#complementary-readings",
     "href": "content/04-content.html#complementary-readings",
     "title": "Contrasts and multiple testing",
     "section": "Complementary readings",
-    "text": "Complementary readings\n\n Chapters 4 and 6 of Keppel & Wickens (2004).",
-    "crumbs": [
-      "Course content",
-      "4: Contrasts and multiple testing"
-    ]
+    "text": "Complementary readings\n\n Chapters 4 and 6 of Keppel & Wickens (2004)."
   },
   {
     "objectID": "content/04-content.html#slides",
     "href": "content/04-content.html#slides",
     "title": "Contrasts and multiple testing",
     "section": "Slides",
-    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "4: Contrasts and multiple testing"
-    ]
+    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/06-content.html",
     "href": "content/06-content.html",
     "title": "Multiway factorial designs",
     "section": "",
-    "text": "Unbalanced designs\nMultiway factorial designs",
-    "crumbs": [
-      "Course content",
-      "6: Multiway factorial designs"
-    ]
+    "text": "Unbalanced designs\nMultiway factorial designs"
   },
   {
     "objectID": "content/06-content.html#content",
     "href": "content/06-content.html#content",
     "title": "Multiway factorial designs",
     "section": "",
-    "text": "Unbalanced designs\nMultiway factorial designs",
-    "crumbs": [
-      "Course content",
-      "6: Multiway factorial designs"
-    ]
+    "text": "Unbalanced designs\nMultiway factorial designs"
   },
   {
     "objectID": "content/06-content.html#learning-objectives",
     "href": "content/06-content.html#learning-objectives",
     "title": "Multiway factorial designs",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nlisting the benefits of balanced designs\ncorrectly interpreting analysis of variance table\nspecifying and calculating custom contrasts in multiway factorial designs\ncorrecting for multiple testing",
-    "crumbs": [
-      "Course content",
-      "6: Multiway factorial designs"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nlisting the benefits of balanced designs\ncorrectly interpreting analysis of variance table\nspecifying and calculating custom contrasts in multiway factorial designs\ncorrecting for multiple testing"
   },
   {
     "objectID": "content/06-content.html#readings",
     "href": "content/06-content.html#readings",
     "title": "Multiway factorial designs",
     "section": "Readings",
-    "text": "Readings\n\n Chapter 5 of the course notes\n Two-way ANOVA example\n Three-way ANOVA example",
-    "crumbs": [
-      "Course content",
-      "6: Multiway factorial designs"
-    ]
+    "text": "Readings\n\n Chapter 5 of the course notes\n Two-way ANOVA example\n Three-way ANOVA example"
   },
   {
     "objectID": "content/06-content.html#complementary-readings",
     "href": "content/06-content.html#complementary-readings",
     "title": "Multiway factorial designs",
     "section": "Complementary readings",
-    "text": "Complementary readings\n\n Chapters 21-22 of Keppel & Wickens (2004).",
-    "crumbs": [
-      "Course content",
-      "6: Multiway factorial designs"
-    ]
+    "text": "Complementary readings\n\n Chapters 21-22 of Keppel & Wickens (2004)."
   },
   {
     "objectID": "content/06-content.html#videos",
     "href": "content/06-content.html#videos",
     "title": "Multiway factorial designs",
     "section": "Videos",
-    "text": "Videos",
-    "crumbs": [
-      "Course content",
-      "6: Multiway factorial designs"
-    ]
+    "text": "Videos"
   },
   {
     "objectID": "content/06-content.html#slides",
     "href": "content/06-content.html#slides",
     "title": "Multiway factorial designs",
     "section": "Slides",
-    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "6: Multiway factorial designs"
-    ]
+    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/08-content.html",
     "href": "content/08-content.html",
     "title": "Effect size and power",
     "section": "",
-    "text": "Measures of effect size\nPower calculations\nInterplay between sample size, effect and power",
-    "crumbs": [
-      "Course content",
-      "8: Effect sizes and power"
-    ]
+    "text": "Measures of effect size\nPower calculations\nInterplay between sample size, effect and power"
   },
   {
     "objectID": "content/08-content.html#content",
     "href": "content/08-content.html#content",
     "title": "Effect size and power",
     "section": "",
-    "text": "Measures of effect size\nPower calculations\nInterplay between sample size, effect and power",
-    "crumbs": [
-      "Course content",
-      "8: Effect sizes and power"
-    ]
+    "text": "Measures of effect size\nPower calculations\nInterplay between sample size, effect and power"
   },
   {
     "objectID": "content/08-content.html#learning-objectives",
     "href": "content/08-content.html#learning-objectives",
     "title": "Effect size and power",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\ncorrectly report effect size for common statistics in analysis of variance models\ndeduce the sample size necessary to replicate a study at a given power\nexplain the interplay between sample size, power and effect size.",
-    "crumbs": [
-      "Course content",
-      "8: Effect sizes and power"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\ncorrectly report effect size for common statistics in analysis of variance models\ndeduce the sample size necessary to replicate a study at a given power\nexplain the interplay between sample size, power and effect size."
   },
   {
     "objectID": "content/08-content.html#readings",
     "href": "content/08-content.html#readings",
     "title": "Effect size and power",
     "section": "Readings",
-    "text": "Readings\n\n Chapter 7 of the course notes\n Effect size and power example",
-    "crumbs": [
-      "Course content",
-      "8: Effect sizes and power"
-    ]
+    "text": "Readings\n\n Chapter 7 of the course notes\n Effect size and power example"
   },
   {
     "objectID": "content/08-content.html#complementary-readings",
     "href": "content/08-content.html#complementary-readings",
     "title": "Effect size and power",
     "section": "Complementary readings",
-    "text": "Complementary readings\n\n Lakens (2013)\n Steiger (2004)\n Kelley & Preacher (2012)",
-    "crumbs": [
-      "Course content",
-      "8: Effect sizes and power"
-    ]
+    "text": "Complementary readings\n\n Lakens (2013)\n Steiger (2004)\n Kelley & Preacher (2012)"
   },
   {
     "objectID": "content/08-content.html#slides",
     "href": "content/08-content.html#slides",
     "title": "Effect size and power",
     "section": "Slides",
-    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "8: Effect sizes and power"
-    ]
+    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/10-content.html",
     "href": "content/10-content.html",
     "title": "Intro to mixed models",
     "section": "",
-    "text": "Introduction to mixed models",
-    "crumbs": [
-      "Course content",
-      "10: Intro to mixed models"
-    ]
+    "text": "Introduction to mixed models"
   },
   {
     "objectID": "content/10-content.html#content",
     "href": "content/10-content.html#content",
     "title": "Intro to mixed models",
     "section": "",
-    "text": "Introduction to mixed models",
-    "crumbs": [
-      "Course content",
-      "10: Intro to mixed models"
-    ]
+    "text": "Introduction to mixed models"
   },
   {
     "objectID": "content/10-content.html#learning-objectives",
     "href": "content/10-content.html#learning-objectives",
     "title": "Intro to mixed models",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\ndetermining the structure of an experimental design with random and fixed effects\ncorrectly determining whether effects are crossed or nested\nsetting up a linear mixed model",
-    "crumbs": [
-      "Course content",
-      "10: Intro to mixed models"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\ndetermining the structure of an experimental design with random and fixed effects\ncorrectly determining whether effects are crossed or nested\nsetting up a linear mixed model"
   },
   {
     "objectID": "content/10-content.html#readings",
     "href": "content/10-content.html#readings",
     "title": "Intro to mixed models",
     "section": "Readings",
-    "text": "Readings\n\nChapter 6 Random and Mixed-Effects Models of Lukas Meier’s ANOVA and Mixed Models: A Short Intro Using R]\n Chapter 10 of the course notes",
-    "crumbs": [
-      "Course content",
-      "10: Intro to mixed models"
-    ]
+    "text": "Readings\n\nChapter 6 Random and Mixed-Effects Models of Lukas Meier’s ANOVA and Mixed Models: A Short Intro Using R]\n Chapter 10 of the course notes"
   },
   {
     "objectID": "content/10-content.html#slides",
     "href": "content/10-content.html#slides",
     "title": "Intro to mixed models",
     "section": "Slides",
-    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "10: Intro to mixed models"
-    ]
+    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/12-content.html",
     "href": "content/12-content.html",
     "title": "Mediation and moderation",
     "section": "",
-    "text": "Linear mediation model\nModeration",
-    "crumbs": [
-      "Course content",
-      "12: Linear mediation and moderation"
-    ]
+    "text": "Linear mediation model\nModeration"
   },
   {
     "objectID": "content/12-content.html#content",
     "href": "content/12-content.html#content",
     "title": "Mediation and moderation",
     "section": "",
-    "text": "Linear mediation model\nModeration",
-    "crumbs": [
-      "Course content",
-      "12: Linear mediation and moderation"
-    ]
+    "text": "Linear mediation model\nModeration"
   },
   {
     "objectID": "content/12-content.html#learning-objectives",
     "href": "content/12-content.html#learning-objectives",
     "title": "Mediation and moderation",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nUsing the linear mediation model\ndiscussing limitations of the linear mediation model\ntesting for moderating variables (interactions)",
-    "crumbs": [
-      "Course content",
-      "12: Linear mediation and moderation"
-    ]
+    "text": "Learning objectives\nAt the end of the session, students should be capable of\n\nUsing the linear mediation model\ndiscussing limitations of the linear mediation model\ntesting for moderating variables (interactions)"
   },
   {
     "objectID": "content/12-content.html#readings",
     "href": "content/12-content.html#readings",
     "title": "Mediation and moderation",
     "section": "Readings",
-    "text": "Readings\n\nChapter 11 of the course notes\nChapter 11 of VanderWeele (2015)\nLinear mediation model (Baron & Kenny, 1986)\nLimitations of the linear mediation model approach (Bullock et al., 2010)\nModel assumptions Imai et al. (2010)",
-    "crumbs": [
-      "Course content",
-      "12: Linear mediation and moderation"
-    ]
+    "text": "Readings\n\nChapter 11 of the course notes\nChapter 11 of VanderWeele (2015)\nLinear mediation model (Baron & Kenny, 1986)\nLimitations of the linear mediation model approach (Bullock et al., 2010)\nModel assumptions Imai et al. (2010)"
   },
   {
     "objectID": "content/12-content.html#slides",
     "href": "content/12-content.html#slides",
     "title": "Mediation and moderation",
     "section": "Slides",
-    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "12: Linear mediation and moderation"
-    ]
+    "text": "Slides\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands."
   },
   {
     "objectID": "content/index.html",
     "href": "content/index.html",
-    "title": "Readings, lectures, and videos",
+    "title": "Readings and Lectures",
     "section": "",
-    "text": "Each class session has a set of required readings that you should complete before watching the lecture.\nEvery class session also has a YouTube playlist of short recorded videos for each of the lecture sections. The lecture slides are special HTML files made with the R package xaringan . On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:\n\n View all slides in new window  Download PDF of all slides\n\nThe slides are also embedded on each page. You can click in the slides and navigate through them with ← and →. If you type ? (or shift + /) while viewing the slides you can see a list of slide-specific commands (like f for fullscreen or p for presenter mode if you want to see my notes).",
+    "text": "Course content will be added throughout the semester, so please bookmark this site.\nEach class session has a set of required readings that you should complete before attending the lecture. I will post lecture slides after the lecture.\nThe lecture slides are special HTML files made with the R package xaringan . On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:\n\n View all slides in new window  Download PDF of all slides\n\nThe slides are also embedded on each page. You can click in the slides and navigate through them with ← and →. If you type ? (or shift + /) while viewing the slides you can see a list of slide-specific commands (like f for fullscreen or p for presenter mode if you want to see my notes).",
     "crumbs": [
       "Overview",
-      "Readings, lectures, and videos"
+      "Readings and Lectures"
     ]
   },
   {
@@ -1115,139 +733,129 @@
     "href": "evaluations/02-problem-set.html",
     "title": "Problem set 2",
     "section": "",
-    "text": "Task 1: Hypothesis testing\nWe consider the hypothesis test performed by Bastian et al. (2014) with the data they collected in their Experiment 1. The R and SPSS files containing code for performing the testing procedures and extracting the output are provided. You can also download the SPSS data file and the paper via OpenStats Lab.\n\nBriefly comment on the generalisability of the study in light of the sample composition and data collection.\nThe authors used a two-sample t-test to assess the hypothesis that people in the pain condition felt more threatened by the tasks (a manipulation check). One criticism of using such a test statistic is that it assumes that observations in both group have potentially different group average, but similar standard deviation.1 An alternative test which doesn’t assume equal variance in each experimental condition is Welch’s t-test. Use the latter instead to model the manipulation check for threat and report the output. Do the conclusions change?\nThe authors report results based on a one-way analysis of variance, a testing procedure that compares the mean of \\(m\\) different groups. The latter is equivalent to a two-sample t-test when there are only \\(m=2\\) groups.\n\nUsing the two-sample t-test, obtain a 95% and a 99% confidence interval for the mean difference score for perceived bonding.\nExplain how the two methods (p-value and confidence intervals) are equivalent for performing an hypothesis test with a significance level of 5% and 1%, respectively. Report the conclusions of your procedure in each case.\nList an advantage of each over the other.\n\nExtract the degrees of freedom, the value of the \\(F\\)-statistic and the p-value, suitably rounded and report these.\nWhat can we reasonably conclude about the effect of bonding based on the output of the testing procedure? Is this reflected in the writing of the authors?\nFigure 1 of Bastian et al. (2014) shows a dynamite plot, i.e., a bar plot with 95% confidence intervals for each condition. Note that this is standard display, but overall it is poor graphical choice (why?). Briefly summarize the blog post.\n\n\n\nTask 2 - Reproducibility\nSection 3.2 of Duke & Amir (2022) report the results of an online experiment (Experiment 1) and the impact on sales of sequential vs integrated decision making; the data can be found in the R package hecedsm under DA22_E1; you can also download the SPSS database.\nReproduce the results reported in Section 3.2.2 and check that your results match those of the paper. Submit your code alongside your report.\n\n\n\n\n\n\nReferences\n\nBastian, B., Jetten, J., & Ferris, L. J. (2014). Pain as social glue: Shared pain increases cooperation. Psychological Science, 25(11), 2079–2085. https://doi.org/10.1177/0956797614545886\n\n\nDuke, K. E., & Amir, O. (2022). The importance of selling formats: When integrating purchase and quantity decisions increases sales. Marketing Science, In press. https://doi.org/10.1287/mksc.2022.1364\n\nFootnotes\n\n\nWe will see modelling assumptions in Week 3, take my word on it for now.↩︎",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 2"
-    ]
+    "text": "Task 1: Hypothesis testing\nWe consider the hypothesis test performed by Bastian et al. (2014) with the data they collected in their Experiment 1. The R and SPSS files containing code for performing the testing procedures and extracting the output are provided. You can also download the SPSS data file and the paper via OpenStats Lab.\n\nBriefly comment on the generalisability of the study in light of the sample composition and data collection.\nThe authors used a two-sample t-test to assess the hypothesis that people in the pain condition felt more threatened by the tasks (a manipulation check). One criticism of using such a test statistic is that it assumes that observations in both group have potentially different group average, but similar standard deviation.1 An alternative test which doesn’t assume equal variance in each experimental condition is Welch’s t-test. Use the latter instead to model the manipulation check for threat and report the output. Do the conclusions change?\nThe authors report results based on a one-way analysis of variance, a testing procedure that compares the mean of \\(m\\) different groups. The latter is equivalent to a two-sample t-test when there are only \\(m=2\\) groups.\n\nUsing the two-sample t-test, obtain a 95% and a 99% confidence interval for the mean difference score for perceived bonding.\nExplain how the two methods (p-value and confidence intervals) are equivalent for performing an hypothesis test with a significance level of 5% and 1%, respectively. Report the conclusions of your procedure in each case.\nList an advantage of each over the other.\n\nExtract the degrees of freedom, the value of the \\(F\\)-statistic and the p-value, suitably rounded and report these.\nWhat can we reasonably conclude about the effect of bonding based on the output of the testing procedure? Is this reflected in the writing of the authors?\nFigure 1 of Bastian et al. (2014) shows a dynamite plot, i.e., a bar plot with 95% confidence intervals for each condition. Note that this is standard display, but overall it is poor graphical choice (why?). Briefly summarize the blog post.\n\n\n\nTask 2 - Reproducibility\nSection 3.2 of Duke & Amir (2022) report the results of an online experiment (Experiment 1) and the impact on sales of sequential vs integrated decision making; the data can be found in the R package hecedsm under DA22_E1; you can also download the SPSS database.\nReproduce the results reported in Section 3.2.2 and check that your results match those of the paper. Submit your code alongside your report.\n\n\n\n\n\n\nReferences\n\nBastian, B., Jetten, J., & Ferris, L. J. (2014). Pain as social glue: Shared pain increases cooperation. Psychological Science, 25(11), 2079–2085. https://doi.org/10.1177/0956797614545886\n\n\nDuke, K. E., & Amir, O. (2022). The importance of selling formats: When integrating purchase and quantity decisions increases sales. Marketing Science, In press. https://doi.org/10.1287/mksc.2022.1364\n\nFootnotes\n\n\nWe will see modelling assumptions in Week 3, take my word on it for now.↩︎"
   },
   {
     "objectID": "evaluations/05-problem-set.html",
     "href": "evaluations/05-problem-set.html",
     "title": "Problem set 5",
     "section": "",
-    "text": "Complete this task in teams of two or three students.\nSubmission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nWrite the name of the teammates on your report.\nWe consider a two-way analysis of variance using fictional data from Example 6.4 of Berger et al. (2018) on bank tellers: 100 tellers were offered one-on-one training with an experienced clerk for a certain number of weeks on the job, possibly in addition to formal training period. The goal of the study is to determine which combination is most efficient at reducing the monthly error in balance (in dollars). You can access these data directly from R from the hecedsm package or download the SPSS data.\nDownload and answer the following questions. Write a report as if you were doing an analysis for a scientific publication.\n\nProduce a plot of the monthly error per teller as a function of the number of weeks of one-on-one training.\nProduce a quantile-quantile plot of the residuals and use Levene’s test to check whether the variance in each subgroup is the same. Report on these preliminary checks.\nAssess whether there an interaction between number of weeks of one-on-one training and the formal training using an hypothesis test.\nCompute pairwise contrasts between weeks of one-on-one supervision for the case of people with formal training.\nCompare the difference in errors between 8 and 4 weeks of one-to-one supervision, for people with and without formal training.\n\nHint: to create a pretty interaction plot in R, try the following:\n\n# Redownload the package to get the data\n# remotes::install_github(\"lbelzile/hecedsm\")\ndata(teller, package = \"hecedsm\")\nlibrary(ggplot2)\nlibrary(dplyr)\n\nteller |&gt; \n  group_by(course, nweeks) |&gt;\n  summarize(merror = mean(error)) |&gt;\n ggplot(aes(x = nweeks,\n            y = merror,\n            group = course,\n            color = course)) +\n  geom_line() +\n  theme_classic() + \n  theme(legend.position = \"bottom\") + \n  labs(y = \"\",\n       subtitle = \"average monthly error (USD)\",\n       x = \"number of weeks of 1-1 training\")\n\n\n\n\n\nReferences\n\nBerger, P. D., Maurer, R. E., & Celli, G. B. (2018). Experimental design with applications in management, engineering, and the sciences (2nd ed.). Springer. https://doi.org/10.1007/978-3-319-64583-4",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 5"
-    ]
+    "text": "Complete this task in teams of two or three students.\nSubmission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nWrite the name of the teammates on your report.\nWe consider a two-way analysis of variance using fictional data from Example 6.4 of Berger et al. (2018) on bank tellers: 100 tellers were offered one-on-one training with an experienced clerk for a certain number of weeks on the job, possibly in addition to formal training period. The goal of the study is to determine which combination is most efficient at reducing the monthly error in balance (in dollars). You can access these data directly from R from the hecedsm package or download the SPSS data.\nDownload and answer the following questions. Write a report as if you were doing an analysis for a scientific publication.\n\nProduce a plot of the monthly error per teller as a function of the number of weeks of one-on-one training.\nProduce a quantile-quantile plot of the residuals and use Levene’s test to check whether the variance in each subgroup is the same. Report on these preliminary checks.\nAssess whether there an interaction between number of weeks of one-on-one training and the formal training using an hypothesis test.\nCompute pairwise contrasts between weeks of one-on-one supervision for the case of people with formal training.\nCompare the difference in errors between 8 and 4 weeks of one-to-one supervision, for people with and without formal training.\n\nHint: to create a pretty interaction plot in R, try the following:\n\n# Redownload the package to get the data\n# remotes::install_github(\"lbelzile/hecedsm\")\ndata(teller, package = \"hecedsm\")\nlibrary(ggplot2)\nlibrary(dplyr)\n\nteller |&gt; \n  group_by(course, nweeks) |&gt;\n  summarize(merror = mean(error)) |&gt;\n ggplot(aes(x = nweeks,\n            y = merror,\n            group = course,\n            color = course)) +\n  geom_line() +\n  theme_classic() + \n  theme(legend.position = \"bottom\") + \n  labs(y = \"\",\n       subtitle = \"average monthly error (USD)\",\n       x = \"number of weeks of 1-1 training\")\n\n\n\n\n\nReferences\n\nBerger, P. D., Maurer, R. E., & Celli, G. B. (2018). Experimental design with applications in management, engineering, and the sciences (2nd ed.). Springer. https://doi.org/10.1007/978-3-319-64583-4"
   },
   {
     "objectID": "evaluations/07-problem-set.html",
     "href": "evaluations/07-problem-set.html",
     "title": "Problem set 7",
     "section": "",
-    "text": "Complete this task in teams of two or three students.\nSubmission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nLook at the ANCOVA example; this should be helpful in completing the problem set.\nWe consider Experiment 3 of Stekelenburg et al. (2021); (download the paper). The database can be found in SSVB21_S3 in the hecedsm package.\n\nHave a quick look at the exclusion guidelines in the preregistration. Do they make sense? think about other potential criteria that could have been listed.\nWrite down potential improvement points related to statistics and experimental setup that you could raise if you were assigned to peer-review the paper.\nThe author proceed with splitting the data set in three groups and performing each pairwise comparisons in turn, corresponding to the different hypotheses (circa lines 499-533 of the script). Why might this approach be suboptimal relative to the one that consists in fitting a model to the three categories (pooled variance) and proceeding later with computing pairwise differences and contrasts?\nTest the assumptions of\n\nequal variance per experimental condition with the ANCOVA\nproper randomization based only on Prior scores\nequality of slopes\n\nIf the variance are unequal, fit the model with unequal variances per group (see the ANCOVA example) — otherwise proceed as usual.\n\nLook at the pairwise difference between between Boost+ and consensus only condition and report the results of this test.\nDoes the conclusion of the test change relative to that reported in the paper?\n\n\n\n\n\n\nReferences\n\nStekelenburg, A. van, Schaap, G., Veling, H., & Buijzen, M. (2021). Boosting understanding and identification of scientific consensus can help to correct false beliefs. Psychological Science, 32(10), 1549–1565. https://doi.org/10.1177/09567976211007788",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 7"
-    ]
+    "text": "Complete this task in teams of two or three students.\nSubmission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nLook at the ANCOVA example; this should be helpful in completing the problem set.\nWe consider Experiment 3 of Stekelenburg et al. (2021); (download the paper). The database can be found in SSVB21_S3 in the hecedsm package.\n\nHave a quick look at the exclusion guidelines in the preregistration. Do they make sense? think about other potential criteria that could have been listed.\nWrite down potential improvement points related to statistics and experimental setup that you could raise if you were assigned to peer-review the paper.\nThe author proceed with splitting the data set in three groups and performing each pairwise comparisons in turn, corresponding to the different hypotheses (circa lines 499-533 of the script). Why might this approach be suboptimal relative to the one that consists in fitting a model to the three categories (pooled variance) and proceeding later with computing pairwise differences and contrasts?\nTest the assumptions of\n\nequal variance per experimental condition with the ANCOVA\nproper randomization based only on Prior scores\nequality of slopes\n\nIf the variance are unequal, fit the model with unequal variances per group (see the ANCOVA example) — otherwise proceed as usual.\n\nLook at the pairwise difference between between Boost+ and consensus only condition and report the results of this test.\nDoes the conclusion of the test change relative to that reported in the paper?\n\n\n\n\n\n\nReferences\n\nStekelenburg, A. van, Schaap, G., Veling, H., & Buijzen, M. (2021). Boosting understanding and identification of scientific consensus can help to correct false beliefs. Psychological Science, 32(10), 1549–1565. https://doi.org/10.1177/09567976211007788"
   },
   {
     "objectID": "evaluations/09-problem-set.html",
     "href": "evaluations/09-problem-set.html",
     "title": "Problem set 9",
     "section": "",
-    "text": "Complete this task in teams of two or three students.\nSubmission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nWe consider Study 2 of Bobak et al. (2019), who collected responses for 52 participants and computed the average of the correctly identified figures as response out of 96 trials (32 per condition). Bobak et al. (2019) report that\n\nParticipants saw all 96 trials in a random order and the colour condition was counterbalanced for each set.\n\nPerform a repeated measure one-way ANOVA with color as within-factor and pcorr as response with the BMH19_S2 data, which can be found in the R package hecedsm.\n\nExplain in your own words the purpose of randomization and counterbalancing in a repeated measure experiment.\nIs there evidence against the hypothesis of sphericity? Report Mauchly’s test and the conclusion of the latter.\nAre there differences overall between color match (monochrome, mixed or colored)? Report the \\(F\\)-statistic, the degrees of freedom and the \\(p\\)-value and a measure of effect size (e.g., \\(\\widehat{R}^2_p\\)). If the sphericity assumption isn’t met, use the Greenhouse–Geisser adjustment for the degrees of freedom of the tests and report the estimated correction factor \\(\\widehat{\\epsilon}\\).\nIf there is a significant difference at the 5% level for the global test, pairwise tests with Tukey’s honest significance difference multiplicity correction. Report the pairwise differences in terms of percentage of correct values (differences in pcorr), the \\(t\\)-test statistics and the associated \\(p\\)-values.\nAn alternative procedure would be to fit the model as a one-way MANOVA: do this and report the value of Pillai’s trace with the approximate \\(F\\) statistic, degrees of freedom and \\(p\\)-values. Do your conclusions change?1\n\n\n\n\n\n\nReferences\n\nBobak, A. K., Mileva, V. R., & Hancock, P. J. B. (2019). A grey area: How does image hue affect unfamiliar face matching? Cognitive Research: Principles and Implications, 4(1), 27. https://doi.org/10.1186/s41235-019-0174-3\n\nFootnotes\n\n\nIf you fit the model with afex package functions aov_ez, the output contains a slot $Anova with the value of this test.↩︎",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 9"
-    ]
+    "text": "Complete this task in teams of two or three students.\nSubmission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nWe consider Study 2 of Bobak et al. (2019), who collected responses for 52 participants and computed the average of the correctly identified figures as response out of 96 trials (32 per condition). Bobak et al. (2019) report that\n\nParticipants saw all 96 trials in a random order and the colour condition was counterbalanced for each set.\n\nPerform a repeated measure one-way ANOVA with color as within-factor and pcorr as response with the BMH19_S2 data, which can be found in the R package hecedsm.\n\nExplain in your own words the purpose of randomization and counterbalancing in a repeated measure experiment.\nIs there evidence against the hypothesis of sphericity? Report Mauchly’s test and the conclusion of the latter.\nAre there differences overall between color match (monochrome, mixed or colored)? Report the \\(F\\)-statistic, the degrees of freedom and the \\(p\\)-value and a measure of effect size (e.g., \\(\\widehat{R}^2_p\\)). If the sphericity assumption isn’t met, use the Greenhouse–Geisser adjustment for the degrees of freedom of the tests and report the estimated correction factor \\(\\widehat{\\epsilon}\\).\nIf there is a significant difference at the 5% level for the global test, pairwise tests with Tukey’s honest significance difference multiplicity correction. Report the pairwise differences in terms of percentage of correct values (differences in pcorr), the \\(t\\)-test statistics and the associated \\(p\\)-values.\nAn alternative procedure would be to fit the model as a one-way MANOVA: do this and report the value of Pillai’s trace with the approximate \\(F\\) statistic, degrees of freedom and \\(p\\)-values. Do your conclusions change?1\n\n\n\n\n\n\nReferences\n\nBobak, A. K., Mileva, V. R., & Hancock, P. J. B. (2019). A grey area: How does image hue affect unfamiliar face matching? Cognitive Research: Principles and Implications, 4(1), 27. https://doi.org/10.1186/s41235-019-0174-3\n\nFootnotes\n\n\nIf you fit the model with afex package functions aov_ez, the output contains a slot $Anova with the value of this test.↩︎"
   },
   {
     "objectID": "evaluations/11-problem-set.html",
     "href": "evaluations/11-problem-set.html",
     "title": "Problem set 11",
     "section": "",
-    "text": "Complete this task in teams of up to three students.\nSubmission information: please submit on ZoneCours",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 11"
-    ]
+    "text": "Complete this task in teams of up to three students.\nSubmission information: please submit on ZoneCours"
   },
   {
     "objectID": "evaluations/11-problem-set.html#task-1",
     "href": "evaluations/11-problem-set.html#task-1",
     "title": "Problem set 11",
     "section": "Task 1",
-    "text": "Task 1\nRead Rohrer et al. (2022) and write down a summary",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 11"
-    ]
+    "text": "Task 1\nRead Rohrer et al. (2022) and write down a summary"
   },
   {
     "objectID": "evaluations/11-problem-set.html#task-2",
     "href": "evaluations/11-problem-set.html#task-2",
     "title": "Problem set 11",
     "section": "Task 2",
-    "text": "Task 2\nLiu et al. (2022+) postulated in their Experiment 5b that the underestimation of the appreciation of initiators relative to recipients was mediated by the degree of surprise of the recipient. Their data can be obtained from LRMM22_S5b.\n\nFit the linear mediation model using the PROCESS macro or mediate function from the mediation package\n\n\nuse the nonparametric bootstrap with the percentile method\ncompare the coefficients with those of Figure 1 from the paper.\n\n\nIdentify the type of mediation (complementary, competitive or indirect only) based on coefficients.\nThe paper does not discuss any of the model assumptions. List the assumptions of the linear mediation model and explain how some may fail to be valid, thus casting doubt on the conclusions drawn by Liu et al. (2022+).",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 11"
-    ]
+    "text": "Task 2\nLiu et al. (2022+) postulated in their Experiment 5b that the underestimation of the appreciation of initiators relative to recipients was mediated by the degree of surprise of the recipient. Their data can be obtained from LRMM22_S5b.\n\nFit the linear mediation model using the PROCESS macro or mediate function from the mediation package\n\n\nuse the nonparametric bootstrap with the percentile method\ncompare the coefficients with those of Figure 1 from the paper.\n\n\nIdentify the type of mediation (complementary, competitive or indirect only) based on coefficients.\nThe paper does not discuss any of the model assumptions. List the assumptions of the linear mediation model and explain how some may fail to be valid, thus casting doubt on the conclusions drawn by Liu et al. (2022+)."
   },
   {
     "objectID": "evaluations/11-problem-set.html#task-3",
     "href": "evaluations/11-problem-set.html#task-3",
     "title": "Problem set 11",
     "section": "Task 3",
-    "text": "Task 3\nStudy 4 of Risen & Gilovich (2008) (pp. 297-299) perform a mediation analysis with a two-way ANOVA using the Baron & Kenny (1986) methodology.\n\nRead the description and comment on the following aspects:\n\nuse of the Baron and Kenny original testing procedure1\nthe plausibility of the causal model implied by the directed acyclic graph drawn in Figure 2.\n\nUsing the summary statistics and coefficients estimates reported, recompute Sobel’s statistic2 and the p-value and compare them with the values reported. .3\nList the assumptions of the linear causal mediation model. Are there any check of these and, if so, do they support the claims of the authors?\nCan the authors successfully claim mediation considering the study uses an experimental design and randomly allocates condition? Why or why not?",
-    "crumbs": [
-      "Problem sets",
-      "Problem set 11"
-    ]
+    "text": "Task 3\nStudy 4 of Risen & Gilovich (2008) (pp. 297-299) perform a mediation analysis with a two-way ANOVA using the Baron & Kenny (1986) methodology.\n\nRead the description and comment on the following aspects:\n\nuse of the Baron and Kenny original testing procedure1\nthe plausibility of the causal model implied by the directed acyclic graph drawn in Figure 2.\n\nUsing the summary statistics and coefficients estimates reported, recompute Sobel’s statistic2 and the p-value and compare them with the values reported. .3\nList the assumptions of the linear causal mediation model. Are there any check of these and, if so, do they support the claims of the authors?\nCan the authors successfully claim mediation considering the study uses an experimental design and randomly allocates condition? Why or why not?"
   },
   {
     "objectID": "evaluations/index.html",
     "href": "evaluations/index.html",
     "title": "Evaluations",
     "section": "",
-    "text": "The main goals of this class are to help you understand the steps require to design and analyse the results of an experiment.",
+    "text": "Instructions for the various evaluations and assessments will be posted here as the semester progresses, so please bookmark this site.",
     "crumbs": [
       "Overview",
       "Evaluations"
     ]
   },
   {
-    "objectID": "evaluations/index.html#weekly-check-in",
-    "href": "evaluations/index.html#weekly-check-in",
+    "objectID": "evaluations/index.html#syllabus-quiz-10-points",
+    "href": "evaluations/index.html#syllabus-quiz-10-points",
     "title": "Evaluations",
-    "section": "Weekly check-in",
-    "text": "Weekly check-in\nI want to hear back from you regarding the course material, activities and learning material.\nI will grade these check-ins using a check system:\n\n✔+: (115% in gradebook) Response shows phenomenal thought and engagement with the course content. I will not assign these often.\n✔: (100% in gradebook) Response is thoughtful, well-written, and shows engagement with the course content. This is the expected level of performance.\n✔−: (50% in gradebook) Response is hastily composed, too short, and/or only cursorily engages with the course content. This grade signals that you need to improve next time. I will hopefully not assign these often.\n\nNotice that is essentially a pass/fail or completion-based system. I’m not grading your writing ability, I’m not counting the exact number of words you’re writing, and I’m not looking for encyclopedic citations of every single reading to prove that you did indeed read everything. I’m looking for thoughtful engagement, that’s all. Do good work and you’ll get a ✔.\nYou will submit these responses via ZoneCours.",
+    "section": "Syllabus Quiz (10 points)",
+    "text": "Syllabus Quiz (10 points)\nThere will be a syllabus quiz on Tuesday, January 30. Ten questions, ten points.",
     "crumbs": [
       "Overview",
       "Evaluations"
     ]
   },
   {
-    "objectID": "evaluations/index.html#problem-sets",
-    "href": "evaluations/index.html#problem-sets",
+    "objectID": "evaluations/index.html#participationquizzescheck-ins-140-points",
+    "href": "evaluations/index.html#participationquizzescheck-ins-140-points",
     "title": "Evaluations",
-    "section": "Problem sets",
-    "text": "Problem sets\nThere are 12 problem sets on the schedule. I will keep the highest grades for 11 of them. I will drop the lowest score - this means you can skip one of the problem sets. You need to show that you made a good faith effort to work each question. I will not grade these in detail. The problem sets will be graded using a check system:\n\n✔+: (110% in gradebook) Assignment is 100% completed. Every question was attempted and answered, and most answers are correct. Document is clean and easy to follow. Work is exceptional. I will not assign these often.\n✔: (100% in gradebook) Assignment is 70–99% complete and most answers are correct. This is the expected level of performance.\n✔−: (50% in gradebook) Assignment is less than 70% complete and/or most answers are incorrect. This indicates that you need to improve next time. I will hopefully not assign these often.\n\nYou may (and should!) work together on the problem sets, but you must turn in your own answers. You cannot work in groups of more than four people, and you must note who participated in the group in your assignment.",
+    "section": "Participation/Quizzes/Check-ins (140 points)",
+    "text": "Participation/Quizzes/Check-ins (140 points)\nThroughout the semester, I will have short activities, participation quizzes, and check-ins. I use these to track progress and participation in the course. Each will generally be worth 10 points, for a total of 140 points.",
     "crumbs": [
       "Overview",
       "Evaluations"
     ]
   },
   {
-    "objectID": "evaluations/index.html#final-project",
-    "href": "evaluations/index.html#final-project",
+    "objectID": "evaluations/index.html#labs-500-points-and-map-tutorials-150-points",
+    "href": "evaluations/index.html#labs-500-points-and-map-tutorials-150-points",
     "title": "Evaluations",
-    "section": "Final project",
-    "text": "Final project\nFor your final project, you will perform a critical review of a peer-reviewed paper from a list containing an experiment and which uses one of the statistical techniques covered in class. You will pay particular attention to reproducibility, readability and the correctness of the analysis, discussing points of improvement, statistical fallacies. This will help you develop skills for efficient peer-review of the statistical methodology section.",
+    "section": "Labs (500 points) and Map Tutorials (150 points)",
+    "text": "Labs (500 points) and Map Tutorials (150 points)\nLabs will consist of exercises that provide a means to put theory as presented through the lectures and reading material into practice. The labs are software intensive utilizing ESRI ArcGIS Pro and sometimes Microsoft Excel. There will be instructions for each lab that outline the learning objectives and the steps that should be taken to complete the project. Although some steps will be written-up in detail, there will not be explicit instructions for every button-click in the software. The student is responsible for applying the on-screen demonstrations, technique videos, and outside resources that will be introduced by the instructor. Each lab will be documented in a report that follows the standard scientific format. This includes the following sections: Introduction, Methods, Results, Discussion, Conclusion and References. We will cover how to write the various sections of the report and build up to a complete paper for the final projects. The maps, tables, and graphs generated in labs are to be used as figures for the reports. Always place maps as large as possible, one to a page, rotated if necessary. A Scientific Report Template will be provided and must be used or points will be deducted. All labs are worth 100 points.\nThree shorter Map Tutorials will round out your GIS skill set, and/or will serve as an introduction to ArcPro for those of you who have taken past courses using the legacy ArcMap software. All Map Tutorials are worth 50 points.\nAll labs and map tutorials will be submitted into separate Moodle drop-boxes in MS Word format only. (We will give you feedback using track changes in Word.) The drop-boxes for labs will have a due-by-time of 2:00 PM on the Wednesday that the lab is due.\nHowever, the drop-box remains open until the final cut-off exactly one week later (2:00 PM, the next Wednesday). Moodle time-stamps submissions automatically, so we are alerted to all late labs. There will be a 10% deduction for labs and map tutorials submitted in the grace period. No labs or map tutorials will be accepted after the final drop-box cutoff!",
     "crumbs": [
       "Overview",
       "Evaluations"
     ]
   },
   {
-    "objectID": "evaluations/index.html#final-examination",
-    "href": "evaluations/index.html#final-examination",
+    "objectID": "evaluations/index.html#resource-notebook-100-points",
+    "href": "evaluations/index.html#resource-notebook-100-points",
     "title": "Evaluations",
-    "section": "Final examination",
-    "text": "Final examination\nThere will be a closed-book final exam covering the content of the whole semester. Most of the questions will relate to the tasks you performed in problem set and to discussions we had in class. The exam will be in-person (see the Syllabus for details).",
+    "section": "Resource Notebook (100 points)",
+    "text": "Resource Notebook (100 points)\nEach student is required to create a digital notebook filled with the content featured in the class. The purpose of this notebook is to give the student a “take-away” resource of GIS techniques for future mapping projects. On the class server (“T:\\\\ Drive”), under your personal student folder, create a sub-folder called “Resources”, within which you should start documenting and useful information you glean from this course. You may develop your resource notebook in whatever organization you like, but a possible organization would be sub-folders named Readings, Lectures, Map Tutorials, and Labs. Do not wait until the last minute to put together the notebook. Start adding content the first week and continue to keep it organized throughout the semester. It will be your one-stop reference for the theory and techniques covered in class. Extra material can include exam study guides and other resources from the web. The notebook will be checked toward the end of the semester for a grade worth 100 points.",
+    "crumbs": [
+      "Overview",
+      "Evaluations"
+    ]
+  },
+  {
+    "objectID": "evaluations/index.html#midterm-exam-200-points-and-final-exam-250-points",
+    "href": "evaluations/index.html#midterm-exam-200-points-and-final-exam-250-points",
+    "title": "Evaluations",
+    "section": "Midterm Exam (200 points) and Final Exam (250 points)",
+    "text": "Midterm Exam (200 points) and Final Exam (250 points)\nYou are responsible for knowing everything read or said in this class. Exams will have several sections starting with multiple choice and true or false questions. Then there will be a definition matching section based on the glossary terms in the readings. Finally, essay questions will require you to evaluate a map, outline the theory behind a GIS analysis technique, or discuss other course content. The final exam is comprehensive, including content evaluated by the midterm exam. The Final Exam is longer and is worth more points (250) than the Midterm (200). Exams are closed-book.",
+    "crumbs": [
+      "Overview",
+      "Evaluations"
+    ]
+  },
+  {
+    "objectID": "evaluations/index.html#final-group-projects-600-points",
+    "href": "evaluations/index.html#final-group-projects-600-points",
+    "title": "Evaluations",
+    "section": "Final Group Projects (600 points)",
+    "text": "Final Group Projects (600 points)\nA semester-long assignment, the group GIS project requires the students to identify a unique resource management problem that can be answered with GIS analysis. Each group must submit a project proposal following a format that will be discussed in class. As a group, you will develop a research question, review the literature for what techniques have been applied previously, decide what data is required, and design the methods for your analysis. You will document your analysis in an ESRI StoryMap that will roughly follow the scientific format used in the lab reports with the addition of a small literature review. You will include maps, graphs, tables, and figures that support your research and its results. The project design, workflow and conclusions will be presented to the class at the end of the semester. The 600 point project is worth 30 percent of your total grade and is divided as follows:\n\n\n\nComponent\nPoints\n\n\n\n\nProject Proposal\n100 pts.\n\n\nFinal Group StoryMap\n400 pts.\n\n\nPresentation\n100 pts.",
     "crumbs": [
       "Overview",
       "Evaluations"
@@ -1269,52 +877,13 @@
     "href": "example/installation.html",
     "title": "Installing R and RStudio",
     "section": "",
-    "text": "You will do all of your work in this class with the open source (and free!) R programming language. You will use RStudio as the main program to access R. Think of R as an engine and RStudio as a car dashboard—R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.\n\nInstall R\nFirst you need to install the latest version of R itself (the engine), currently 4.3.2 (Eye Holes).\n\nGo to the Comprehensive R Archive Network (CRAN) website: https://cran.r-project.org/\nClick on “Download R for XXX”, where XXX is either Mac or Windows:\n\n\n\n\n\n\nIf you use macOS, scroll down to the first .pkg file in the list of files and download it.\n\n\n\n\n\nIf you use Windows, click “base” (or click on the bolded “install R for the first time” link) and download it.\n\n\n\n\n\n\nDouble click on the downloaded file (check your Downloads folder). Click yes through all the prompts to install like any other program.\nInstall OS specific programs\n\n\nmacOS only: download and install XQuartz.\nWindows only: download and install Rtools\n\n\n\nInstall RStudio\nNext, you need to install RStudio, the nicer graphical user interface (GUI) for R (the dashboard). Once R and RStudio are both installed, you can ignore R and only use RStudio. RStudio will use R automatically and you won’t ever have to interact with it directly.\n\nGo to the free download location on RStudio’s website: https://www.rstudio.com/products/rstudio/download/#download\nThe website should automatically detect your operating system (Linux, macOS or Windows) and show a big download button for it:\n\n\n\n\n\n\nIf not, scroll down a little to the large table and choose the version of RStudio that matches your operating system.\n\n\n\n\n\n\nDouble click on the downloaded file (again, check your Downloads folder). Click yes through all the prompts to install like any other program.\n\nDouble click on RStudio to run it (check your applications folder or start menu).\n\n\nInstall tidyverse\nR packages are easy to install with RStudio. Select the packages panel, click on “Install,” type the name of the package you want to install, and press enter.\n\n\n\n\n\nThis can sometimes be tedious when you’re installing lots of packages, though. The tidyverse, for instance, consists of dozens of packages (including ggplot2) that all work together. Rather than install each individually, you can install a single magical package and get them all at the same time.\nGo to the packages panel in RStudio, click on “Install,” type “tidyverse”, and press enter. You’ll see a bunch of output in the RStudio console as all the tidyverse packages are installed.\n\n\n\n\n\nNotice also that RStudio will generate a line of code for you and run it: install.packages(\"tidyverse\"). You can also just paste and run this instead of using the packages panel.\n\n\nInstall tinytex\nWhen you knit to PDF, R uses a special scientific typesetting program named LaTeX, which is complicated and a large download. To make life easier, there’s an R package named tinytex that installs a minimal LaTeX program and that automatically deals with differences between macOS and Windows.\nTo install tinytex:\n\nUse the Packages in panel in RStudio to install tinytex like you did above with tidyverse. Alternatively, run install.packages(\"tinytex\") in the console.\nRun tinytex::install_tinytex() in the console.\nWait for a bit while R downloads and installs everything you need.\nYou should now be able to knit to PDF.",
-    "crumbs": [
-      "Installation",
-      "**R** and RStudio"
-    ]
+    "text": "You will do all of your work in this class with the open source (and free!) R programming language. You will use RStudio as the main program to access R. Think of R as an engine and RStudio as a car dashboard—R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.\n\nInstall R\nFirst you need to install the latest version of R itself (the engine), currently 4.3.2 (Eye Holes).\n\nGo to the Comprehensive R Archive Network (CRAN) website: https://cran.r-project.org/\nClick on “Download R for XXX”, where XXX is either Mac or Windows:\n\n\n\n\n\n\nIf you use macOS, scroll down to the first .pkg file in the list of files and download it.\n\n\n\n\n\nIf you use Windows, click “base” (or click on the bolded “install R for the first time” link) and download it.\n\n\n\n\n\n\nDouble click on the downloaded file (check your Downloads folder). Click yes through all the prompts to install like any other program.\nInstall OS specific programs\n\n\nmacOS only: download and install XQuartz.\nWindows only: download and install Rtools\n\n\n\nInstall RStudio\nNext, you need to install RStudio, the nicer graphical user interface (GUI) for R (the dashboard). Once R and RStudio are both installed, you can ignore R and only use RStudio. RStudio will use R automatically and you won’t ever have to interact with it directly.\n\nGo to the free download location on RStudio’s website: https://www.rstudio.com/products/rstudio/download/#download\nThe website should automatically detect your operating system (Linux, macOS or Windows) and show a big download button for it:\n\n\n\n\n\n\nIf not, scroll down a little to the large table and choose the version of RStudio that matches your operating system.\n\n\n\n\n\n\nDouble click on the downloaded file (again, check your Downloads folder). Click yes through all the prompts to install like any other program.\n\nDouble click on RStudio to run it (check your applications folder or start menu).\n\n\nInstall tidyverse\nR packages are easy to install with RStudio. Select the packages panel, click on “Install,” type the name of the package you want to install, and press enter.\n\n\n\n\n\nThis can sometimes be tedious when you’re installing lots of packages, though. The tidyverse, for instance, consists of dozens of packages (including ggplot2) that all work together. Rather than install each individually, you can install a single magical package and get them all at the same time.\nGo to the packages panel in RStudio, click on “Install,” type “tidyverse”, and press enter. You’ll see a bunch of output in the RStudio console as all the tidyverse packages are installed.\n\n\n\n\n\nNotice also that RStudio will generate a line of code for you and run it: install.packages(\"tidyverse\"). You can also just paste and run this instead of using the packages panel.\n\n\nInstall tinytex\nWhen you knit to PDF, R uses a special scientific typesetting program named LaTeX, which is complicated and a large download. To make life easier, there’s an R package named tinytex that installs a minimal LaTeX program and that automatically deals with differences between macOS and Windows.\nTo install tinytex:\n\nUse the Packages in panel in RStudio to install tinytex like you did above with tidyverse. Alternatively, run install.packages(\"tinytex\") in the console.\nRun tinytex::install_tinytex() in the console.\nWait for a bit while R downloads and installs everything you need.\nYou should now be able to knit to PDF."
   },
   {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Content (): This page contains the readings, slides, and recorded lectures for the week. Read and watch these before our in-person class. \nEvaluations (): This page contains the instructions for each evaluation. Weekly check-ins and problem sets are due by noon on the day before class.\n\n\nIntroduction\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nWelcome, Syllabus, Moodle, Labs, Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReview & points of departure\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nHow is GIS applied to the scientific method?\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nProjection, Scale, and Geodatabase Review\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 24–January 25\n\n\nLAB: Access ArcPro & map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nScales of Measurement, Map Tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nReview of Spatial Reference\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 31–February 1\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhence geospatial data?\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nWhence Geospatial Data I: All data are spatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nWhence Geospatial Data II: (Mis)Placing things\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 7–February 8\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nWhence Geospatial Data III: Humans in space\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nVoices of GIS: Missoula City GIS Services with Lee Macholz\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 14–February 15\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGIS and the analytical mind\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nGIS as process: Organizing space, data, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nNO CLASS\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 21–February 22\n\n\nNO LAB\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nGIS as workflow: Introducing the Model Builder\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nVoices of GIS: Spatial Epidemiology with Dr. Kimothy Smith\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 28–February 29\n\n\nLAB 1: Exploring the Model Builder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunicating with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nQuantitative maps: Choropleth Mapping\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nType & Color\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 6–March 7\n\n\nLAB 2: Choropleth maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nQualitative maps: Classification\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nVoices of GIS: Mapping Drought with Dr. Zach Hoylman\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 13–March 14\n\n\nLAB 3: Graduated Symbol Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSPRING BREAK\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nNO CLASS (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nNO CLASS (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 20–March 21\n\n\nNO LAB (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStorytelling with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nSpatial Storytelling I: A Human Tradition\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nSpatial Storytelling II: Introducing ESRI StoryMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 27–March 28\n\n\nLAB 4: Exploring StoryMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nSpatial Storytelling III: Maps in the Media\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nVoices of GIS: Protecting Cultural Resources in the BLM with Liz Dolinar\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 3–April 4\n\n\nLAB 5: Isarithmic Maps - Climate Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLying with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nLying with Maps I: Little white lies\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nLying with Maps II: Placemaking and placetaking\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 10–April 11\n\n\nLAB: Finish Labs and Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApplications of GIS\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nWatershed Hydrology in GIS\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nVoices of GIS: Species Distribution Modeling with USFS Biologist\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 17–April 18\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nMapping Montana’s Climate\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nVoices of GIS: Mapping Public Access with Eric Siegfried, Founder of onX Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 24–April 25\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTell your story\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nProject Presentations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 2\n\n\nProject Presentations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 1–May 2\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinals\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nFinals\n\n\n\n\nMay 8\n\n\nFINAL EXAM: Wednesday, May 8, 1:10 – 3:10"
-  },
-  {
-    "objectID": "syllabus.html#objectives",
-    "href": "syllabus.html#objectives",
-    "title": "Syllabus",
-    "section": "Objectives",
-    "text": "Objectives\n\nTo learn the tools of spatial analysis in order to properly make spatial decisions in a variety of GIS applications.\nTo understand the structure and analysis of nominal, ordinal, interval, and ratio data in a spatial context.\nTo become proficient in the construction of choropleth, dot density, proportional symbol, isarithmic, and cartogram maps.\nTo develop software skills in programs used for GIS analysis in the modern geographic information workflow.\nTo learn to overcome software limitations and produce aesthetically pleasing maps that convey design rather than automatic generation."
-  },
-  {
-    "objectID": "syllabus.html#learning-outcomes",
-    "href": "syllabus.html#learning-outcomes",
-    "title": "Syllabus",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nBy the end of this course you will:\n\nUnderstand the terminology, structures, concepts, and theories of GIS project management.\nGain necessary skills to perform spatial analyses using various data within a GIS environment.\nLearn common GIS applications associated with managing natural and cultural resources.\nBe proficient in applying the scientific methods to spatial problem solving.\nKnow the proper styles and formats for documenting research in a scientific report."
-  },
-  {
-    "objectID": "syllabus.html#required-text",
-    "href": "syllabus.html#required-text",
-    "title": "Syllabus",
-    "section": "Required Text",
-    "text": "Required Text\nCourse notes for the class can be found on the course website.\nI will also assign readings from Meier (2022) ANOVA and Mixed Models: A Short Intro Using R, which is available online for free reading."
-  },
-  {
-    "objectID": "syllabus.html#recommended-text",
-    "href": "syllabus.html#recommended-text",
-    "title": "Syllabus",
-    "section": "Recommended Text",
-    "text": "Recommended Text\nGIS for Environmental Management, by Robert Scally, ESRI Press. 2006. (Available on Amazon)\nCartography: Thematic Map Design, by Borden Dent, McGraw Hill. 6th Ed. 2009 (or 5th Ed.).\nGeographic Information Systems: Applications in Forestry and Natural Resource Management, by Michael G. Wing and Pete Bettinger, Oxford University Press (ISBN: 019542610X). 2nd Ed. 2008.\nThere will be various supplemental readings supplied as pdf’s throughout the semester, many from the recommended books above. Every student should have an atlas. They are great resources for those that are interested in the world andwill continue to make maps in their professional fields."
-  },
-  {
-    "objectID": "syllabus.html#required-storage",
-    "href": "syllabus.html#required-storage",
-    "title": "Syllabus",
-    "section": "Required Storage",
-    "text": "Required Storage\nYou will need a thumb-drive or external hard drive with at least 4 GB of space. Create a Word doc on the drive called “1st Owner Information.” Use the number one in the title and it will always be on top in the file list. Type up all you contact information so when you lose your drive, and you will, it can be returned. A reward can be an incentive. Drives left in the lab should be turned into and collected from Angie, the geography administrative associate."
+    "text": "Content (): This page contains the readings, slides, and recorded lectures for the week. Read and watch these before our in-person class. \nEvaluations (): This page contains the instructions for each evaluation. Weekly check-ins and problem sets are due by noon on the day before class.\n\n\nIntroduction\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nWelcome, Syllabus, Moodle, Labs, Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReview & points of departure\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nHow is GIS applied to the scientific method?\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nProjection, Scale, and Geodatabase Review\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 24–January 25\n\n\nLAB: Access ArcPro & map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nScales of Measurement, Map Tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nReview of Spatial Reference\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 31–February 1\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhence geospatial data?\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nWhence Geospatial Data I: All data are spatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nWhence Geospatial Data II: (Mis)Placing things\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 7–February 8\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nWhence Geospatial Data III: Humans in space\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nVoices of GIS: Missoula City GIS Services with Lee Macholz\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 14–February 15\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGIS and the analytical mind\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nGIS as process: Organizing space, data, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nNO CLASS\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 21–February 22\n\n\nNO LAB\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nGIS as workflow: Introducing the Model Builder\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nVoices of GIS: Expert TBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 28–February 29\n\n\nLAB 1: Exploring the Model Builder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunicating with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nQuantitative maps: Choropleth Mapping\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nMIDTERM EXAM (during lecture)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 6–March 7\n\n\nLAB 2: Choropleth maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nQualitative maps: Classification\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nVoices of GIS: Mapping Drought with Dr. Zach Hoylman\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 13–March 14\n\n\nLAB 3: Graduated Symbol Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSPRING BREAK\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nNO CLASS (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nNO CLASS (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 20–March 21\n\n\nNO LAB (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStorytelling with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nSpatial Storytelling I: A Human Tradition\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nSpatial Storytelling II: Introducing ESRI StoryMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 27–March 28\n\n\nLAB 4: Exploring StoryMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nSpatial Storytelling III: Maps in the Media\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nVoices of GIS: Expert TBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 3–April 4\n\n\nLAB 5: Isarithmic Maps - Climate Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLying with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nLying with Maps I: Little white lies\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nLying with Maps II: Placemaking and placetaking\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 10–April 11\n\n\nLAB: Finish Labs and Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApplications of GIS\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nWatershed Hydrology in GIS\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nVoices of GIS: Expert TBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 17–April 18\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nMapping Montana’s Climate\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nVoices of GIS: Expert TBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 24–April 25\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTell your story\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nProject Presentations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 2\n\n\nProject Presentations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 1–May 2\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinals\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nFinals\n\n\n\n\nMay 8\n\n\nFINAL EXAM: Wednesday, May 8, 1:10 – 3:10"
   }
 ]

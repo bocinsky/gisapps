@@ -36,10 +36,10 @@ website:
         file: content/index.qmd
       - text: "Evaluations"
         file: evaluations/index.qmd
-      - text: "Examples"
-        file: example/index.qmd
-      - text: "Notes"
-        href: "https://lbelzile.github.io/math80667a"
+      # - text: "Examples"
+      #   file: example/index.qmd
+      # - text: "Notes"
+      #   href: "https://lbelzile.github.io/math80667a"
       # - icon: slack
       #   href: "https://edsmf22.slack.com"
       #   aria-label: Slack
@@ -58,32 +58,32 @@ website:
             - content/index.qmd
         - section: "Course content"
           contents:
-            - text: "1: Introduction"
-              file: content/01-content.qmd
-            - text: "2: Hypothesis testing"
-              file: content/02-content.qmd
-            - text: "3: One way ANOVA"
-              file: content/03-content.qmd
-            - text: "4: Contrasts and multiple testing"
-              file: content/04-content.qmd
-            - text: "5: Complete factorial designs"
-              file: content/05-content.qmd
-            - text: "6: Multiway factorial designs"
-              file: content/06-content.qmd
-            - text: "7: Designs to reduce the error"
-              file: content/07-content.qmd
-            - text: "8: Effect sizes and power"
-              file: content/08-content.qmd
-            - text: "9: Repeated measures"
-              file: content/09-content.qmd
-            - text: "10: Intro to mixed models"
-              file: content/10-content.qmd
-            - text: "11: Intro to causal inference"
-              file: content/11-content.qmd
-            - text: "12: Linear mediation and moderation"
-              file: content/12-content.qmd
-            - text: "13: Nonparametric tests and count data"
-              file: content/13-content.qmd
+            # - text: "1: Introduction"
+            #   file: content/01-content.qmd
+            # - text: "2: Hypothesis testing"
+            #   file: content/02-content.qmd
+            # - text: "3: One way ANOVA"
+            #   file: content/03-content.qmd
+            # - text: "4: Contrasts and multiple testing"
+            #   file: content/04-content.qmd
+            # - text: "5: Complete factorial designs"
+            #   file: content/05-content.qmd
+            # - text: "6: Multiway factorial designs"
+            #   file: content/06-content.qmd
+            # - text: "7: Designs to reduce the error"
+            #   file: content/07-content.qmd
+            # - text: "8: Effect sizes and power"
+            #   file: content/08-content.qmd
+            # - text: "9: Repeated measures"
+            #   file: content/09-content.qmd
+            # - text: "10: Intro to mixed models"
+            #   file: content/10-content.qmd
+            # - text: "11: Intro to causal inference"
+            #   file: content/11-content.qmd
+            # - text: "12: Linear mediation and moderation"
+            #   file: content/12-content.qmd
+            # - text: "13: Nonparametric tests and count data"
+            #   file: content/13-content.qmd
     - title: "Evaluations"
       style: "docked"
       search: false
@@ -91,65 +91,70 @@ website:
       contents:
         - section: "Overview"
           contents:
+            - text: "Syllabus Quiz"
+              file: evaluations/syllabus-quiz.qmd
+            - text: "Map Tutorials"
+              file: evaluations/map-tutorials.qmd
             - evaluations/index.qmd
             - text: "Weekly check-in"
               file: evaluations/weekly-check-in.qmd
-            - evaluations/paper-review.qmd
+            - evaluations/midterm-exam.qmd
             - evaluations/final-exam.qmd
-        - section: "Problem sets"
-          contents:
-            - evaluations/01-problem-set.qmd
-            - evaluations/02-problem-set.qmd
-            - evaluations/03-problem-set.qmd
-            - evaluations/04-problem-set.qmd
-            - evaluations/05-problem-set.qmd
-            - evaluations/06-problem-set.qmd
-            - evaluations/07-problem-set.qmd
-            - evaluations/08-problem-set.qmd
-            - evaluations/09-problem-set.qmd
-            - evaluations/10-problem-set.qmd
-            - evaluations/11-problem-set.qmd
-            - evaluations/12-problem-set.qmd
-    - title: "Examples"
-      style: "docked"
-      search: false
-      foreground: "#ad1aac"
-      contents:
-        - section: "Overview"
-          contents:
-            - example/index.qmd
-        - section: "Installation"
-          contents:
-            - text: "**R** and RStudio"
-              file: example/installation.qmd
-        - section: "Examples"
-          contents:
-            - text: "Introduction"
-              file: example/introduction.qmd
-         #   - text: "Null distributions"
-         #     file: example/02-hypothesis_testing.qmd
-            - text: "One-way ANOVA"
-              file: example/onewayanova.qmd
-            - text: "Two-way ANOVA"
-              file: example/twowayanova.qmd
-            - text: "Three-way ANOVA"
-              file: example/threewayanova.qmd
-            - text: "Analysis of covariance"
-              file: example/ancova.qmd
-            - text: "Effect size and power"
-              file: example/effectsizepower.qmd
-            - text: "Repeated measures ANOVA"
-              file: example/repeated.qmd
-            - text: "MANOVA"
-              file: example/manova.qmd
-            - text: "Linear mixed models"
-              file: example/mixedmodel.qmd
-            - text: "Linear causal mediation"
-              file: example/linearmediation.qmd
-            - text: "Nonparametric tests"
-              file: example/nonparametric.qmd
-            - text: "Count data"
-              file: example/counts.qmd
+            - evaluations/final-project.qmd
+        # - section: "Labs"
+        #   contents:
+        # - evaluations/01-problem-set.qmd
+        # - evaluations/02-problem-set.qmd
+        # - evaluations/03-problem-set.qmd
+        # - evaluations/04-problem-set.qmd
+        # - evaluations/05-problem-set.qmd
+        # - evaluations/06-problem-set.qmd
+        # - evaluations/07-problem-set.qmd
+        # - evaluations/08-problem-set.qmd
+        # - evaluations/09-problem-set.qmd
+        # - evaluations/10-problem-set.qmd
+        # - evaluations/11-problem-set.qmd
+        # - evaluations/12-problem-set.qmd
+    # - title: "Examples"
+    #   style: "docked"
+    #   search: false
+    #   foreground: "#ad1aac"
+    #   contents:
+    #     - section: "Overview"
+    #       contents:
+    #         - example/index.qmd
+    #     - section: "Installation"
+    #       contents:
+    #         - text: "**R** and RStudio"
+    #           file: example/installation.qmd
+    #     - section: "Examples"
+    #       contents:
+    #      #    - text: "Introduction"
+    #      #      file: example/introduction.qmd
+    #      # #   - text: "Null distributions"
+    #      # #     file: example/02-hypothesis_testing.qmd
+    #      #    - text: "One-way ANOVA"
+    #      #      file: example/onewayanova.qmd
+    #      #    - text: "Two-way ANOVA"
+    #      #      file: example/twowayanova.qmd
+    #      #    - text: "Three-way ANOVA"
+    #      #      file: example/threewayanova.qmd
+    #      #    - text: "Analysis of covariance"
+    #      #      file: example/ancova.qmd
+    #      #    - text: "Effect size and power"
+    #      #      file: example/effectsizepower.qmd
+    #      #    - text: "Repeated measures ANOVA"
+    #      #      file: example/repeated.qmd
+    #      #    - text: "MANOVA"
+    #      #      file: example/manova.qmd
+    #      #    - text: "Linear mixed models"
+    #      #      file: example/mixedmodel.qmd
+    #      #    - text: "Linear causal mediation"
+    #      #      file: example/linearmediation.qmd
+    #      #    - text: "Nonparametric tests"
+    #      #      file: example/nonparametric.qmd
+    #      #    - text: "Count data"
+    #      #      file: example/counts.qmd
 
   page-footer:
     left: |
