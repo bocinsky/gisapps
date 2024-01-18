@@ -53,7 +53,7 @@ withr::with_dir(here::here(), {
 ### Contacting me
 
 - {{< fa clock >}} &nbsp; **Student Hours:**<br>{{< var instructor.contact_policy.student_hours >}}
-- {{< fa at >}} &nbsp; **The best way to get reach me is to visit my [student hours](/syllabus.html#sec-student-hours).** If necessary, I can be reached by [email](mailto:{{< var instructor.email >}}) or [Teams chat](https://teams.microsoft.com/l/chat/0/0?users={{< var instructor.teams >}}){target="_blank"}.
+- {{< fa at >}} &nbsp; **The best way to get reach me is to visit my [student hours](/syllabus/#sec-student-hours).** If necessary, I can be reached by [email](mailto:{{< var instructor.email >}}) or [Teams chat](https://teams.microsoft.com/l/chat/0/0?users={{< var instructor.teams >}}){target="_blank"}.
 :::
 
 :::

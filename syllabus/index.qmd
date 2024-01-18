@@ -35,7 +35,7 @@ library(pander)
 ### Contacting me
 
 - {{< fa clock >}} &nbsp; **Student Hours:**<br>{{< var instructor.contact_policy.student_hours >}}
-- {{< fa at >}} &nbsp; **The best way to get reach me is to visit my [student hours](/syllabus.html#sec-student-hours).** If necessary, I can be reached by [email](mailto:{{< var instructor.email >}}) or [Teams chat](https://teams.microsoft.com/l/chat/0/0?users={{< var instructor.teams >}}){target="_blank"}.
+- {{< fa at >}} &nbsp; **The best way to get reach me is to visit my [student hours](/syllabus/#sec-student-hours).** If necessary, I can be reached by [email](mailto:{{< var instructor.email >}}) or [Teams chat](https://teams.microsoft.com/l/chat/0/0?users={{< var instructor.teams >}}){target="_blank"}.
 :::
 
 :::
@@ -88,7 +88,7 @@ The labs are written for [ArcGIS Pro 3.2.1 (ArcPro)](https://www.esri.com/en-us/
 Students are welcome to attempt to do the labs using alternative software, such as [QGIS](https://www.qgis.org/en/site/), [R](https://www.r-project.org), or [Python](https://www.python.org). You won't be graded on the software you use, only on the quality of your writeup and results. The course instructors will try to advise and assist with other software as best they can.
 
 ## Course Texts
-Course notes for the class can be found [on the course website](/). There will also be assigned readings from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping) [@Manson:2017], which is available online for free reading. There will be various supplemental readings supplied as pdfs throughout the semester. The [GIS&T Body of Knowledge](https://gistbok.ucgis.org) is an impressive resource for geographic information sciences, and you'd be wise to familiarize yourself with it.
+Course notes for the class can be found [on the course website](/). There will also be assigned readings from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping/) [@Manson:2017], which is available online for free reading. There will be various supplemental readings supplied as pdfs throughout the semester. The [GIS&T Body of Knowledge](https://gistbok.ucgis.org) is an impressive resource for geographic information sciences, and you'd be wise to familiarize yourself with it.
 
 ## Storage
 
@@ -133,7 +133,7 @@ Please watch this video:
 
 <iframe src="https://player.vimeo.com/video/270014784" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="display: block; margin: 0 auto 1rem;"></iframe>
 
-Student hours are set times dedicated to all of you (most professors call these "office hours"; I don't^[There's fairly widespread misunderstanding about what office hours actually are! [Many students often think that they are the times I *shouldn't* be disturbed](https://www.chronicle.com/article/Can-This-Man-Change-How-Elite/245714/), which is the exact opposite of what they're for!]). This means that I will be in my office waiting for you to come by if you want to talk to me in person (or remotely) with whatever questions you have. This is the best and easiest way to find me and the best chance for discussing class material and concerns.
+Student hours are set times dedicated to all of you (most professors call these "office hours"; I don't^[There's fairly widespread misunderstanding about what office hours actually are! [Many students often think that they are the times I *shouldn't* be disturbed](https://www.chronicle.com/article/can-this-man-change-how-elite-colleges-treat-low-income-students/), which is the exact opposite of what they're for!]). This means that I will be in my office waiting for you to come by if you want to talk to me in person (or remotely) with whatever questions you have. This is the best and easiest way to find me and the best chance for discussing class material and concerns.
 
 # Course content
 
@@ -360,12 +360,12 @@ From Curry Health Center Counseling Services:
 > We provide a confidential and inclusive environment to address the personal, behavioral, and mental health needs of all UM students. We specialize in addressing the concerns and goals of our diverse UM community. Every student must navigate a wide variety of stressors and challenges during their college career and we're here to offer support as well as assist in getting connected to resources on and off campus. Our licensed counselors, social workers, and psychologists, as well as advanced graduate students, offer individual and group therapy in addition to urgent counseling.
 
 ### Career Readiness
-The College of Forestry and Conservation is committed to the career success of our students and encourages you to participate in [ElevateU](https://www.umt.edu/experiential-learning-career-success/elevate-u/default.php) --- UM's signature career readiness program --- to ensure that you graduate career-ready, with the education, skills, and tools needed to launch, carry-on, and pivot your post-graduation career. Participation in ElevateU is free and can be started at any time, no matter where you are in your academic or career journey. Suggested ways to get started with ElevateU: 
+The College of Forestry and Conservation is committed to the career success of our students and encourages you to participate in [ElevateU](https://www.umt.edu/experiential-learning-career-success/students/elevate-u/default.php) --- UM's signature career readiness program --- to ensure that you graduate career-ready, with the education, skills, and tools needed to launch, carry-on, and pivot your post-graduation career. Participation in ElevateU is free and can be started at any time, no matter where you are in your academic or career journey. Suggested ways to get started with ElevateU: 
 
 - Create a profile on UM's [Handshake](https://umt.joinhandshake.com/) platform to search for jobs and internships.
 - [Schedule an appointment](https://www.umt.edu/experiential-learning-career-success/appointments.php) with an [Experiential Learning and Career Success (ELCS)](https://www.umt.edu/experiential-learning-career-success/default.php) career coach or advisor or with a career professional in your college.^[While all UM students may utilize ELCS's services, students in the following colleges also have access to dedicated career support within their colleges: College of Business, Davidson Honors College, College of Humanities and Sciences, Missoula College.]
 - Take the [Strong Interest Inventory](https://www.umt.edu/experiential-learning-career-success/students/career-center/strong-interest-inventory.php) to explore career and/or major options aligned with your interests.
-- Participate in a live group coaching session with industry experts or complete any of 22 career learning journeys within [ElevateU Online](https://www.umt.edu/experiential-learning-career-success/elevate-u/elevateu-online-students.php).
+- Participate in a live group coaching session with industry experts or complete any of 22 career learning journeys within [ElevateU Online](https://www.umt.edu/experiential-learning-career-success/students/elevate-u/elevateu-online-students.php).
 - Find your next opportunity by connecting with employers at a [career fair](https://www.umt.edu/experiential-learning-career-success/students/student-events.php): 
   - Industry and Trades: Careers and Internships Fair, Missoula College, 02/06/23
   - Educators’ Career Roundtable, ALi Auditorium, 3/14/24

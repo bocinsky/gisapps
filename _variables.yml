@@ -35,7 +35,7 @@ course:
   lab:
     sessions: "W 2:00--3:50, Th 3:30--5:20"
     location: '[Stone 218](https://map.umt.edu/?id=1906#!m/544584){target="_blank"}'
-  github: "https://www.github.com/umtgis/apps"
+  github: "https://github.com/umtgis/apps"
   copyright_year: "2023–2024"
 
 university:
