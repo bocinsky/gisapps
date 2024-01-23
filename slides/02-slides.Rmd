@@ -314,7 +314,7 @@ class: center
 
 ---
 class: center
-#  QUANTITATIVEDOT DENSITY 
+#  QUANTITATIVE DOT DENSITY 
 
 ![:scale 40%](02-slides/assets/img/image24.png)
 
