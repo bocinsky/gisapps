@@ -233,7 +233,7 @@ class: center
 .center[
 What farmers markets are within 30 miles of the Trans America Trail?
 
-![:scale 60%](/slides/02-slides/assets/img/image16.png)
+![:scale 60%](02-slides/assets/img/image16.png)
 
 ]
 
@@ -243,7 +243,7 @@ What farmers markets are within 30 miles of the Trans America Trail?
 
 .center[
 
-![:scale 70%](/slides/02-slides/assets/img/image17.png)
+![:scale 70%](02-slides/assets/img/image17.png)
 ]
 
 ---
@@ -261,80 +261,80 @@ class: center
 
 #  What is Thematic Cartography? 
 
-![:scale 60%](./02-slides/assets/img/image15.png)
+![:scale 60%](02-slides/assets/img/image15.png)
 
 ---
 class: center
 
-![:scale 75%](./02-slides/assets/img/image16 2.png)
+![:scale 75%](02-slides/assets/img/image16 2.png)
 
 ---
 class: center
 
 #  The Point… is to turn this: 
 
-![:scale 43%](./02-slides/assets/img/image17.jpg)
+![:scale 43%](02-slides/assets/img/image17.jpg)
 
 ---
 class: center
 
 #  Into This!
 
-![:scale 60%](./02-slides/assets/img/image18 2.png)
+![:scale 60%](02-slides/assets/img/image18 2.png)
 
 ---
 class: center
 #  REFERENCE 
 
-![:scale 45%](./02-slides/assets/img/image19.jpg)
+![:scale 45%](02-slides/assets/img/image19.jpg)
 
 ---
 class: center
 #  QUALITATIVE 
 
-![:scale 30%](./02-slides/assets/img/image20.jpg)
+![:scale 30%](02-slides/assets/img/image20.jpg)
 
 ---
 class: center
 #  QUANTITATIVE CHOROPLETH 
 
-![:scale 35%](./02-slides/assets/img/image21.jpg)
+![:scale 35%](02-slides/assets/img/image21.jpg)
 
 ---
 class: center
 #  QUANTITATIVE PROPORTIONAL SYMBOL 
 
-![:scale 80%](./02-slides/assets/img/image22.jpg)
+![:scale 80%](02-slides/assets/img/image22.jpg)
 
 ---
 class: center
 #  QUANTITATIVE ISARITHMIC 
 
-![:scale 55%](./02-slides/assets/img/image23.jpg)
+![:scale 55%](02-slides/assets/img/image23.jpg)
 
 ---
 class: center
 #  QUANTITATIVEDOT DENSITY 
 
-![:scale 40%](./02-slides/assets/img/image24.png)
+![:scale 40%](02-slides/assets/img/image24.png)
 
 ---
 class: center
 #  QUANTITATIVE CARTOGRAM 
 
-![:scale 70%](./02-slides/assets/img/image25.png)
+![:scale 70%](02-slides/assets/img/image25.png)
 
 ---
 class: center
 #  QUANTITATIVE FLOW 
 
-![:scale 75%](./02-slides/assets/img/image26.png)
+![:scale 75%](02-slides/assets/img/image26.png)
 
 ---
 class: center
 #  QUANTITATIVE MULTIVARIATE 
 
-![:scale 65%](./02-slides/assets/img/image27.jpg)
+![:scale 65%](02-slides/assets/img/image27.jpg)
 
 ---
 class: section-title-7 title-7 color-white center

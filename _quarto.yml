@@ -13,6 +13,7 @@ project:
     - "slides/libs/"
     - "slides/css/"
     - "slides/*_files/"
+    - "slides/*-slides/"
     - "slides/*.js"
 
 # See https://quarto.org/docs/projects/code-execution.html#freeze
