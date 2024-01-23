@@ -130,7 +130,18 @@
     "href": "content/02-content.html",
     "title": "How is GIS applied to the scientific method?",
     "section": "",
-    "text": "The Scientific Method\nThe Geographic Approach\nGeographic Representation",
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Course content",
+      "2: GIS and the Scientific Method"
+    ]
+  },
+  {
+    "objectID": "content/02-content.html#preparation",
+    "href": "content/02-content.html#preparation",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "",
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
     "crumbs": [
       "Course content",
       "2: GIS and the Scientific Method"
@@ -140,8 +151,8 @@
     "objectID": "content/02-content.html#content",
     "href": "content/02-content.html#content",
     "title": "How is GIS applied to the scientific method?",
-    "section": "",
-    "text": "The Scientific Method\nThe Geographic Approach\nGeographic Representation",
+    "section": "Content",
+    "text": "Content\n\nThe Scientific Method\nThe Geographic Approach\nGeographic Representation",
     "crumbs": [
       "Course content",
       "2: GIS and the Scientific Method"

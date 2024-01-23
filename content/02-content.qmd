@@ -21,6 +21,9 @@ slide_details <- tibble::tribble(
 )
 ```
 
+## Preparation
+Please read [Chapter 1: Maps, Society, and Technology](https://open.lib.umn.edu/mapping/chapter/1-maps-society-and-technology/) from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping/) [@Manson:2017].
+
 ## Content
 
 - The Scientific Method
