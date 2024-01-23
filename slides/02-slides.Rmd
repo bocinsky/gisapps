@@ -1,0 +1,352 @@
+---
+title: "How is GIS applied to the scientific method?"
+author: "Kyle Bocinsky"
+date: "2023-01-23"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+    seal: false
+    anchor_sections: false
+    nature:
+      beforeInit: "macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: false
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r packages-data, include=FALSE}
+library(tidyverse)
+# library(ggdag)
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view","broadcast"))
+xaringanExtra::use_share_again()
+
+```
+
+class: center middle main-title section-title-1
+
+# How is GIS applied to the scientific method?
+
+.class-info[
+Kyle Bocinsky
+.light[FORS350 / GPHY488<br>(Forestry) Applications of GIS<br>University of Montana<br>
+WA Franke College of Forestry & Conservation
+]
+
+]
+
+---
+#  Game plan
+
+.box-inv-2.medium[The Scientific Method]
+
+--
+
+.box-inv-4.medium[The Geographic Approach]
+
+--
+
+.box-inv-7.medium[Geographic Representation]
+
+
+---
+class: center middle main-title section-title-4
+
+# How do we know things about the world?
+---
+
+class: section-title-4 title-4 color-white
+
+# How do we know things about the world?
+
+--
+Some ways of knowing:
+
+- Personal experiences
+- Cultural traditions
+  - Education
+  - Accumulation of historical and philosophical insights
+- The Scientific Method
+  - exploration
+  - observation
+  - experimentation
+  - analysis
+
+---
+
+
+---
+layout: false
+name: class-details
+class: center middle
+
+#  What is the scientific method?
+![:scale 50%](https://upload.wikimedia.org/wikipedia/commons/2/27/The_Scientific_Method_%28simple%29.png)
+
+---
+layout: false
+class: title-01
+
+#  What is the scientific method?
+The modern scientific method is based on the work of René Descartes, one of the founders of contemporary Western science and philosophy. 
+
+Four rules of Cartesian inquiry:
+
+1. Accept nothing as true that is not self-evident
+2. Divide each problem into as many parts as possible
+3. Proceed from the simplest to the most complex
+4. Review everything to avoid errors
+
+---
+layout: false
+name: class-details
+class: center middle
+
+#  What is the scientific method?
+![:scale 50%](https://upload.wikimedia.org/wikipedia/commons/2/27/The_Scientific_Method_%28simple%29.png)
+
+
+---
+
+layout: false
+name: class-details
+class: center middle
+
+#  What is the geographic approach?
+![:scale 40%](http://wiki.gis.com/wiki/images/f/f0/Geographic_Approach.JPG)
+
+---
+
+#  What is the geographic approach?
+
+.pull-left.tiny[
+.large[**Step 1: Ask**]
+  - What is the problem to solve to analyze?
+  
+.large[**Step 2: Acquire**]
+  - What data are needed to complete the analysis?
+  
+.large[**Step 3: Examine**]
+  - How is it organized (schema)?
+  - How does it relate to other data (topology)?
+  - Where is it from (metadata)?
+  
+.large[**Step 4: Analyze**]
+  - Process and analyze data to achieve desired results.
+  
+.large[**Step 5: Act**]
+  - Present results as part of the decision-making process.
+
+.large[**Data → Information → Knowledge!**]
+]
+
+
+.pull-right[
+![:scale 85%](http://wiki.gis.com/wiki/images/f/f0/Geographic_Approach.JPG)
+
+]
+
+---
+class: section-title-7 title-7 color-white
+
+#  How do we form **spatial** hypotheses? 
+
+It starts with an observation, which then leads to a question about what was seen.
+
+ - While most things have a spatial component, it is worth asking if your observation has nothing to do with location.
+
+ - Once you believe your question has a spatial component, you can convert it to a hypothesis to be tested with GIS.
+
+.center[**The Geographic Approach can be thought to be nested within the hypothesis/experiment/analysis phase of the Scientific Method.**]
+
+---
+class: section-title-1 title-1 color-white
+
+#  How do we form a spatial hypotheses? 
+
+**1. OBSERVATION**
+
+Trees at the top of the slope are dying.
+
+--
+
+**2. QUESTION**
+
+Does elevation have anything to do with tree health?
+
+--
+
+**3. HYPOTHESES**
+
+More trees die at higher elevations than at lower elevations.
+
+--
+
+**4. EXPERIMENT**
+
+Randomly sample trees at different elevations to see if significantly more are dying on higher slopes.
+
+
+---
+#  Applications of GIS 
+
+What kinds of spatial problems can you use a geographic information system to answer?
+
+---
+class: center
+![:scale 50%](https://www.independent.co.ug/wp-content/uploads/2019/01/Antarctica-1.jpg)
+
+---
+class: center
+![:scale 50%](https://ichef.bbci.co.uk/news/1536/cpsprodpb/1EE5/production/_110590970_antarctica_ice_thickness_map_976-nc.png.webp)
+
+---
+class: center
+![:scale 70%](https://blogs.nasa.gov/earthexpeditions/wp-content/uploads/sites/257/2018/11/IMG_6329-1200x900.jpg)
+
+---
+class: center
+![:scale 90%](https://lamont.columbia.edu/sites/default/files/styles/cu_crop/public/cu_ldeo_news_import/96108/thwaites-2-637x358.png?itok=MxqD9wN1)
+
+---
+class: center
+![:scale 60%](https://images.theconversation.com/files/76131/original/image-20150326-8713-1fyzwcb.jpg?ixlib=rb-1.1.0&q=30&auto=format&w=754&h=676&fit=crop&dpr=2)
+
+---
+class: center
+![:scale 75%](http://www.geo.utexas.edu/courses/371c/MOW/2014S/Lab09/Lan9_Jacob%20Makis.jpg)
+
+---
+#  How is the Scientific Method applied with GIS ? 
+
+.center[
+What farmers markets are within 30 miles of the Trans America Trail?
+
+![:scale 60%](02-slides/assets/img/image16.png)
+
+]
+
+
+---
+#  How is the Scientific Method applied with GIS ? 
+
+.center[
+
+![:scale 70%](02-slides/assets/img/image17.png)
+]
+
+---
+class: section-title-3 title-3 color-white center
+
+# Can Missoula meet its electricity needs<br>with roof-top solar? 
+
+
+The earth at sea level receives about 1,000 Watts per square meter.
+
+How can we use GIS to answer this question? What data do we need?
+
+---
+class: center
+
+#  What is Thematic Cartography? 
+
+![:scale 60%](02-slides/assets/img/image15.png)
+
+---
+class: center
+
+![:scale 75%](02-slides/assets/img/image16 2.png)
+
+---
+class: center
+
+#  The Point… is to turn this: 
+
+![:scale 43%](02-slides/assets/img/image17.jpg)
+
+---
+class: center
+
+#  Into This!
+
+![:scale 60%](02-slides/assets/img/image18 2.png)
+
+---
+class: center
+#  REFERENCE 
+
+![:scale 45%](02-slides/assets/img/image19.jpg)
+
+---
+class: center
+#  QUALITATIVE 
+
+![:scale 30%](02-slides/assets/img/image20.jpg)
+
+---
+class: center
+#  QUANTITATIVE CHOROPLETH 
+
+![:scale 35%](02-slides/assets/img/image21.jpg)
+
+---
+class: center
+#  QUANTITATIVE PROPORTIONAL SYMBOL 
+
+![:scale 80%](02-slides/assets/img/image22.jpg)
+
+---
+class: center
+#  QUANTITATIVE ISARITHMIC 
+
+![:scale 55%](02-slides/assets/img/image23.jpg)
+
+---
+class: center
+#  QUANTITATIVEDOT DENSITY 
+
+![:scale 40%](02-slides/assets/img/image24.png)
+
+---
+class: center
+#  QUANTITATIVE CARTOGRAM 
+
+![:scale 70%](02-slides/assets/img/image25.png)
+
+---
+class: center
+#  QUANTITATIVE FLOW 
+
+![:scale 75%](02-slides/assets/img/image26.png)
+
+---
+class: center
+#  QUANTITATIVE MULTIVARIATE 
+
+![:scale 65%](02-slides/assets/img/image27.jpg)
+
+---
+class: section-title-7 title-7 color-white center
+#  SO WHAT's IMPORTANT? 
+
+.large[**Make maps people want to look at!**]
+
+A good Map gives the user access to the data that is not readily available in the table. GIS answers questions that only spatial analysis can!
+
+(It also should keep their eyes from rolling back in their heads as they drift off to a happy place!)
+
+

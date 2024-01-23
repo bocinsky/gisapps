@@ -1,0 +1,174 @@
+---
+title: ' Welcome! '
+subtitle: 'FORS 350 \ GPHY 488 – GIS Applications'
+author: Mcmanigal, Kevin
+date: 2024-01-21
+output:
+  xaringan::moon_reader:
+  lib_dir: libs
+  nature:
+    highlightStyle: github
+    highlightLines: true
+    countIncrementalSlides: false
+---
+#  Syllabus 
+
++ Posted online….. Read it! *Please, please, please, read it …….
+	+ Textbook….. Weekly readings on Moodle.
+	+ Lecture….. Come, participate, do well.
+	+ Labs….. Introduced Thursdays in Lecture.
+	+ Map Tutorials….. Individual Interests… complete on your own.
+	+ Notebook….. Fill it up, use it, keep it. * Not graded
+	+ Exams….. Only two, review sheet, easy A.
+	+ Moodle….. When, What , & Where, its all there. (everything accept why…….)
+Good luck, and thanks for all the fish!!
+
+
+---
+#  Housekeeping 
+
+Just in case you “don’t read bruh ”, here’s some Moodle action for you!
+
+
+---
+
+![](assets/img/image2.jpg)
+
+---
+#  Pay Attention!! 
+
+https://www.youtube.com/watch?v=14Nb45CS9og
+![](assets/img/image3.png)
+[](https://www.youtube.com/watch?v=14Nb45CS9og)
+
+---
+
+![](assets/img/image4.tif)
+
+---
+
+![](assets/img/image5.tif)
+
+---
+#  The Average Semester! 
+
+GPA 4.0!
+GPA ?
+![](assets/img/image6.png)
+
+---
+#  Stress Management Strategies! 
+
+![](assets/img/image7.png)
+
+---
+#  Applications of GIS 
+
+What kinds of spatial problems can you use a geographic information system to answer?
+
+---
+
+![](assets/img/image8.jpg)
+
+---
+
+![](assets/img/image9.png)
+
+---
+
+![](assets/img/image10.jpg)
+
+---
+
+![](assets/img/image11.png)
+
+---
+
+![](assets/img/image12.png)
+
+---
+
+![](assets/img/image13.jpg)
+
+---
+
+![](assets/img/image14.png)
+
+---
+#  What is Thematic Cartography? 
+
+
+![](assets/img/image15.png)
+
+---
+
+![](assets/img/image16.tiff)
+
+---
+#  The Point… is to turn this: 
+
+![](assets/img/image17.jpg)
+
+---
+#  Into This!! 
+
+![](assets/img/image18.png)
+
+---
+#  REFERENCE 
+
+![](assets/img/image19.jpg)
+
+---
+#  QUALITATIVE 
+
+![](assets/img/image20.jpg)
+
+---
+#  QUANTITATIVE CHOROPLETH 
+
+![](assets/img/image21.jpg)
+
+---
+#  QUANTITATIVE PROPORTIONAL SYMBOL 
+
+![](assets/img/image22.jpg)
+
+---
+#  QUANTITATIVE ISARITHMIC 
+
+![](assets/img/image23.jpg)
+
+---
+#  QUANTITATIVEDOT DENSITY 
+
+![](assets/img/image24.png)
+
+---
+#  QUANTITATIVE CARTOGRAM 
+
+![](assets/img/image25.png)
+
+---
+#  QUANTITATIVE FLOW 
+
+![](assets/img/image26.png)
+
+---
+#  QUANTITATIVE MULTIVARIATE 
+
+![](assets/img/image27.jpg)
+
+---
+#  SO…… WHAT’s…… IMPORTANT? 
+
+A good Map gives the user access to the data that is not readily available in the table. GIS answers questions that only spatial analysis can!
+(It also should keep their eyes from rolling back in their heads as they drift off to a happy place!)
+ABOVE ALL… Make maps people want to look at!! (Which will give you about 2 more seconds to teach them something!)
+
+---
+#  Multi-tasking is an illusion! 
+
+https://www.youtube.com/watch?v=nM3xVPBA62M
+![](assets/img/image3.png)
+[](https://www.youtube.com/watch?v=nM3xVPBA62M)
