@@ -27,8 +27,8 @@ Here is a table of due dates:
 
 |       | Wednesday Section | Thursday Section |
 | :---        |    :----   |          :--- |
-| Lab 1      | February 7       | February 8   |
-| Lab 2   | February 14       | February 15   |
-| Lab 3   | February 21       | February 22   |
+| Map Tutorial 1      | February 7       | February 8   |
+| Map Tutorial 2   | February 14       | February 15   |
+| Map Tutorial 3   | February 21       | February 22   |
 
 **Turn in your map tutorials using this Microsoft Form: <https://forms.office.com/r/BF15Ut95MR>{target="_blank"}.** You will be required to sign in using your UMConnect email address (`NetID@umconnect.umt.edu`). If you have trouble reaching the form, please let me know ASAP.
