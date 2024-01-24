@@ -98,75 +98,70 @@
     "text": "Grading rubric\n\nIdentification of strength and weaknesses: 10\nCorrectness of the interpretation of statistical results: 10\nScope: 10\nClarity of report: 10\nUsefulness of suggestions: 5\nWriting and referencing: 5"
   },
   {
-    "objectID": "evaluations/final-exam.html",
-    "href": "evaluations/final-exam.html",
-    "title": "Final examination",
+    "objectID": "evaluations/index.html",
+    "href": "evaluations/index.html",
+    "title": "Evaluations",
     "section": "",
-    "text": "The final is a 180 minutes closed-book examination covering all of the material from class.\nThe exam format is as follows:\n\nOne question on the fundamentals of experimental designs (blocking, randomization, etc.)\nOne question on reproducibility/replication crisis\nOne question on key concepts (power, effect size, multiple testing).\nOne question on advanced topics (mixed models, causal inference and mediation analysis, etc.)\nTwo data analysis questions, using completely randomized or blocked designs (between-subjects or within-subject) with multi-way analysis of variance, ANCOVA, mixed model, with specific questions on various aspects including\n\nparametrization of ANOVA\nadequate setup of model\ninteraction plots\nuse of different tests and methods\ncalculation of degrees of freedom of the model / sample size\nconclusions related to output of tests\ninterpretation of effect sizes\ncontrasts and pairwise comparisons\ntests for model assumptions and diagnostic plots\n\n\nA practice final can be downloaded here"
+    "text": "Instructions for the various evaluations and assessments will be posted here as the semester progresses, so please bookmark this site."
   },
   {
-    "objectID": "evaluations/06-problem-set.html",
-    "href": "evaluations/06-problem-set.html",
-    "title": "Problem set 6",
+    "objectID": "evaluations/index.html#syllabus-quiz-10-points",
+    "href": "evaluations/index.html#syllabus-quiz-10-points",
+    "title": "Evaluations",
+    "section": "Syllabus Quiz (10 points)",
+    "text": "Syllabus Quiz (10 points)\nThere will be a syllabus quiz on Tuesday, January 30. Ten questions, ten points."
+  },
+  {
+    "objectID": "evaluations/index.html#participationquizzescheck-ins-140-points",
+    "href": "evaluations/index.html#participationquizzescheck-ins-140-points",
+    "title": "Evaluations",
+    "section": "Participation/Quizzes/Check-ins (140 points)",
+    "text": "Participation/Quizzes/Check-ins (140 points)\nThroughout the semester, I will have short activities, participation quizzes, and check-ins. I use these to track progress and participation in the course. Each will generally be worth 10 points, for a total of 140 points."
+  },
+  {
+    "objectID": "evaluations/index.html#labs-500-points-and-map-tutorials-150-points",
+    "href": "evaluations/index.html#labs-500-points-and-map-tutorials-150-points",
+    "title": "Evaluations",
+    "section": "Labs (500 points) and Map Tutorials (150 points)",
+    "text": "Labs (500 points) and Map Tutorials (150 points)\nLabs will consist of exercises that provide a means to put theory as presented through the lectures and reading material into practice. The labs are software intensive utilizing ESRI ArcGIS Pro and sometimes Microsoft Excel. There will be instructions for each lab that outline the learning objectives and the steps that should be taken to complete the project. Although some steps will be written-up in detail, there will not be explicit instructions for every button-click in the software. The student is responsible for applying the on-screen demonstrations, technique videos, and outside resources that will be introduced by the instructor. Each lab will be documented in a report that follows the standard scientific format. This includes the following sections: Introduction, Methods, Results, Discussion, Conclusion and References. We will cover how to write the various sections of the report and build up to a complete paper for the final projects. The maps, tables, and graphs generated in labs are to be used as figures for the reports. Always place maps as large as possible, one to a page, rotated if necessary. A Scientific Report Template will be provided and must be used or points will be deducted. Each lab write-up is worth 100 points.\nThree shorter Map Tutorials will round out your GIS skill set, and/or will serve as an introduction to ArcPro for those of you who have taken past courses using the legacy ArcMap software. Each map tutorial write-up is worth 50 points.\nAll labs and map tutorials will be submitted into separate Microsoft Forms in Microsoft Word format only. (We will give you feedback using track changes in Word.) Please see the individual assignment pages for specific due dates and instructions."
+  },
+  {
+    "objectID": "evaluations/index.html#resource-notebook-100-points",
+    "href": "evaluations/index.html#resource-notebook-100-points",
+    "title": "Evaluations",
+    "section": "Resource Notebook (100 points)",
+    "text": "Resource Notebook (100 points)\nEach student is required to create a digital notebook filled with the content featured in the class. The purpose of this notebook is to give the student a “take-away” resource of GIS techniques for future mapping projects. On the class server (“T:\\\\ Drive”), under your personal student folder, create a sub-folder called “Resources”, within which you should start documenting and useful information you glean from this course. You may develop your resource notebook in whatever organization you like, but a possible organization would be sub-folders named Readings, Lectures, Map Tutorials, and Labs. Do not wait until the last minute to put together the notebook. Start adding content the first week and continue to keep it organized throughout the semester. It will be your one-stop reference for the theory and techniques covered in class. Extra material can include exam study guides and other resources from the web. The notebook will be checked toward the end of the semester for a grade worth 100 points."
+  },
+  {
+    "objectID": "evaluations/index.html#midterm-exam-200-points-and-final-exam-250-points",
+    "href": "evaluations/index.html#midterm-exam-200-points-and-final-exam-250-points",
+    "title": "Evaluations",
+    "section": "Midterm Exam (200 points) and Final Exam (250 points)",
+    "text": "Midterm Exam (200 points) and Final Exam (250 points)\nYou are responsible for knowing everything read or said in this class. Exams will have several sections starting with multiple choice and true or false questions. Then there will be a definition matching section based on the glossary terms in the readings. Finally, essay questions will require you to evaluate a map, outline the theory behind a GIS analysis technique, or discuss other course content. The final exam is comprehensive, including content evaluated by the midterm exam. The Final Exam is longer and is worth more points (250) than the Midterm (200). Exams are closed-book."
+  },
+  {
+    "objectID": "evaluations/index.html#final-group-projects-600-points",
+    "href": "evaluations/index.html#final-group-projects-600-points",
+    "title": "Evaluations",
+    "section": "Final Group Projects (600 points)",
+    "text": "Final Group Projects (600 points)\nA semester-long assignment, the group GIS project requires the students to identify a unique resource management problem that can be answered with GIS analysis. Each group must submit a project proposal following a format that will be discussed in class. As a group, you will develop a research question, review the literature for what techniques have been applied previously, decide what data is required, and design the methods for your analysis. You will document your analysis in an ESRI StoryMap that will roughly follow the scientific format used in the lab reports with the addition of a small literature review. You will include maps, graphs, tables, and figures that support your research and its results. The project design, workflow and conclusions will be presented to the class at the end of the semester. The 600 point project is worth 30 percent of your total grade and is divided as follows:\n\n\n\nComponent\nPoints\n\n\n\n\nProject Proposal\n100 pts.\n\n\nFinal Group StoryMap\n400 pts.\n\n\nPresentation\n100 pts."
+  },
+  {
+    "objectID": "evaluations/08-problem-set.html",
+    "href": "evaluations/08-problem-set.html",
+    "title": "Problem set 8",
     "section": "",
-    "text": "Submission information: please submit on ZoneCours"
+    "text": "Submission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nLook at the effect size and power; this should be helpful in completing the problem set.\nThe following text is a quote from Investigating variation in replicability: A “Many Labs” Replication Project by Richard A. Klein, Kate A. Ratliff, and Brian A. Nosek (pp. 13-14) about a replication of Oppenheimer & Monin (2009) work on the retrospective gambler fallacy.\n\nThe differences between groups was reliable, omnibus \\(F(2, 77) = 4.8\\), […] Cohen’s \\(f = 0.18\\). Pairwise comparisons showed that all differences between conditions were reliable as well, \\(t(47, 48, 57) = 1.94, 2.32, 2.65\\); \\(p &lt; .05\\), Cohen’s \\(d\\) = \\((.56, .67, .69)\\).\n\n\nUsing the information from the quote, compute the effect size \\(\\widehat{\\omega}^2\\).1 Also check that you get the same value of Cohen’s \\(f\\) (up to rounding) that is reported.\nCompute the overall sample size necessary to replicate this study with a power of at least \\(0.99\\): compute the power for both the overall effect and the three pairwise \\(t\\)-tests based on the reported values of Cohen’s \\(d\\) and pick the maximum sample size needed.\nRead the results of the replication in ManyLabs1; these are illustrated in Figure 1 and summary statistics about standardized mean differences (Cohen’s \\(d\\)) are reported in Table 2 (Klein et al., 2014) under retrospective gambler fallacy. Comment about the success of the replication.\nBased on observation of Figure 1 of Klein et al. (2014), why might one object to using estimated effect size reported in peer-reviewed papers?2\n\n\n\n\n\n\nReferences\n\nKlein, R. A., Ratliff, K. A., Vianello, M., Adams Jr., R. B., Bahník, Š., Bernstein, M. J., Bocian, K., Brandt, M. J., Brooks, B., Brumbaugh, C. C., Cemalcilar, Z., Chandler, J., Cheong, W., Davis, W. E., Devos, T., Eisner, M., Frankowska, N., Furrow, D., Galliani, E. M., … Nosek, B. A. (2014). Investigating variation in replicability: A “many labs” replication project. Social Psychology, 45, 142–152. https://doi.org/10.1027/1864-9335/a000178\n\n\nOppenheimer, D. M., & Monin, B. (2009). The retrospective gambler’s fallacy: Unlikely events, constructing the past, and multiple universes. Judgment and Decision Making, 4, 326–334.\n\nFootnotes\n\n\nIn R, check out the function F_to_omega2 from the effectsize package. You can also use the formula presented in the slides.↩︎\nHint: are the original effect size in line with the replications or not?↩︎"
   },
   {
-    "objectID": "evaluations/06-problem-set.html#task-1",
-    "href": "evaluations/06-problem-set.html#task-1",
-    "title": "Problem set 6",
-    "section": "Task 1",
-    "text": "Task 1\nRead Wilkinson (1999)’s guidelines for reporting statistical analyses.\nNext, look at one of the experiments conducted in Stekelenburg et al. (2021). Cross-check with the guidelines and formulate criticism (positive or negative) in relation with the reporting done by the authors."
-  },
-  {
-    "objectID": "evaluations/06-problem-set.html#task-2",
-    "href": "evaluations/06-problem-set.html#task-2",
-    "title": "Problem set 6",
-    "section": "Task 2",
-    "text": "Task 2\nRead Nosek et al. (2018) and list three benefits of preregistration. Reflect on the practical aspects and on the impact.1\nWe will organize a discussion in the near future in class on preregistration and the replication crisis."
-  },
-  {
-    "objectID": "content/02-content.html",
-    "href": "content/02-content.html",
-    "title": "How is GIS applied to the scientific method?",
+    "objectID": "content/index.html",
+    "href": "content/index.html",
+    "title": "Readings and Lectures",
     "section": "",
-    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "text": "Course content will be added throughout the semester, so please bookmark this site.\nEach class session has a set of required readings that you should complete before attending the lecture. I will post lecture slides after the lecture.\nThe lecture slides are special HTML files made with the R package xaringan . On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:\n\n View all slides in new window  Download PDF of all slides\n\nThe slides are also embedded on each page. You can click in the slides and navigate through them with ← and →. If you type ? (or shift + /) while viewing the slides you can see a list of slide-specific commands (like f for fullscreen or p for presenter mode if you want to see my notes).",
     "crumbs": [
-      "Course content",
-      "2: GIS and the Scientific Method"
-    ]
-  },
-  {
-    "objectID": "content/02-content.html#preparation",
-    "href": "content/02-content.html#preparation",
-    "title": "How is GIS applied to the scientific method?",
-    "section": "",
-    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Course content",
-      "2: GIS and the Scientific Method"
-    ]
-  },
-  {
-    "objectID": "content/02-content.html#content",
-    "href": "content/02-content.html#content",
-    "title": "How is GIS applied to the scientific method?",
-    "section": "Content",
-    "text": "Content\n\nThe Scientific Method\nThe Geographic Approach\nGeographic Representation",
-    "crumbs": [
-      "Course content",
-      "2: GIS and the Scientific Method"
-    ]
-  },
-  {
-    "objectID": "content/02-content.html#slides",
-    "href": "content/02-content.html#slides",
-    "title": "How is GIS applied to the scientific method?",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "2: GIS and the Scientific Method"
+      "Overview",
+      "Readings and Lectures"
     ]
   },
   {
@@ -225,71 +220,104 @@
     ]
   },
   {
-    "objectID": "content/index.html",
-    "href": "content/index.html",
-    "title": "Readings and Lectures",
+    "objectID": "content/02-content.html",
+    "href": "content/02-content.html",
+    "title": "How is GIS applied to the scientific method?",
     "section": "",
-    "text": "Course content will be added throughout the semester, so please bookmark this site.\nEach class session has a set of required readings that you should complete before attending the lecture. I will post lecture slides after the lecture.\nThe lecture slides are special HTML files made with the R package xaringan . On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:\n\n View all slides in new window  Download PDF of all slides\n\nThe slides are also embedded on each page. You can click in the slides and navigate through them with ← and →. If you type ? (or shift + /) while viewing the slides you can see a list of slide-specific commands (like f for fullscreen or p for presenter mode if you want to see my notes).",
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
     "crumbs": [
-      "Overview",
-      "Readings and Lectures"
+      "Course content",
+      "2: GIS and the Scientific Method"
     ]
   },
   {
-    "objectID": "evaluations/08-problem-set.html",
-    "href": "evaluations/08-problem-set.html",
-    "title": "Problem set 8",
+    "objectID": "content/02-content.html#preparation",
+    "href": "content/02-content.html#preparation",
+    "title": "How is GIS applied to the scientific method?",
     "section": "",
-    "text": "Submission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nLook at the effect size and power; this should be helpful in completing the problem set.\nThe following text is a quote from Investigating variation in replicability: A “Many Labs” Replication Project by Richard A. Klein, Kate A. Ratliff, and Brian A. Nosek (pp. 13-14) about a replication of Oppenheimer & Monin (2009) work on the retrospective gambler fallacy.\n\nThe differences between groups was reliable, omnibus \\(F(2, 77) = 4.8\\), […] Cohen’s \\(f = 0.18\\). Pairwise comparisons showed that all differences between conditions were reliable as well, \\(t(47, 48, 57) = 1.94, 2.32, 2.65\\); \\(p &lt; .05\\), Cohen’s \\(d\\) = \\((.56, .67, .69)\\).\n\n\nUsing the information from the quote, compute the effect size \\(\\widehat{\\omega}^2\\).1 Also check that you get the same value of Cohen’s \\(f\\) (up to rounding) that is reported.\nCompute the overall sample size necessary to replicate this study with a power of at least \\(0.99\\): compute the power for both the overall effect and the three pairwise \\(t\\)-tests based on the reported values of Cohen’s \\(d\\) and pick the maximum sample size needed.\nRead the results of the replication in ManyLabs1; these are illustrated in Figure 1 and summary statistics about standardized mean differences (Cohen’s \\(d\\)) are reported in Table 2 (Klein et al., 2014) under retrospective gambler fallacy. Comment about the success of the replication.\nBased on observation of Figure 1 of Klein et al. (2014), why might one object to using estimated effect size reported in peer-reviewed papers?2\n\n\n\n\n\n\nReferences\n\nKlein, R. A., Ratliff, K. A., Vianello, M., Adams Jr., R. B., Bahník, Š., Bernstein, M. J., Bocian, K., Brandt, M. J., Brooks, B., Brumbaugh, C. C., Cemalcilar, Z., Chandler, J., Cheong, W., Davis, W. E., Devos, T., Eisner, M., Frankowska, N., Furrow, D., Galliani, E. M., … Nosek, B. A. (2014). Investigating variation in replicability: A “many labs” replication project. Social Psychology, 45, 142–152. https://doi.org/10.1027/1864-9335/a000178\n\n\nOppenheimer, D. M., & Monin, B. (2009). The retrospective gambler’s fallacy: Unlikely events, constructing the past, and multiple universes. Judgment and Decision Making, 4, 326–334.\n\nFootnotes\n\n\nIn R, check out the function F_to_omega2 from the effectsize package. You can also use the formula presented in the slides.↩︎\nHint: are the original effect size in line with the replications or not?↩︎"
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Course content",
+      "2: GIS and the Scientific Method"
+    ]
   },
   {
-    "objectID": "evaluations/index.html",
-    "href": "evaluations/index.html",
-    "title": "Evaluations",
+    "objectID": "content/02-content.html#content",
+    "href": "content/02-content.html#content",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "Content",
+    "text": "Content\n\nThe Scientific Method\nThe Geographic Approach\nGeographic Representation",
+    "crumbs": [
+      "Course content",
+      "2: GIS and the Scientific Method"
+    ]
+  },
+  {
+    "objectID": "content/02-content.html#slides",
+    "href": "content/02-content.html#slides",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
+    "crumbs": [
+      "Course content",
+      "2: GIS and the Scientific Method"
+    ]
+  },
+  {
+    "objectID": "evaluations/06-problem-set.html",
+    "href": "evaluations/06-problem-set.html",
+    "title": "Problem set 6",
     "section": "",
-    "text": "Instructions for the various evaluations and assessments will be posted here as the semester progresses, so please bookmark this site."
+    "text": "Submission information: please submit on ZoneCours"
   },
   {
-    "objectID": "evaluations/index.html#syllabus-quiz-10-points",
-    "href": "evaluations/index.html#syllabus-quiz-10-points",
-    "title": "Evaluations",
-    "section": "Syllabus Quiz (10 points)",
-    "text": "Syllabus Quiz (10 points)\nThere will be a syllabus quiz on Tuesday, January 30. Ten questions, ten points."
+    "objectID": "evaluations/06-problem-set.html#task-1",
+    "href": "evaluations/06-problem-set.html#task-1",
+    "title": "Problem set 6",
+    "section": "Task 1",
+    "text": "Task 1\nRead Wilkinson (1999)’s guidelines for reporting statistical analyses.\nNext, look at one of the experiments conducted in Stekelenburg et al. (2021). Cross-check with the guidelines and formulate criticism (positive or negative) in relation with the reporting done by the authors."
   },
   {
-    "objectID": "evaluations/index.html#participationquizzescheck-ins-140-points",
-    "href": "evaluations/index.html#participationquizzescheck-ins-140-points",
-    "title": "Evaluations",
-    "section": "Participation/Quizzes/Check-ins (140 points)",
-    "text": "Participation/Quizzes/Check-ins (140 points)\nThroughout the semester, I will have short activities, participation quizzes, and check-ins. I use these to track progress and participation in the course. Each will generally be worth 10 points, for a total of 140 points."
+    "objectID": "evaluations/06-problem-set.html#task-2",
+    "href": "evaluations/06-problem-set.html#task-2",
+    "title": "Problem set 6",
+    "section": "Task 2",
+    "text": "Task 2\nRead Nosek et al. (2018) and list three benefits of preregistration. Reflect on the practical aspects and on the impact.1\nWe will organize a discussion in the near future in class on preregistration and the replication crisis."
   },
   {
-    "objectID": "evaluations/index.html#labs-500-points-and-map-tutorials-150-points",
-    "href": "evaluations/index.html#labs-500-points-and-map-tutorials-150-points",
-    "title": "Evaluations",
-    "section": "Labs (500 points) and Map Tutorials (150 points)",
-    "text": "Labs (500 points) and Map Tutorials (150 points)\nLabs will consist of exercises that provide a means to put theory as presented through the lectures and reading material into practice. The labs are software intensive utilizing ESRI ArcGIS Pro and sometimes Microsoft Excel. There will be instructions for each lab that outline the learning objectives and the steps that should be taken to complete the project. Although some steps will be written-up in detail, there will not be explicit instructions for every button-click in the software. The student is responsible for applying the on-screen demonstrations, technique videos, and outside resources that will be introduced by the instructor. Each lab will be documented in a report that follows the standard scientific format. This includes the following sections: Introduction, Methods, Results, Discussion, Conclusion and References. We will cover how to write the various sections of the report and build up to a complete paper for the final projects. The maps, tables, and graphs generated in labs are to be used as figures for the reports. Always place maps as large as possible, one to a page, rotated if necessary. A Scientific Report Template will be provided and must be used or points will be deducted. All labs are worth 100 points.\nThree shorter Map Tutorials will round out your GIS skill set, and/or will serve as an introduction to ArcPro for those of you who have taken past courses using the legacy ArcMap software. All Map Tutorials are worth 50 points.\nAll labs and map tutorials will be submitted into separate Moodle drop-boxes in MS Word format only. (We will give you feedback using track changes in Word.) The drop-boxes for labs will have a due-by-time of 2:00 PM on the Wednesday that the lab is due.\nHowever, the drop-box remains open until the final cut-off exactly one week later (2:00 PM, the next Wednesday). Moodle time-stamps submissions automatically, so we are alerted to all late labs. There will be a 10% deduction for labs and map tutorials submitted in the grace period. No labs or map tutorials will be accepted after the final drop-box cutoff!"
+    "objectID": "evaluations/final-exam.html",
+    "href": "evaluations/final-exam.html",
+    "title": "Final examination",
+    "section": "",
+    "text": "The final is a 180 minutes closed-book examination covering all of the material from class.\nThe exam format is as follows:\n\nOne question on the fundamentals of experimental designs (blocking, randomization, etc.)\nOne question on reproducibility/replication crisis\nOne question on key concepts (power, effect size, multiple testing).\nOne question on advanced topics (mixed models, causal inference and mediation analysis, etc.)\nTwo data analysis questions, using completely randomized or blocked designs (between-subjects or within-subject) with multi-way analysis of variance, ANCOVA, mixed model, with specific questions on various aspects including\n\nparametrization of ANOVA\nadequate setup of model\ninteraction plots\nuse of different tests and methods\ncalculation of degrees of freedom of the model / sample size\nconclusions related to output of tests\ninterpretation of effect sizes\ncontrasts and pairwise comparisons\ntests for model assumptions and diagnostic plots\n\n\nA practice final can be downloaded here"
   },
   {
-    "objectID": "evaluations/index.html#resource-notebook-100-points",
-    "href": "evaluations/index.html#resource-notebook-100-points",
-    "title": "Evaluations",
-    "section": "Resource Notebook (100 points)",
-    "text": "Resource Notebook (100 points)\nEach student is required to create a digital notebook filled with the content featured in the class. The purpose of this notebook is to give the student a “take-away” resource of GIS techniques for future mapping projects. On the class server (“T:\\\\ Drive”), under your personal student folder, create a sub-folder called “Resources”, within which you should start documenting and useful information you glean from this course. You may develop your resource notebook in whatever organization you like, but a possible organization would be sub-folders named Readings, Lectures, Map Tutorials, and Labs. Do not wait until the last minute to put together the notebook. Start adding content the first week and continue to keep it organized throughout the semester. It will be your one-stop reference for the theory and techniques covered in class. Extra material can include exam study guides and other resources from the web. The notebook will be checked toward the end of the semester for a grade worth 100 points."
+    "objectID": "evaluations/map-tutorials.html",
+    "href": "evaluations/map-tutorials.html",
+    "title": "Self-study Map Tutorials",
+    "section": "",
+    "text": "ERSI provides over 75 short tutorials covering various applied GIS skills in ArcGIS Pro. They cover a wide range of disciplines, so you can tailor your learning to specific interests. The ArcGIS Pro Map Tutorials are available here. That link filters the list by “Product” as ArcGIS Pro, and “Type” as Tutorial."
   },
   {
-    "objectID": "evaluations/index.html#midterm-exam-200-points-and-final-exam-250-points",
-    "href": "evaluations/index.html#midterm-exam-200-points-and-final-exam-250-points",
-    "title": "Evaluations",
-    "section": "Midterm Exam (200 points) and Final Exam (250 points)",
-    "text": "Midterm Exam (200 points) and Final Exam (250 points)\nYou are responsible for knowing everything read or said in this class. Exams will have several sections starting with multiple choice and true or false questions. Then there will be a definition matching section based on the glossary terms in the readings. Finally, essay questions will require you to evaluate a map, outline the theory behind a GIS analysis technique, or discuss other course content. The final exam is comprehensive, including content evaluated by the midterm exam. The Final Exam is longer and is worth more points (250) than the Midterm (200). Exams are closed-book."
+    "objectID": "evaluations/map-tutorials.html#description",
+    "href": "evaluations/map-tutorials.html#description",
+    "title": "Self-study Map Tutorials",
+    "section": "Description",
+    "text": "Description\nYou are required to do the Migrate from ArcMap to ArcGIS Pro tutorial, plus three (3) others of your choosing. The migration tutorial is not only useful for getting to know some of the new features and idiosyncrasies of ArcPro, but also is an gentle way to re-acquaint yourself with ArcGIS for the course.\nYou are responsible for writing up the three free-choice map tutorials format detailed below (no write-up is required for the migration tutorial). Each write-up is worth 50 points each and are graded as Excellent (50), Good (40), Fair (30), or Poor (20)."
   },
   {
-    "objectID": "evaluations/index.html#final-group-projects-600-points",
-    "href": "evaluations/index.html#final-group-projects-600-points",
-    "title": "Evaluations",
-    "section": "Final Group Projects (600 points)",
-    "text": "Final Group Projects (600 points)\nA semester-long assignment, the group GIS project requires the students to identify a unique resource management problem that can be answered with GIS analysis. Each group must submit a project proposal following a format that will be discussed in class. As a group, you will develop a research question, review the literature for what techniques have been applied previously, decide what data is required, and design the methods for your analysis. You will document your analysis in an ESRI StoryMap that will roughly follow the scientific format used in the lab reports with the addition of a small literature review. You will include maps, graphs, tables, and figures that support your research and its results. The project design, workflow and conclusions will be presented to the class at the end of the semester. The 600 point project is worth 30 percent of your total grade and is divided as follows:\n\n\n\nComponent\nPoints\n\n\n\n\nProject Proposal\n100 pts.\n\n\nFinal Group StoryMap\n400 pts.\n\n\nPresentation\n100 pts."
+    "objectID": "evaluations/map-tutorials.html#deliverables",
+    "href": "evaluations/map-tutorials.html#deliverables",
+    "title": "Self-study Map Tutorials",
+    "section": "Deliverables",
+    "text": "Deliverables\nPlease create a short write-up of your methods and approach to each free-choice tutorial. This should include a brief introduction describing why you chose the particular tutorial, followed by a high-level description of the steps you took to create your final map. It should end with your map. Always place maps as large as possible, one to a page, rotated if necessary. The map tutorial write-ups are rarely more than a page of text with a separate map.\nPlease use this map tutorial write-up template for your write-ups.1\nPlease save your map tutorial write-up as a Microsoft Word document. Please give your map tutorial the file name in this format:\n\n[last name]_map-tutorial_[#].docx\n\nwhere # is the number of map tutorial you are turning in (i.e., 1, 2, 3). For example, my second tutorial would be Bocinsky_map-tutorial_2.docx."
+  },
+  {
+    "objectID": "evaluations/map-tutorials.html#due-dates",
+    "href": "evaluations/map-tutorials.html#due-dates",
+    "title": "Self-study Map Tutorials",
+    "section": "Due Dates",
+    "text": "Due Dates\nMap tutorial write-ups are due weekly after your second lab session. You are expected to complete the Migration tutorial (no write-up) the first week, and then a map tutorial per week for the following three weeks.\nLabs are due by 2:00 PM Mountain Time.\nHere is a table of due dates:\n\n\n\n\nWednesday Section\nThursday Section\n\n\n\n\nLab 1\nFebruary 7\nFebruary 8\n\n\nLab 2\nFebruary 14\nFebruary 15\n\n\nLab 3\nFebruary 21\nFebruary 22\n\n\n\nTurn in your map tutorials using this Microsoft Form: https://forms.office.com/r/BF15Ut95MR. You will be required to sign in using your UMConnect email address (NetID@umconnect.umt.edu). If you have trouble reaching the form, please let me know ASAP."
   },
   {
     "objectID": "evaluations/weekly-check-in.html",

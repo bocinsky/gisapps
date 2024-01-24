@@ -1,0 +1,34 @@
+---
+title: "Self-study Map Tutorials"
+---
+
+ERSI provides over 75 short tutorials covering various applied GIS skills in ArcGIS Pro. They cover a wide range of disciplines, so you can tailor your learning to specific interests. The [ArcGIS Pro Map Tutorials are available here](https://learn.arcgis.com/en/gallery/#?p=arcgispro&t=lesson,notebooklesson){target="_blank"}. That link filters the list by "Product" as ArcGIS Pro, and "Type" as Tutorial.
+
+## Description
+
+**You are required to do the [Migrate from ArcMap to ArcGIS Pro](https://learn.arcgis.com/en/projects/migrate-from-arcmap-to-arcgis-pro/){target="_blank"} tutorial, plus three (3) others of your choosing.** The migration tutorial is not only useful for getting to know some of the new features and idiosyncrasies of ArcPro, but also is an gentle way to re-acquaint yourself with ArcGIS for the course.
+
+**You are responsible for writing up the three free-choice map tutorials format detailed below (no write-up is required for the migration tutorial).** Each write-up is worth 50 points each and are graded as Excellent (50), Good (40), Fair (30), or Poor (20).
+
+## Deliverables
+
+Please create a short write-up of your methods and approach to each free-choice tutorial. This should include a brief introduction describing why you chose the particular tutorial, followed by a high-level description of the steps you took to create your final map. It should end with your map. Always place maps as large as possible, one to a page, rotated if necessary. The map tutorial write-ups are rarely more than a page of text with a separate map.
+
+Please use this [map tutorial write-up template](map-tutorial-template.docx) for your write-ups.^[All credit goes to Kevin McManigal, who developed this course and most of the lab and map tutorial formats herein.] 
+
+Please save your map tutorial write-up as a Microsoft Word document. Please give your map tutorial the file name in this format:<br><center>`[last name]_map-tutorial_[#].docx`<br></center>where `#` is the number of map tutorial you are turning in (i.e., 1, 2, 3). For example, my second tutorial would be `Bocinsky_map-tutorial_2.docx`.
+
+## Due Dates
+Map tutorial write-ups are due weekly after your second lab session. You are expected to complete the Migration tutorial (no write-up) the first week, and then a map tutorial per week for the following three weeks.
+
+**Labs are due by 2:00 PM Mountain Time.** 
+
+Here is a table of due dates:
+
+|       | Wednesday Section | Thursday Section |
+| :---        |    :----   |          :--- |
+| Lab 1      | February 7       | February 8   |
+| Lab 2   | February 14       | February 15   |
+| Lab 3   | February 21       | February 22   |
+
+**Turn in your map tutorials using this Microsoft Form: <https://forms.office.com/r/BF15Ut95MR>{target="_blank"}.** You will be required to sign in using your UMConnect email address (`NetID@umconnect.umt.edu`). If you have trouble reaching the form, please let me know ASAP.
