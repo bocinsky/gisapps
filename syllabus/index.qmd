@@ -99,7 +99,7 @@ The Classes folder will automatically map for everyone in the Stone Hall labs as
  
 Drive mapping instructions: <https://umtqsg.atlassian.net/l/cp/Pp2Vgu2M>
 
-- Server and Share name for Windows: **\\data.cfc.umt.edu\\Classes$**
+- Server and Share name for Windows: **\\\\data.cfc.umt.edu\\Classes$**
 - **<smb://data.cfc.umt.edu/Classes$>** for MacOS (available via the **Finder menu bar &rarr; Go &rarr; Connect to Server...**)
 - Username: **first.last@umt.edu** and your normal password
  

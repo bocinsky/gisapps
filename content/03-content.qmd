@@ -30,6 +30,8 @@ Also, there are some very fun tools and websites that will be introduced during 
 - <https://epsg.io>{target="_blank"} and <https://epsg.org>{target="_blank"} --- the authoritative database of coordinate reference systems
 - [The latest documentation on coordinate reference systems in ArcPro](https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm){target="_blank"}
 - [A new double-sided map projection of Earth](https://www.nytimes.com/2021/02/24/science/new-world-map.html){target="_blank"}
+- [An August 2020 update on the development of new Low Distortion Projections (LDPs) for Montana](https://www.marls.com/wp-content/uploads/2020/08/New-State-Plane-Coordinate-System-is-in-the-works.pdf){target="_blank"}
+- [The Rocky Mountain Coordinate Reference System](https://www.marls.com/resources/rmtcrs-information/)
 
 ## Content
 
