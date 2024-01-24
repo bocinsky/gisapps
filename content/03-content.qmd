@@ -36,7 +36,7 @@ Also, there are some very fun tools and websites that will be introduced during 
 - Spheroids, Ellipsoids, and Geoids (Oh My!)
 - Projecting Earth
 - Scale
-- Geodatabases
+- Geodatabases (and friends!)
 
 <!-- ## Slides -->
 
