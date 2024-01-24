@@ -66,8 +66,8 @@ website:
               file: content/01-content.qmd
             - text: "2: GIS and the Scientific Method"
               file: content/02-content.qmd
-            # - text: "3: One way ANOVA"
-            #   file: content/03-content.qmd
+            - text: "3: Projection, Scale, and Geodatabase Review"
+              file: content/03-content.qmd
             # - text: "4: Contrasts and multiple testing"
             #   file: content/04-content.qmd
             # - text: "5: Complete factorial designs"

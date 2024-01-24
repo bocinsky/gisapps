@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>(Forestry) Applications of GIS - Readings and Lectures</title>
+<title>(Forestry) Applications of GIS - Projection, Scale, and Geodatabase Review</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -114,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/index.html">Overview</a></li><li class="breadcrumb-item"><a href="../content/index.html">Readings and Lectures</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/01-content.html">Course content</a></li><li class="breadcrumb-item"><a href="../content/03-content.html">3: Projection, Scale, and Geodatabase Review</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -137,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Readings and Lectures</span></a>
   </div>
 </li>
@@ -166,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/03-content.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/03-content.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">3: Projection, Scale, and Geodatabase Review</span></a>
   </div>
 </li>
@@ -178,28 +198,74 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#preparation" id="toc-preparation" class="nav-link active" data-scroll-target="#preparation">Preparation</a></li>
+  <li><a href="#content" id="toc-content" class="nav-link" data-scroll-target="#content">Content</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7">Readings and Lectures</h1>
+<h1 class="title display-7">Projection, Scale, and Geodatabase Review</h1>
 
+<div class="date-block bg-content text-white p-2">
+  <p class="date">Content for Thursday, January 25, 2024</p>
+</div>
 </header>
 
 
-<p><strong>Course content will be added throughout the semester, so please bookmark this site.</strong></p>
-<p>Each class session has a set of required readings that you should complete <strong><em>before</em></strong> attending the lecture. I will post lecture slides <strong>after</strong> the lecture.</p>
-<p>The lecture slides are special HTML files made with the R package <a href="https://bookdown.org/yihui/rmarkdown/xaringan.html"><strong>xaringan</strong></a> . On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:</p>
-<p class="buttons" style="text-align:center;">
-<span class="btn btn-danger"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> View all slides in new window</span> <span class="btn btn-danger"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Download PDF of all slides</span>
-</p>
-<p>The slides are also embedded on each page. You can click in the slides and navigate through them with <kbd>←</kbd> and <kbd>→</kbd>. If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while viewing the slides you can see a list of slide-specific commands (like <kbd>f</kbd> for fullscreen or <kbd>p</kbd> for presenter mode if you want to see my notes).</p>
+<section id="preparation" class="level2">
+<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
+<p>Please read <a href="https://open.lib.umn.edu/mapping/chapter/3-scale-and-projections/" target="_blank">Chapter 3. Scale and Projections</a> from <a href="https://open.lib.umn.edu/mapping/" target="_blank">Mapping, Society, and Technology</a> <span class="citation" data-cites="Manson:2017">(<a href="#ref-Manson:2017" role="doc-biblioref">Manson, 2017</a>)</span>.</p>
+<p>Also, there are some very fun tools and websites that will be introduced during the lecture:</p>
+<ul>
+<li><a href="https://map-projections.net" target="_blank">https://map-projections.net</a> — a very cool tool for comparing map projections</li>
+<li><a href="https://epsg.io" target="_blank">https://epsg.io</a> and <a href="https://epsg.org" target="_blank">https://epsg.org</a> — the authoritative database of coordinate reference systems</li>
+<li><a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm" target="_blank">The latest documentation on coordinate reference systems in ArcPro</a></li>
+<li><a href="https://www.nytimes.com/2021/02/24/science/new-world-map.html" target="_blank">A new double-sided map projection of Earth</a></li>
+</ul>
+</section>
+<section id="content" class="level2">
+<h2 class="anchored" data-anchor-id="content">Content</h2>
+<ul>
+<li>Spheroids, Ellipsoids, and Geoids (Oh My!)</li>
+<li>Projecting Earth</li>
+<li>Scale</li>
+<li>Geodatabases</li>
+</ul>
+</section>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p>The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Fun fact</strong>: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of slide-specific commands.</p>
+</div>
+</div>
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Manson:2017" class="csl-entry" role="listitem">
+Manson, S. M. (Ed.). (2017). <em>Maps, society, and technology</em>. University of Minnesota Libraries Publishing. <a href="https://open.lib.umn.edu/mapping/">https://open.lib.umn.edu/mapping/</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

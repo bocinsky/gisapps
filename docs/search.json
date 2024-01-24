@@ -186,6 +186,50 @@
     ]
   },
   {
+    "objectID": "content/02-content.html",
+    "href": "content/02-content.html",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "",
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Course content",
+      "2: GIS and the Scientific Method"
+    ]
+  },
+  {
+    "objectID": "content/02-content.html#preparation",
+    "href": "content/02-content.html#preparation",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "",
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Course content",
+      "2: GIS and the Scientific Method"
+    ]
+  },
+  {
+    "objectID": "content/02-content.html#content",
+    "href": "content/02-content.html#content",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "Content",
+    "text": "Content\n\nThe Scientific Method\nThe Geographic Approach\nGeographic Representation",
+    "crumbs": [
+      "Course content",
+      "2: GIS and the Scientific Method"
+    ]
+  },
+  {
+    "objectID": "content/02-content.html#slides",
+    "href": "content/02-content.html#slides",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
+    "crumbs": [
+      "Course content",
+      "2: GIS and the Scientific Method"
+    ]
+  },
+  {
     "objectID": "content/01-content.html",
     "href": "content/01-content.html",
     "title": "Introduction",
@@ -241,47 +285,47 @@
     ]
   },
   {
-    "objectID": "content/02-content.html",
-    "href": "content/02-content.html",
-    "title": "How is GIS applied to the scientific method?",
+    "objectID": "content/03-content.html",
+    "href": "content/03-content.html",
+    "title": "Projection, Scale, and Geodatabase Review",
     "section": "",
-    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth",
     "crumbs": [
       "Course content",
-      "2: GIS and the Scientific Method"
+      "3: Projection, Scale, and Geodatabase Review"
     ]
   },
   {
-    "objectID": "content/02-content.html#preparation",
-    "href": "content/02-content.html#preparation",
-    "title": "How is GIS applied to the scientific method?",
+    "objectID": "content/03-content.html#preparation",
+    "href": "content/03-content.html#preparation",
+    "title": "Projection, Scale, and Geodatabase Review",
     "section": "",
-    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth",
     "crumbs": [
       "Course content",
-      "2: GIS and the Scientific Method"
+      "3: Projection, Scale, and Geodatabase Review"
     ]
   },
   {
-    "objectID": "content/02-content.html#content",
-    "href": "content/02-content.html#content",
-    "title": "How is GIS applied to the scientific method?",
+    "objectID": "content/03-content.html#content",
+    "href": "content/03-content.html#content",
+    "title": "Projection, Scale, and Geodatabase Review",
     "section": "Content",
-    "text": "Content\n\nThe Scientific Method\nThe Geographic Approach\nGeographic Representation",
+    "text": "Content\n\nSpheroids, Ellipsoids, and Geoids (Oh My!)\nProjecting Earth\nScale\nGeodatabases",
     "crumbs": [
       "Course content",
-      "2: GIS and the Scientific Method"
+      "3: Projection, Scale, and Geodatabase Review"
     ]
   },
   {
-    "objectID": "content/02-content.html#slides",
-    "href": "content/02-content.html#slides",
-    "title": "How is GIS applied to the scientific method?",
+    "objectID": "content/03-content.html#slides",
+    "href": "content/03-content.html#slides",
+    "title": "Projection, Scale, and Geodatabase Review",
     "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
     "crumbs": [
       "Course content",
-      "2: GIS and the Scientific Method"
+      "3: Projection, Scale, and Geodatabase Review"
     ]
   },
   {
