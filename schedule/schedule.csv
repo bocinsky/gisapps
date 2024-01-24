@@ -2,16 +2,16 @@ group,subgroup,date,date_end,title,deadline,content,example,evaluations
 Introduction,Week 1,1/18/24,,"Welcome, Syllabus, Moodle, Labs, Resources",,/content/01-content,,
 Review & points of departure,Week 2,1/23/24,,How is GIS applied to the scientific method?,,/content/02-content,,
 Review & points of departure,Week 2,1/25/24,,"Projection, Scale, and Geodatabase Review",,,,
-Review & points of departure,Week 2,1/24/25,1/25/24,LAB: Access ArcPro & map tutorials,,,,
-Review & points of departure,Week 3,1/30/24,,"Scales of Measurement, Map Tutorials",,,,
+Review & points of departure,Week 2,1/24/25,1/25/24,LAB: Access ArcPro & map tutorials,,,,/evaluations/map-tutorials
+Review & points of departure,Week 3,1/30/24,,"Scales of Measurement",,,,
 Review & points of departure,Week 3,2/1/24,,Review of Spatial Reference,,,,
-Review & points of departure,Week 3,1/31/24,2/1/24,LAB: Continue with map tutorials,,,,
+Review & points of departure,Week 3,1/31/24,2/1/24,LAB: Continue with map tutorials,,,,/evaluations/map-tutorials
 Whence geospatial data?,Week 4,2/6/24,,Whence Geospatial Data I: All data are spatial,,,,
 Whence geospatial data?,Week 4,2/8/24,,Whence Geospatial Data II: (Mis)Placing things,,,,
-Whence geospatial data?,Week 4,2/7/24,2/8/24,LAB: Continue with map tutorials,,,,
+Whence geospatial data?,Week 4,2/7/24,2/8/24,LAB: Continue with map tutorials,,,,/evaluations/map-tutorials
 Whence geospatial data?,Week 5,2/13/24,,Whence Geospatial Data III: Humans in space,,,,
 Whence geospatial data?,Week 5,2/15/24,,Voices of GIS: Missoula City GIS Services with Lee Macholz,,,,
-Whence geospatial data?,Week 5,2/14/24,2/15/24,LAB: Continue with map tutorials,,,,
+Whence geospatial data?,Week 5,2/14/24,2/15/24,LAB: Continue with map tutorials,,,,/evaluations/map-tutorials
 GIS and the analytical mind,Week 6,2/20/24,,"GIS as process: Organizing space, data, and analysis",,,,
 GIS and the analytical mind,Week 6,2/22/24,,NO CLASS,,,,
 GIS and the analytical mind,Week 6,2/21/24,2/22/24,NO LAB,,,,
