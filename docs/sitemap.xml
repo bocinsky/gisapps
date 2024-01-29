@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://umtgis.github.io/apps/syllabus/index.html</loc>
-    <lastmod>2024-01-24T20:39:46.437Z</lastmod>
+    <lastmod>2024-01-24T23:49:51.882Z</lastmod>
   </url>
   <url>
     <loc>https://umtgis.github.io/apps/index.html</loc>
@@ -29,16 +29,20 @@
     <lastmod>2024-01-18T16:28:36.442Z</lastmod>
   </url>
   <url>
-    <loc>https://umtgis.github.io/apps/content/02-content.html</loc>
-    <lastmod>2024-01-23T17:55:36.924Z</lastmod>
+    <loc>https://umtgis.github.io/apps/content/03-content.html</loc>
+    <lastmod>2024-01-24T15:16:36.763Z</lastmod>
   </url>
   <url>
     <loc>https://umtgis.github.io/apps/content/01-content.html</loc>
     <lastmod>2024-01-18T19:57:29.131Z</lastmod>
   </url>
   <url>
-    <loc>https://umtgis.github.io/apps/content/03-content.html</loc>
-    <lastmod>2024-01-24T15:16:36.763Z</lastmod>
+    <loc>https://umtgis.github.io/apps/content/02-content.html</loc>
+    <lastmod>2024-01-23T17:55:36.924Z</lastmod>
+  </url>
+  <url>
+    <loc>https://umtgis.github.io/apps/content/04-content.html</loc>
+    <lastmod>2024-01-29T18:51:25.524Z</lastmod>
   </url>
   <url>
     <loc>https://umtgis.github.io/apps/evaluations/06-problem-set.html</loc>

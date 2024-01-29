@@ -1,0 +1,147 @@
+---
+title: "Scales of Measurement"
+author: "Kyle Bocinsky"
+date: "2023-01-30"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/quarto.png
+    footer: <https://umtgis.github.io/apps>
+---
+
+:::{style="text-align: center;"}
+
+**Syllabus Quiz!**
+
+Online or on paper:
+
+![](https://quickchart.io/qr?text=https%3A%2F%2Fforms.office.com%2Fr%2FzUr9n93yfb&size=600){width='20%' fig-align="center"}
+
+
+Paper ones below
+
+:::
+
+## Announcements
+Note taker
+Check in on map tutorials
+- aim for tutorials between 50 mins and 1.5 hours
+
+## Scales of Measurement
+The scale indicates the data summarization and
+statistical analyses that are most appropriate.
+The scale determines the amount of information
+contained in the data.
+Scales of measurement include:
+Nominal
+Ordinal
+Interval
+Ratio
+
+## Nominal
+A nonnumeric label or numeric code may be used.
+Data are labels or names used to identify an
+attribute of the element.
+
+## Nominal
+Example:
+Students of a university are classified by the
+     dorm that they live in using a nonnumeric label 
+     such as Farley, Keenan, Zahm, Breen-Phillips, 
+     and so on.
+
+A numeric code can be used for the school variable (e.g. 1: Farley, 2: Keenan, 3: Zahm, and so on).
+
+
+## Ordinal
+A nonnumeric label or numeric code may be used.
+The data have the properties of nominal data and
+the order or rank of the data is meaningful .
+
+## Ordinal
+Example:
+Students of a university are classified by their
+class standing using a nonnumeric label such as
+Freshman, Sophomore, Junior, or Senior.
+A numeric code can be used for
+the class standing variable (e.g. 1 denotes
+Freshman, 2 denotes Sophomore, and so on).
+
+## Interval
+Interval data are always numeric .
+The data have the properties of ordinal data, and
+the interval between observations is expressed in
+terms of a fixed unit of measure.
+
+## Interval
+Example: Average Starting Salary Offer 2003
+Economics/Finance: $40,084
+History: $32,108
+Psychology: $27,454
+Econ & Finance majors earn $7,976 more than
+History majors and $12,630 more than
+Psychology majors.
+Source: National Association of Colleges and Employers
+
+## Ratio
+The data have all the properties of interval data
+and the ratio of two values is meaningful .
+Variables such as distance, height, weight, and time
+use the ratio scale.
+This scale must contain a zero value that indicates
+that nothing exists for the variable at the zero point.
+
+## Ratio
+Example:
+Econ & Finance majors salaries are 1.24 times
+History major salaries and are 1.46 times
+Psychology major salaries
+
+## Qualitative versus Quantitative data
+ Data can be qualitative or quantitative.
+ The appropriate statistical analysis depends
+ on whether the data for the variable are qualitative
+ or quantitative.
+ There are more options for statistical
+ analysis when the data are quantitative.
+
+## Qualitative Data
+Labels or names used to identify an attribute of each
+element. E.g., Black or white, male or female.
+Referred to as categorical data
+Use either the nominal or ordinal scale of
+measurement
+Can be either numeric or nonnumeric
+Appropriate statistical analyses are rather limited
+
+## Quantitative Data
+Quantitative data indicate how many or how much:
+ Discrete, if measuring how many. E.g., number
+ of 6-packs consumed at tail-gate party
+Continuous, if measuring how much. E.g., pounds 
+ of hamburger consumed at tail-gate party
+ Quantitative data are always numeric.
+ Ordinary arithmetic operations are meaningful for
+ quantitative data.
+
+## Cross-sectional Data
+ Cross-sectional data observations across individuals
+ at the same point in time, or aggregated over the same time period.
+ Example:  the growth rate from 1960 to 2004 of
+ each country in the world (about 182 of them).
+ Example: wages for head of household in 
+ Indiana
+ 
+## Time Series Data
+Time series data are collected over several time
+ periods.
+Example:  the sequence of U.S. GDP growth each
+Year from 1960 to 2005 
+Example: the sequence of Professor Mark’s wage
+ each year from 1983 to 2005.
+
+
+
