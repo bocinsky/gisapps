@@ -1,10 +1,8 @@
 ---
 format:
   revealjs: 
-    lib_dir: "libs"
+    embed-resources: true
     slide-number: true
-    chalkboard: 
-      buttons: false
     preview-links: auto
     css: ["css/ath-slides.css", "css/ath-inferno-fonts.css", "css/animate.css"]
 editor_options: 
