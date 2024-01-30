@@ -4,7 +4,7 @@ title: "Evaluations"
 
 **Instructions for the various evaluations and assessments will be posted here as the semester progresses, so please bookmark this site.**
 
-## Syllabus Quiz (10 points)
+## [Syllabus Quiz](syllabus-quiz.html) (10 points)
 There will be a syllabus quiz on Tuesday, January 30. Ten questions, ten points.
 
 ## Participation/Quizzes/Check-ins (140 points)

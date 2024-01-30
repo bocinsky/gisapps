@@ -70,34 +70,6 @@
     "text": "This section will contain annotated R code along with worked out examples. If time permits, I will also include videos of me life-coding, so you can see me making programming mistakes in real time!\nUseful resources for learning R, the tidyverse and Rmarkdown basics include\n\nThe Introduction to R and RStudio by Open Intro Stat\nTeacups, giraffes & statistics: basic statistical concepts and programming\nthe notebook RYouWithMe from R-Ladies Sydney\nthe book R for Data Science, which adheres to the tidyverse principles.\nthe R package DoSStoolkit, developped at the University of Toronto.\nthe introverse documentation.\nthe RStudio cheatsheets, also available from RStudio menu in Help &gt; Cheat Sheets\n\nTo install all R packages used throughout the course, use the command\n\n\nCode\nlib &lt;- c(\"afex\", \"car\", \"emmeans\", \"effectsize\", \n         \"lme4\", \"lmerTest\", \"mediate\", \"nlme\", \n         \"pwr\", \"tidyverse\", \"tidymodels\", \"WebPower\")\ninstall.packages(lib)"
   },
   {
-    "objectID": "evaluations/paper-review.html",
-    "href": "evaluations/paper-review.html",
-    "title": "Paper review",
-    "section": "",
-    "text": "You will be assigned a scientific paper with open access material (data, code, etc.) to criticize. The purpose of the project is to let you practice peer-reviewing, focusing on reproducibility and correctness of the statistical analyses therein.\nComment on the methodology, the statistical analyses and the report of the statistical results in the paper. If your selected paper has more than one study, you will be assigned to a particular one for the purpose of the project.\nYou should focus on the following elements in your review:\n\nStrengths and weaknesses of the methodology used to test the research hypotheses.\nAppropriateness of experimental design and the choice of dependent variables, control variables, treatment conditions.\nAppropriateness of statistical analyses.\nPresentation and discussion of the results (e.g., descriptive statistics, estimation of effect sizes, power calculations, etc.)\nDiscussion of the limits of the study\nPossible sources of bias\nPre-registration, reproducibility and transparency of the study. Assessment of the potential for replicability.\n\nIn addition to the material seen in class, see Wilkinson (1999) and Campion (1993) to inform your review."
-  },
-  {
-    "objectID": "evaluations/paper-review.html#description-of-the-task",
-    "href": "evaluations/paper-review.html#description-of-the-task",
-    "title": "Paper review",
-    "section": "",
-    "text": "You will be assigned a scientific paper with open access material (data, code, etc.) to criticize. The purpose of the project is to let you practice peer-reviewing, focusing on reproducibility and correctness of the statistical analyses therein.\nComment on the methodology, the statistical analyses and the report of the statistical results in the paper. If your selected paper has more than one study, you will be assigned to a particular one for the purpose of the project.\nYou should focus on the following elements in your review:\n\nStrengths and weaknesses of the methodology used to test the research hypotheses.\nAppropriateness of experimental design and the choice of dependent variables, control variables, treatment conditions.\nAppropriateness of statistical analyses.\nPresentation and discussion of the results (e.g., descriptive statistics, estimation of effect sizes, power calculations, etc.)\nDiscussion of the limits of the study\nPossible sources of bias\nPre-registration, reproducibility and transparency of the study. Assessment of the potential for replicability.\n\nIn addition to the material seen in class, see Wilkinson (1999) and Campion (1993) to inform your review."
-  },
-  {
-    "objectID": "evaluations/paper-review.html#deliverables",
-    "href": "evaluations/paper-review.html#deliverables",
-    "title": "Paper review",
-    "section": "Deliverables",
-    "text": "Deliverables\nA portable document file (PDF) of your critique (maximum 3 pages, excluding bibliography)"
-  },
-  {
-    "objectID": "evaluations/paper-review.html#grading-rubric",
-    "href": "evaluations/paper-review.html#grading-rubric",
-    "title": "Paper review",
-    "section": "Grading rubric",
-    "text": "Grading rubric\n\nIdentification of strength and weaknesses: 10\nCorrectness of the interpretation of statistical results: 10\nScope: 10\nClarity of report: 10\nUsefulness of suggestions: 5\nWriting and referencing: 5"
-  },
-  {
     "objectID": "evaluations/index.html",
     "href": "evaluations/index.html",
     "title": "Evaluations",
@@ -168,54 +140,69 @@
     ]
   },
   {
-    "objectID": "evaluations/08-problem-set.html",
-    "href": "evaluations/08-problem-set.html",
-    "title": "Problem set 8",
+    "objectID": "content/04-content.html",
+    "href": "content/04-content.html",
+    "title": "Scales of Measurement",
     "section": "",
-    "text": "Submission information: please submit on ZoneCours\n\na PDF report\nyour code\n\nLook at the effect size and power; this should be helpful in completing the problem set.\nThe following text is a quote from Investigating variation in replicability: A “Many Labs” Replication Project by Richard A. Klein, Kate A. Ratliff, and Brian A. Nosek (pp. 13-14) about a replication of Oppenheimer & Monin (2009) work on the retrospective gambler fallacy.\n\nThe differences between groups was reliable, omnibus \\(F(2, 77) = 4.8\\), […] Cohen’s \\(f = 0.18\\). Pairwise comparisons showed that all differences between conditions were reliable as well, \\(t(47, 48, 57) = 1.94, 2.32, 2.65\\); \\(p &lt; .05\\), Cohen’s \\(d\\) = \\((.56, .67, .69)\\).\n\n\nUsing the information from the quote, compute the effect size \\(\\widehat{\\omega}^2\\).1 Also check that you get the same value of Cohen’s \\(f\\) (up to rounding) that is reported.\nCompute the overall sample size necessary to replicate this study with a power of at least \\(0.99\\): compute the power for both the overall effect and the three pairwise \\(t\\)-tests based on the reported values of Cohen’s \\(d\\) and pick the maximum sample size needed.\nRead the results of the replication in ManyLabs1; these are illustrated in Figure 1 and summary statistics about standardized mean differences (Cohen’s \\(d\\)) are reported in Table 2 (Klein et al., 2014) under retrospective gambler fallacy. Comment about the success of the replication.\nBased on observation of Figure 1 of Klein et al. (2014), why might one object to using estimated effect size reported in peer-reviewed papers?2\n\n\n\n\n\n\nReferences\n\nKlein, R. A., Ratliff, K. A., Vianello, M., Adams Jr., R. B., Bahník, Š., Bernstein, M. J., Bocian, K., Brandt, M. J., Brooks, B., Brumbaugh, C. C., Cemalcilar, Z., Chandler, J., Cheong, W., Davis, W. E., Devos, T., Eisner, M., Frankowska, N., Furrow, D., Galliani, E. M., … Nosek, B. A. (2014). Investigating variation in replicability: A “many labs” replication project. Social Psychology, 45, 142–152. https://doi.org/10.1027/1864-9335/a000178\n\n\nOppenheimer, D. M., & Monin, B. (2009). The retrospective gambler’s fallacy: Unlikely events, constructing the past, and multiple universes. Judgment and Decision Making, 4, 326–334.\n\nFootnotes\n\n\nIn R, check out the function F_to_omega2 from the effectsize package. You can also use the formula presented in the slides.↩︎\nHint: are the original effect size in line with the replications or not?↩︎"
-  },
-  {
-    "objectID": "content/index.html",
-    "href": "content/index.html",
-    "title": "Readings and Lectures",
-    "section": "",
-    "text": "Course content will be added throughout the semester, so please bookmark this site.\nEach class session has a set of required readings that you should complete before attending the lecture. I will post lecture slides after the lecture.\nThe lecture slides are special HTML files made with the R package xaringan . On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:\n\n View all slides in new window  Download PDF of all slides\n\nThe slides are also embedded on each page. You can click in the slides and navigate through them with ← and →. If you type ? (or shift + /) while viewing the slides you can see a list of slide-specific commands (like f for fullscreen or p for presenter mode if you want to see my notes).",
-    "crumbs": [
-      "Overview",
-      "Readings and Lectures"
-    ]
-  },
-  {
-    "objectID": "content/03-content.html",
-    "href": "content/03-content.html",
-    "title": "Projection, Scale, and Geodatabase Review",
-    "section": "",
-    "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth\nAn August 2020 update on the development of new Low Distortion Projections (LDPs) for Montana\nThe Rocky Mountain Coordinate Reference System",
+    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.\n\n\n\n\n\n\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
     "crumbs": [
       "Course content",
-      "3: Projection, Scale, and Geodatabase Review"
+      "4: Scales of Measurement"
     ]
   },
   {
-    "objectID": "content/03-content.html#preparation",
-    "href": "content/03-content.html#preparation",
-    "title": "Projection, Scale, and Geodatabase Review",
+    "objectID": "content/04-content.html#preparation",
+    "href": "content/04-content.html#preparation",
+    "title": "Scales of Measurement",
     "section": "",
-    "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth\nAn August 2020 update on the development of new Low Distortion Projections (LDPs) for Montana\nThe Rocky Mountain Coordinate Reference System",
+    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.\n\n\n\n\n\n\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
     "crumbs": [
       "Course content",
-      "3: Projection, Scale, and Geodatabase Review"
+      "4: Scales of Measurement"
     ]
   },
   {
-    "objectID": "content/03-content.html#content",
-    "href": "content/03-content.html#content",
-    "title": "Projection, Scale, and Geodatabase Review",
+    "objectID": "content/02-content.html",
+    "href": "content/02-content.html",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "",
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Course content",
+      "2: GIS and the Scientific Method"
+    ]
+  },
+  {
+    "objectID": "content/02-content.html#preparation",
+    "href": "content/02-content.html#preparation",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "",
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Course content",
+      "2: GIS and the Scientific Method"
+    ]
+  },
+  {
+    "objectID": "content/02-content.html#content",
+    "href": "content/02-content.html#content",
+    "title": "How is GIS applied to the scientific method?",
     "section": "Content",
-    "text": "Content\n\nSpheroids, Ellipsoids, and Geoids (Oh My!)\nProjecting Earth\nScale\nGeodatabases (and friends!)",
+    "text": "Content\n\nThe Scientific Method\nThe Geographic Approach\nGeographic Representation",
     "crumbs": [
       "Course content",
-      "3: Projection, Scale, and Geodatabase Review"
+      "2: GIS and the Scientific Method"
+    ]
+  },
+  {
+    "objectID": "content/02-content.html#slides",
+    "href": "content/02-content.html#slides",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
+    "crumbs": [
+      "Course content",
+      "2: GIS and the Scientific Method"
     ]
   },
   {
@@ -274,98 +261,48 @@
     ]
   },
   {
-    "objectID": "content/02-content.html",
-    "href": "content/02-content.html",
-    "title": "How is GIS applied to the scientific method?",
+    "objectID": "content/03-content.html",
+    "href": "content/03-content.html",
+    "title": "Projection, Scale, and Geodatabase Review",
     "section": "",
-    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth\nAn August 2020 update on the development of new Low Distortion Projections (LDPs) for Montana\nThe Rocky Mountain Coordinate Reference System",
     "crumbs": [
       "Course content",
-      "2: GIS and the Scientific Method"
+      "3: Projection, Scale, and Geodatabase Review"
     ]
   },
   {
-    "objectID": "content/02-content.html#preparation",
-    "href": "content/02-content.html#preparation",
-    "title": "How is GIS applied to the scientific method?",
+    "objectID": "content/03-content.html#preparation",
+    "href": "content/03-content.html#preparation",
+    "title": "Projection, Scale, and Geodatabase Review",
     "section": "",
-    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth\nAn August 2020 update on the development of new Low Distortion Projections (LDPs) for Montana\nThe Rocky Mountain Coordinate Reference System",
     "crumbs": [
       "Course content",
-      "2: GIS and the Scientific Method"
+      "3: Projection, Scale, and Geodatabase Review"
     ]
   },
   {
-    "objectID": "content/02-content.html#content",
-    "href": "content/02-content.html#content",
-    "title": "How is GIS applied to the scientific method?",
+    "objectID": "content/03-content.html#content",
+    "href": "content/03-content.html#content",
+    "title": "Projection, Scale, and Geodatabase Review",
     "section": "Content",
-    "text": "Content\n\nThe Scientific Method\nThe Geographic Approach\nGeographic Representation",
+    "text": "Content\n\nSpheroids, Ellipsoids, and Geoids (Oh My!)\nProjecting Earth\nScale\nGeodatabases (and friends!)",
     "crumbs": [
       "Course content",
-      "2: GIS and the Scientific Method"
+      "3: Projection, Scale, and Geodatabase Review"
     ]
   },
   {
-    "objectID": "content/02-content.html#slides",
-    "href": "content/02-content.html#slides",
-    "title": "How is GIS applied to the scientific method?",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
+    "objectID": "content/index.html",
+    "href": "content/index.html",
+    "title": "Readings and Lectures",
+    "section": "",
+    "text": "Course content will be added throughout the semester, so please bookmark this site.\nEach class session has a set of required readings that you should complete before attending the lecture. I will post lecture slides after the lecture.\nThe lecture slides are special HTML files made with the R package xaringan . On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:\n\n View all slides in new window  Download PDF of all slides\n\nThe slides are also embedded on each page. You can click in the slides and navigate through them with ← and →. If you type ? (or shift + /) while viewing the slides you can see a list of slide-specific commands (like f for fullscreen or p for presenter mode if you want to see my notes).",
     "crumbs": [
-      "Course content",
-      "2: GIS and the Scientific Method"
+      "Overview",
+      "Readings and Lectures"
     ]
-  },
-  {
-    "objectID": "content/04-content.html",
-    "href": "content/04-content.html",
-    "title": "Scales of Measurement",
-    "section": "",
-    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.\n\n\n\n\n\n\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
-    "crumbs": [
-      "Course content",
-      "4: Scales of Measurement"
-    ]
-  },
-  {
-    "objectID": "content/04-content.html#preparation",
-    "href": "content/04-content.html#preparation",
-    "title": "Scales of Measurement",
-    "section": "",
-    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.\n\n\n\n\n\n\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
-    "crumbs": [
-      "Course content",
-      "4: Scales of Measurement"
-    ]
-  },
-  {
-    "objectID": "evaluations/06-problem-set.html",
-    "href": "evaluations/06-problem-set.html",
-    "title": "Problem set 6",
-    "section": "",
-    "text": "Submission information: please submit on ZoneCours"
-  },
-  {
-    "objectID": "evaluations/06-problem-set.html#task-1",
-    "href": "evaluations/06-problem-set.html#task-1",
-    "title": "Problem set 6",
-    "section": "Task 1",
-    "text": "Task 1\nRead Wilkinson (1999)’s guidelines for reporting statistical analyses.\nNext, look at one of the experiments conducted in Stekelenburg et al. (2021). Cross-check with the guidelines and formulate criticism (positive or negative) in relation with the reporting done by the authors."
-  },
-  {
-    "objectID": "evaluations/06-problem-set.html#task-2",
-    "href": "evaluations/06-problem-set.html#task-2",
-    "title": "Problem set 6",
-    "section": "Task 2",
-    "text": "Task 2\nRead Nosek et al. (2018) and list three benefits of preregistration. Reflect on the practical aspects and on the impact.1\nWe will organize a discussion in the near future in class on preregistration and the replication crisis."
-  },
-  {
-    "objectID": "evaluations/final-exam.html",
-    "href": "evaluations/final-exam.html",
-    "title": "Final examination",
-    "section": "",
-    "text": "The final is a 180 minutes closed-book examination covering all of the material from class.\nThe exam format is as follows:\n\nOne question on the fundamentals of experimental designs (blocking, randomization, etc.)\nOne question on reproducibility/replication crisis\nOne question on key concepts (power, effect size, multiple testing).\nOne question on advanced topics (mixed models, causal inference and mediation analysis, etc.)\nTwo data analysis questions, using completely randomized or blocked designs (between-subjects or within-subject) with multi-way analysis of variance, ANCOVA, mixed model, with specific questions on various aspects including\n\nparametrization of ANOVA\nadequate setup of model\ninteraction plots\nuse of different tests and methods\ncalculation of degrees of freedom of the model / sample size\nconclusions related to output of tests\ninterpretation of effect sizes\ncontrasts and pairwise comparisons\ntests for model assumptions and diagnostic plots\n\n\nA practice final can be downloaded here"
   },
   {
     "objectID": "evaluations/map-tutorials.html",
@@ -410,13 +347,6 @@
       "Overview",
       "Map Tutorials"
     ]
-  },
-  {
-    "objectID": "evaluations/weekly-check-in.html",
-    "href": "evaluations/weekly-check-in.html",
-    "title": "Questions",
-    "section": "",
-    "text": "Every week, after you finish working through the content, I want to hear about what you learned and what questions you still have. To facilitate this, and to encourage engagement with the course content, you’ll need to fill out a short questionnaire. This should be ~150 words.\nYou should answer the following three questions each week:\n\nWhat was the most exciting thing you learned from the session? Why?\nWhat was the muddiest thing from the session this week? What are you still wondering about?\n\nWhich activity did you find the most useful? What could have been skipped?"
   },
   {
     "objectID": "example/installation.html",
