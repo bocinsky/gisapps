@@ -78,10 +78,6 @@ mt_cannabis <-
                  dplyr::desc(Year),
                  County)
 
-
-
-
-
 ```
 
 :::{style="text-align: center;"}

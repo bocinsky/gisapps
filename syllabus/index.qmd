@@ -184,7 +184,7 @@ You can find descriptions for the assignments on the [evaluations](/evaluations/
 assignments <- 
   tibble::tribble(
 ~Assignment,   ~Points,  ~Awarded,
-"Syllabus Quiz", 10, NA,
+"Syllabus Quiz", 10, 10,
 "Participation/Quizzes/Check-ins", 140, 20,
 "Map Tutorials (3 x 50)", 150, NA,
 "Labs (5 x 100)", 500, NA,
