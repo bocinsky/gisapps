@@ -1,6 +1,7 @@
 ---
 format:
   revealjs: 
+    lib_dir: "libs"
     slide-number: true
     chalkboard: 
       buttons: false
