@@ -1,147 +1,578 @@
 ---
-title: "Scales of Measurement"
-author: "Kyle Bocinsky"
-date: "2023-01-30"
 format:
   revealjs: 
     slide-number: true
     chalkboard: 
       buttons: false
     preview-links: auto
-    logo: images/quarto.png
-    footer: <https://umtgis.github.io/apps>
+    css: ["css/ath-slides.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+editor_options: 
+  chunk_output_type: console
 ---
+
+```{r mt Cannabis data, include=FALSE}
+library(magrittr)
+library(sf)
+library(tidyverse)
+library(ggpattern)
+
+mt_cannabis <-
+  readxl::read_excel(here::here("slides/mt-cannabis.xlsx")) %>%
+  dplyr::mutate(`Recreational Sales` = 
+                  ifelse(!is.na(`Estimated Total Adult Use Sales`),
+                         "Permitted",
+                         "Not Permitted") %>%
+                  factor(levels = c("Permitted",
+                                    "Not Permitted"),
+                         ordered = TRUE),
+                `Tax and Sales` = 
+                  dplyr::case_when(
+                    !is.na(`Local Option Tax — Medical`) & is.na(`Estimated Total Adult Use Sales`) 
+                    ~ "Local Option Tax — No Recreational Sales",
+                    is.na(`Estimated Total Adult Use Sales`) ~ "No Recreational Sales",
+                    !is.na(`Estimated Total Adult Use Sales`) & 
+                      is.na(`Local Option Tax — Adult-Use`) ~ "Recreational Sales",
+                    !is.na(`Local Option Tax — Adult-Use`) & 
+                      !is.na(`Local Option Tax — Medical`) ~ "Local Option Tax",
+                    is.na(`Local Option Tax — Medical`) &
+                      !is.na(`Local Option Tax — Adult-Use`) ~ "Local Option Tax on Recreational Only"
+                  ) %>%
+                  factor(levels = 
+                           c("No Recreational Sales",
+                             "Recreational Sales",
+                             "Local Option Tax",
+                             "Local Option Tax — No Recreational Sales",
+                             "Local Option Tax on Recreational Only"
+                           ),
+                         ordered = TRUE),
+                `Estimated Sales` =  scales::label_currency()(`Estimated Total County Sales`),
+                `Estimated Sales (Ordinal)` =
+                  cut(`Estimated Total County Sales`, 
+                      breaks = c(0,100000,1000000,10000000),
+                      labels = c("Low",
+                                 "Medium",
+                                 "High"
+                      )
+                  ),
+                `Estimated Sales (Interval)` =
+                  cut(`Estimated Total County Sales`,
+                      breaks = seq(0,5000000,1000000),
+                      labels = paste(scales::label_currency()(seq(0,5000000,1000000))[-6],
+                                     scales::label_currency()(seq(0,5000000,1000000))[-1],
+                                     sep = " – ")
+                  )
+  ) %>%
+  dplyr::select(Year,
+                Month,
+                County, 
+                `Recreational Sales`,
+                `Tax and Sales`,
+                `Estimated Sales`,
+                `Estimated Sales (Ordinal)`,
+                `Estimated Sales (Interval)`,
+                `Estimated Total County Sales`
+  ) %>%
+  dplyr::left_join(
+    mcor::mt_counties_simple %>% dplyr::select(County)
+    ,.) %>%
+  dplyr::arrange(dplyr::desc(Month),
+                 dplyr::desc(Year),
+                 County)
+
+
+
+
+
+```
 
 :::{style="text-align: center;"}
 
+:::{style="font-size: 1.5em;"}
+
 **Syllabus Quiz!**
+
+:::
 
 Online or on paper:
 
-![](https://quickchart.io/qr?text=https%3A%2F%2Fforms.office.com%2Fr%2FzUr9n93yfb&size=600){width='20%' fig-align="center"}
+<https://umtgis.github.io/apps/evaluations/syllabus-quiz.html>
 
+![](https://quickchart.io/qr?text=https%3A%2F%2Fforms.office.com%2Fr%2FzUr9n93yfb&size=600){width='30%' fig-align="center"}
 
-Paper ones below
+**paper quizzes below**
+
+**⬇︎**
 
 :::
 
 ## Announcements
-Note taker
-Check in on map tutorials
-- aim for tutorials between 50 mins and 1.5 hours
+- **Seeking note taker for rest of term**
+  - $50 in UMoney
+  - See me after class if interested
+
+- **Check in on map tutorials**
+  - Aim for tutorials between 50 mins and 1.5 hours
+
+- **Syllabus error in your favor!**
+  - No lecture on Thursday.
+
+# Scales of Measurement
+
+::: {.class-info}
+
+Kyle Bocinsky
+
+::: light
+
+FORS350 / GPHY488<br>(Forestry) Applications of GIS<br>University of Montana<br>
+WA Franke College of Forestry & Conservation
+
+:::
+
+:::
 
 ## Scales of Measurement
-The scale indicates the data summarization and
-statistical analyses that are most appropriate.
-The scale determines the amount of information
-contained in the data.
-Scales of measurement include:
-Nominal
-Ordinal
-Interval
-Ratio
+The scale indicates the data summarization and statistical analyses that are most appropriate. It determines the amount of information in the data.
 
-## Nominal
-A nonnumeric label or numeric code may be used.
-Data are labels or names used to identify an
-attribute of the element.
+**Scales of measurement include:**
 
-## Nominal
-Example:
-Students of a university are classified by the
-     dorm that they live in using a nonnumeric label 
-     such as Farley, Keenan, Zahm, Breen-Phillips, 
-     and so on.
+:::: {.columns}
 
-A numeric code can be used for the school variable (e.g. 1: Farley, 2: Keenan, 3: Zahm, and so on).
+::: {.column width="50%"}
 
+**Qualitative**
 
-## Ordinal
-A nonnumeric label or numeric code may be used.
-The data have the properties of nominal data and
-the order or rank of the data is meaningful .
+- Logical
+- Nominal
+- Ordinal
 
-## Ordinal
-Example:
-Students of a university are classified by their
-class standing using a nonnumeric label such as
-Freshman, Sophomore, Junior, or Senior.
-A numeric code can be used for
-the class standing variable (e.g. 1 denotes
-Freshman, 2 denotes Sophomore, and so on).
+:::  
 
-## Interval
-Interval data are always numeric .
-The data have the properties of ordinal data, and
-the interval between observations is expressed in
-terms of a fixed unit of measure.
+::: {.column width="50%"}
 
-## Interval
-Example: Average Starting Salary Offer 2003
-Economics/Finance: $40,084
-History: $32,108
-Psychology: $27,454
-Econ & Finance majors earn $7,976 more than
-History majors and $12,630 more than
-Psychology majors.
-Source: National Association of Colleges and Employers
+**Quantitative**
 
-## Ratio
-The data have all the properties of interval data
-and the ratio of two values is meaningful .
-Variables such as distance, height, weight, and time
-use the ratio scale.
-This scale must contain a zero value that indicates
-that nothing exists for the variable at the zero point.
+- Interval
+- Ratio
 
-## Ratio
-Example:
-Econ & Finance majors salaries are 1.24 times
-History major salaries and are 1.46 times
-Psychology major salaries
+:::
+
+::::
+
+## Scales of Measurement
+
+Today, we will explore scales of measurement by creating choropleths using data from the Montana Department of Revenue.^[Specifically, the county-level [Cannabis Sales Reports](https://mtrevenue.gov/cannabis-sales-reports/). {{< fa cannabis >}}]
 
 ## Qualitative versus Quantitative data
- Data can be qualitative or quantitative.
- The appropriate statistical analysis depends
- on whether the data for the variable are qualitative
- or quantitative.
- There are more options for statistical
- analysis when the data are quantitative.
+Data can be **qualitative** or **quantitative**.
+
+The appropriate thematic map depends on whether the data for the variable are qualitative or quantitative.
 
 ## Qualitative Data
-Labels or names used to identify an attribute of each
-element. E.g., Black or white, male or female.
-Referred to as categorical data
-Use either the nominal or ordinal scale of
-measurement
-Can be either numeric or nonnumeric
-Appropriate statistical analyses are rather limited
+
+**Qualitative data indicate what kind.**
+
+- Labels or names used to identify an attribute of each element. E.g., Black or white, male or female.
+- Often referred to as categorical data
+- May use either the nominal or ordinal scale of measurement
+- Can be either numeric or non-numeric
 
 ## Quantitative Data
-Quantitative data indicate how many or how much:
- Discrete, if measuring how many. E.g., number
- of 6-packs consumed at tail-gate party
-Continuous, if measuring how much. E.g., pounds 
- of hamburger consumed at tail-gate party
- Quantitative data are always numeric.
- Ordinary arithmetic operations are meaningful for
- quantitative data.
+**Quantitative data indicate how many or how much.**
+
+- Discrete, if measuring how many. E.g., number of 6-packs consumed at tail-gate party
+- Continuous, if measuring how much. E.g., pounds of hamburger consumed at tail-gate party
+- Quantitative data are always numeric.
+- Ordinary arithmetic operations are meaningful for most quantitative data.
+
+## Logical
+**Logical** data are True/False; it is a binary form of nominal data (see next slide!).
+
+- A non-numeric label (true/false) or numeric code (1/0) may be used to represent logical data.
+- Many statistical tests, when performed on logical data, yield proportions. For example, taking the mean of a logical variable (with 1 representing true, and 0 representing false) will reveal the proportion of the sample that is "true".
+
+---
+
+```{r}
+#| fig-height: 8
+#| fig-align: center
+
+mt_cannabis %>%
+  dplyr::filter(Year == 2023, Month == 12) %>%
+  ggplot() +
+  geom_sf(aes(fill = `Recreational Sales`),
+          color = "black",
+          linewidth = 1) +
+  scale_fill_manual(values = c("Permitted" = "#b2df8a",
+                               "Not Permitted" = "#a6cee3")) +
+  labs(title = "Cannabis in Montana",
+       subtitle = "Recreational Sales, December 2023") +
+  theme_void() +
+  theme(legend.direction = "horizontal",
+        legend.position = c(0.41,0.14),
+        legend.justification = c(0,1),
+        legend.title = element_blank(),
+        legend.background = element_blank(),
+        plot.title = element_text(hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(hjust = 0.5))
+
+```
+
+## Nominal
+**Nominal** data are categorically discrete data such as the name of a country visited, type of ground-cover, or the name of a biome. 
+
+- This one is easy to remember because nominal sounds like name (they have the same Latin root). 
+- A non-numeric label or numeric code may be used for nominal data.
+
+---
+
+```{r}
+#| fig-height: 8
+#| fig-align: center
+
+
+mt_cannabis %>%
+  dplyr::filter(Year == 2023, Month == 12) %>%
+  ggplot() +
+  geom_sf_pattern(aes(fill = `Tax and Sales`,
+                      pattern_fill = `Tax and Sales`
+  ),
+  pattern_angle = 45,
+  pattern_density = 0.5,
+  pattern_spacing = 0.02,
+  pattern_color = NA,
+  color = "black",
+  linewidth = 1
+  ) +
+  scale_fill_manual(values = 
+                      c("No Recreational Sales" = "#fc8d62",
+                        "Recreational Sales" = "#66c2a5",
+                        "Local Option Tax" = "#8da0cb",
+                        "Local Option Tax — No Recreational Sales" = "#8da0cb",
+                        "Local Option Tax on Recreational Only" = "#8da0cb"
+                      ),
+                    guide = guide_legend(ncol = 2)) +
+  scale_pattern_fill_manual(values = 
+                              c("No Recreational Sales" = "#fc8d62",
+                                "Recreational Sales" = "#66c2a5",
+                                "Local Option Tax" = "#8da0cb",
+                                "Local Option Tax — No Recreational Sales" = "#fc8d62",
+                                "Local Option Tax on Recreational Only" = "#66c2a5"
+                              )) +
+  labs(title = "Cannabis in Montana",
+       subtitle = "Local Option Tax Status, December 2023") +
+  theme_void() +
+  theme(legend.direction = "horizontal",
+        legend.position = c(0.41,0.14),
+        legend.title = element_blank(),
+        legend.background = element_blank(),
+        legend.justification = c(0,1),
+        plot.title = element_text(hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(hjust = 0.5))
+
+```
+
+
+## Ordinal
+**Ordinal** data are nominal data where the order or rank of the data is meaningful. However, the distance (interval) between categories is unknown or irregular.
+
+- A non-numeric label or numeric code may be used.
+- For example: freshmen → sophomore → junior → senior.
+
+---
+
+```{r}
+#| fig-height: 8
+#| fig-align: center
+
+
+mt_cannabis %>%
+  dplyr::filter(Year == 2023, Month == 12) %>%
+  ggplot() +
+  geom_sf(aes(fill = `Estimated Sales (Ordinal)`
+  ),
+  color = "black",
+  linewidth = 1
+  ) +
+  scale_fill_brewer(palette = "YlGn",
+                    na.value = "gray80",
+                    guide = guide_legend(nrow = 1)) +
+  labs(title = "Cannabis in Montana",
+       subtitle = "Estimated Total Sales, December 2023 (Ordinal)") +
+  theme_void() +
+  theme(legend.direction = "horizontal",
+        legend.position = c(0.41,0.14),
+        legend.title = element_blank(),
+        legend.background = element_blank(),
+        legend.justification = c(0,1),
+        plot.title = element_text(hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(hjust = 0.5))
+
+```
+
+## Interval
+**Interval** data have the properties of ordinal data, and the interval between observations is expressed in terms of a fixed unit of measure.
+
+- Interval data are always numeric, and may be continuous or discrete.
+- Interval data often do not have a zero that represents nothingness; temperature in the Celsius or Fahrenheit scales are examples of Interval data.
+- You can add or subtract interval data, but you shouldn't multiply or divide them.
+
+---
+
+```{r}
+#| fig-height: 8
+#| fig-align: center
+
+
+mt_cannabis %>%
+  dplyr::filter(Year == 2023, Month == 12) %>%
+  dplyr::mutate(`Estimated Total County Sales` = ifelse(`Estimated Total County Sales` == 0, NA, `Estimated Total County Sales`)) %>%
+  ggplot() +
+  geom_sf(aes(fill = `Estimated Total County Sales`
+  ),
+  color = "black",
+  linewidth = 1
+  ) +
+  scale_fill_fermenter(palette = "YlGn",
+                       na.value = "gray80",
+                       direction = 1,
+                       breaks = seq(0,5000000,1000000),
+                       labels = scales::label_currency(),
+                       limits = c(0,5000000)
+  ) +
+  labs(title = "Cannabis in Montana",
+       subtitle = "Estimated Total Sales, December 2023 (Interval)") +
+  theme_void() +
+  theme(legend.direction = "horizontal",
+        legend.position = c(0.42,0.14),
+        legend.title = element_blank(),
+        legend.background = element_blank(),
+        legend.justification = c(0,1),
+        legend.key.width = unit(1, "in"),
+        plot.title = element_text(hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(hjust = 0.5))
+
+```
+
+## Ratio
+**Ratio** data have all the properties of interval data and the ratio of two values is meaningful.
+
+- Ratio data are always numeric, and may be continuous or discrete.
+- Ratio data must contain a true zero value that indicates that nothing exists for the variable at the zero point.
+- Variables such as precipitation, temperature in degrees Kelvin, distance, height, weight, and time use the ratio scale.
+- You can add, subtract, multiply and divide ratio scale data.
+
+---
+
+```{r}
+#| fig-height: 8
+#| fig-align: center
+
+
+mt_cannabis %>%
+  dplyr::filter(Year == 2023, Month == 12) %>%
+  dplyr::mutate(`Estimated Total County Sales` = ifelse(`Estimated Total County Sales` == 0, NA, `Estimated Total County Sales`)) %>%
+  ggplot() +
+  geom_sf(aes(fill = `Estimated Total County Sales`
+  ),
+  color = "black",
+  linewidth = 1
+  ) +
+  scale_fill_distiller(palette = "YlGn",
+                       na.value = "gray80",
+                       direction = 1,
+                       breaks = seq(0,5000000,1000000),
+                       labels = scales::label_currency(),
+                       limits = c(0, 5000000)
+  ) +
+  labs(title = "Cannabis in Montana",
+       subtitle = "Estimated Total Sales, December 2023 (Ratio)") +
+  theme_void() +
+  theme(legend.direction = "horizontal",
+        legend.position = c(0.42,0.14),
+        legend.title = element_blank(),
+        legend.background = element_blank(),
+        legend.justification = c(0,1),
+        legend.key.width = unit(1, "in"),
+        plot.title = element_text(hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(hjust = 0.5))
+
+```
+
+---
+
+```{r}
+#| fig-height: 8
+#| fig-align: center
+
+
+mt_cannabis %>%
+  dplyr::filter(Month == 12) %>%
+  dplyr::select(County, Year, `Estimated Total County Sales`) %>%
+  tidyr::pivot_wider(names_from = Year,
+                     values_from = `Estimated Total County Sales`) %>%
+  dplyr::mutate(`% Change, 2022 to 2023` = (`2023` - `2022`) / `2022`) %>%
+  ggplot() +
+  geom_sf(aes(fill = `% Change, 2022 to 2023`
+  ),
+  color = "black",
+  linewidth = 1
+  ) +
+  scale_fill_fermenter(palette = "BrBG",
+                       type = "div",
+                       na.value = "gray80",
+                       direction = 1,
+                       limits = c(-1,1),
+                       n.breaks = 9,
+                       labels = scales::label_percent()
+  ) +
+  labs(title = "Cannabis in Montana",
+       subtitle = "% Change, December 2022 to December 2023") +
+  theme_void() +
+  theme(legend.direction = "horizontal",
+        legend.position = c(0.42,0.14),
+        legend.title = element_blank(),
+        legend.background = element_blank(),
+        legend.justification = c(0,1),
+        legend.key.width = unit(1, "in"),
+        plot.title = element_text(hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(hjust = 0.5))
+
+```
 
 ## Cross-sectional Data
- Cross-sectional data observations across individuals
- at the same point in time, or aggregated over the same time period.
- Example:  the growth rate from 1960 to 2004 of
- each country in the world (about 182 of them).
- Example: wages for head of household in 
- Indiana
- 
+**Cross-sectional** data are observations across individuals at the same point in time, or aggregated over the same time period.
+
+---
+
+```{r}
+#| fig-height: 8
+#| fig-align: center
+
+
+
+mt_cannabis %>%
+  dplyr::filter(Year == 2023) %>%
+  dplyr::group_by(County, Year) %>%
+  dplyr::summarise(`Estimated Total County Sales` = sum(`Estimated Total County Sales`, na.rm = TRUE)) %>%
+  dplyr::mutate(`Estimated Total County Sales` = ifelse(`Estimated Total County Sales` == 0, NA, `Estimated Total County Sales`)) %>%
+  dplyr::left_join(
+    tidycensus::get_estimates(geography = "county", 
+                              state = "MT", 
+                              variables = "POPESTIMATE", 
+                              year = 2022) %>%
+      dplyr::transmute(County = stringr::str_remove(NAME, " County, Montana"),
+                       Population = value)
+  ) %>%
+  dplyr::mutate(`Sales per Capita` = `Estimated Total County Sales`/Population) %>%
+  ggplot() +
+  geom_sf(
+    aes(fill = `Sales per Capita`),
+    color = "black",
+    linewidth = 1
+  ) +
+  scale_fill_distiller(palette = "YlGn",
+                       na.value = "gray80",
+                       direction = 1,
+                       breaks = seq(0,1000,100),
+                       labels = scales::label_currency(),
+                       limits = c(0, 1000)
+  ) +
+  labs(title = "Cannabis in Montana",
+       subtitle = "Estimated Sales per Capita, 2023") +
+  theme_void() +
+  theme(legend.direction = "horizontal",
+        legend.position = c(0.42,0.14),
+        legend.title = element_blank(),
+        legend.background = element_blank(),
+        legend.justification = c(0,1),
+        legend.key.width = unit(1, "in"),
+        plot.title = element_text(hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(hjust = 0.5))
+
+
+```
+
 ## Time Series Data
-Time series data are collected over several time
- periods.
-Example:  the sequence of U.S. GDP growth each
-Year from 1960 to 2005 
-Example: the sequence of Professor Mark’s wage
- each year from 1983 to 2005.
+**Time series** data are collected over several time periods.
+
+---
+
+```{r}
+#| fig-height: 8
+#| fig-align: center
+
+library(gganimate)
+library(magick)
+
+map_gif <-
+  mt_cannabis %>%
+  dplyr::mutate(`Estimated Total County Sales` = ifelse(`Estimated Total County Sales` == 0, NA, `Estimated Total County Sales`),
+                Date = lubridate::as_date(paste(Year, Month, "01", sep = "-"))) %>%
+  ggplot() +
+  geom_sf(
+    aes(fill = `Estimated Total County Sales`),
+    color = "black",
+    linewidth = 1
+  ) +
+  scale_fill_distiller(palette = "YlGn",
+                       na.value = "gray80",
+                       direction = 1,
+                       breaks = seq(0,5000000,1000000),
+                       labels = scales::label_currency(),
+                       limits = c(0, 5000000)
+  ) +
+  labs(title = "Cannabis in Montana",
+       subtitle = "Estimated Monthly Total Sales, {closest_state}") +
+  theme_void() +
+  theme(legend.direction = "horizontal",
+        legend.position = c(0.42,0.14),
+        legend.title = element_blank(),
+        legend.background = element_blank(),
+        legend.justification = c(0,1),
+        legend.key.width = unit(1, "in"),
+        plot.title = element_text(hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  coord_sf(crs = st_crs(mt_cannabis), datum = NA) +
+  transition_states(Date, transition_length = 0)
+
+map_gif %<>%
+  animate(width = 10, height = 6, units = "in", device = 'ragg_png', res = 150)
+
+
+graph_gif <-
+  mt_cannabis %>%
+  sf::st_drop_geometry() %>%
+  dplyr::mutate(Date = lubridate::as_date(paste(Year, Month, "01", sep = "-"))) %>%
+  dplyr::group_by(Date) %>%
+  dplyr::summarise(`Estimated Total Sales` = sum(`Estimated Total County Sales`, na.rm = TRUE)) %>%
+  dplyr::ungroup() %>%
+  ggplot() +
+  geom_line(aes(x = Date, y = `Estimated Total Sales`)) +
+  scale_x_date(date_labels = "%b %Y",
+               date_breaks = "2 months",
+                     expand = expansion(0,0)) +
+  scale_y_continuous(limits = c(22000000, 29000000),
+                     breaks = seq(22000000, 29000000, 1000000),
+                     labels = scales::label_currency(),
+                     expand = expansion(0,0)) +
+  transition_reveal(Date)
+
+graph_gif %<>%
+  animate(width = 10, height = 2,  units = "in", device = 'ragg_png', res = 150)
+
+
+new_gif <- image_append(c(map_gif[1], graph_gif[1]), stack = TRUE)
+for(i in 2:100){
+  combined <- image_append(c(map_gif[i], graph_gif[i]), stack = TRUE)
+  new_gif <- c(new_gif, combined)
+}
+
+new_gif
+
+
+
+```
 
 
 

@@ -10,9 +10,7 @@
 <link href="05-scales_of_measurement_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.446">
 
-  <meta name="author" content="Kyle Bocinsky">
-  <meta name="dcterms.date" content="2023-01-30">
-  <title>Scales of Measurement</title>
+  <title>scales_of_measurement</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -32,6 +30,9 @@
     }
   </style>
   <link rel="stylesheet" href="05-scales_of_measurement_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="css/ath-slides.css">
+  <link rel="stylesheet" href="css/ath-inferno-fonts.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link href="05-scales_of_measurement_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="05-scales_of_measurement_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="05-scales_of_measurement_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -328,92 +329,185 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Scales of Measurement</h1>
 
-<div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Kyle Bocinsky 
-</div>
-</div>
-</div>
+<section class="slide level2">
 
-  <p class="date">2023-01-30</p>
-</section>
-<section id="test" class="slide level2">
-<h2>Test</h2>
 <div style="text-align: center;">
-<p><strong>Syllabus Quiz</strong> Online or on paper</p>
-<p><img data-src="https://quickchart.io/qr?text=https%3A%2F%2Fforms.office.com%2Fr%2FzUr9n93yfb&amp;size=600" class="quarto-figure-center" style="width:20.0%"></p>
-<p>Paper ones below</p>
+<div style="font-size: 1.5em;">
+<p><strong>Syllabus Quiz!</strong></p>
+</div>
+<p>Online or on paper:</p>
+<p><a href="https://umtgis.github.io/apps/evaluations/syllabus-quiz.html" class="uri">https://umtgis.github.io/apps/evaluations/syllabus-quiz.html</a></p>
+<p><img data-src="https://quickchart.io/qr?text=https%3A%2F%2Fforms.office.com%2Fr%2FzUr9n93yfb&amp;size=600" class="quarto-figure-center" style="width:30.0%"></p>
+<p><strong>paper quizzes below</strong></p>
+<p><strong>⬇︎</strong></p>
 </div>
 </section>
 <section id="announcements" class="slide level2">
 <h2>Announcements</h2>
-<p>Note taker Check in on map tutorials - aim for tutorials between 50 mins and 1.5 hours</p>
+<ul>
+<li><strong>Seeking note taker for rest of term</strong>
+<ul>
+<li>$50 in UMoney</li>
+<li>See me after class if interested</li>
+</ul></li>
+<li><strong>Check in on map tutorials</strong>
+<ul>
+<li>Aim for tutorials between 50 mins and 1.5 hours</li>
+</ul></li>
+<li><strong>Syllabus error in your favor!</strong>
+<ul>
+<li>No lecture on Thursday.</li>
+</ul></li>
+</ul>
 </section>
-<section id="scales-of-measurement" class="slide level2">
+<section>
+<section id="scales-of-measurement" class="title-slide slide level1 center">
+<h1>Scales of Measurement</h1>
+<div class="class-info">
+<p>Kyle Bocinsky</p>
+<div class="light">
+<p>FORS350 / GPHY488<br>(Forestry) Applications of GIS<br>University of Montana<br> WA Franke College of Forestry &amp; Conservation</p>
+</div>
+</div>
+</section>
+<section id="scales-of-measurement-1" class="slide level2">
 <h2>Scales of Measurement</h2>
-<p>The scale indicates the data summarization and statistical analyses that are most appropriate. The scale determines the amount of information contained in the data. Scales of measurement include: Nominal Ordinal Interval Ratio</p>
+<p>The scale indicates the data summarization and statistical analyses that are most appropriate. It determines the amount of information in the data.</p>
+<p><strong>Scales of measurement include:</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Qualitative</strong></p>
+<ul>
+<li>Logical</li>
+<li>Nominal</li>
+<li>Ordinal</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Quantitative</strong></p>
+<ul>
+<li>Interval</li>
+<li>Ratio</li>
+</ul>
+</div>
+</div>
 </section>
-<section id="nominal" class="slide level2">
-<h2>Nominal</h2>
-<p>A nonnumeric label or numeric code may be used. Data are labels or names used to identify an attribute of the element.</p>
-</section>
-<section id="nominal-1" class="slide level2">
-<h2>Nominal</h2>
-<p>Example: Students of a university are classified by the dorm that they live in using a nonnumeric label such as Farley, Keenan, Zahm, Breen-Phillips, and so on.</p>
-<p>A numeric code can be used for the school variable (e.g.&nbsp;1: Farley, 2: Keenan, 3: Zahm, and so on).</p>
-</section>
-<section id="ordinal" class="slide level2">
-<h2>Ordinal</h2>
-<p>A nonnumeric label or numeric code may be used. The data have the properties of nominal data and the order or rank of the data is meaningful .</p>
-</section>
-<section id="ordinal-1" class="slide level2">
-<h2>Ordinal</h2>
-<p>Example: Students of a university are classified by their class standing using a nonnumeric label such as Freshman, Sophomore, Junior, or Senior. A numeric code can be used for the class standing variable (e.g.&nbsp;1 denotes Freshman, 2 denotes Sophomore, and so on).</p>
-</section>
-<section id="interval" class="slide level2">
-<h2>Interval</h2>
-<p>Interval data are always numeric . The data have the properties of ordinal data, and the interval between observations is expressed in terms of a fixed unit of measure.</p>
-</section>
-<section id="interval-1" class="slide level2">
-<h2>Interval</h2>
-<p>Example: Average Starting Salary Offer 2003 Economics/Finance: $40,084 History: $32,108 Psychology: $27,454 Econ &amp; Finance majors earn $7,976 more than History majors and $12,630 more than Psychology majors. Source: National Association of Colleges and Employers</p>
-</section>
-<section id="ratio" class="slide level2">
-<h2>Ratio</h2>
-<p>The data have all the properties of interval data and the ratio of two values is meaningful . Variables such as distance, height, weight, and time use the ratio scale. This scale must contain a zero value that indicates that nothing exists for the variable at the zero point.</p>
-</section>
-<section id="ratio-1" class="slide level2">
-<h2>Ratio</h2>
-<p>Example: Econ &amp; Finance majors salaries are 1.24 times History major salaries and are 1.46 times Psychology major salaries</p>
-</section>
+<section id="scales-of-measurement-2" class="slide level2">
+<h2>Scales of Measurement</h2>
+<p>Today, we will explore scales of measurement by creating choropleths using data from the Montana Department of Revenue.<sup>1</sup></p>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Specifically, the county-level <a href="https://mtrevenue.gov/cannabis-sales-reports/">Cannabis Sales Reports</a>. </p></li></ol></aside></section>
 <section id="qualitative-versus-quantitative-data" class="slide level2">
 <h2>Qualitative versus Quantitative data</h2>
-<p>Data can be qualitative or quantitative. The appropriate statistical analysis depends on whether the data for the variable are qualitative or quantitative. There are more options for statistical analysis when the data are quantitative.</p>
+<p>Data can be <strong>qualitative</strong> or <strong>quantitative</strong>.</p>
+<p>The appropriate thematic map depends on whether the data for the variable are qualitative or quantitative.</p>
 </section>
 <section id="qualitative-data" class="slide level2">
 <h2>Qualitative Data</h2>
-<p>Labels or names used to identify an attribute of each element. E.g., Black or white, male or female. Referred to as categorical data Use either the nominal or ordinal scale of measurement Can be either numeric or nonnumeric Appropriate statistical analyses are rather limited</p>
+<p><strong>Qualitative data indicate what kind.</strong></p>
+<ul>
+<li>Labels or names used to identify an attribute of each element. E.g., Black or white, male or female.</li>
+<li>Often referred to as categorical data</li>
+<li>May use either the nominal or ordinal scale of measurement</li>
+<li>Can be either numeric or non-numeric</li>
+</ul>
 </section>
 <section id="quantitative-data" class="slide level2">
 <h2>Quantitative Data</h2>
-<p>Quantitative data indicate how many or how much: Discrete, if measuring how many. E.g., number of 6-packs consumed at tail-gate party Continuous, if measuring how much. E.g., pounds of hamburger consumed at tail-gate party Quantitative data are always numeric. Ordinary arithmetic operations are meaningful for quantitative data.</p>
+<p><strong>Quantitative data indicate how many or how much.</strong></p>
+<ul>
+<li>Discrete, if measuring how many. E.g., number of 6-packs consumed at tail-gate party</li>
+<li>Continuous, if measuring how much. E.g., pounds of hamburger consumed at tail-gate party</li>
+<li>Quantitative data are always numeric.</li>
+<li>Ordinary arithmetic operations are meaningful for most quantitative data.</li>
+</ul>
 </section>
+<section id="logical" class="slide level2">
+<h2>Logical</h2>
+<p><strong>Logical</strong> data are True/False; it is a binary form of nominal data (see next slide!).</p>
+<ul>
+<li>A non-numeric label (true/false) or numeric code (1/0) may be used to represent logical data.</li>
+<li>Many statistical tests, when performed on logical data, yield proportions. For example, taking the mean of a logical variable (with 1 representing true, and 0 representing false) will reveal the proportion of the sample that is “true”.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+
+<img data-src="05-scales_of_measurement_files/figure-revealjs/unnamed-chunk-1-1.png" class="quarto-figure-center r-stretch" width="960"></section>
+<section id="nominal" class="slide level2">
+<h2>Nominal</h2>
+<p><strong>Nominal</strong> data are categorically discrete data such as the name of a country visited, type of ground-cover, or the name of a biome.</p>
+<ul>
+<li>This one is easy to remember because nominal sounds like name (they have the same Latin root).</li>
+<li>A non-numeric label or numeric code may be used for nominal data.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+
+<img data-src="05-scales_of_measurement_files/figure-revealjs/unnamed-chunk-2-1.png" class="quarto-figure-center r-stretch" width="960"></section>
+<section id="ordinal" class="slide level2">
+<h2>Ordinal</h2>
+<p><strong>Ordinal</strong> data are nominal data where the order or rank of the data is meaningful. However, the distance (interval) between categories is unknown or irregular.</p>
+<ul>
+<li>A non-numeric label or numeric code may be used.</li>
+<li>For example: freshmen → sophomore → junior → senior.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+
+<img data-src="05-scales_of_measurement_files/figure-revealjs/unnamed-chunk-3-1.png" class="quarto-figure-center r-stretch" width="960"></section>
+<section id="interval" class="slide level2">
+<h2>Interval</h2>
+<p><strong>Interval</strong> data have the properties of ordinal data, and the interval between observations is expressed in terms of a fixed unit of measure.</p>
+<ul>
+<li>Interval data are always numeric, and may be continuous or discrete.</li>
+<li>Interval data often do not have a zero that represents nothingness; temperature in the Celsius or Fahrenheit scales are examples of Interval data.</li>
+<li>You can add or subtract interval data, but you shouldn’t multiply or divide them.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+
+<img data-src="05-scales_of_measurement_files/figure-revealjs/unnamed-chunk-4-1.png" class="quarto-figure-center r-stretch" width="960"></section>
+<section id="ratio" class="slide level2">
+<h2>Ratio</h2>
+<p><strong>Ratio</strong> data have all the properties of interval data and the ratio of two values is meaningful.</p>
+<ul>
+<li>Ratio data are always numeric, and may be continuous or discrete.</li>
+<li>Ratio data must contain a true zero value that indicates that nothing exists for the variable at the zero point.</li>
+<li>Variables such as precipitation, temperature in degrees Kelvin, distance, height, weight, and time use the ratio scale.</li>
+<li>You can add, subtract, multiply and divide ratio scale data.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+
+<img data-src="05-scales_of_measurement_files/figure-revealjs/unnamed-chunk-5-1.png" class="quarto-figure-center r-stretch" width="960"></section>
+<section class="slide level2">
+
+
+<img data-src="05-scales_of_measurement_files/figure-revealjs/unnamed-chunk-6-1.png" class="quarto-figure-center r-stretch" width="960"></section>
 <section id="cross-sectional-data" class="slide level2">
 <h2>Cross-sectional Data</h2>
-<p>Cross-sectional data observations across individuals at the same point in time, or aggregated over the same time period. Example: the growth rate from 1960 to 2004 of each country in the world (about 182 of them). Example: wages for head of household in Indiana</p>
+<p><strong>Cross-sectional</strong> data are observations across individuals at the same point in time, or aggregated over the same time period.</p>
 </section>
+<section class="slide level2">
+
+
+<img data-src="05-scales_of_measurement_files/figure-revealjs/unnamed-chunk-7-1.png" class="quarto-figure-center r-stretch" width="960"></section>
 <section id="time-series-data" class="slide level2">
 <h2>Time Series Data</h2>
-<p>Time series data are collected over several time periods. Example: the sequence of U.S. GDP growth each Year from 1960 to 2005 Example: the sequence of Professor Mark’s wage each year from 1983 to 2005.</p>
-
-<img src="images/quarto.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://umtgis.github.io/apps" class="uri">https://umtgis.github.io/apps</a></p>
-</div>
+<p><strong>Time series</strong> data are collected over several time periods.</p>
 </section>
+<section class="slide level2">
+
+
+<img data-src="05-scales_of_measurement_files/figure-revealjs/unnamed-chunk-8-1.gif" class="quarto-figure-center r-stretch"><div class="footer footer-default">
+
+</div>
+</section></section>
+
     </div>
   </div>
 
@@ -626,6 +720,44 @@ Kyle Bocinsky
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

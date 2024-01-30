@@ -3,11 +3,17 @@
 # which makes the targets pipeline less portable. So we return our own path to
 # the HTML file instead.
 render_xaringan <- function(slide_path) {
-  # crayon does weird things to R Markdown and xaringan output, so we need to
-  # disable it here. This is the same thing that tarchetypes::tar_render() does
-  # behind the scenes too.
-  withr::local_options(list(crayon.enabled = NULL))
-  rmarkdown::render(slide_path, quiet = TRUE)
+
+  if(stringr::str_detect(slide_path, "Rmd")){
+    # crayon does weird things to R Markdown and xaringan output, so we need to
+    # disable it here. This is the same thing that tarchetypes::tar_render() does
+    # behind the scenes too.
+    withr::local_options(list(crayon.enabled = NULL))
+    rmarkdown::render(slide_path, quiet = TRUE)
+  } else {
+    quarto::quarto_render(slide_path)
+  }
+
   return(paste0(tools::file_path_sans_ext(slide_path), ".html"))
 }
 
@@ -18,8 +24,7 @@ render_xaringan <- function(slide_path) {
 xaringan_to_pdf <- function(slide_path) {
   path_sans_ext <- tools::file_path_sans_ext(slide_path)
   renderthis::to_pdf(slide_path,
-                     to = paste0(path_sans_ext, ".pdf"),
-                     complex_slides = TRUE)
+                     to = paste0(path_sans_ext, ".pdf"))
 
   return(paste0(tools::file_path_sans_ext(slide_path), ".pdf"))
 }

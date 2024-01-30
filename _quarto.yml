@@ -68,8 +68,8 @@ website:
               file: content/02-content.qmd
             - text: "3: Projection, Scale, and Geodatabase Review"
               file: content/03-content.qmd
-            # - text: "4: Contrasts and multiple testing"
-            #   file: content/04-content.qmd
+            - text: "4: Scales of Measurement"
+              file: content/04-content.qmd
             # - text: "5: Complete factorial designs"
             #   file: content/05-content.qmd
             # - text: "6: Multiway factorial designs"
@@ -96,8 +96,8 @@ website:
       - section: "Overview"
         file: evaluations/index.qmd
         contents:
-          # - text: "Syllabus Quiz"
-          #   file: evaluations/syllabus-quiz.qmd
+          - text: "Syllabus Quiz"
+            file: evaluations/syllabus-quiz.html
           - text: "Map Tutorials"
             file: evaluations/map-tutorials.qmd
           # - evaluations/index.qmd

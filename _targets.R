@@ -38,7 +38,7 @@ list(
   #
   # The main index.qmd page loads xaringan_slides as a target to link it as a dependency
   tar_files(xaringan_files, list.files(here_rel("slides"),
-                                       pattern = "\\.Rmd",
+                                       pattern = "\\.*md",
                                        full.names = TRUE)),
   tar_target(xaringan_slides,
              render_xaringan(xaringan_files),
@@ -95,5 +95,5 @@ list(
 
 
   ## Build site ----
-  tar_quarto(site, path = ".")
+  tar_quarto(site, path = ".", quiet = FALSE)
 )
