@@ -179,7 +179,6 @@ Below is a tentative schedule for the semester. A more complete, day-by-day sche
 
 You can find descriptions for the assignments on the [evaluations](/evaluations/) page. There are **2000** total points available in this course; so far, **20** points have been assigned (this will update as the semester progresses). To calculate your current grade at any point, simply divide the number of points you've earned by the number of points that have been assigned thus far.
 
-
 ```{r assignments-grades, include=FALSE}
 assignments <- 
   tibble::tribble(
