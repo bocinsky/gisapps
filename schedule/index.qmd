@@ -24,7 +24,12 @@ withr::with_dir(here::here(), {
   targets::tar_load(schedule_file)
 })
 
-schedule_raw <- read_csv(schedule_file)
+if(file.exists(schedule_file)){
+  schedule_raw <- read_csv(schedule_file)
+}else{
+  schedule_raw <- read_csv("schedule.csv")
+}
+
 
 schedule <- schedule_raw %>% 
   mutate(date = lubridate::mdy(date),
