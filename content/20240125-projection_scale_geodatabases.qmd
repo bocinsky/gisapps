@@ -40,9 +40,12 @@ Also, there are some very fun tools and websites that will be introduced during 
 - Scale
 - Geodatabases (and friends!)
 
-<!-- ## Slides -->
+## Slides
 
-<!-- The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys. -->
+The slides for today are available online as a Powerpoint or PDF file. 
+
+- [Download PPTX version](/slides/Lecture3_Projection_Scale_Review.pptx)
+- [Download PDF version](/slides/Lecture3_Projection_Scale_Review.pdf)
 
 <!-- ```{r show-slide-tabs, echo=FALSE, results="asis"} -->
 <!-- slide_buttons("/slides/02-slides") -->
