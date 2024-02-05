@@ -10,8 +10,8 @@ editor_options:
 ::: {.schedule-page}
 
 
-- [**Content**](/content/) ({{< fa book-open-reader >}}): This page contains the readings, slides, and lecture notes for the week.
-<!--- [**Example**](/example/) ({{< fa laptop-code >}}): This page contains fully annotated R code and other supplementary information that you can use as a reference for your evaluations. This is only a reference page—you don't have to necessarily do anything here. Some sections also contain videos of me live coding the examples so you can see what it looks like to work in real time. This page will be *very* helpful as you work on your evaluations.-->
+- [**Content**](/content/) ({{< fa fa-person-chalkboard >}}): This page contains the readings, slides, and lecture notes for the week.
+- **Readings** ({{< fa fa-book >}}): This page brings you directly to the required readings for the day.
 - [**Evaluations**](/evaluations/) ({{< fa pen-ruler >}}): This page contains the instructions for each evaluation.
 
 ```{r build-table, include=FALSE}
@@ -43,11 +43,11 @@ schedule <- schedule_raw %>%
                                glue('&emsp;&emsp;<small>(submit by {deadline})</small>'),
                                "")) %>%
   mutate(var_content = ifelse(!is.na(content),
-                              glue('<a href="{content}.qmd"><i class="fa-solid fa-book-open-reader fa-lg"></i></a>'),
-                              glue('<font color="#e9ecef"><i class="fa-solid fa-book-open-reader fa-lg"></i></font>'))) %>%
-  mutate(var_example = ifelse(!is.na(example),
-                              glue('<a href="{example}.qmd"><i class="fa-solid fa-laptop-code fa-lg"></i></a>'),
-                              glue('<font color="#e9ecef"><i class="fa-solid fa-laptop-code fa-lg"></i></font>'))) %>%
+                              glue('<a href="{content}.qmd"><i class="fa-solid fa-person-chalkboard fa-lg"></i></a>'),
+                              glue('<font color="#e9ecef"><i class="fa-solid fa-person-chalkboard fa-lg"></i></font>'))) %>%
+  mutate(var_readings = ifelse(!is.na(readings),
+                              glue('<a href="{content}.html#{readings}"><i class="fa-solid fa-book fa-lg"></i></a>'),
+                              glue('<font color="#e9ecef"><i class="fa-solid fa-book fa-lg"></i></font>'))) %>%
   mutate(var_evaluations = ifelse(!is.na(evaluations),
                                  glue('<a href="{evaluations}.qmd"><i class="fa-solid fa-pen-ruler fa-lg"></i></a>'),
                                  glue('<font color="#e9ecef"><i class="fa-solid fa-pen-ruler fa-lg"></i></font>'))) %>%
@@ -56,13 +56,13 @@ schedule <- schedule_raw %>%
                            glue('<strong>{format(date, "%B %e")}</strong>–<strong>{format(date_end, "%B %e")}</strong>'))) %>% 
   mutate(col_title = glue('{var_title}{var_deadline}')) %>% 
   mutate(col_content = var_content,
-         col_example = var_example,
+         col_readings = var_readings,
          col_evaluations = var_evaluations)
 
 schedule_nested <- schedule %>% 
   select(group, subgroup, 
          ` ` = col_date, Title = col_title, Content = col_content, 
-         Example = col_example, Evaluations = col_evaluations) %>% 
+         Readings = col_readings, Evaluations = col_evaluations) %>% 
   group_by(group) %>% 
   nest() %>% 
   mutate(subgroup_count = map(data, ~count(.x, subgroup)),

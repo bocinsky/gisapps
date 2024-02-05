@@ -1,0 +1,52 @@
+---
+title: "Voices of GIS: Expert TBD"
+date: "2024-02-29"
+---
+
+```{r}
+#| label: slides-videos
+#| echo: false
+#| include: false
+source(here::here("R", "slide-things.R"))
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- ""
+
+slide_details <- tibble::tribble(
+  ~youtube_id,   ~title, ~slide, ~active,
+  "", "Introduction", "1", TRUE,
+  "", "Motivation", "motivation", FALSE,
+  "", "Review", "review", FALSE,
+  "", "Key concepts", "keyconceptsexperimental", FALSE
+)
+```
+
+<!-- ## Preparation -->
+<!-- Please read [Chapter 2. Data](https://open.lib.umn.edu/mapping/chapter/2-data/){target="_blank"} from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping/){target="_blank"} [@Manson:2017]. -->
+
+<!-- ## Content -->
+
+<!-- - Spheroids, Ellipsoids, and Geoids (Oh My!) -->
+<!-- - Projecting Earth -->
+<!-- - Scale -->
+<!-- - Geodatabases (and friends!) -->
+
+<!-- ## Slides -->
+
+<!-- The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys. -->
+
+<!-- ```{r show-slide-tabs, echo=FALSE, results="asis"} -->
+<!-- slide_buttons("/slides/05-scales_of_measurement") -->
+<!-- # slide_tabs(slide_details, "/slides/01-slides.html") -->
+<!-- ``` -->
+
+<!-- ```{r show-slides-xaringan, echo=FALSE} -->
+<!-- xaringanExtra::embed_xaringan( -->
+<!--   url = "/slides/05-scales_of_measurement.html", -->
+<!--   ratio = "16:9" -->
+<!-- ) -->
+<!-- ``` -->
+
+<!-- :::{.callout-tip} -->
+<!-- **Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of slide-specific commands. -->
+<!-- ::: -->

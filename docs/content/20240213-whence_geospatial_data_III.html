@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>(Forestry) Applications of GIS - Readings and Lectures</title>
+<title>(Forestry) Applications of GIS - Whence Geospatial Data III: Humans in space</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -114,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/index.html">Readings and Lectures</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/index.html">Readings and Lectures</a></li><li class="breadcrumb-item"><a href="../content/20240213-whence_geospatial_data_III.html">Whence Geospatial Data III: Humans in space</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -128,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../content/index.html" class="sidebar-item-text sidebar-link active">
+            <a href="../content/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Readings and Lectures</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -173,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/20240213-whence_geospatial_data_III.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/20240213-whence_geospatial_data_III.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Whence Geospatial Data III: Humans in space</span></a>
   </div>
 </li>
@@ -305,28 +325,59 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#preparation" id="toc-preparation" class="nav-link active" data-scroll-target="#preparation">Preparation</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7">Readings and Lectures</h1>
+<h1 class="title display-7">Whence Geospatial Data III: Humans in space</h1>
 
+<div class="date-block bg-content text-white p-2">
+  <p class="date">Content for Tuesday, February 13, 2024</p>
+</div>
 </header>
 
 
-<p><strong>Course content will be added throughout the semester, so please bookmark this site.</strong></p>
-<p>Each class session has a set of required readings that you should complete <strong><em>before</em></strong> attending the lecture. I will post lecture slides <strong>after</strong> the lecture.</p>
-<p>The lecture slides are usually special HTML files made with R. On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:</p>
-<p class="buttons" style="text-align:center;">
-<span class="btn btn-danger"><i class="fa-solid fa-arrow-up-right-from-square" aria-label="arrow-up-right-from-square"></i> View all slides in new window</span> <span class="btn btn-danger"><i class="fa-solid fa-file-pdf" aria-label="file-pdf"></i> Download PDF of all slides</span>
-</p>
-<p>The slides are also embedded on each page. You can click in the slides and navigate through them with <kbd>←</kbd> and <kbd>→</kbd>. If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while viewing the slides you can see a list of slide-specific commands (like <kbd>f</kbd> for fullscreen or <kbd>p</kbd> for presenter mode if you want to see my notes).</p>
+<section id="preparation" class="level2">
+<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
+<p>Please read <a href="https://open.lib.umn.edu/mapping/chapter/4-design-and-symbolization/" target="_blank">Chapter 4. Design and Symbolization</a> from <a href="https://open.lib.umn.edu/mapping/" target="_blank">Mapping, Society, and Technology</a> <span class="citation" data-cites="Manson:2017">(<a href="#ref-Manson:2017" role="doc-biblioref">Manson, 2017</a>)</span>.</p>
+<!-- ## Content -->
+<!-- - Spheroids, Ellipsoids, and Geoids (Oh My!) -->
+<!-- - Projecting Earth -->
+<!-- - Scale -->
+<!-- - Geodatabases (and friends!) -->
+<!-- ## Slides -->
+<!-- The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys. -->
+<!-- ```{r show-slide-tabs, echo=FALSE, results="asis"} -->
+<!-- slide_buttons("/slides/05-scales_of_measurement") -->
+<!-- # slide_tabs(slide_details, "/slides/01-slides.html") -->
+<!-- ``` -->
+<!-- ```{r show-slides-xaringan, echo=FALSE} -->
+<!-- xaringanExtra::embed_xaringan( -->
+<!--   url = "/slides/05-scales_of_measurement.html", -->
+<!--   ratio = "16:9" -->
+<!-- ) -->
+<!-- ``` -->
+<!-- :::{.callout-tip} -->
+<!-- **Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of slide-specific commands. -->
+<!-- ::: -->
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Manson:2017" class="csl-entry" role="listitem">
+Manson, S. M. (Ed.). (2017). <em>Maps, society, and technology</em>. University of Minnesota Libraries Publishing. <a href="https://open.lib.umn.edu/mapping/">https://open.lib.umn.edu/mapping/</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

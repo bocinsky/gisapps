@@ -56,38 +56,7 @@ website:
       style: "docked"
       search: false
       foreground: "#ad1aac"
-      contents:
-        - section: "Overview"
-          contents:
-            - content/index.qmd
-        - section: "Course content"
-          contents:
-            - text: "1: Introduction"
-              file: content/01-content.qmd
-            - text: "2: GIS and the Scientific Method"
-              file: content/02-content.qmd
-            - text: "3: Projection, Scale, and Geodatabase Review"
-              file: content/03-content.qmd
-            - text: "4: Scales of Measurement"
-              file: content/04-content.qmd
-            # - text: "5: Complete factorial designs"
-            #   file: content/05-content.qmd
-            # - text: "6: Multiway factorial designs"
-            #   file: content/06-content.qmd
-            # - text: "7: Designs to reduce the error"
-            #   file: content/07-content.qmd
-            # - text: "8: Effect sizes and power"
-            #   file: content/08-content.qmd
-            # - text: "9: Repeated measures"
-            #   file: content/09-content.qmd
-            # - text: "10: Intro to mixed models"
-            #   file: content/10-content.qmd
-            # - text: "11: Intro to causal inference"
-            #   file: content/11-content.qmd
-            # - text: "12: Linear mediation and moderation"
-            #   file: content/12-content.qmd
-            # - text: "13: Nonparametric tests and count data"
-            #   file: content/13-content.qmd
+      contents: content
     - title: "Evaluations"
       style: "docked"
       search: false
@@ -120,46 +89,6 @@ website:
         # - evaluations/10-problem-set.qmd
         # - evaluations/11-problem-set.qmd
         # - evaluations/12-problem-set.qmd
-    # - title: "Examples"
-    #   style: "docked"
-    #   search: false
-    #   foreground: "#ad1aac"
-    #   contents:
-    #     - section: "Overview"
-    #       contents:
-    #         - example/index.qmd
-    #     - section: "Installation"
-    #       contents:
-    #         - text: "**R** and RStudio"
-    #           file: example/installation.qmd
-    #     - section: "Examples"
-    #       contents:
-    #      #    - text: "Introduction"
-    #      #      file: example/introduction.qmd
-    #      # #   - text: "Null distributions"
-    #      # #     file: example/02-hypothesis_testing.qmd
-    #      #    - text: "One-way ANOVA"
-    #      #      file: example/onewayanova.qmd
-    #      #    - text: "Two-way ANOVA"
-    #      #      file: example/twowayanova.qmd
-    #      #    - text: "Three-way ANOVA"
-    #      #      file: example/threewayanova.qmd
-    #      #    - text: "Analysis of covariance"
-    #      #      file: example/ancova.qmd
-    #      #    - text: "Effect size and power"
-    #      #      file: example/effectsizepower.qmd
-    #      #    - text: "Repeated measures ANOVA"
-    #      #      file: example/repeated.qmd
-    #      #    - text: "MANOVA"
-    #      #      file: example/manova.qmd
-    #      #    - text: "Linear mixed models"
-    #      #      file: example/mixedmodel.qmd
-    #      #    - text: "Linear causal mediation"
-    #      #      file: example/linearmediation.qmd
-    #      #    - text: "Nonparametric tests"
-    #      #      file: example/nonparametric.qmd
-    #      #    - text: "Count data"
-    #      #      file: example/counts.qmd
 
   page-footer:
     left: |

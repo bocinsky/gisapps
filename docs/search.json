@@ -140,168 +140,344 @@
     ]
   },
   {
-    "objectID": "content/04-content.html",
-    "href": "content/04-content.html",
-    "title": "Scales of Measurement",
+    "objectID": "content/20240502-project_presentations.html",
+    "href": "content/20240502-project_presentations.html",
+    "title": "Project Presentations",
     "section": "",
-    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.",
+    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).",
     "crumbs": [
-      "Course content",
-      "4: Scales of Measurement"
+      "Readings and Lectures",
+      "Project Presentations"
     ]
   },
   {
-    "objectID": "content/04-content.html#preparation",
-    "href": "content/04-content.html#preparation",
-    "title": "Scales of Measurement",
+    "objectID": "content/20240502-project_presentations.html#preparation",
+    "href": "content/20240502-project_presentations.html#preparation",
+    "title": "Project Presentations",
     "section": "",
-    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.",
+    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).",
     "crumbs": [
-      "Course content",
-      "4: Scales of Measurement"
+      "Readings and Lectures",
+      "Project Presentations"
     ]
   },
   {
-    "objectID": "content/04-content.html#slides",
-    "href": "content/04-content.html#slides",
-    "title": "Scales of Measurement",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
-    "crumbs": [
-      "Course content",
-      "4: Scales of Measurement"
-    ]
-  },
-  {
-    "objectID": "content/02-content.html",
-    "href": "content/02-content.html",
-    "title": "How is GIS applied to the scientific method?",
+    "objectID": "content/20240213-whence_geospatial_data_III.html",
+    "href": "content/20240213-whence_geospatial_data_III.html",
+    "title": "Whence Geospatial Data III: Humans in space",
     "section": "",
-    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "text": "Please read Chapter 4. Design and Symbolization from Mapping, Society, and Technology (Manson, 2017).",
     "crumbs": [
-      "Course content",
-      "2: GIS and the Scientific Method"
+      "Readings and Lectures",
+      "Whence Geospatial Data III: Humans in space"
     ]
   },
   {
-    "objectID": "content/02-content.html#preparation",
-    "href": "content/02-content.html#preparation",
-    "title": "How is GIS applied to the scientific method?",
+    "objectID": "content/20240213-whence_geospatial_data_III.html#preparation",
+    "href": "content/20240213-whence_geospatial_data_III.html#preparation",
+    "title": "Whence Geospatial Data III: Humans in space",
     "section": "",
-    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "text": "Please read Chapter 4. Design and Symbolization from Mapping, Society, and Technology (Manson, 2017).",
     "crumbs": [
-      "Course content",
-      "2: GIS and the Scientific Method"
+      "Readings and Lectures",
+      "Whence Geospatial Data III: Humans in space"
     ]
   },
   {
-    "objectID": "content/02-content.html#content",
-    "href": "content/02-content.html#content",
-    "title": "How is GIS applied to the scientific method?",
-    "section": "Content",
-    "text": "Content\n\nThe Scientific Method\nThe Geographic Approach\nGeographic Representation",
-    "crumbs": [
-      "Course content",
-      "2: GIS and the Scientific Method"
-    ]
-  },
-  {
-    "objectID": "content/02-content.html#slides",
-    "href": "content/02-content.html#slides",
-    "title": "How is GIS applied to the scientific method?",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "2: GIS and the Scientific Method"
-    ]
-  },
-  {
-    "objectID": "content/01-content.html",
-    "href": "content/01-content.html",
-    "title": "Introduction",
+    "objectID": "content/20240206-whence_geospatial_data_I.html",
+    "href": "content/20240206-whence_geospatial_data_I.html",
+    "title": "Whence Geospatial Data I: All data are spatial",
     "section": "",
-    "text": "What I did during my winter break… as a map!\nIntroductions\nSyllabus, schedule, and learning objectives",
+    "text": "Please read Chapter 8. Surveillance from Mapping, Society, and Technology (Manson, 2017).",
     "crumbs": [
-      "Course content",
-      "1: Introduction"
+      "Readings and Lectures",
+      "Whence Geospatial Data I: All data are spatial"
     ]
   },
   {
-    "objectID": "content/01-content.html#content",
-    "href": "content/01-content.html#content",
-    "title": "Introduction",
+    "objectID": "content/20240206-whence_geospatial_data_I.html#preparation",
+    "href": "content/20240206-whence_geospatial_data_I.html#preparation",
+    "title": "Whence Geospatial Data I: All data are spatial",
     "section": "",
-    "text": "What I did during my winter break… as a map!\nIntroductions\nSyllabus, schedule, and learning objectives",
+    "text": "Please read Chapter 8. Surveillance from Mapping, Society, and Technology (Manson, 2017).",
     "crumbs": [
-      "Course content",
-      "1: Introduction"
+      "Readings and Lectures",
+      "Whence Geospatial Data I: All data are spatial"
     ]
   },
   {
-    "objectID": "content/01-content.html#winter-break-map-20-minutes",
-    "href": "content/01-content.html#winter-break-map-20-minutes",
-    "title": "Introduction",
-    "section": "Winter Break Map (20 minutes)",
-    "text": "Winter Break Map (20 minutes)\nDraw a map (on paper, with your hands) that communicates something about what you did during winter break. Think about how your map tells a story… what would one of your colleagues or I glean from your map? How did you use text, color, and other map elements to convey your story? Please write your name on top of your map.\nAfter you complete your map in 20 minutes, trade maps with the person next to you and try to interpret what your partner’s map is trying to convey. What elements are confusing, or clear, about your partner’s map? How would you tell the same story differently? Discuss.",
-    "crumbs": [
-      "Course content",
-      "1: Introduction"
-    ]
-  },
-  {
-    "objectID": "content/01-content.html#syllabus-intro-and-discussion",
-    "href": "content/01-content.html#syllabus-intro-and-discussion",
-    "title": "Introduction",
-    "section": "Syllabus Intro and Discussion",
-    "text": "Syllabus Intro and Discussion\nFamiliarize yourself with the syllabus, schedule, content, and evaluations pages for this class.",
-    "crumbs": [
-      "Course content",
-      "1: Introduction"
-    ]
-  },
-  {
-    "objectID": "content/01-content.html#slides",
-    "href": "content/01-content.html#slides",
-    "title": "Introduction",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Course content",
-      "1: Introduction"
-    ]
-  },
-  {
-    "objectID": "content/03-content.html",
-    "href": "content/03-content.html",
+    "objectID": "content/20240125-projection_scale_geodatabases.html",
+    "href": "content/20240125-projection_scale_geodatabases.html",
     "title": "Projection, Scale, and Geodatabase Review",
     "section": "",
     "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth\nAn August 2020 update on the development of new Low Distortion Projections (LDPs) for Montana\nThe Rocky Mountain Coordinate Reference System",
     "crumbs": [
-      "Course content",
-      "3: Projection, Scale, and Geodatabase Review"
+      "Readings and Lectures",
+      "Projection, Scale, and Geodatabase Review"
     ]
   },
   {
-    "objectID": "content/03-content.html#preparation",
-    "href": "content/03-content.html#preparation",
+    "objectID": "content/20240125-projection_scale_geodatabases.html#preparation",
+    "href": "content/20240125-projection_scale_geodatabases.html#preparation",
     "title": "Projection, Scale, and Geodatabase Review",
     "section": "",
     "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth\nAn August 2020 update on the development of new Low Distortion Projections (LDPs) for Montana\nThe Rocky Mountain Coordinate Reference System",
     "crumbs": [
-      "Course content",
-      "3: Projection, Scale, and Geodatabase Review"
+      "Readings and Lectures",
+      "Projection, Scale, and Geodatabase Review"
     ]
   },
   {
-    "objectID": "content/03-content.html#content",
-    "href": "content/03-content.html#content",
+    "objectID": "content/20240125-projection_scale_geodatabases.html#content",
+    "href": "content/20240125-projection_scale_geodatabases.html#content",
     "title": "Projection, Scale, and Geodatabase Review",
     "section": "Content",
     "text": "Content\n\nSpheroids, Ellipsoids, and Geoids (Oh My!)\nProjecting Earth\nScale\nGeodatabases (and friends!)",
     "crumbs": [
-      "Course content",
-      "3: Projection, Scale, and Geodatabase Review"
+      "Readings and Lectures",
+      "Projection, Scale, and Geodatabase Review"
+    ]
+  },
+  {
+    "objectID": "content/20240118-syllabus_day.html",
+    "href": "content/20240118-syllabus_day.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "What I did during my winter break… as a map!\nIntroductions\nSyllabus, schedule, and learning objectives",
+    "crumbs": [
+      "Readings and Lectures",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "content/20240118-syllabus_day.html#content",
+    "href": "content/20240118-syllabus_day.html#content",
+    "title": "Introduction",
+    "section": "",
+    "text": "What I did during my winter break… as a map!\nIntroductions\nSyllabus, schedule, and learning objectives",
+    "crumbs": [
+      "Readings and Lectures",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "content/20240118-syllabus_day.html#winter-break-map-20-minutes",
+    "href": "content/20240118-syllabus_day.html#winter-break-map-20-minutes",
+    "title": "Introduction",
+    "section": "Winter Break Map (20 minutes)",
+    "text": "Winter Break Map (20 minutes)\nDraw a map (on paper, with your hands) that communicates something about what you did during winter break. Think about how your map tells a story… what would one of your colleagues or I glean from your map? How did you use text, color, and other map elements to convey your story? Please write your name on top of your map.\nAfter you complete your map in 20 minutes, trade maps with the person next to you and try to interpret what your partner’s map is trying to convey. What elements are confusing, or clear, about your partner’s map? How would you tell the same story differently? Discuss.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "content/20240118-syllabus_day.html#syllabus-intro-and-discussion",
+    "href": "content/20240118-syllabus_day.html#syllabus-intro-and-discussion",
+    "title": "Introduction",
+    "section": "Syllabus Intro and Discussion",
+    "text": "Syllabus Intro and Discussion\nFamiliarize yourself with the syllabus, schedule, content, and evaluations pages for this class.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "content/20240118-syllabus_day.html#slides",
+    "href": "content/20240118-syllabus_day.html#slides",
+    "title": "Introduction",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "content/20240123-scientific_method.html",
+    "href": "content/20240123-scientific_method.html",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "",
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "How is GIS applied to the scientific method?"
+    ]
+  },
+  {
+    "objectID": "content/20240123-scientific_method.html#preparation",
+    "href": "content/20240123-scientific_method.html#preparation",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "",
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "How is GIS applied to the scientific method?"
+    ]
+  },
+  {
+    "objectID": "content/20240123-scientific_method.html#content",
+    "href": "content/20240123-scientific_method.html#content",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "Content",
+    "text": "Content\n\nThe Scientific Method\nThe Geographic Approach\nGeographic Representation",
+    "crumbs": [
+      "Readings and Lectures",
+      "How is GIS applied to the scientific method?"
+    ]
+  },
+  {
+    "objectID": "content/20240123-scientific_method.html#slides",
+    "href": "content/20240123-scientific_method.html#slides",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
+    "crumbs": [
+      "Readings and Lectures",
+      "How is GIS applied to the scientific method?"
+    ]
+  },
+  {
+    "objectID": "content/20240130-scales_of_measurement.html",
+    "href": "content/20240130-scales_of_measurement.html",
+    "title": "Scales of Measurement",
+    "section": "",
+    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Scales of Measurement"
+    ]
+  },
+  {
+    "objectID": "content/20240130-scales_of_measurement.html#preparation",
+    "href": "content/20240130-scales_of_measurement.html#preparation",
+    "title": "Scales of Measurement",
+    "section": "",
+    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Scales of Measurement"
+    ]
+  },
+  {
+    "objectID": "content/20240130-scales_of_measurement.html#slides",
+    "href": "content/20240130-scales_of_measurement.html#slides",
+    "title": "Scales of Measurement",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
+    "crumbs": [
+      "Readings and Lectures",
+      "Scales of Measurement"
+    ]
+  },
+  {
+    "objectID": "content/20240227-gis_as_workflow.html",
+    "href": "content/20240227-gis_as_workflow.html",
+    "title": "GIS as workflow: Introducing the Model Builder",
+    "section": "",
+    "text": "Please read Chapter 6. Analysis from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "GIS as workflow: Introducing the Model Builder"
+    ]
+  },
+  {
+    "objectID": "content/20240227-gis_as_workflow.html#preparation",
+    "href": "content/20240227-gis_as_workflow.html#preparation",
+    "title": "GIS as workflow: Introducing the Model Builder",
+    "section": "",
+    "text": "Please read Chapter 6. Analysis from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "GIS as workflow: Introducing the Model Builder"
+    ]
+  },
+  {
+    "objectID": "content/20240305-quantitative_maps.html",
+    "href": "content/20240305-quantitative_maps.html",
+    "title": "Quantitative maps: Choropleth Mapping",
+    "section": "",
+    "text": "Please read Chapter 5. Simplification from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Quantitative maps: Choropleth Mapping"
+    ]
+  },
+  {
+    "objectID": "content/20240305-quantitative_maps.html#preparation",
+    "href": "content/20240305-quantitative_maps.html#preparation",
+    "title": "Quantitative maps: Choropleth Mapping",
+    "section": "",
+    "text": "Please read Chapter 5. Simplification from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Quantitative maps: Choropleth Mapping"
+    ]
+  },
+  {
+    "objectID": "content/20240326-spatial_storytelling_I.html",
+    "href": "content/20240326-spatial_storytelling_I.html",
+    "title": "Spatial Storytelling I: A Human Tradition",
+    "section": "",
+    "text": "Please read Chapter 9. Social Maps from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Spatial Storytelling I: A Human Tradition"
+    ]
+  },
+  {
+    "objectID": "content/20240326-spatial_storytelling_I.html#preparation",
+    "href": "content/20240326-spatial_storytelling_I.html#preparation",
+    "title": "Spatial Storytelling I: A Human Tradition",
+    "section": "",
+    "text": "Please read Chapter 9. Social Maps from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Spatial Storytelling I: A Human Tradition"
+    ]
+  },
+  {
+    "objectID": "content/20240409-lying_with_maps_I.html",
+    "href": "content/20240409-lying_with_maps_I.html",
+    "title": "Lying with Maps I: Little white lies",
+    "section": "",
+    "text": "Please read Chapter 7. Lying With Maps from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Lying with Maps I: Little white lies"
+    ]
+  },
+  {
+    "objectID": "content/20240409-lying_with_maps_I.html#preparation",
+    "href": "content/20240409-lying_with_maps_I.html#preparation",
+    "title": "Lying with Maps I: Little white lies",
+    "section": "",
+    "text": "Please read Chapter 7. Lying With Maps from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Lying with Maps I: Little white lies"
+    ]
+  },
+  {
+    "objectID": "content/20240423-mapping_montanas_climate.html",
+    "href": "content/20240423-mapping_montanas_climate.html",
+    "title": "Mapping Montana’s Climate",
+    "section": "",
+    "text": "Please read Chapter 10. Conclusion from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Mapping Montana's Climate"
+    ]
+  },
+  {
+    "objectID": "content/20240423-mapping_montanas_climate.html#preparation",
+    "href": "content/20240423-mapping_montanas_climate.html#preparation",
+    "title": "Mapping Montana’s Climate",
+    "section": "",
+    "text": "Please read Chapter 10. Conclusion from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Mapping Montana's Climate"
     ]
   },
   {
@@ -309,9 +485,8 @@
     "href": "content/index.html",
     "title": "Readings and Lectures",
     "section": "",
-    "text": "Course content will be added throughout the semester, so please bookmark this site.\nEach class session has a set of required readings that you should complete before attending the lecture. I will post lecture slides after the lecture.\nThe lecture slides are special HTML files made with the R package xaringan . On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:\n\n View all slides in new window  Download PDF of all slides\n\nThe slides are also embedded on each page. You can click in the slides and navigate through them with ← and →. If you type ? (or shift + /) while viewing the slides you can see a list of slide-specific commands (like f for fullscreen or p for presenter mode if you want to see my notes).",
+    "text": "Course content will be added throughout the semester, so please bookmark this site.\nEach class session has a set of required readings that you should complete before attending the lecture. I will post lecture slides after the lecture.\nThe lecture slides are usually special HTML files made with R. On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:\n\n View all slides in new window  Download PDF of all slides\n\nThe slides are also embedded on each page. You can click in the slides and navigate through them with ← and →. If you type ? (or shift + /) while viewing the slides you can see a list of slide-specific commands (like f for fullscreen or p for presenter mode if you want to see my notes).",
     "crumbs": [
-      "Overview",
       "Readings and Lectures"
     ]
   },
@@ -371,6 +546,6 @@
     "href": "schedule/index.html",
     "title": "Schedule",
     "section": "",
-    "text": "Content (): This page contains the readings, slides, and lecture notes for the week. \nEvaluations (): This page contains the instructions for each evaluation.\n\n\nIntroduction\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nWelcome, Syllabus, Moodle, Labs, Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReview & points of departure\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nHow is GIS applied to the scientific method?\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nProjection, Scale, and Geodatabase Review\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 24–January 25\n\n\nLAB: Access ArcPro & map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nScales of Measurement\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nNO LECTURE\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 31–February 1\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhence geospatial data?\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nWhence Geospatial Data I: All data are spatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nWhence Geospatial Data II: (Mis)Placing things\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 7–February 8\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nWhence Geospatial Data III: Humans in space\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nVoices of GIS: Missoula City GIS Services with Lee Macholz\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 14–February 15\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGIS and the analytical mind\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nGIS as process: Organizing space, data, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nNO LECTURE\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 21–February 22\n\n\nNO LAB\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nGIS as workflow: Introducing the Model Builder\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nVoices of GIS: Expert TBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 28–February 29\n\n\nLAB 1: Exploring the Model Builder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunicating with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nQuantitative maps: Choropleth Mapping\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nMIDTERM EXAM (during lecture)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 6–March 7\n\n\nLAB 2: Choropleth maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nQualitative maps: Classification\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nVoices of GIS: Mapping Drought with Dr. Zach Hoylman\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 13–March 14\n\n\nLAB 3: Graduated Symbol Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSPRING BREAK\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nNO CLASS (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nNO CLASS (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 20–March 21\n\n\nNO LAB (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStorytelling with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nSpatial Storytelling I: A Human Tradition\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nSpatial Storytelling II: Introducing ESRI StoryMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 27–March 28\n\n\nLAB 4: Exploring StoryMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nSpatial Storytelling III: Maps in the Media\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nVoices of GIS: Expert TBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 3–April 4\n\n\nLAB 5: Isarithmic Maps - Climate Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLying with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nLying with Maps I: Little white lies\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nLying with Maps II: Placemaking and placetaking\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 10–April 11\n\n\nLAB: Finish Labs and Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApplications of GIS\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nWatershed Hydrology in GIS\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nVoices of GIS: ARkStorm 2.0 with Dr. Christine Albano\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 17–April 18\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nMapping Montana’s Climate\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nVoices of GIS: Expert TBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 24–April 25\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTell your story\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nProject Presentations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 2\n\n\nProject Presentations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 1–May 2\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinals\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nExample\n\n\nEvaluations\n\n\n\n\n\n\nFinals\n\n\n\n\nMay 8\n\n\nFINAL EXAM: Wednesday, May 8, 1:10 – 3:10"
+    "text": "Content (): This page contains the readings, slides, and lecture notes for the week.\nReadings (): This page brings you directly to the required readings for the day.\nEvaluations (): This page contains the instructions for each evaluation.\n\n\nIntroduction\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nReadings\n\n\nEvaluations\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nWelcome, Syllabus, Moodle, Labs, Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReview & points of departure\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nReadings\n\n\nEvaluations\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nHow is GIS applied to the scientific method?\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nProjection, Scale, and Geodatabase Review\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 24–January 25\n\n\nLAB: Access ArcPro & map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nScales of Measurement\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nNO LECTURE\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 31–February 1\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhence geospatial data?\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nReadings\n\n\nEvaluations\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nWhence Geospatial Data I: All data are spatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nWhence Geospatial Data II: (Mis)Placing things\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 7–February 8\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nWhence Geospatial Data III: Humans in space\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nVoices of GIS: Missoula City GIS Services with Lee Macholz\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 14–February 15\n\n\nLAB: Continue with map tutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGIS and the analytical mind\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nReadings\n\n\nEvaluations\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nGIS as process: Organizing space, data, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nNO LECTURE\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 21–February 22\n\n\nNO LAB\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nGIS as workflow: Introducing the Model Builder\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nVoices of GIS: Expert TBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 28–February 29\n\n\nLAB 1: Exploring the Model Builder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunicating with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nReadings\n\n\nEvaluations\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nQuantitative maps: Choropleth Mapping\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nMIDTERM EXAM (during lecture)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 6–March 7\n\n\nLAB 2: Choropleth maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nQualitative maps: Classification\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nVoices of GIS: Mapping Drought with Dr. Zach Hoylman\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 13–March 14\n\n\nLAB 3: Graduated Symbol Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSPRING BREAK\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nReadings\n\n\nEvaluations\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nNO CLASS (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nNO CLASS (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 20–March 21\n\n\nNO LAB (Spring Break)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStorytelling with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nReadings\n\n\nEvaluations\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nSpatial Storytelling I: A Human Tradition\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nSpatial Storytelling II: Introducing ESRI StoryMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 27–March 28\n\n\nLAB 4: Exploring StoryMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nSpatial Storytelling III: Maps in the Media\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nVoices of GIS: Expert TBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 3–April 4\n\n\nLAB 5: Isarithmic Maps - Climate Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLying with maps\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nReadings\n\n\nEvaluations\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nLying with Maps I: Little white lies\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nLying with Maps II: Placemaking and placetaking\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 10–April 11\n\n\nLAB: Finish Labs and Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApplications of GIS\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nReadings\n\n\nEvaluations\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nWatershed Hydrology in GIS\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nVoices of GIS: ARkStorm 2.0 with Dr. Christine Albano\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 17–April 18\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nMapping Montana’s Climate\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nVoices of GIS: Expert TBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 24–April 25\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTell your story\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nReadings\n\n\nEvaluations\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nProject Presentations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 2\n\n\nProject Presentations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 1–May 2\n\n\nLAB: Work on Final Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinals\n\n\n\n\n\n\nTitle\n\n\nContent\n\n\nReadings\n\n\nEvaluations\n\n\n\n\n\n\nFinals\n\n\n\n\nMay 8\n\n\nFINAL EXAM: Wednesday, May 8, 1:10 – 3:10"
   }
 ]
