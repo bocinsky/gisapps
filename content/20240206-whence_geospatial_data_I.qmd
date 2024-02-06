@@ -55,3 +55,10 @@ The slides for today are available online as an HTML file. Use the buttons below
 slide_buttons("/slides/20240206-whence_geospatial_data_I")
 # slide_tabs(slide_details, "/slides/01-slides.html")
 ```
+
+```{r show-slides-xaringan, echo=FALSE}
+xaringanExtra::embed_xaringan(
+  url = "/slides/20240206-whence_geospatial_data_I",
+  ratio = "16:9"
+)
+```
