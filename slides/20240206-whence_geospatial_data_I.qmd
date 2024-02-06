@@ -11,9 +11,7 @@ editor_options:
 
 ## Announcements
 - **Check in on map tutorials**
-  - First map tutorial write-ups are due by 2:00 PM Mountain Time
-    - Wednesday, February 7 for Wednesday lab
-    - Thursday, February 8 for Thursday lab
+  - First map tutorial write-ups are due by 2:00 PM Mountain Time Wed/Thurs
   - Turn in your map tutorials using the Microsoft Form on the [Map Tutorial assignment page](https://umtgis.github.io/apps/evaluations/map-tutorials.html){target="_blank"}
 
 - **Readings now up on [schedule](https://umtgis.github.io/apps/schedule/){target="_blank"} for remainder of semester!**
