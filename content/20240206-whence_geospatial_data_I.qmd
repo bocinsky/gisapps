@@ -21,32 +21,37 @@ slide_details <- tibble::tribble(
 )
 ```
 
+
 ## Preparation
 Please read [Chapter 8. Surveillance](https://open.lib.umn.edu/mapping/chapter/8-surveillance/){target="_blank"} from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping/){target="_blank"} [@Manson:2017].
 
-<!-- ## Content -->
+## Content
 
-<!-- - Spheroids, Ellipsoids, and Geoids (Oh My!) -->
-<!-- - Projecting Earth -->
-<!-- - Scale -->
-<!-- - Geodatabases (and friends!) -->
+- Geospatial Authorities: Who creates, distributes, and maintains authoritative geodata?
+  - [FAIR Guiding Principles for scientific data management and stewardship](https://www.go-fair.org/fair-principles/){target="_blank"} 
+- Spatial metadata and data provenance
+- Some geodata resources:
+  - [The US Geospatial Platform](https://www.geoplatform.gov){target="_blank"}
+  - [USGS National Geospatial Program](https://www.usgs.gov/programs/national-geospatial-program){target="_blank"}
+    - [3D National Topography Model (3DNTM)](https://www.usgs.gov/programs/national-geospatial-program/3d-national-topography-model){target="_blank"}
+      - [3D Elevation Program (3DEP)](https://www.usgs.gov/3d-elevation-program){target="_blank"}
+      - [3D Hydrography Program (3DHP)](https://www.usgs.gov/3d-hydrography-program){target="_blank"}
+    - [U.S. Board on Geographic Names](https://www.usgs.gov/us-board-on-geographic-names){target="_blank"}
+      - [Geographic Names Information System (GNIS)](https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names){target="_blank"}
+    - [The National Map](https://www.usgs.gov/programs/national-geospatial-program/national-map){target="_blank"}
+    - [TNM Supporting Themes](https://www.usgs.gov/programs/national-geospatial-program/supporting-themes){target="_blank"}
+  - [Multi-Resolution Land Characteristics (MRLC) Consortium](https://www.mrlc.gov){target="_blank"}
+  - [US Census Tiger Database](https://www.census.gov/programs-surveys/geography/guidance/tiger-data-products-guide.html){target="_blank"}
+  - [ESRI Living Atlas of the World](https://livingatlas.arcgis.com/en/home/){target="_blank"}
+  - [Montana Spatial Data Infrastructure (MSDI)](https://msl.mt.gov/geoinfo/data/msdi/){target="_blank"}
+  - [Missoula Maps](https://missoulamaps-cityofmissoula.hub.arcgis.com){target="_blank"}
+- Getting data into ArcGIS Pro
 
-<!-- ## Slides -->
+## Slides
 
-<!-- The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys. -->
+The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
 
-<!-- ```{r show-slide-tabs, echo=FALSE, results="asis"} -->
-<!-- slide_buttons("/slides/05-scales_of_measurement") -->
-<!-- # slide_tabs(slide_details, "/slides/01-slides.html") -->
-<!-- ``` -->
-
-<!-- ```{r show-slides-xaringan, echo=FALSE} -->
-<!-- xaringanExtra::embed_xaringan( -->
-<!--   url = "/slides/05-scales_of_measurement.html", -->
-<!--   ratio = "16:9" -->
-<!-- ) -->
-<!-- ``` -->
-
-<!-- :::{.callout-tip} -->
-<!-- **Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of slide-specific commands. -->
-<!-- ::: -->
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+slide_buttons("/slides/20240206-whence_geospatial_data_I")
+# slide_tabs(slide_details, "/slides/01-slides.html")
+```

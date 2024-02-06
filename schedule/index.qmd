@@ -10,8 +10,8 @@ editor_options:
 ::: {.schedule-page}
 
 
-- [**Content**](/content/) ({{< fa fa-person-chalkboard >}}): This page contains the readings, slides, and lecture notes for the week.
-- **Readings** ({{< fa fa-book >}}): This page brings you directly to the required readings for the day.
+- [**Content**](/content/) ({{< fa person-chalkboard >}}): This page contains the readings, slides, and lecture notes for the week.
+- **Readings** ({{< fa book >}}): This page brings you directly to the required readings for the day.
 - [**Evaluations**](/evaluations/) ({{< fa pen-ruler >}}): This page contains the instructions for each evaluation.
 
 ```{r build-table, include=FALSE}
