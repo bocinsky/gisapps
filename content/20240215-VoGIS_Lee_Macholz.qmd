@@ -21,15 +21,24 @@ slide_details <- tibble::tribble(
 )
 ```
 
-<!-- ## Preparation -->
-<!-- Please read [Chapter 2. Data](https://open.lib.umn.edu/mapping/chapter/2-data/){target="_blank"} from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping/){target="_blank"} [@Manson:2017]. -->
+## Expert Biography
 
-<!-- ## Content -->
+![](/content/img/lee_macholz.jpg){fig-align="center" fig-alt="Lee Macholz."}
 
-<!-- - Spheroids, Ellipsoids, and Geoids (Oh My!) -->
-<!-- - Projecting Earth -->
-<!-- - Scale -->
-<!-- - Geodatabases (and friends!) -->
+Lee Macholz is the GIS Manager for the City of Missoula. She holds a Master’s degree in Geography and GIS from the University of Montana (2004). Lee has 20 years of professional GIS experience spanning from GIS for Wildland Fire Management to public utilities to all things GIS in local government. Lee's area of expertise are data design and management and building technical bridges from the staff collecting data in the field and creating data in the office to the managers and leadership making data-driven decisions.
+ 
+Lee manages the GIS Services division which is responsible for providing the technical framework for any city employee to be able to engage with GIS at a level that is appropriate for their role and their skill with GIS. She has led the design of an extensive enterprise GIS framework that centralizes data storage and management and provides staff across the city with access to well over 100 feature services as well as dozens of web applications that are built within the City's ESRI Portal environment. Lee's goal is to facilitate data management and data access in a way that enables users to leverage spatial data regardless of their level of GIS training. This can take the form of facilitating direct database access for data and analysis for power users; to providing web-based data editing applications for non-GIS users to create and manage their own data; to web applications designed to answer task-specific questions for staff and management. The public is an additional audience for whom Lee has designed and built <MissoulaMaps.com>. This site is based on ESRI's ArcGIS Online Hub technology and is built to provide the public with access to the city’s authoritative data and easy-to-use applications that can help answer common questions about the city as a whole and how the city is governed.
+ 
+
+## Preparation
+Please visit <MissoulaMaps.com> and explore the site. Take note of the type of data that are available, how the data are organized, and whether and how the data are accessible.
+
+### Assignment
+Please submit two short questions you would like Kyle to consider asking Lee. These can be about the <MissoulaMaps.com> portal, Lee's career and training, or more general questions about careers in GIS. Lee also mentors interns with the City of Missoula every year.
+
+Please submit your questions by Tuesday, February 13 at 2:00 PM to this Microsoft Form: <https://forms.office.com/r/Q2Ps4kUiXE>.
+
+
 
 <!-- ## Slides -->
 
