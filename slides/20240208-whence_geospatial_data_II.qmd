@@ -1,0 +1,127 @@
+---
+format:
+  revealjs: 
+    theme: dark
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    css: ["css/ath-slides.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+editor_options: 
+  chunk_output_type: console
+---
+
+## Announcements
+- **Check in on map tutorials**
+  - First map tutorial write-ups were due by 2:00 PM Mountain Time Wed/Thurs
+  - Map tutorials turned in using the Microsoft Form on the [Map Tutorial assignment page](https://umtgis.github.io/apps/evaluations/map-tutorials.html){target="_blank"}
+
+- **First Voices of GIS guest next Thursday!**
+  - Lee Macholz of [Missoula City GIS](https://missoulamaps-cityofmissoula.hub.arcgis.com){target="_blank"}
+  - Submit questions for Lee by 2:00 PM on Tuesday
+  - Filming?
+
+# Whence Geospatial Data:<br>(Mis)Placing things
+
+::: {.class-info}
+
+Kyle Bocinsky
+
+::: light
+
+FORS350 / GPHY488<br>(Forestry) Applications of GIS<br>University of Montana<br>
+WA Franke College of Forestry & Conservation
+
+:::
+
+:::
+
+## (Mis)Placing things
+
+::: {.incremental}
+
+- Understanding the Global Positioning System(s)
+- Placing things with ArcGIS Field Maps
+
+:::
+
+---
+
+{{< video https://youtu.be/FU_pY2sTwTA width="100%" height="100%" >}}
+
+## How is GPS changing the world?
+
+::: {.incremental}
+
+- In 2008, only 8% of US used GPS on Mobile Phones
+- From 2010 to 2014, GPS production went from 500 million to 1.1 Billion
+- By 2014, 81% had adopted Mapping Apps
+- By 2022, over 7 billion GPS chips were manufactured!
+
+:::
+
+## ArcGIS Field Maps
+:::{style="text-align: center; font-size: 1.5em;"}
+A new[^] data collection tool from ESRI
+:::
+
+[^]: Sort of a re-brand, really...
+
+## ArcGIS Field Maps
+
+Step 1: Install the ArcGIS Field Maps app
+
+:::{style="text-align: center; font-size: 1.5em;"}
+
+[![Install from iOS App Store](https://www.esri.com/content/esri-sites/en-us/arcgis/products/arcgis-field-maps/downloads/_jcr_content/par/grid_container_95352/gc-par/columnsystem_2094060_1773815026/wpar/image.img.jpg/1685745113807.jpg)](https://links.esri.com/arcgis-field-maps-app-store)
+[![Install from Google Play Store](https://www.esri.com/content/esri-sites/en-us/arcgis/products/arcgis-field-maps/downloads/_jcr_content/par/grid_container_95352/gc-par/columnsystem_2094060798/wpar/image_979721775.img.jpg/1685745113842.jpg)](https://links.esri.com/arcgis-field-maps-google-play-store)
+
+:::
+
+## ArcGIS Field Maps
+
+Step 2: Create a map on ArcGIS Field Maps Designer<br>
+<https://www.arcgis.com/apps/fieldmaps/>
+
+- Sign in with our ArcGIS Organization's URL: `umontana.maps.arcgis.com`
+- Follow with you UM NetID credentials
+- Select **+ New Map** to start a new map
+- Build layers first, then configure forms
+  
+## ArcGIS Field Maps
+
+Step 3: Access your map from the Field Maps app, and start collecting data!
+
+- Sign in with our ArcGIS Organization's URL: `umontana.maps.arcgis.com`
+- Your maps should appear in your app (pull down to refresh)
+  
+## My Griz Life
+Your family and/or non-Griz friends miss you!<br>Create a map that shares what you enjoy about the University of Montana Campus.
+
+1. Create a map in Field Maps Designer titled "My Griz Life"
+
+## My Griz Life
+
+2. Create a layer to map out your activities around campus
+  - Develop a simple form 
+  - Consider using a **Choice** field (*Combo Box* or *Radio Buttons*) for different types of activities (e.g., Academics, Extracurriculars, Food)
+  
+## My Griz Life
+
+3. Start collecting data!
+  - Consider adding photos or other attachments to help illustrate your life
+  - **Be mindful of content!**<br>Please don't share anything you wouldn't want your grandmother (or me, or others) to see
+  
+## My Griz Life
+
+4. When you are done collecting data, share your map with the **Applications of GIS — Spring 2024** group on ArcGIS Online
+  - Join the group^[**10 points for joining our group!**] by clicking **Groups** in the top menu bar, then **My Organization's Groups** on the right. Search for **Applications of GIS**, and click **Join Group** on the bottom left.
+  - Share by 2:00 PM on Tuesday, February 13 for **10 participation points**
+
+## My Griz Life
+
+:::{style="text-align: center; font-size: 1.5em;"}
+
+QUESTIONS?
+
+:::
+
