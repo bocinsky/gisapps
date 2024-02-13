@@ -31,9 +31,9 @@ Please read [Chapter 4. Design and Symbolization](https://open.lib.umn.edu/mappi
 <!-- - Scale -->
 <!-- - Geodatabases (and friends!) -->
 
- ## Slides 
+## Slides 
 
- The [slides for today](/slides/chaco_visibility.pdf){target="_blank"} are available online as an PDF file.
+The [slides for today](/slides/chaco_visibility.pdf){target="_blank"} are available online as an PDF file.
 
 <object data="/slides/chaco_visibility.pdf" type="application/pdf" width="100%" height="500px">
 <p>Unable to display PDF file. <a href="/slides/chaco_visibility.pdf">Download</a> instead.</p>
