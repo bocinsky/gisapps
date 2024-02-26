@@ -16,9 +16,9 @@ For this lab we are providing you with several different datasets. Average rainf
 
 ## Requirements
 
-You will need to download the Lab 1 ArcPro package from here: [ModelBuilder.aprx](/apps/evaluations/ModelBuilder.aprx){target="_blank"}.
+You will need to download the Lab 1 ArcPro package from here: [ModelBuilder.aprx](/evaluations/ModelBuilder.aprx){target="_blank"}.
 
-1. Use the [supplied ArcPro package](/apps/evaluations/ModelBuilder.aprx){target="_blank"} and add any other variable layers you would like. Work in a geographic coordinate system in the Feature Dataset, and then set a projection in the data frame.
+1. Use the [supplied ArcPro package](/evaluations/ModelBuilder.aprx){target="_blank"} and add any other variable layers you would like. Work in a geographic coordinate system in the Feature Dataset, and then set a projection in the data frame.
 2. Use the select by attribute and intersect tools, or other tools in a Model to reduce the data set by the criteria that are most important to you. Write a tutorial on how to use model builder and include an image of the model flowchart.
 3. Then map and label your unique towns and cities on an attractive layout. Take note of your top 3--5. What criteria could you use to narrow the field further?
 
@@ -26,7 +26,7 @@ You will need to download the Lab 1 ArcPro package from here: [ModelBuilder.aprx
 
 **You are responsible for a partial lab write-up due a week after your lab session.** This write-up is worth 100 points and will be graded as Excellent (100), Good (80), Fair (60), or Poor (40).
 
-Please write a *partial* scientific report about your analysis of your personal city happiness index. Remember your research question and use your results to answer it. For this assignment, write just the Introduction, Results, and Discussion sections. Write the lab up in a report following the [Scientific Report Template](/apps/evaluations/ScientificReportTemplate.docx){target="_blank"} discussed in class. **Please use the template.** Copy and paste your data into the template; it is easier than rebuilding it from scratch. Insert the images of your maps, one to a page, full-size, rotated with the north to the left margin for landscape format images. This partial scientific report does not require the Literature Review, Methods, Conclusion, or Reference sections. Keep the Title page and Contents from the Template, but delete the sections you do not need.
+Please write a *partial* scientific report about your analysis of your personal city happiness index. Remember your research question and use your results to answer it. For this assignment, write just the Introduction, Results, and Discussion sections. Write the lab up in a report following the [Scientific Report Template](/evaluations/ScientificReportTemplate.docx){target="_blank"} discussed in class. **Please use the template.** Copy and paste your data into the template; it is easier than rebuilding it from scratch. Insert the images of your maps, one to a page, full-size, rotated with the north to the left margin for landscape format images. This partial scientific report does not require the Literature Review, Methods, Conclusion, or Reference sections. Keep the Title page and Contents from the Template, but delete the sections you do not need.
 
 The Introduction section is for briefly describing what you intend to do. Summarize the purpose of the analysis, your methods, and give a brief overview of the rest of the report.
 
