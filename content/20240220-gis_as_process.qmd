@@ -21,32 +21,10 @@ slide_details <- tibble::tribble(
 )
 ```
 
-<!-- ## Preparation -->
-<!-- Please read [Chapter 2. Data](https://open.lib.umn.edu/mapping/chapter/2-data/){target="_blank"} from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping/){target="_blank"} [@Manson:2017]. -->
+## Slides 
 
-<!-- ## Content -->
+The [slides for today](/slides/20240220_drought_nonstationarity.pdf){target="_blank"} are available online as an PDF file.
 
-<!-- - Spheroids, Ellipsoids, and Geoids (Oh My!) -->
-<!-- - Projecting Earth -->
-<!-- - Scale -->
-<!-- - Geodatabases (and friends!) -->
-
-<!-- ## Slides -->
-
-<!-- The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys. -->
-
-<!-- ```{r show-slide-tabs, echo=FALSE, results="asis"} -->
-<!-- slide_buttons("/slides/05-scales_of_measurement") -->
-<!-- # slide_tabs(slide_details, "/slides/01-slides.html") -->
-<!-- ``` -->
-
-<!-- ```{r show-slides-xaringan, echo=FALSE} -->
-<!-- xaringanExtra::embed_xaringan( -->
-<!--   url = "/slides/05-scales_of_measurement.html", -->
-<!--   ratio = "16:9" -->
-<!-- ) -->
-<!-- ``` -->
-
-<!-- :::{.callout-tip} -->
-<!-- **Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of slide-specific commands. -->
-<!-- ::: -->
+<object data="/apps/slides/20240220_drought_nonstationarity.pdf" type="application/pdf" width="100%" height="500px">
+<p>Unable to display PDF file. <a href="/apps/slides/20240220_drought_nonstationarity.pdf">Download</a> instead.</p>
+</object>
