@@ -1,0 +1,50 @@
+---
+title: "Lab 1: Model Builder and Automated Workflows"
+---
+
+![](https://pro.arcgis.com/en/pro-app/3.1/help/analysis/geoprocessing/modelbuilder/GUID-622D83E8-3D4A-4299-BA2F-A67F0AC12C51-web.png){fig-align="center"}
+
+## Description
+
+By now you should be starting to get comfortable with using ArcGIS Pro, so now it is time to start doing some spatial analysis. Using spatial analysis, GIS data can be used to answer geographic questions. For example, [this map uses disease spread theory to predict the most dangerous places during a zombie apocalypse](https://mattbierbaum.github.io/zombies-usa/){target="_blank"}. Perhaps more practically, you could use your GIS skills to determine which areas of the U.S. you would most like to live. Consider what criteria you believe are most important for a happy and satisfying life. For example, you may wish to live a place that is not too rainy, doesn’t have too many people, and is in the mountains. How could you make a map that shows just the places that meet these criteria? One way would be to find data layers for each of those criteria, define a selection query for the attributes you want, and then intersect the layers by your selections. For the example above, the final polygons could represent areas of lightly populated temperate forests with under 30 cm of rain a year. Then you would simply select cities within those polygons.
+
+What if you weren’t satisfied with the results? You would have to start over with new selections. However, ArcGIS Pro has a tool which would allow you to quickly change parameters and run the analysis again. Model Builder is a GUI interface for combining a series of tools using flow-chart logic. Models can vastly reduce time spent on repetitive tasks and help troubleshoot errors through iteration. Just about every tool found in the Arc Toolbox can be added and run in Model Builder. There is also functionality for batch processing and iteration, which opens the door to automate tasks on entire geodatabases of files. All models are stored in a project toolbox, and can be modified during editing, or opened after chosen parameters are set. Finished Models can also be exported to Python, providing a gateway to writing scripts.
+
+For this lab we are providing you with several different datasets. Average rainfall, average income, population density, biomes and education levels. Your task is to find an additional dataset (we will discuss where to look for data in class) to conduct an analysis of the continental U.S. in order to determine the cities you consider most livable. Use the data to create a custom map of your “ideal” places. Use model builder as demonstrated to run your analysis and plan on fine tuning the model with multiple iterations. You already have the skills needed to for this lab, but we will discuss possible workflows in class.
+
+{{< video https://youtu.be/Yu457Vrc93g >}}
+
+## Requirements
+
+You will need to download the Lab 1 ArcPro package from here: [ModelBuilder.aprx](/evaluations/ModelBuilder.aprx){target="_blank"}.
+
+1. Use the [supplied ArcPro package](/evaluations/ModelBuilder.aprx){target="_blank"} and add any other variable layers you would like. Work in a geographic coordinate system in the Feature Dataset, and then set a projection in the data frame.
+2. Use the select by attribute and intersect tools, or other tools in a Model to reduce the data set by the criteria that are most important to you. Write a tutorial on how to use model builder and include an image of the model flowchart.
+3. Then map and label your unique towns and cities on an attractive layout. Take note of your top 3--5. What criteria could you use to narrow the field further?
+
+## Deliverables
+
+**You are responsible for a partial lab write-up due a week after your lab session.** This write-up is worth 100 points and will be graded as Excellent (100), Good (80), Fair (60), or Poor (40).
+
+Please write a *partial* scientific report about your analysis of your personal city happiness index. Remember your research question and use your results to answer it. For this assignment, write just the Introduction, Results, and Discussion sections. Write the lab up in a report following the [Scientific Report Template](/evaluations/lab-template.docx){target="_blank"} discussed in class. **Please use the template.** Copy and paste your data into the template; it is easier than rebuilding it from scratch. Insert the images of your maps, one to a page, full-size, rotated with the north to the left margin for landscape format images. This partial scientific report does not require the Literature Review, Methods, Conclusion, or Reference sections. Keep the Title page and Contents from the Template, but delete the sections you do not need.
+
+The Introduction section is for briefly describing what you intend to do. Summarize the purpose of the analysis, your methods, and give a brief overview of the rest of the report.
+
+The Results section is for displaying the model and maps. Insert a screenshot of your final model, and describe the tools used in your model, as well as the steps taken. Insert your final map (or maps). Describe what they show, but do not try to interpret them. Remember, in this section you do not have to analyze the results or add your interpretation. Just describe what the maps show, calling out key areas of interest for the audience.
+
+The Discussion section is where you interpret what you found in the maps. What were the top cities or towns in your analysis? How did changing the parameters affect which places rose to the top of the list? How might you go about adapting this analysis to the results of a survey of UM undergraduate students about what factors they find most important when choosing a place to live?
+
+This is meant to be a (partial) scientific report, and to give you some room to practice scientific writing. Please be neat, organized, and professional. **Spelling and grammar count.** Please try to avoid using the passive voice. Many people incorrectly assume passive voice makes scientific writing sound more authoritative. [This is wrong](https://writingcenter.unc.edu/tips-and-tools/sciences/){target="_blank"}; use of the passive voice can make your writing less clear and engaging. You are welcome to use the first-person active voice in your write-up (e.g., "I use the model builder to ..."). There is no absolute number of pages required. Just use what it takes to cover the material: your introduction, results, and discussion. 
+
+**Please save your lab write-up as a Microsoft Word or PDF document.** Give your lab write-up a file name in this format:<br><center>`[last name]_lab-1.[format]`<br></center> For example, my lab write-up would be `Bocinsky_lab-1.docx` or `Bocinsky_lab-1.pdf`.
+
+## Due Dates
+This lab write-up is due one week your lab session. **Lab write-ups are due by 2:00 PM Mountain Time.**
+
+Here is a table of due dates:
+
+|       | Wednesday Section | Thursday Section |
+| :---        |    :----   |          :--- |
+| Lab 1      | March 6       | March 7   |
+
+**Turn in your map tutorials using this Microsoft Form: <https://forms.office.com/r/xAUpWkFRSS>{target="_blank"}.** You will be required to sign in using your UMConnect email address (`NetID@umconnect.umt.edu`). If you have trouble reaching the form, please let me know ASAP.
