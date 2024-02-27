@@ -81,7 +81,7 @@
     "href": "evaluations/lab1-model-builder.html#requirements",
     "title": "Lab 1: Model Builder and Automated Workflows",
     "section": "Requirements",
-    "text": "Requirements\nYou will need to download the Lab 1 ArcPro package from here: ModelBuilder.aprx.\n\nUse the supplied ArcPro package and add any other variable layers you would like. Work in a geographic coordinate system in the Feature Dataset, and then set a projection in the data frame.\nUse the select by attribute and intersect tools, or other tools in a Model to reduce the data set by the criteria that are most important to you. Write a tutorial on how to use model builder and include an image of the model flowchart.\nThen map and label your unique towns and cities on an attractive layout. Take note of your top 3–5. What criteria could you use to narrow the field further?"
+    "text": "Requirements\nYou will need to download the Lab 1 ArcPro package from here: ModelBuilder.ppkx. Click “Download” then double click the downloaded ModelBuilder.ppkx package to start the lab.\n\nUse the supplied ArcPro package and add any other variable layers you would like. Work in a geographic coordinate system in the Feature Dataset, and then set a projection in the data frame.\nUse the select by attribute and intersect tools, or other tools in a Model to reduce the data set by the criteria that are most important to you. Write a tutorial on how to use model builder and include an image of the model flowchart.\nThen map and label your unique towns and cities on an attractive layout. Take note of your top 3–5. What criteria could you use to narrow the field further?"
   },
   {
     "objectID": "evaluations/lab1-model-builder.html#deliverables",
