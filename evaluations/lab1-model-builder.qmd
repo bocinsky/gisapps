@@ -16,9 +16,9 @@ For this lab we are providing you with several different datasets. Average rainf
 
 ## Requirements
 
-You will need to download the Lab 1 ArcPro package from here: [ModelBuilder.aprx](/evaluations/ModelBuilder.aprx){target="_blank"}.
+You will need to download the Lab 1 ArcPro package from here: [ModelBuilder.aprx](https://umontana.maps.arcgis.com/home/item.html?id=8c00f4435d1747c08b619d801cbbb404){target="_blank"}.
 
-1. Use the [supplied ArcPro package](/evaluations/ModelBuilder.aprx){target="_blank"} and add any other variable layers you would like. Work in a geographic coordinate system in the Feature Dataset, and then set a projection in the data frame.
+1. Use the [supplied ArcPro package](https://umontana.maps.arcgis.com/home/item.html?id=8c00f4435d1747c08b619d801cbbb404){target="_blank"} and add any other variable layers you would like. Work in a geographic coordinate system in the Feature Dataset, and then set a projection in the data frame.
 2. Use the select by attribute and intersect tools, or other tools in a Model to reduce the data set by the criteria that are most important to you. Write a tutorial on how to use model builder and include an image of the model flowchart.
 3. Then map and label your unique towns and cities on an attractive layout. Take note of your top 3--5. What criteria could you use to narrow the field further?
 
