@@ -12,8 +12,8 @@ This 600 point project is worth 30 percent of your total grade and is divided as
 
 | Component  | Points  | Due Date |
 |--------|--------|--------|
-| Project Proposal     | 100 pts. | Thursday, March 28 |
-| Final Group StoryMap | 400 pts. | Friday, April 26 |
+| Project Proposal     | 100 pts. | Friday, March 29, 11:59 PM |
+| Final Group StoryMap | 400 pts. | Friday, April 26, 11:59 PM |
 | StoryMap Presentation | 100 pts. | In class, April 30 & May 2 |
 
 ### Project Proposal
@@ -30,6 +30,8 @@ Please use the following format including these sections:
 The **introduction** explains the project purpose and gives a short background to the site and setting of the geography. The **problem statement** outlines the research question or planning challenge and how you intend to answer it. Use the **contextual framework** to review at least three pieces of literature that ground the research in demonstrated science, or reference at least three examples of how your particular planning challenge has been addressed in other contexts. Finally, describe the **proposed methods** with an outline of the data, the GIS tools you may use on the data, and the GIS steps that could be followed in the analysis.^[Note that methods at this point are not firm and it is expected that they will change as the research progresses.]
 
 **See the provided [example](final-project-proposal-template.docx){target="_blank"} of a project proposal and use its format.**^[All credit once again goes to Kevin McManigal for this template.] There is no firm length for the project proposal, however, the more you write here, the further ahead you are for the final StoryMap --- much of the text may be reused in your StoryMap. Try to follow the length guidelines above, plus the title page and references.
+
+**Your group Project Proposal is due by 11:59 PM on Friday, March 29.**
 
 ### Final Group StoryMap
 
