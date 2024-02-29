@@ -29,7 +29,7 @@ Please use the following format including these sections:
 
 The **introduction** explains the project purpose and gives a short background to the site and setting of the geography. The **problem statement** outlines the research question or planning challenge and how you intend to answer it. Use the **contextual framework** to review at least three pieces of literature that ground the research in demonstrated science, or reference at least three examples of how your particular planning challenge has been addressed in other contexts. Finally, describe the **proposed methods** with an outline of the data, the GIS tools you may use on the data, and the GIS steps that could be followed in the analysis.^[Note that methods at this point are not firm and it is expected that they will change as the research progresses.]
 
-**See the provided [example](final-project-proposal-template.docx){target="_blank"} of a project proposal and use its format.**^[All credit once again goes to Kevin McManigal for this template.] There is no firm length for the project proposal, however, the more you write here, the further ahead you are for the final StoryMap... much of the text may be reused in your StoryMap. Try to follow the length guidelines above, plus the title page and references.
+**See the provided [example](final-project-proposal-template.docx){target="_blank"} of a project proposal and use its format.**^[All credit once again goes to Kevin McManigal for this template.] There is no firm length for the project proposal, however, the more you write here, the further ahead you are for the final StoryMap --- much of the text may be reused in your StoryMap. Try to follow the length guidelines above, plus the title page and references.
 
 ### Final Group StoryMap
 
@@ -93,10 +93,10 @@ Upload your final ArcGIS StoryMap and ArcGIS Pro Project Package to the class [A
 During the last week of class, your group will give a brief demo of your StoryMap. In five minutes, hit the highlights of your analysis and StoryMap. Each member of your group should present at least one section of the StoryMap.
 
 ### 360-degree peer feedback
-Each student will participate in a **360-degree peer feedback** process, where you will be assessed by your teammates on your contribution to your group project. Each team member will be responsible for assessing all other team members, as well as themselves. Assessments will be anonymous, and are meant to provide constructive feedback and to encourage equitable contributions to the project. I will share the 360-degree peer feedback instrument during March. They will be submitted through a Microsoft Form, and will be due with your StoryMap Presentation.
+Each student will participate in a **360-degree peer feedback** process, where you will be assessed by your teammates on your contribution to your group project. Each team member will be responsible for assessing all other team members, as well as themselves. **Assessments will be anonymous**, and are meant to provide constructive feedback and to encourage equitable contributions to the project. I will share the 360-degree peer feedback instrument during March. They will be submitted through a Microsoft Form, and will be due with your StoryMap Presentation.
 
 ## Assessment
-There will be four components of the assessment for this project.
+There will be three components of the assessment of your project.
 
 - The **Project Proposal** (100 pts.) will receive comments and a grade from the instructor. Grammar and completeness matter!
 - The **Final Group StoryMap** (400 pts.) will be graded based on a rubric that accounts for **design, implementation, completeness, and visual presentation** of your project. Creativity is really important here! You will also be assessed on the completeness of your Project Package and documentation, including metadata.
