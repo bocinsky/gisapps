@@ -26,14 +26,14 @@ WA Franke College of Forestry & Conservation
 :::
 
 ## Project Overview
-- Identify unique resource management or environmental planning challenge.
-- Submit a project proposal.
-- Use GIS analysis and create an ESRI StoryMap to communicate findings.
+- Identify unique resource management or environmental planning challenge
+- Submit a project proposal
+- Use GIS analysis and create an ESRI StoryMap to communicate findings
 
 ## Purpose of the Project
-- Practice designing, organizing, and executing a research project using ArcGIS.
-- Develop communication skills in an attractive and interactive format.
-- Emphasize group-based work for professional skill development.
+- Practice designing, organizing, and executing a research project using ArcGIS
+- Develop communication skills in an attractive and interactive format
+- Emphasize group-based work for professional skill development
 
 ## Project Components and Grading
 - Project Proposal (100 pts.) - Due: March 28
@@ -47,16 +47,16 @@ WA Franke College of Forestry & Conservation
 - Proposed Methods (~250-500 words)
 
 ## Final Group StoryMap
-- Components: ArcGIS Pro Project and ArcGIS StoryMap.
-- Document databases, toolboxes, and maps in ArcGIS Pro Project.
-- Develop an engaging ArcGIS StoryMap.
-  - Introduction, Contextual Framework, Methods, Results, Discussion, Conclusion.
+- Components: ArcGIS Pro Project and ArcGIS StoryMap
+- Document databases, toolboxes, and maps in ArcGIS Pro Project
+- Develop an engaging ArcGIS StoryMap
+  - Introduction, Contextual Framework, Methods, Results, Discussion, Conclusion
 
-## Assessment Breakdown
-- Project Proposal (100 pts.)
-- Final Group StoryMap (400 pts.)
-  - Instructor's assessment (300 pts.)
-  - 360-Degree Peer Feedback (100 pts.)
-- StoryMap Presentation (100 pts.)
+## Peer Feedback
+- 360-degree peer feedback process: assess yourself and  your teammates on contributions to the project
+- Twice during the course of the project:
+  - With Project Proposal
+  - With StoryMap Presentation
+- Meant to provide constructive feedback, encourage equitable contributions to the project, and acknowledge exceptional collaboration
 
 ## QUESTIONS?
