@@ -67,6 +67,8 @@ website:
         contents:
           - text: "Syllabus Quiz"
             file: evaluations/syllabus-quiz.html
+          - text: "Final Group Project"
+            file: evaluations/final-project.qmd
           - text: "Map Tutorials"
             file: evaluations/map-tutorials.qmd
           - text: "Lab 1"
