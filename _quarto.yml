@@ -69,6 +69,8 @@ website:
             file: evaluations/syllabus-quiz.html
           - text: "Map Tutorials"
             file: evaluations/map-tutorials.qmd
+          - text: "Lab 1"
+            file: evaluations/lab1-model-builder.qmd
           # - evaluations/index.qmd
           # - text: "Weekly check-in"
           #   file: evaluations/weekly-check-in.qmd

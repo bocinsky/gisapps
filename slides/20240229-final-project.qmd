@@ -1,0 +1,62 @@
+---
+format:
+  revealjs: 
+    theme: dark
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    css: ["css/ath-slides.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+editor_options: 
+  chunk_output_type: console
+---
+
+# Group GIS Project
+
+::: {.class-info}
+
+Kyle Bocinsky
+
+::: light
+
+FORS350 / GPHY488<br>(Forestry) Applications of GIS<br>University of Montana<br>
+WA Franke College of Forestry & Conservation
+
+:::
+
+:::
+
+## Project Overview
+- Identify unique resource management or environmental planning challenge.
+- Submit a project proposal.
+- Use GIS analysis and create an ESRI StoryMap to communicate findings.
+
+## Purpose of the Project
+- Practice designing, organizing, and executing a research project using ArcGIS.
+- Develop communication skills in an attractive and interactive format.
+- Emphasize group-based work for professional skill development.
+
+## Project Components and Grading
+- Project Proposal (100 pts.) - Due: March 28
+- Final Group StoryMap (400 pts.) - Due: April 26
+- StoryMap Presentation (100 pts.) - In class, April 30 & May 2
+
+## Project Proposal Sections
+- Introduction (~250-500 words)
+- Problem Statement (~500 words)
+- Contextual Framework (~500-1000 words)
+- Proposed Methods (~250-500 words)
+
+## Final Group StoryMap
+- Components: ArcGIS Pro Project and ArcGIS StoryMap.
+- Document databases, toolboxes, and maps in ArcGIS Pro Project.
+- Develop an engaging ArcGIS StoryMap.
+  - Introduction, Contextual Framework, Methods, Results, Discussion, Conclusion.
+
+## Assessment Breakdown
+- Project Proposal (100 pts.)
+- Final Group StoryMap (400 pts.)
+  - Instructor's assessment (300 pts.)
+  - 360-Degree Peer Feedback (100 pts.)
+- StoryMap Presentation (100 pts.)
+
+## QUESTIONS?

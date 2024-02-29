@@ -1,0 +1,103 @@
+---
+title: "Group GIS Project"
+---
+
+A semester-long assignment, the group GIS project requires you to identify a unique resource management problem or environmental planning challenge that can be answered with a GIS analysis, design and run the analysis, and tell the story of that analysis using an ESRI StoryMap. Each group must submit a project proposal following a format that will be discussed in class. As a group, you will develop a research question, review the literature or documentation about your subject area (including, perhaps, techniques have been applied previously), decide what data is required, and design and complete your analysis. You will document your analysis in an [ArcGIS StoryMap](https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/overview){target="_blank"}, and compile all of your project resources in an [ArcGIS Pro Package](https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/introduction-to-sharing-packages.htm){target="_blank"}. Your StoryMap should include maps, graphs, tables, and figures that support your research and its results. The project design, workflow and conclusions will be presented to the class at the end of the semester, and archived as part of our [ArcGIS Online group](https://arcg.is/1Cj5mC0){target="_blank"}.
+
+The purpose of this project is twofold. First and foremost, it is to practice how to **design, organize, and execute a research project within the ArcGIS ecosystem**, and communicate it in an attractive and interactive format. You should leverage the skills you've learned in this course and others to address a real-world challenge, of the sort that you will engage in as a GIS professional. The second is to continue to practice engaging in group-based work. **Group work is hard**, but I truly believe it is among the most important professional skills to develop. This project will afford you the opportunity to **consider your strengths** --- design, analysis, data cleaning, writing, presentation --- and hopefully complement the strengths of others in your group in order to successfully execute your project.
+
+## Deliverables and Due Dates
+
+This 600 point project is worth 30 percent of your total grade and is divided as follows:
+
+| Component  | Points  | Due Date |
+|--------|--------|--------|
+| Project Proposal     | 100 pts. | Thursday, March 28 |
+| Final Group StoryMap | 400 pts. | Friday, April 26 |
+| StoryMap Presentation | 100 pts. | In class, April 30 & May 2 |
+
+### Project Proposal
+
+The final project is designed to give you experience in real-world GIS problem solving. The scope of the project proposal is to introduce your final project, explain the research question and approach, set the research within a contextual framework, and cover some preliminary methods.
+
+Please use the following format including these sections:
+
+- Introduction (~250--500 words)
+- Problem Statement (~500 words)
+- Contextual Framework (Literature Review; ~500--1000 words)
+- Proposed Methods (~250--500 words)
+
+The **introduction** explains the project purpose and gives a short background to the site and setting of the geography. The **problem statement** outlines the research question or planning challenge and how you intend to answer it. Use the **contextual framework** to review at least three pieces of literature that ground the research in demonstrated science, or reference at least three examples of how your particular planning challenge has been addressed in other contexts. Finally, describe the **proposed methods** with an outline of the data, the GIS tools you may use on the data, and the GIS steps that could be followed in the analysis.^[Note that methods at this point are not firm and it is expected that they will change as the research progresses.]
+
+**See the provided [example](final-project-proposal-template.docx){target="_blank"} of a project proposal and use its format.**^[All credit once again goes to Kevin McManigal for this template.] There is no firm length for the project proposal, however, the more you write here, the further ahead you are for the final StoryMap... much of the text may be reused in your StoryMap. Try to follow the length guidelines above, plus the title page and references.
+
+### Final Group StoryMap
+
+Your group is tasked with using GIS analysis to address an environmental challenge or explore a specific problem. Rather than a traditional research paper, you will create an ESRI StoryMap to present your analysis, findings, and solutions in an engaging and visually appealing format.
+
+#### Components
+
+The final group StoryMap has two components: an ArcGIS Pro Project in which you will archive all databases, toolboxes, and maps for your project, and an ArcGIS StoryMap that you will use to communicate the process and results of your project.
+
+##### ArcGIS Pro Project Package and ArcGIS Online Maps
+All databases, toolboxes, and maps for your project should be stored in an [ArcGIS Pro Project](https://pro.arcgis.com/en/pro-app/latest/help/projects/what-is-a-project.htm){target="_blank"}. Work with the course instructor to get access to a shared file space on the **T:/** drive in which to start your project. There are other ways to share data and information using ArcGIS Online that you are free to explore; however, at the end of the project, you will need to **encapsulate your project in an [ArcGIS Pro Package](https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/introduction-to-sharing-packages.htm){target="_blank"}, and upload it to the class [ArcGIS Online group](https://arcg.is/1Cj5mC0){target="_blank"}.**
+
+Document all raw data sets used in your project, and keep the raw data as part of your project. Describe where you got your data (i.e., from what authority?) and document any manipulations you made to the data, including re-projection. [View and edit the metadata](https://pro.arcgis.com/en/pro-app/latest/help/metadata/view-and-edit-metadata.htm){target="_blank"} for your raw and derived data sets.^[See ESRI's [Best practices for editing metadata](https://pro.arcgis.com/en/pro-app/latest/help/metadata/best-practices-for-editing-metadata.htm){target="_blank"} guide for some helpful tips.] While it isn't mandatory, **I strongly encourage you to use the ModelBuilder or a script to design and run your analysis.** If you do, you may screen-shot and annotate your model as an illustration of your workflow.
+
+You will likely need to upload your maps to ArcGIS Online for use in your ArcGIS StoryMap. Please label your maps with a consistent naming convention that clearly indicates your group's project.
+
+##### ESRI StoryMap
+**Develop an ESRI StoryMap that reports on your analysis and results.** You are welcome to use edited text from your proposal, but the StoryMap should elaborate on and refine the proposal text. Use images, maps, and other graphics throughout to create an engaging and attractive presentation of your project.
+
+There are lots of resources on the [ArcGIS StoryMaps website](https://storymaps.arcgis.com){target="_blank"}, but two very helpful ones are the [getting started guide](https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4){target="_blank"} and the [Planning and outlining your story guide](https://www.esri.com/arcgis-blog/products/arcgis-storymaps/sharing-collaboration/planning-and-outlining-your-story-map-how-to-set-yourself-up-for-success/){target="_blank"}.
+
+Please include the following sections in your StoryMap. You may use various StoryMap display elements for the sections (e.g., immersives, panels, slide shows), but all the sections need to be represented adequately.
+
+1. **Introduction**
+  - Briefly introduce the chosen environmental problem.
+  - Clearly state the research question or objective.
+  - Provide context on the significance of using GIS for analysis.
+2. **Contextual Framework (Literature Review)**
+  - Summarize relevant literature on the environmental problem and GIS techniques.
+  - Highlight key findings from previous studies.
+  - Justify the chosen research question based on literature.
+3. **Methods**
+  - Detail the GIS analysis methods employed.
+  - Describe data collection, processing, and analysis.
+  - Use visuals (flowcharts or diagrams) for clarity.
+4. **Results**
+  - Showcase results through maps, graphs, tables, and figures.
+  - Clearly label and explain each visual element.
+  - Provide multiple layers of maps if applicable.
+5. **Discussion**
+  - Interpret results in the context of the research question.
+  - Discuss challenges faced and how your group addressed them.
+  - Compare findings to existing literature.
+6. **Conclusion**
+  - Summarize main findings of the analysis.
+  - State implications of results for addressing the environmental problem.
+  - Propose recommendations or suggestions for future research/actions.
+7. **Credits and Contributions**
+  - List anyone (including organizations) that were particularly helpful to you.
+  - List the contributions of your team members. Include categories of contributions such as "designed the analysis", "cleaned the data", "developed map styles", "developed the StoryMap", etc. Consider using the [Contributor Roles Taxonomy (CRediT)](https://credit.niso.org){target="_blank"} if appropriate.
+8. **References**
+  - All sources—for maps, data, images, and references—should be cited in your StoryMap.
+  - You may style citations however you like, but be consistent.
+  - ESRI's guide for [Citations and references for sources in ArcGIS StoryMaps](https://www.esri.com/arcgis-blog/products/story-maps/sharing-collaboration/citations/){target="_blank"} may be helpful.
+  - Check out [Citing Sources in a Storymap](https://storymaps.arcgis.com/stories/6f9ac21f356145b5b464c89175cf4375){target="_blank"} for inspiration and tips on citations in StoryMaps.
+  
+
+#### Submission
+Upload your final ArcGIS StoryMap and ArcGIS Pro Project Package to the class [ArcGIS Online group](https://arcg.is/1Cj5mC0){target="_blank"}. **Your final group StoryMap is due by 11:59 PM on Friday, April 26.**
+
+### StoryMap Presentation
+During the last week of class, your group will give a brief demo of your StoryMap. In five minutes, hit the highlights of your analysis and StoryMap. Each member of your group should present at least one section of the StoryMap.
+
+## Assessment
+There will be four components of the assessment for this project.
+
+- The **Project Proposal** (100 pts.) will receive comments and a grade from the instructor. Grammar and completeness matter!
+- The **Final Group StoryMap** (400 pts.) will have two components: 
+  - The instructor will assign 300 pts. based on a rubric that accounts for **design, implementation, completeness, and visual presentation** of your project. Creativity is really important here! You will also be assessed on the completeness of your Project Package and documentation, including metadata.
+  - The instructor will distribute the remaining 100 pts. informed by **360-degree peer feedback**, where you will be assessed by your teammates on your contribution to your group project. Each team member will be responsible for assessing all other team members, as well as themselves. Assessments will be anonymous, and are meant to provide constructive feedback, and a mechanism for the instructor to assess equitable contribution to the project. 
+- Finally, the **StoryMap Presentation** (100 pts.) will be graded by a panel of expert judges (including the instructor), using a scoring rubric.

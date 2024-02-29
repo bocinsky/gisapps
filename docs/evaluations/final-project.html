@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.446">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>(Forestry) Applications of GIS - Group GIS Project</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">(Forestry) Applications of GIS</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus/index.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule/index.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../content/index.html"> 
+<span class="menu-text">Content</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../evaluations/index.html"> 
+<span class="menu-text">Evaluations</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#deliverables-and-due-dates" id="toc-deliverables-and-due-dates" class="nav-link active" data-scroll-target="#deliverables-and-due-dates">Deliverables and Due Dates</a>
+  <ul class="collapse">
+  <li><a href="#project-proposal" id="toc-project-proposal" class="nav-link" data-scroll-target="#project-proposal">Project Proposal</a></li>
+  <li><a href="#final-group-storymap" id="toc-final-group-storymap" class="nav-link" data-scroll-target="#final-group-storymap">Final Group StoryMap</a></li>
+  <li><a href="#storymap-presentation" id="toc-storymap-presentation" class="nav-link" data-scroll-target="#storymap-presentation">StoryMap Presentation</a></li>
+  </ul></li>
+  <li><a href="#assessment" id="toc-assessment" class="nav-link" data-scroll-target="#assessment">Assessment</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header">
+<h1 class="title display-7">Group GIS Project</h1>
+
+</header>
+
+
+<p>A semester-long assignment, the group GIS project requires you to identify a unique resource management problem or environmental planning challenge that can be answered with a GIS analysis, design and run the analysis, and tell the story of that analysis using an ESRI StoryMap. Each group must submit a project proposal following a format that will be discussed in class. As a group, you will develop a research question, review the literature or documentation about your subject area (including, perhaps, techniques have been applied previously), decide what data is required, and design and complete your analysis. You will document your analysis in an <a href="https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/overview" target="_blank">ArcGIS StoryMap</a>, and compile all of your project resources in an <a href="https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/introduction-to-sharing-packages.htm" target="_blank">ArcGIS Pro Package</a>. Your StoryMap should include maps, graphs, tables, and figures that support your research and its results. The project design, workflow and conclusions will be presented to the class at the end of the semester, and archived as part of our <a href="https://arcg.is/1Cj5mC0" target="_blank">ArcGIS Online group</a>.</p>
+<p>The purpose of this project is twofold. First and foremost, it is to practice how to <strong>design, organize, and execute a research project within the ArcGIS ecosystem</strong>, and communicate it in an attractive and interactive format. You should leverage the skills you’ve learned in this course and others to address a real-world challenge, of the sort that you will engage in as a GIS professional. The second is to continue to practice engaging in group-based work. <strong>Group work is hard</strong>, but I truly believe it is among the most important professional skills to develop. This project will afford you the opportunity to <strong>consider your strengths</strong> — design, analysis, data cleaning, writing, presentation — and hopefully complement the strengths of others in your group in order to successfully execute your project.</p>
+<section id="deliverables-and-due-dates" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables-and-due-dates">Deliverables and Due Dates</h2>
+<p>This 600 point project is worth 30 percent of your total grade and is divided as follows:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Points</th>
+<th>Due Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Project Proposal</td>
+<td>100 pts.</td>
+<td>Thursday, March 28</td>
+</tr>
+<tr class="even">
+<td>Final Group StoryMap</td>
+<td>400 pts.</td>
+<td>Friday, April 26</td>
+</tr>
+<tr class="odd">
+<td>StoryMap Presentation</td>
+<td>100 pts.</td>
+<td>In class, April 30 &amp; May 2</td>
+</tr>
+</tbody>
+</table>
+<section id="project-proposal" class="level3">
+<h3 class="anchored" data-anchor-id="project-proposal">Project Proposal</h3>
+<p>The final project is designed to give you experience in real-world GIS problem solving. The scope of the project proposal is to introduce your final project, explain the research question and approach, set the research within a contextual framework, and cover some preliminary methods.</p>
+<p>Please use the following format including these sections:</p>
+<ul>
+<li>Introduction (~250–500 words)</li>
+<li>Problem Statement (~500 words)</li>
+<li>Contextual Framework (Literature Review; ~500–1000 words)</li>
+<li>Proposed Methods (~250–500 words)</li>
+</ul>
+<p>The <strong>introduction</strong> explains the project purpose and gives a short background to the site and setting of the geography. The <strong>problem statement</strong> outlines the research question or planning challenge and how you intend to answer it. Use the <strong>contextual framework</strong> to review at least three pieces of literature that ground the research in demonstrated science, or reference at least three examples of how your particular planning challenge has been addressed in other contexts. Finally, describe the <strong>proposed methods</strong> with an outline of the data, the GIS tools you may use on the data, and the GIS steps that could be followed in the analysis.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p><strong>See the provided <a href="final-project-proposal-template.docx" target="_blank">example</a> of a project proposal and use its format.</strong><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> There is no firm length for the project proposal, however, the more you write here, the further ahead you are for the final StoryMap… much of the text may be reused in your StoryMap. Try to follow the length guidelines above, plus the title page and references.</p>
+</section>
+<section id="final-group-storymap" class="level3">
+<h3 class="anchored" data-anchor-id="final-group-storymap">Final Group StoryMap</h3>
+<p>Your group is tasked with using GIS analysis to address an environmental challenge or explore a specific problem. Rather than a traditional research paper, you will create an ESRI StoryMap to present your analysis, findings, and solutions in an engaging and visually appealing format.</p>
+<section id="components" class="level4">
+<h4 class="anchored" data-anchor-id="components">Components</h4>
+<p>The final group StoryMap has two components: an ArcGIS Pro Project in which you will archive all databases, toolboxes, and maps for your project, and an ArcGIS StoryMap that you will use to communicate the process and results of your project.</p>
+<section id="arcgis-pro-project-package-and-arcgis-online-maps" class="level5">
+<h5 class="anchored" data-anchor-id="arcgis-pro-project-package-and-arcgis-online-maps">ArcGIS Pro Project Package and ArcGIS Online Maps</h5>
+<p>All databases, toolboxes, and maps for your project should be stored in an <a href="https://pro.arcgis.com/en/pro-app/latest/help/projects/what-is-a-project.htm" target="_blank">ArcGIS Pro Project</a>. Work with the course instructor to get access to a shared file space on the <strong>T:/</strong> drive in which to start your project. There are other ways to share data and information using ArcGIS Online that you are free to explore; however, at the end of the project, you will need to <strong>encapsulate your project in an <a href="https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/introduction-to-sharing-packages.htm" target="_blank">ArcGIS Pro Package</a>, and upload it to the class <a href="https://arcg.is/1Cj5mC0" target="_blank">ArcGIS Online group</a>.</strong></p>
+<p>Document all raw data sets used in your project, and keep the raw data as part of your project. Describe where you got your data (i.e., from what authority?) and document any manipulations you made to the data, including re-projection. <a href="https://pro.arcgis.com/en/pro-app/latest/help/metadata/view-and-edit-metadata.htm" target="_blank">View and edit the metadata</a> for your raw and derived data sets.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> While it isn’t mandatory, <strong>I strongly encourage you to use the ModelBuilder or a script to design and run your analysis.</strong> If you do, you may screen-shot and annotate your model as an illustration of your workflow.</p>
+<p>You will likely need to upload your maps to ArcGIS Online for use in your ArcGIS StoryMap. Please label your maps with a consistent naming convention that clearly indicates your group’s project.</p>
+</section>
+<section id="esri-storymap" class="level5">
+<h5 class="anchored" data-anchor-id="esri-storymap">ESRI StoryMap</h5>
+<p><strong>Develop an ESRI StoryMap that reports on your analysis and results.</strong> You are welcome to use edited text from your proposal, but the StoryMap should elaborate on and refine the proposal text. Use images, maps, and other graphics throughout to create an engaging and attractive presentation of your project.</p>
+<p>There are lots of resources on the <a href="https://storymaps.arcgis.com" target="_blank">ArcGIS StoryMaps website</a>, but two very helpful ones are the <a href="https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4" target="_blank">getting started guide</a> and the <a href="https://www.esri.com/arcgis-blog/products/arcgis-storymaps/sharing-collaboration/planning-and-outlining-your-story-map-how-to-set-yourself-up-for-success/" target="_blank">Planning and outlining your story guide</a>.</p>
+<p>Please include the following sections in your StoryMap. You may use various StoryMap display elements for the sections (e.g., immersives, panels, slide shows), but all the sections need to be represented adequately.</p>
+<ol type="1">
+<li><strong>Introduction</strong></li>
+</ol>
+<ul>
+<li>Briefly introduce the chosen environmental problem.</li>
+<li>Clearly state the research question or objective.</li>
+<li>Provide context on the significance of using GIS for analysis.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Contextual Framework (Literature Review)</strong></li>
+</ol>
+<ul>
+<li>Summarize relevant literature on the environmental problem and GIS techniques.</li>
+<li>Highlight key findings from previous studies.</li>
+<li>Justify the chosen research question based on literature.</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Methods</strong></li>
+</ol>
+<ul>
+<li>Detail the GIS analysis methods employed.</li>
+<li>Describe data collection, processing, and analysis.</li>
+<li>Use visuals (flowcharts or diagrams) for clarity.</li>
+</ul>
+<ol start="4" type="1">
+<li><strong>Results</strong></li>
+</ol>
+<ul>
+<li>Showcase results through maps, graphs, tables, and figures.</li>
+<li>Clearly label and explain each visual element.</li>
+<li>Provide multiple layers of maps if applicable.</li>
+</ul>
+<ol start="5" type="1">
+<li><strong>Discussion</strong></li>
+</ol>
+<ul>
+<li>Interpret results in the context of the research question.</li>
+<li>Discuss challenges faced and how your group addressed them.</li>
+<li>Compare findings to existing literature.</li>
+</ul>
+<ol start="6" type="1">
+<li><strong>Conclusion</strong></li>
+</ol>
+<ul>
+<li>Summarize main findings of the analysis.</li>
+<li>State implications of results for addressing the environmental problem.</li>
+<li>Propose recommendations or suggestions for future research/actions.</li>
+</ul>
+<ol start="7" type="1">
+<li><strong>Credits and Contributions</strong></li>
+</ol>
+<ul>
+<li>List anyone (including organizations) that were particularly helpful to you.</li>
+<li>List the contributions of your team members. Include categories of contributions such as “designed the analysis”, “cleaned the data”, “developed map styles”, “developed the StoryMap”, etc. Consider using the <a href="https://credit.niso.org" target="_blank">Contributor Roles Taxonomy (CRediT)</a> if appropriate.</li>
+</ul>
+<ol start="8" type="1">
+<li><strong>References</strong></li>
+</ol>
+<ul>
+<li>All sources—for maps, data, images, and references—should be cited in your StoryMap.</li>
+<li>You may style citations however you like, but be consistent.</li>
+<li>ESRI’s guide for <a href="https://www.esri.com/arcgis-blog/products/story-maps/sharing-collaboration/citations/" target="_blank">Citations and references for sources in ArcGIS StoryMaps</a> may be helpful.</li>
+<li>Check out <a href="https://storymaps.arcgis.com/stories/6f9ac21f356145b5b464c89175cf4375" target="_blank">Citing Sources in a Storymap</a> for inspiration and tips on citations in StoryMaps.</li>
+</ul>
+</section>
+</section>
+<section id="submission" class="level4">
+<h4 class="anchored" data-anchor-id="submission">Submission</h4>
+<p>Upload your final ArcGIS StoryMap and ArcGIS Pro Project Package to the class <a href="https://arcg.is/1Cj5mC0" target="_blank">ArcGIS Online group</a>. <strong>Your final group StoryMap is due by 11:59 PM on Friday, April 26.</strong></p>
+</section>
+</section>
+<section id="storymap-presentation" class="level3">
+<h3 class="anchored" data-anchor-id="storymap-presentation">StoryMap Presentation</h3>
+<p>During the last week of class, your group will give a brief demo of your StoryMap. In five minutes, hit the highlights of your analysis and StoryMap. Each member of your group should present at least one section of the StoryMap.</p>
+</section>
+</section>
+<section id="assessment" class="level2">
+<h2 class="anchored" data-anchor-id="assessment">Assessment</h2>
+<p>There will be four components of the assessment for this project.</p>
+<ul>
+<li>The <strong>Project Proposal</strong> (100 pts.) will receive comments and a grade from the instructor. Grammar and completeness matter!</li>
+<li>The <strong>Final Group StoryMap</strong> (400 pts.) will have two components:
+<ul>
+<li>The instructor will assign 300 pts. based on a rubric that accounts for <strong>design, implementation, completeness, and visual presentation</strong> of your project. Creativity is really important here! You will also be assessed on the completeness of your Project Package and documentation, including metadata.</li>
+<li>The instructor will distribute the remaining 100 pts. informed by <strong>360-degree peer feedback</strong>, where you will be assessed by your teammates on your contribution to your group project. Each team member will be responsible for assessing all other team members, as well as themselves. Assessments will be anonymous, and are meant to provide constructive feedback, and a mechanism for the instructor to assess equitable contribution to the project.</li>
+</ul></li>
+<li>Finally, the <strong>StoryMap Presentation</strong> (100 pts.) will be graded by a panel of expert judges (including the instructor), using a scoring rubric.</li>
+</ul>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Note that methods at this point are not firm and it is expected that they will change as the research progresses.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>All credit once again goes to Kevin McManigal for this template.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>See ESRI’s <a href="https://pro.arcgis.com/en/pro-app/latest/help/metadata/best-practices-for-editing-metadata.htm" target="_blank">Best practices for editing metadata</a> guide for some helpful tips.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2023–2024 by <a href="https://www.bocinsky.io">Kyle Bocinsky</a><br> Website template by <a href="https://www.andrewheiss.com/">Dr.&nbsp;Andrew Heiss</a> under <a href="https://mit-license.org/">MIT License</a><br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/umtgis/apps">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
