@@ -85,7 +85,6 @@ Please include the following sections in your StoryMap. You may use various Stor
   - You may style citations however you like, but be consistent.
   - ESRI's guide for [Citations and references for sources in ArcGIS StoryMaps](https://www.esri.com/arcgis-blog/products/story-maps/sharing-collaboration/citations/){target="_blank"} may be helpful.
   - Check out [Citing Sources in a Storymap](https://storymaps.arcgis.com/stories/6f9ac21f356145b5b464c89175cf4375){target="_blank"} for inspiration and tips on citations in StoryMaps.
-  
 
 #### Submission
 Upload your final ArcGIS StoryMap and ArcGIS Pro Project Package to the class [ArcGIS Online group](https://arcg.is/1Cj5mC0){target="_blank"}. **Your final group StoryMap is due by 11:59 PM on Friday, April 26.**
@@ -93,11 +92,12 @@ Upload your final ArcGIS StoryMap and ArcGIS Pro Project Package to the class [A
 ### StoryMap Presentation
 During the last week of class, your group will give a brief demo of your StoryMap. In five minutes, hit the highlights of your analysis and StoryMap. Each member of your group should present at least one section of the StoryMap.
 
+### 360-degree peer feedback
+Each student will participate in a **360-degree peer feedback** process, where you will be assessed by your teammates on your contribution to your group project. Each team member will be responsible for assessing all other team members, as well as themselves. Assessments will be anonymous, and are meant to provide constructive feedback, and a mechanism for the instructor to assess equitable contribution to the project. I will share the 360-degree peer feedback instrument during March. They will be submitted through a Microsoft Form, and will be due with your StoryMap Presentation.
+
 ## Assessment
 There will be four components of the assessment for this project.
 
 - The **Project Proposal** (100 pts.) will receive comments and a grade from the instructor. Grammar and completeness matter!
-- The **Final Group StoryMap** (400 pts.) will have two components: 
-  - The instructor will assign 300 pts. based on a rubric that accounts for **design, implementation, completeness, and visual presentation** of your project. Creativity is really important here! You will also be assessed on the completeness of your Project Package and documentation, including metadata.
-  - The instructor will distribute the remaining 100 pts. informed by **360-degree peer feedback**, where you will be assessed by your teammates on your contribution to your group project. Each team member will be responsible for assessing all other team members, as well as themselves. Assessments will be anonymous, and are meant to provide constructive feedback, and a mechanism for the instructor to assess equitable contribution to the project. 
+- The **Final Group StoryMap** (400 pts.) will be graded based on a rubric that accounts for **design, implementation, completeness, and visual presentation** of your project. Creativity is really important here! You will also be assessed on the completeness of your Project Package and documentation, including metadata.
 - Finally, the **StoryMap Presentation** (100 pts.) will be graded by a panel of expert judges (including the instructor), using a scoring rubric.
