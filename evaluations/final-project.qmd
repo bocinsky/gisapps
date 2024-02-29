@@ -92,8 +92,8 @@ Upload your final ArcGIS StoryMap and ArcGIS Pro Project Package to the class [A
 ### StoryMap Presentation
 During the last week of class, your group will give a brief demo of your StoryMap. In five minutes, hit the highlights of your analysis and StoryMap. Each member of your group should present at least one section of the StoryMap.
 
-### 360-degree peer feedback
-Each student will participate in a **360-degree peer feedback** process, where you will be assessed by your teammates on your contribution to your group project. Each team member will be responsible for assessing all other team members, as well as themselves. **Assessments will be anonymous**, and are meant to provide constructive feedback and to encourage equitable contributions to the project. I will share the 360-degree peer feedback instrument during March. They will be submitted through a Microsoft Form, and will be due with your StoryMap Presentation.
+## Peer Feedback
+Each student will participate in a **360-degree peer feedback** process, where you will be assessed by your teammates on your contribution to your group project. Each team member will be responsible for assessing all other team members, as well as themselves. **Assessments will be anonymous**, and are meant to provide constructive feedback, encourage equitable contributions to the project, and acknowledge exceptional collaboration. I will share the 360-degree peer feedback instrument during March. **We will submit peer feedback twice, once after the Project Proposal deadline, and once after the StoryMap Presentation.**
 
 ## Assessment
 There will be three components of the assessment of your project.
