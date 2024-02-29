@@ -22,7 +22,8 @@ slide_details <- tibble::tribble(
 ```
 
 ## Preparation
-We will be discussing the Final Group Projects today in class. The assignment can be found here: 
+We will be discussing the Final Group Projects today in class. The assignment can be found here: [Group GIS Project](/evaluations/final-project.html)
+
 
 <!-- ## Content -->
 
