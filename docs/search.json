@@ -70,618 +70,47 @@
     "text": "This section will contain annotated R code along with worked out examples. If time permits, I will also include videos of me life-coding, so you can see me making programming mistakes in real time!\nUseful resources for learning R, the tidyverse and Rmarkdown basics include\n\nThe Introduction to R and RStudio by Open Intro Stat\nTeacups, giraffes & statistics: basic statistical concepts and programming\nthe notebook RYouWithMe from R-Ladies Sydney\nthe book R for Data Science, which adheres to the tidyverse principles.\nthe R package DoSStoolkit, developped at the University of Toronto.\nthe introverse documentation.\nthe RStudio cheatsheets, also available from RStudio menu in Help &gt; Cheat Sheets\n\nTo install all R packages used throughout the course, use the command\n\n\nCode\nlib &lt;- c(\"afex\", \"car\", \"emmeans\", \"effectsize\", \n         \"lme4\", \"lmerTest\", \"mediate\", \"nlme\", \n         \"pwr\", \"tidyverse\", \"tidymodels\", \"WebPower\")\ninstall.packages(lib)"
   },
   {
-    "objectID": "evaluations/lab1-model-builder.html#description",
-    "href": "evaluations/lab1-model-builder.html#description",
-    "title": "Lab 1: Model Builder and Automated Workflows",
+    "objectID": "evaluations/map-tutorials.html",
+    "href": "evaluations/map-tutorials.html",
+    "title": "Self-study Map Tutorials",
+    "section": "",
+    "text": "ERSI provides over 75 short tutorials covering various applied GIS skills in ArcGIS Pro. They cover a wide range of disciplines, so you can tailor your learning to specific interests. The ArcGIS Pro Map Tutorials are available here. That link filters the list by “Product” as ArcGIS Pro, and “Type” as Tutorial.",
+    "crumbs": [
+      "Overview",
+      "Map Tutorials"
+    ]
+  },
+  {
+    "objectID": "evaluations/map-tutorials.html#description",
+    "href": "evaluations/map-tutorials.html#description",
+    "title": "Self-study Map Tutorials",
     "section": "Description",
-    "text": "Description\nBy now you should be starting to get comfortable with using ArcGIS Pro, so now it is time to start doing some spatial analysis. Using spatial analysis, GIS data can be used to answer geographic questions. For example, this map uses disease spread theory to predict the most dangerous places during a zombie apocalypse. Perhaps more practically, you could use your GIS skills to determine which areas of the U.S. you would most like to live. Consider what criteria you believe are most important for a happy and satisfying life. For example, you may wish to live a place that is not too rainy, doesn’t have too many people, and is in the mountains. How could you make a map that shows just the places that meet these criteria? One way would be to find data layers for each of those criteria, define a selection query for the attributes you want, and then intersect the layers by your selections. For the example above, the final polygons could represent areas of lightly populated temperate forests with under 30 cm of rain a year. Then you would simply select cities within those polygons.\nWhat if you weren’t satisfied with the results? You would have to start over with new selections. However, ArcGIS Pro has a tool which would allow you to quickly change parameters and run the analysis again. Model Builder is a GUI interface for combining a series of tools using flow-chart logic. Models can vastly reduce time spent on repetitive tasks and help troubleshoot errors through iteration. Just about every tool found in the Arc Toolbox can be added and run in Model Builder. There is also functionality for batch processing and iteration, which opens the door to automate tasks on entire geodatabases of files. All models are stored in a project toolbox, and can be modified during editing, or opened after chosen parameters are set. Finished Models can also be exported to Python, providing a gateway to writing scripts.\nFor this lab we are providing you with several different datasets. Average rainfall, average income, population density, biomes and education levels. Your task is to find an additional dataset (we will discuss where to look for data in class) to conduct an analysis of the continental U.S. in order to determine the cities you consider most livable. Use the data to create a custom map of your “ideal” places. Use model builder as demonstrated to run your analysis and plan on fine tuning the model with multiple iterations. You already have the skills needed to for this lab, but we will discuss possible workflows in class.",
+    "text": "Description\nYou are required to do the Migrate from ArcMap to ArcGIS Pro tutorial, plus three (3) others of your choosing. The migration tutorial is not only useful for getting to know some of the new features and idiosyncrasies of ArcPro, but also is an gentle way to re-acquaint yourself with ArcGIS for the course.\nYou are responsible for writing up the three free-choice map tutorials in the format detailed below (no write-up is required for the migration tutorial). Each write-up is worth 50 points and will be graded as Excellent (50), Good (40), Fair (30), or Poor (20).",
     "crumbs": [
       "Overview",
-      "Lab 1"
+      "Map Tutorials"
     ]
   },
   {
-    "objectID": "evaluations/lab1-model-builder.html#requirements",
-    "href": "evaluations/lab1-model-builder.html#requirements",
-    "title": "Lab 1: Model Builder and Automated Workflows",
-    "section": "Requirements",
-    "text": "Requirements\nYou will need to download the Lab 1 ArcPro package from here: ModelBuilder.ppkx. Click “Download” then double click the downloaded ModelBuilder.ppkx package to start the lab.\n\nUse the supplied ArcPro package and add any other variable layers you would like. Work in a geographic coordinate system in the Feature Dataset, and then set a projection in the data frame.\nUse the select by attribute and intersect tools, or other tools in a Model to reduce the data set by the criteria that are most important to you. Write a tutorial on how to use model builder and include an image of the model flowchart.\nThen map and label your unique towns and cities on an attractive layout. Take note of your top 3–5. What criteria could you use to narrow the field further?",
-    "crumbs": [
-      "Overview",
-      "Lab 1"
-    ]
-  },
-  {
-    "objectID": "evaluations/lab1-model-builder.html#deliverables",
-    "href": "evaluations/lab1-model-builder.html#deliverables",
-    "title": "Lab 1: Model Builder and Automated Workflows",
+    "objectID": "evaluations/map-tutorials.html#deliverables",
+    "href": "evaluations/map-tutorials.html#deliverables",
+    "title": "Self-study Map Tutorials",
     "section": "Deliverables",
-    "text": "Deliverables\nYou are responsible for a partial lab write-up due a week after your lab session. This write-up is worth 100 points and will be graded as Excellent (100), Good (80), Fair (60), or Poor (40).\nPlease write a partial scientific report about your analysis of your personal city happiness index. Remember your research question and use your results to answer it. For this assignment, write just the Introduction, Results, and Discussion sections. Write the lab up in a report following the Scientific Report Template discussed in class. Please use the template. Copy and paste your data into the template; it is easier than rebuilding it from scratch. Insert the images of your maps, one to a page, full-size, rotated with the north to the left margin for landscape format images. This partial scientific report does not require the Literature Review, Methods, Conclusion, or Reference sections. Keep the Title page and Contents from the Template, but delete the sections you do not need.\nThe Introduction section is for briefly describing what you intend to do. Summarize the purpose of the analysis, your methods, and give a brief overview of the rest of the report.\nThe Results section is for displaying the model and maps. Insert a screenshot of your final model, and describe the tools used in your model, as well as the steps taken. Insert your final map (or maps). Describe what they show, but do not try to interpret them. Remember, in this section you do not have to analyze the results or add your interpretation. Just describe what the maps show, calling out key areas of interest for the audience.\nThe Discussion section is where you interpret what you found in the maps. What were the top cities or towns in your analysis? How did changing the parameters affect which places rose to the top of the list? How might you go about adapting this analysis to the results of a survey of UM undergraduate students about what factors they find most important when choosing a place to live?\nThis is meant to be a (partial) scientific report, and to give you some room to practice scientific writing. Please be neat, organized, and professional. Spelling and grammar count. Please try to avoid using the passive voice. Many people incorrectly assume passive voice makes scientific writing sound more authoritative. This is wrong; use of the passive voice can make your writing less clear and engaging. You are welcome to use the first-person active voice in your write-up (e.g., “I use the model builder to …”). There is no absolute number of pages required. Just use what it takes to cover the material: your introduction, results, and discussion.\nPlease save your lab write-up as a Microsoft Word or PDF document. Give your lab write-up a file name in this format:\n\n[last name]_lab-1.[format]\n\nFor example, my lab write-up would be Bocinsky_lab-1.docx or Bocinsky_lab-1.pdf.",
+    "text": "Deliverables\nPlease create a short write-up of your methods and approach to each free-choice tutorial. This should include a brief introduction describing why you chose the particular tutorial, followed by a high-level description of the steps you took to create your final map. It should end with your map. Always place maps as large as possible, one to a page, rotated if necessary. The map tutorial write-ups are rarely more than a page of text with a separate map.\nPlease use this map tutorial write-up template for your write-ups.1\nPlease save your map tutorial write-up as a Microsoft Word document. Give your map tutorial a file name in this format:\n\n[last name]_map-tutorial_[#].docx\n\nwhere # is the number of map tutorial you are turning in (i.e., 1, 2, 3). For example, my second tutorial would be Bocinsky_map-tutorial_2.docx.",
     "crumbs": [
       "Overview",
-      "Lab 1"
+      "Map Tutorials"
     ]
   },
   {
-    "objectID": "evaluations/lab1-model-builder.html#due-dates",
-    "href": "evaluations/lab1-model-builder.html#due-dates",
-    "title": "Lab 1: Model Builder and Automated Workflows",
+    "objectID": "evaluations/map-tutorials.html#due-dates",
+    "href": "evaluations/map-tutorials.html#due-dates",
+    "title": "Self-study Map Tutorials",
     "section": "Due Dates",
-    "text": "Due Dates\nThis lab write-up is due one week your lab session. Lab write-ups are due by 2:00 PM Mountain Time.\nHere is a table of due dates:\n\n\n\n\nWednesday Section\nThursday Section\n\n\n\n\nLab 1\nMarch 6\nMarch 7\n\n\n\nTurn in your map tutorials using this Microsoft Form: https://forms.office.com/r/xAUpWkFRSS. You will be required to sign in using your UMConnect email address (NetID@umconnect.umt.edu). If you have trouble reaching the form, please let me know ASAP.",
+    "text": "Due Dates\nMap tutorial write-ups are due weekly after your second lab session. You are expected to complete the Migration tutorial (no write-up) during the first week, and then a map tutorial per week for the following three weeks.\nMap tutorial write-ups are due by 2:00 PM Mountain Time.\nHere is a table of due dates:\n\n\n\n\nWednesday Section\nThursday Section\n\n\n\n\nMap Tutorial 1\nFebruary 7\nFebruary 8\n\n\nMap Tutorial 2\nFebruary 14\nFebruary 15\n\n\nMap Tutorial 3\nFebruary 21\nFebruary 22\n\n\n\nTurn in your map tutorials using this Microsoft Form: https://forms.office.com/r/BF15Ut95MR. You will be required to sign in using your UMConnect email address (NetID@umconnect.umt.edu). If you have trouble reaching the form, please let me know ASAP.",
     "crumbs": [
       "Overview",
-      "Lab 1"
-    ]
-  },
-  {
-    "objectID": "evaluations/final-project.html",
-    "href": "evaluations/final-project.html",
-    "title": "Group GIS Project",
-    "section": "",
-    "text": "A semester-long assignment, the group GIS project requires you to identify a unique resource management problem or environmental planning challenge that can be answered with a GIS analysis, design and run the analysis, and tell the story of that analysis using an ESRI StoryMap. Each group must submit a project proposal following a format that will be discussed in class. As a group, you will develop a research question, review the literature or documentation about your subject area (including, perhaps, techniques have been applied previously), decide what data is required, and design and complete your analysis. You will document your analysis in an ArcGIS StoryMap, and compile all of your project resources in an ArcGIS Pro Package. Your StoryMap should include maps, graphs, tables, and figures that support your research and its results. The project design, workflow and conclusions will be presented to the class at the end of the semester, and archived as part of our ArcGIS Online group.\nThe purpose of this project is twofold. First and foremost, it is to practice how to design, organize, and execute a research project within the ArcGIS ecosystem, and communicate it in an attractive and interactive format. You should leverage the skills you’ve learned in this course and others to address a real-world challenge, of the sort that you will engage in as a GIS professional. The second is to continue to practice engaging in group-based work. Group work is hard, but I truly believe it is among the most important professional skills to develop. This project will afford you the opportunity to consider your strengths — design, analysis, data cleaning, writing, presentation — and hopefully complement the strengths of others in your group in order to successfully execute your project.",
-    "crumbs": [
-      "Overview",
-      "Final Group Project"
-    ]
-  },
-  {
-    "objectID": "evaluations/final-project.html#deliverables-and-due-dates",
-    "href": "evaluations/final-project.html#deliverables-and-due-dates",
-    "title": "Group GIS Project",
-    "section": "Deliverables and Due Dates",
-    "text": "Deliverables and Due Dates\nThis 600 point project is worth 30 percent of your total grade and is divided as follows:\n\n\n\nComponent\nPoints\nDue Date\n\n\n\n\nProject Proposal\n100 pts.\nFriday, March 29, 11:59 PM\n\n\nFinal Group StoryMap\n400 pts.\nFriday, April 26, 11:59 PM\n\n\nStoryMap Presentation\n100 pts.\nIn class, April 30 & May 2\n\n\n\n\nProject Proposal\nThe final project is designed to give you experience in real-world GIS problem solving. The scope of the project proposal is to introduce your final project, explain the research question and approach, set the research within a contextual framework, and cover some preliminary methods.\nPlease use the following format including these sections:\n\nIntroduction (~250–500 words)\nProblem Statement (~500 words)\nContextual Framework (Literature Review; ~500–1000 words)\nProposed Methods (~250–500 words)\n\nThe introduction explains the project purpose and gives a short background to the site and setting of the geography. The problem statement outlines the research question or planning challenge and how you intend to answer it. Use the contextual framework to review at least three pieces of literature that ground the research in demonstrated science, or reference at least three examples of how your particular planning challenge has been addressed in other contexts. Finally, describe the proposed methods with an outline of the data, the GIS tools you may use on the data, and the GIS steps that could be followed in the analysis.1\nSee the provided example of a project proposal and use its format.2 There is no firm length for the project proposal, however, the more you write here, the further ahead you are for the final StoryMap — much of the text may be reused in your StoryMap. Try to follow the length guidelines above, plus the title page and references.\nYour group Project Proposal is due by 11:59 PM on Friday, March 29.\n\n\nFinal Group StoryMap\nYour group is tasked with using GIS analysis to address an environmental challenge or explore a specific problem. Rather than a traditional research paper, you will create an ESRI StoryMap to present your analysis, findings, and solutions in an engaging and visually appealing format.\n\nComponents\nThe final group StoryMap has two components: an ArcGIS Pro Project in which you will archive all databases, toolboxes, and maps for your project, and an ArcGIS StoryMap that you will use to communicate the process and results of your project.\n\nArcGIS Pro Project Package and ArcGIS Online Maps\nAll databases, toolboxes, and maps for your project should be stored in an ArcGIS Pro Project. Work with the course instructor to get access to a shared file space on the T:/ drive in which to start your project. There are other ways to share data and information using ArcGIS Online that you are free to explore; however, at the end of the project, you will need to encapsulate your project in an ArcGIS Pro Package, and upload it to the class ArcGIS Online group.\nDocument all raw data sets used in your project, and keep the raw data as part of your project. Describe where you got your data (i.e., from what authority?) and document any manipulations you made to the data, including re-projection. View and edit the metadata for your raw and derived data sets.3 While it isn’t mandatory, I strongly encourage you to use the ModelBuilder or a script to design and run your analysis. If you do, you may screen-shot and annotate your model as an illustration of your workflow.\nYou will likely need to upload your maps to ArcGIS Online for use in your ArcGIS StoryMap. Please label your maps with a consistent naming convention that clearly indicates your group’s project.\n\n\nESRI StoryMap\nDevelop an ESRI StoryMap that reports on your analysis and results. You are welcome to use edited text from your proposal, but the StoryMap should elaborate on and refine the proposal text. Use images, maps, and other graphics throughout to create an engaging and attractive presentation of your project.\nThere are lots of resources on the ArcGIS StoryMaps website, but two very helpful ones are the getting started guide and the Planning and outlining your story guide.\nPlease include the following sections in your StoryMap. You may use various StoryMap display elements for the sections (e.g., immersives, panels, slide shows), but all the sections need to be represented adequately.\n\nIntroduction\n\n\nBriefly introduce the chosen environmental problem.\nClearly state the research question or objective.\nProvide context on the significance of using GIS for analysis.\n\n\nContextual Framework (Literature Review)\n\n\nSummarize relevant literature on the environmental problem and GIS techniques.\nHighlight key findings from previous studies.\nJustify the chosen research question based on literature.\n\n\nMethods\n\n\nDetail the GIS analysis methods employed.\nDescribe data collection, processing, and analysis.\nUse visuals (flowcharts or diagrams) for clarity.\n\n\nResults\n\n\nShowcase results through maps, graphs, tables, and figures.\nClearly label and explain each visual element.\nProvide multiple layers of maps if applicable.\n\n\nDiscussion\n\n\nInterpret results in the context of the research question.\nDiscuss challenges faced and how your group addressed them.\nCompare findings to existing literature.\n\n\nConclusion\n\n\nSummarize main findings of the analysis.\nState implications of results for addressing the environmental problem.\nPropose recommendations or suggestions for future research/actions.\n\n\nCredits and Contributions\n\n\nList anyone (including organizations) that were particularly helpful to you.\nList the contributions of your team members. Include categories of contributions such as “designed the analysis”, “cleaned the data”, “developed map styles”, “developed the StoryMap”, etc. Consider using the Contributor Roles Taxonomy (CRediT) if appropriate.\n\n\nReferences\n\n\nAll sources—for maps, data, images, and references—should be cited in your StoryMap.\nYou may style citations however you like, but be consistent.\nESRI’s guide for Citations and references for sources in ArcGIS StoryMaps may be helpful.\nCheck out Citing Sources in a Storymap for inspiration and tips on citations in StoryMaps.\n\n\n\n\nSubmission\nUpload your final ArcGIS StoryMap and ArcGIS Pro Project Package to the class ArcGIS Online group. Your final group StoryMap is due by 11:59 PM on Friday, April 26.\n\n\n\nStoryMap Presentation\nDuring the last week of class, your group will give a brief demo of your StoryMap. In five minutes, hit the highlights of your analysis and StoryMap. Each member of your group should present at least one section of the StoryMap.",
-    "crumbs": [
-      "Overview",
-      "Final Group Project"
-    ]
-  },
-  {
-    "objectID": "evaluations/final-project.html#peer-feedback",
-    "href": "evaluations/final-project.html#peer-feedback",
-    "title": "Group GIS Project",
-    "section": "Peer Feedback",
-    "text": "Peer Feedback\nEach student will participate in a 360-degree peer feedback process, where you will be assessed by your teammates on your contribution to your group project. Each team member will be responsible for assessing all other team members, as well as themselves. Assessments will be anonymous, and are meant to provide constructive feedback, encourage equitable contributions to the project, and acknowledge exceptional collaboration. I will share the 360-degree peer feedback instrument during March. We will submit peer feedback twice, once after the Project Proposal deadline, and once after the StoryMap Presentation.",
-    "crumbs": [
-      "Overview",
-      "Final Group Project"
-    ]
-  },
-  {
-    "objectID": "evaluations/final-project.html#assessment",
-    "href": "evaluations/final-project.html#assessment",
-    "title": "Group GIS Project",
-    "section": "Assessment",
-    "text": "Assessment\nThere will be three components of the assessment of your project.\n\nThe Project Proposal (100 pts.) will receive comments and a grade from the instructor. Grammar and completeness matter!\nThe Final Group StoryMap (400 pts.) will be graded based on a rubric that accounts for design, implementation, completeness, and visual presentation of your project. Creativity is really important here! You will also be assessed on the completeness of your Project Package and documentation, including metadata.\nFinally, the StoryMap Presentation (100 pts.) will be graded by a panel of expert judges (including the instructor), using a scoring rubric.",
-    "crumbs": [
-      "Overview",
-      "Final Group Project"
-    ]
-  },
-  {
-    "objectID": "content/20240502-project_presentations.html",
-    "href": "content/20240502-project_presentations.html",
-    "title": "Project Presentations",
-    "section": "",
-    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Project Presentations"
-    ]
-  },
-  {
-    "objectID": "content/20240502-project_presentations.html#preparation",
-    "href": "content/20240502-project_presentations.html#preparation",
-    "title": "Project Presentations",
-    "section": "",
-    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Project Presentations"
-    ]
-  },
-  {
-    "objectID": "content/20240229-final_project.html",
-    "href": "content/20240229-final_project.html",
-    "title": "Final Group Projects: Overview, Topics, and Q&A",
-    "section": "",
-    "text": "We will be discussing the Final Group Projects today in class. The assignment can be found here: Group GIS Project",
-    "crumbs": [
-      "Readings and Lectures",
-      "Final Group Projects: Overview, Topics, and Q&A"
-    ]
-  },
-  {
-    "objectID": "content/20240229-final_project.html#preparation",
-    "href": "content/20240229-final_project.html#preparation",
-    "title": "Final Group Projects: Overview, Topics, and Q&A",
-    "section": "",
-    "text": "We will be discussing the Final Group Projects today in class. The assignment can be found here: Group GIS Project",
-    "crumbs": [
-      "Readings and Lectures",
-      "Final Group Projects: Overview, Topics, and Q&A"
-    ]
-  },
-  {
-    "objectID": "content/20240229-final_project.html#slides",
-    "href": "content/20240229-final_project.html#slides",
-    "title": "Final Group Projects: Overview, Topics, and Q&A",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
-    "crumbs": [
-      "Readings and Lectures",
-      "Final Group Projects: Overview, Topics, and Q&A"
-    ]
-  },
-  {
-    "objectID": "content/20240220-gis_as_process.html",
-    "href": "content/20240220-gis_as_process.html",
-    "title": "GIS as process: Organizing space, data, and analysis",
-    "section": "",
-    "text": "The slides for today are available online as an PDF file.\n\n\nUnable to display PDF file. Download instead.",
-    "crumbs": [
-      "Readings and Lectures",
-      "GIS as process: Organizing space, data, and analysis"
-    ]
-  },
-  {
-    "objectID": "content/20240220-gis_as_process.html#slides",
-    "href": "content/20240220-gis_as_process.html#slides",
-    "title": "GIS as process: Organizing space, data, and analysis",
-    "section": "",
-    "text": "The slides for today are available online as an PDF file.\n\n\nUnable to display PDF file. Download instead.",
-    "crumbs": [
-      "Readings and Lectures",
-      "GIS as process: Organizing space, data, and analysis"
-    ]
-  },
-  {
-    "objectID": "content/20240213-whence_geospatial_data_III.html",
-    "href": "content/20240213-whence_geospatial_data_III.html",
-    "title": "Whence Geospatial Data III: Humans in space",
-    "section": "",
-    "text": "Please read Chapter 4. Design and Symbolization from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Whence Geospatial Data III: Humans in space"
-    ]
-  },
-  {
-    "objectID": "content/20240213-whence_geospatial_data_III.html#preparation",
-    "href": "content/20240213-whence_geospatial_data_III.html#preparation",
-    "title": "Whence Geospatial Data III: Humans in space",
-    "section": "",
-    "text": "Please read Chapter 4. Design and Symbolization from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Whence Geospatial Data III: Humans in space"
-    ]
-  },
-  {
-    "objectID": "content/20240213-whence_geospatial_data_III.html#slides",
-    "href": "content/20240213-whence_geospatial_data_III.html#slides",
-    "title": "Whence Geospatial Data III: Humans in space",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an PDF file.\n\n\nUnable to display PDF file. Download instead.",
-    "crumbs": [
-      "Readings and Lectures",
-      "Whence Geospatial Data III: Humans in space"
-    ]
-  },
-  {
-    "objectID": "content/20240206-whence_geospatial_data_I.html",
-    "href": "content/20240206-whence_geospatial_data_I.html",
-    "title": "Whence Geospatial Data I: All data are spatial",
-    "section": "",
-    "text": "Please read Chapter 8. Surveillance from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Whence Geospatial Data I: All data are spatial"
-    ]
-  },
-  {
-    "objectID": "content/20240206-whence_geospatial_data_I.html#preparation",
-    "href": "content/20240206-whence_geospatial_data_I.html#preparation",
-    "title": "Whence Geospatial Data I: All data are spatial",
-    "section": "",
-    "text": "Please read Chapter 8. Surveillance from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Whence Geospatial Data I: All data are spatial"
-    ]
-  },
-  {
-    "objectID": "content/20240206-whence_geospatial_data_I.html#content",
-    "href": "content/20240206-whence_geospatial_data_I.html#content",
-    "title": "Whence Geospatial Data I: All data are spatial",
-    "section": "Content",
-    "text": "Content\n\nGeospatial Authorities: Who creates, distributes, and maintains authoritative geodata?\n\nFAIR Guiding Principles for scientific data management and stewardship\n\nSpatial metadata and data provenance\nSome geodata resources:\n\nThe US Geospatial Platform\nUSGS National Geospatial Program\n\n3D National Topography Model (3DNTM)\n\n3D Elevation Program (3DEP)\n3D Hydrography Program (3DHP)\n\nU.S. Board on Geographic Names\n\nGeographic Names Information System (GNIS)\n\nThe National Map\nTNM Supporting Themes\n\nMulti-Resolution Land Characteristics (MRLC) Consortium\nUS Census Tiger Database\nESRI Living Atlas of the World\nMontana Spatial Data Infrastructure (MSDI)\nMissoula Maps\n\nGetting data into ArcGIS Pro",
-    "crumbs": [
-      "Readings and Lectures",
-      "Whence Geospatial Data I: All data are spatial"
-    ]
-  },
-  {
-    "objectID": "content/20240206-whence_geospatial_data_I.html#slides",
-    "href": "content/20240206-whence_geospatial_data_I.html#slides",
-    "title": "Whence Geospatial Data I: All data are spatial",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
-    "crumbs": [
-      "Readings and Lectures",
-      "Whence Geospatial Data I: All data are spatial"
-    ]
-  },
-  {
-    "objectID": "content/20240125-projection_scale_geodatabases.html",
-    "href": "content/20240125-projection_scale_geodatabases.html",
-    "title": "Projection, Scale, and Geodatabase Review",
-    "section": "",
-    "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth\nAn August 2020 update on the development of new Low Distortion Projections (LDPs) for Montana\nThe Rocky Mountain Coordinate Reference System",
-    "crumbs": [
-      "Readings and Lectures",
-      "Projection, Scale, and Geodatabase Review"
-    ]
-  },
-  {
-    "objectID": "content/20240125-projection_scale_geodatabases.html#preparation",
-    "href": "content/20240125-projection_scale_geodatabases.html#preparation",
-    "title": "Projection, Scale, and Geodatabase Review",
-    "section": "",
-    "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth\nAn August 2020 update on the development of new Low Distortion Projections (LDPs) for Montana\nThe Rocky Mountain Coordinate Reference System",
-    "crumbs": [
-      "Readings and Lectures",
-      "Projection, Scale, and Geodatabase Review"
-    ]
-  },
-  {
-    "objectID": "content/20240125-projection_scale_geodatabases.html#content",
-    "href": "content/20240125-projection_scale_geodatabases.html#content",
-    "title": "Projection, Scale, and Geodatabase Review",
-    "section": "Content",
-    "text": "Content\n\nSpheroids, Ellipsoids, and Geoids (Oh My!)\nProjecting Earth\nScale\nGeodatabases (and friends!)",
-    "crumbs": [
-      "Readings and Lectures",
-      "Projection, Scale, and Geodatabase Review"
-    ]
-  },
-  {
-    "objectID": "content/20240125-projection_scale_geodatabases.html#slides",
-    "href": "content/20240125-projection_scale_geodatabases.html#slides",
-    "title": "Projection, Scale, and Geodatabase Review",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as a Powerpoint or PDF file.\n\nDownload PPTX version\nDownload PDF version",
-    "crumbs": [
-      "Readings and Lectures",
-      "Projection, Scale, and Geodatabase Review"
-    ]
-  },
-  {
-    "objectID": "content/20240118-syllabus_day.html",
-    "href": "content/20240118-syllabus_day.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "What I did during my winter break… as a map!\nIntroductions\nSyllabus, schedule, and learning objectives",
-    "crumbs": [
-      "Readings and Lectures",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "content/20240118-syllabus_day.html#content",
-    "href": "content/20240118-syllabus_day.html#content",
-    "title": "Introduction",
-    "section": "",
-    "text": "What I did during my winter break… as a map!\nIntroductions\nSyllabus, schedule, and learning objectives",
-    "crumbs": [
-      "Readings and Lectures",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "content/20240118-syllabus_day.html#winter-break-map-20-minutes",
-    "href": "content/20240118-syllabus_day.html#winter-break-map-20-minutes",
-    "title": "Introduction",
-    "section": "Winter Break Map (20 minutes)",
-    "text": "Winter Break Map (20 minutes)\nDraw a map (on paper, with your hands) that communicates something about what you did during winter break. Think about how your map tells a story… what would one of your colleagues or I glean from your map? How did you use text, color, and other map elements to convey your story? Please write your name on top of your map.\nAfter you complete your map in 20 minutes, trade maps with the person next to you and try to interpret what your partner’s map is trying to convey. What elements are confusing, or clear, about your partner’s map? How would you tell the same story differently? Discuss.",
-    "crumbs": [
-      "Readings and Lectures",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "content/20240118-syllabus_day.html#syllabus-intro-and-discussion",
-    "href": "content/20240118-syllabus_day.html#syllabus-intro-and-discussion",
-    "title": "Introduction",
-    "section": "Syllabus Intro and Discussion",
-    "text": "Syllabus Intro and Discussion\nFamiliarize yourself with the syllabus, schedule, content, and evaluations pages for this class.",
-    "crumbs": [
-      "Readings and Lectures",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "content/20240118-syllabus_day.html#slides",
-    "href": "content/20240118-syllabus_day.html#slides",
-    "title": "Introduction",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Readings and Lectures",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "content/20240123-scientific_method.html",
-    "href": "content/20240123-scientific_method.html",
-    "title": "How is GIS applied to the scientific method?",
-    "section": "",
-    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "How is GIS applied to the scientific method?"
-    ]
-  },
-  {
-    "objectID": "content/20240123-scientific_method.html#preparation",
-    "href": "content/20240123-scientific_method.html#preparation",
-    "title": "How is GIS applied to the scientific method?",
-    "section": "",
-    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "How is GIS applied to the scientific method?"
-    ]
-  },
-  {
-    "objectID": "content/20240123-scientific_method.html#content",
-    "href": "content/20240123-scientific_method.html#content",
-    "title": "How is GIS applied to the scientific method?",
-    "section": "Content",
-    "text": "Content\n\nThe Scientific Method\nThe Geographic Approach\nGeographic Representation",
-    "crumbs": [
-      "Readings and Lectures",
-      "How is GIS applied to the scientific method?"
-    ]
-  },
-  {
-    "objectID": "content/20240123-scientific_method.html#slides",
-    "href": "content/20240123-scientific_method.html#slides",
-    "title": "How is GIS applied to the scientific method?",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
-    "crumbs": [
-      "Readings and Lectures",
-      "How is GIS applied to the scientific method?"
-    ]
-  },
-  {
-    "objectID": "content/20240130-scales_of_measurement.html",
-    "href": "content/20240130-scales_of_measurement.html",
-    "title": "Scales of Measurement",
-    "section": "",
-    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.",
-    "crumbs": [
-      "Readings and Lectures",
-      "Scales of Measurement"
-    ]
-  },
-  {
-    "objectID": "content/20240130-scales_of_measurement.html#preparation",
-    "href": "content/20240130-scales_of_measurement.html#preparation",
-    "title": "Scales of Measurement",
-    "section": "",
-    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.",
-    "crumbs": [
-      "Readings and Lectures",
-      "Scales of Measurement"
-    ]
-  },
-  {
-    "objectID": "content/20240130-scales_of_measurement.html#slides",
-    "href": "content/20240130-scales_of_measurement.html#slides",
-    "title": "Scales of Measurement",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
-    "crumbs": [
-      "Readings and Lectures",
-      "Scales of Measurement"
-    ]
-  },
-  {
-    "objectID": "content/20240208-whence_geospatial_data_II.html",
-    "href": "content/20240208-whence_geospatial_data_II.html",
-    "title": "Whence Geospatial Data II: (Mis)Placing things",
-    "section": "",
-    "text": "The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
-    "crumbs": [
-      "Readings and Lectures",
-      "Whence Geospatial Data II: (Mis)Placing things"
-    ]
-  },
-  {
-    "objectID": "content/20240208-whence_geospatial_data_II.html#slides",
-    "href": "content/20240208-whence_geospatial_data_II.html#slides",
-    "title": "Whence Geospatial Data II: (Mis)Placing things",
-    "section": "",
-    "text": "The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
-    "crumbs": [
-      "Readings and Lectures",
-      "Whence Geospatial Data II: (Mis)Placing things"
-    ]
-  },
-  {
-    "objectID": "content/20240215-VoGIS_Lee_Macholz.html",
-    "href": "content/20240215-VoGIS_Lee_Macholz.html",
-    "title": "Voices of GIS: Missoula City GIS Services with Lee Macholz",
-    "section": "",
-    "text": "Lee Macholz is the GIS Manager for the City of Missoula. She holds a Master’s degree in Geography and GIS from the University of Montana (2004). Lee has 20 years of professional GIS experience spanning from GIS for Wildland Fire Management to public utilities to all things GIS in local government. Lee’s area of expertise are data design and management and building technical bridges from the staff collecting data in the field and creating data in the office to the managers and leadership making data-driven decisions.\nLee manages the GIS Services division which is responsible for providing the technical framework for any city employee to be able to engage with GIS at a level that is appropriate for their role and their skill with GIS. She has led the design of an extensive enterprise GIS framework that centralizes data storage and management and provides staff across the city with access to well over 100 feature services as well as dozens of web applications that are built within the City’s ESRI Portal environment. Lee’s goal is to facilitate data management and data access in a way that enables users to leverage spatial data regardless of their level of GIS training. This can take the form of facilitating direct database access for data and analysis for power users; to providing web-based data editing applications for non-GIS users to create and manage their own data; to web applications designed to answer task-specific questions for staff and management. The public is an additional audience for whom Lee has designed and built MissoulaMaps.com. This site is based on ESRI’s ArcGIS Online Hub technology and is built to provide the public with access to the city’s authoritative data and easy-to-use applications that can help answer common questions about the city as a whole and how the city is governed.",
-    "crumbs": [
-      "Readings and Lectures",
-      "Voices of GIS: Missoula City GIS Services with Lee Macholz"
-    ]
-  },
-  {
-    "objectID": "content/20240215-VoGIS_Lee_Macholz.html#expert-biography",
-    "href": "content/20240215-VoGIS_Lee_Macholz.html#expert-biography",
-    "title": "Voices of GIS: Missoula City GIS Services with Lee Macholz",
-    "section": "",
-    "text": "Lee Macholz is the GIS Manager for the City of Missoula. She holds a Master’s degree in Geography and GIS from the University of Montana (2004). Lee has 20 years of professional GIS experience spanning from GIS for Wildland Fire Management to public utilities to all things GIS in local government. Lee’s area of expertise are data design and management and building technical bridges from the staff collecting data in the field and creating data in the office to the managers and leadership making data-driven decisions.\nLee manages the GIS Services division which is responsible for providing the technical framework for any city employee to be able to engage with GIS at a level that is appropriate for their role and their skill with GIS. She has led the design of an extensive enterprise GIS framework that centralizes data storage and management and provides staff across the city with access to well over 100 feature services as well as dozens of web applications that are built within the City’s ESRI Portal environment. Lee’s goal is to facilitate data management and data access in a way that enables users to leverage spatial data regardless of their level of GIS training. This can take the form of facilitating direct database access for data and analysis for power users; to providing web-based data editing applications for non-GIS users to create and manage their own data; to web applications designed to answer task-specific questions for staff and management. The public is an additional audience for whom Lee has designed and built MissoulaMaps.com. This site is based on ESRI’s ArcGIS Online Hub technology and is built to provide the public with access to the city’s authoritative data and easy-to-use applications that can help answer common questions about the city as a whole and how the city is governed.",
-    "crumbs": [
-      "Readings and Lectures",
-      "Voices of GIS: Missoula City GIS Services with Lee Macholz"
-    ]
-  },
-  {
-    "objectID": "content/20240215-VoGIS_Lee_Macholz.html#preparation",
-    "href": "content/20240215-VoGIS_Lee_Macholz.html#preparation",
-    "title": "Voices of GIS: Missoula City GIS Services with Lee Macholz",
-    "section": "Preparation",
-    "text": "Preparation\nPlease visit MissoulaMaps.com and explore the site. Take note of the type of data that are available, how the data are organized, and whether and how the data are accessible.\n\nAssignment\nPlease submit two short questions you would like Kyle to consider asking Lee. These can be about the MissoulaMaps.com portal, Lee’s career and training, or more general questions about careers in GIS. Lee also mentors interns with the City of Missoula every year.\nPlease submit your questions by Tuesday, February 13 at 2:00 PM to this Microsoft Form: https://forms.office.com/r/Q2Ps4kUiXE.",
-    "crumbs": [
-      "Readings and Lectures",
-      "Voices of GIS: Missoula City GIS Services with Lee Macholz"
-    ]
-  },
-  {
-    "objectID": "content/20240215-VoGIS_Lee_Macholz.html#voices-of-gis-recording",
-    "href": "content/20240215-VoGIS_Lee_Macholz.html#voices-of-gis-recording",
-    "title": "Voices of GIS: Missoula City GIS Services with Lee Macholz",
-    "section": "Voices of GIS Recording",
-    "text": "Voices of GIS Recording",
-    "crumbs": [
-      "Readings and Lectures",
-      "Voices of GIS: Missoula City GIS Services with Lee Macholz"
-    ]
-  },
-  {
-    "objectID": "content/20240227-gis_as_workflow.html",
-    "href": "content/20240227-gis_as_workflow.html",
-    "title": "GIS as workflow: Introducing the Model Builder",
-    "section": "",
-    "text": "Please read Chapter 6. Analysis from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "GIS as workflow: Introducing the Model Builder"
-    ]
-  },
-  {
-    "objectID": "content/20240227-gis_as_workflow.html#preparation",
-    "href": "content/20240227-gis_as_workflow.html#preparation",
-    "title": "GIS as workflow: Introducing the Model Builder",
-    "section": "",
-    "text": "Please read Chapter 6. Analysis from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "GIS as workflow: Introducing the Model Builder"
-    ]
-  },
-  {
-    "objectID": "content/20240227-gis_as_workflow.html#slides",
-    "href": "content/20240227-gis_as_workflow.html#slides",
-    "title": "GIS as workflow: Introducing the Model Builder",
-    "section": "Slides",
-    "text": "Slides\nThe slides for today are available online as an PDF file.\n\n\nUnable to display PDF file. Download instead.",
-    "crumbs": [
-      "Readings and Lectures",
-      "GIS as workflow: Introducing the Model Builder"
-    ]
-  },
-  {
-    "objectID": "content/20240305-quantitative_maps.html",
-    "href": "content/20240305-quantitative_maps.html",
-    "title": "Quantitative maps: Choropleth Mapping",
-    "section": "",
-    "text": "Please read Chapter 5. Simplification from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Quantitative maps: Choropleth Mapping"
-    ]
-  },
-  {
-    "objectID": "content/20240305-quantitative_maps.html#preparation",
-    "href": "content/20240305-quantitative_maps.html#preparation",
-    "title": "Quantitative maps: Choropleth Mapping",
-    "section": "",
-    "text": "Please read Chapter 5. Simplification from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Quantitative maps: Choropleth Mapping"
-    ]
-  },
-  {
-    "objectID": "content/20240326-spatial_storytelling_I.html",
-    "href": "content/20240326-spatial_storytelling_I.html",
-    "title": "Spatial Storytelling I: A Human Tradition",
-    "section": "",
-    "text": "Please read Chapter 9. Social Maps from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Spatial Storytelling I: A Human Tradition"
-    ]
-  },
-  {
-    "objectID": "content/20240326-spatial_storytelling_I.html#preparation",
-    "href": "content/20240326-spatial_storytelling_I.html#preparation",
-    "title": "Spatial Storytelling I: A Human Tradition",
-    "section": "",
-    "text": "Please read Chapter 9. Social Maps from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Spatial Storytelling I: A Human Tradition"
-    ]
-  },
-  {
-    "objectID": "content/20240409-lying_with_maps_I.html",
-    "href": "content/20240409-lying_with_maps_I.html",
-    "title": "Lying with Maps I: Little white lies",
-    "section": "",
-    "text": "Please read Chapter 7. Lying With Maps from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Lying with Maps I: Little white lies"
-    ]
-  },
-  {
-    "objectID": "content/20240409-lying_with_maps_I.html#preparation",
-    "href": "content/20240409-lying_with_maps_I.html#preparation",
-    "title": "Lying with Maps I: Little white lies",
-    "section": "",
-    "text": "Please read Chapter 7. Lying With Maps from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Lying with Maps I: Little white lies"
-    ]
-  },
-  {
-    "objectID": "content/20240423-mapping_montanas_climate.html",
-    "href": "content/20240423-mapping_montanas_climate.html",
-    "title": "Mapping Montana’s Climate",
-    "section": "",
-    "text": "Please read Chapter 10. Conclusion from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Mapping Montana's Climate"
-    ]
-  },
-  {
-    "objectID": "content/20240423-mapping_montanas_climate.html#preparation",
-    "href": "content/20240423-mapping_montanas_climate.html#preparation",
-    "title": "Mapping Montana’s Climate",
-    "section": "",
-    "text": "Please read Chapter 10. Conclusion from Mapping, Society, and Technology (Manson, 2017).",
-    "crumbs": [
-      "Readings and Lectures",
-      "Mapping Montana's Climate"
-    ]
-  },
-  {
-    "objectID": "content/index.html",
-    "href": "content/index.html",
-    "title": "Readings and Lectures",
-    "section": "",
-    "text": "Course content will be added throughout the semester, so please bookmark this site.\nEach class session has a set of required readings that you should complete before attending the lecture. I will post lecture slides after the lecture.\nThe lecture slides are usually special HTML files made with R. On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:\n\n View all slides in new window  Download PDF of all slides\n\nThe slides are also embedded on each page. You can click in the slides and navigate through them with ← and →. If you type ? (or shift + /) while viewing the slides you can see a list of slide-specific commands (like f for fullscreen or p for presenter mode if you want to see my notes).",
-    "crumbs": [
-      "Readings and Lectures"
+      "Map Tutorials"
     ]
   },
   {
@@ -755,48 +184,669 @@
     ]
   },
   {
-    "objectID": "evaluations/map-tutorials.html",
-    "href": "evaluations/map-tutorials.html",
-    "title": "Self-study Map Tutorials",
+    "objectID": "content/index.html",
+    "href": "content/index.html",
+    "title": "Readings and Lectures",
     "section": "",
-    "text": "ERSI provides over 75 short tutorials covering various applied GIS skills in ArcGIS Pro. They cover a wide range of disciplines, so you can tailor your learning to specific interests. The ArcGIS Pro Map Tutorials are available here. That link filters the list by “Product” as ArcGIS Pro, and “Type” as Tutorial.",
+    "text": "Course content will be added throughout the semester, so please bookmark this site.\nEach class session has a set of required readings that you should complete before attending the lecture. I will post lecture slides after the lecture.\nThe lecture slides are usually special HTML files made with R. On each class session page you’ll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:\n\n View all slides in new window  Download PDF of all slides\n\nThe slides are also embedded on each page. You can click in the slides and navigate through them with ← and →. If you type ? (or shift + /) while viewing the slides you can see a list of slide-specific commands (like f for fullscreen or p for presenter mode if you want to see my notes).",
     "crumbs": [
-      "Overview",
-      "Map Tutorials"
+      "Readings and Lectures"
     ]
   },
   {
-    "objectID": "evaluations/map-tutorials.html#description",
-    "href": "evaluations/map-tutorials.html#description",
-    "title": "Self-study Map Tutorials",
+    "objectID": "content/20240423-mapping_montanas_climate.html",
+    "href": "content/20240423-mapping_montanas_climate.html",
+    "title": "Mapping Montana’s Climate",
+    "section": "",
+    "text": "Please read Chapter 10. Conclusion from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Mapping Montana's Climate"
+    ]
+  },
+  {
+    "objectID": "content/20240423-mapping_montanas_climate.html#preparation",
+    "href": "content/20240423-mapping_montanas_climate.html#preparation",
+    "title": "Mapping Montana’s Climate",
+    "section": "",
+    "text": "Please read Chapter 10. Conclusion from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Mapping Montana's Climate"
+    ]
+  },
+  {
+    "objectID": "content/20240409-lying_with_maps_I.html",
+    "href": "content/20240409-lying_with_maps_I.html",
+    "title": "Lying with Maps I: Little white lies",
+    "section": "",
+    "text": "Please read Chapter 7. Lying With Maps from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Lying with Maps I: Little white lies"
+    ]
+  },
+  {
+    "objectID": "content/20240409-lying_with_maps_I.html#preparation",
+    "href": "content/20240409-lying_with_maps_I.html#preparation",
+    "title": "Lying with Maps I: Little white lies",
+    "section": "",
+    "text": "Please read Chapter 7. Lying With Maps from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Lying with Maps I: Little white lies"
+    ]
+  },
+  {
+    "objectID": "content/20240326-spatial_storytelling_I.html",
+    "href": "content/20240326-spatial_storytelling_I.html",
+    "title": "Spatial Storytelling I: A Human Tradition",
+    "section": "",
+    "text": "Please read Chapter 9. Social Maps from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Spatial Storytelling I: A Human Tradition"
+    ]
+  },
+  {
+    "objectID": "content/20240326-spatial_storytelling_I.html#preparation",
+    "href": "content/20240326-spatial_storytelling_I.html#preparation",
+    "title": "Spatial Storytelling I: A Human Tradition",
+    "section": "",
+    "text": "Please read Chapter 9. Social Maps from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Spatial Storytelling I: A Human Tradition"
+    ]
+  },
+  {
+    "objectID": "content/20240305-quantitative_maps.html",
+    "href": "content/20240305-quantitative_maps.html",
+    "title": "Quantitative maps: Choropleth Mapping",
+    "section": "",
+    "text": "Please read Chapter 5. Simplification from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Quantitative maps: Choropleth Mapping"
+    ]
+  },
+  {
+    "objectID": "content/20240305-quantitative_maps.html#preparation",
+    "href": "content/20240305-quantitative_maps.html#preparation",
+    "title": "Quantitative maps: Choropleth Mapping",
+    "section": "",
+    "text": "Please read Chapter 5. Simplification from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Quantitative maps: Choropleth Mapping"
+    ]
+  },
+  {
+    "objectID": "content/20240227-gis_as_workflow.html",
+    "href": "content/20240227-gis_as_workflow.html",
+    "title": "GIS as workflow: Introducing the Model Builder",
+    "section": "",
+    "text": "Please read Chapter 6. Analysis from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "GIS as workflow: Introducing the Model Builder"
+    ]
+  },
+  {
+    "objectID": "content/20240227-gis_as_workflow.html#preparation",
+    "href": "content/20240227-gis_as_workflow.html#preparation",
+    "title": "GIS as workflow: Introducing the Model Builder",
+    "section": "",
+    "text": "Please read Chapter 6. Analysis from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "GIS as workflow: Introducing the Model Builder"
+    ]
+  },
+  {
+    "objectID": "content/20240227-gis_as_workflow.html#slides",
+    "href": "content/20240227-gis_as_workflow.html#slides",
+    "title": "GIS as workflow: Introducing the Model Builder",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an PDF file.\n\n\nUnable to display PDF file. Download instead.",
+    "crumbs": [
+      "Readings and Lectures",
+      "GIS as workflow: Introducing the Model Builder"
+    ]
+  },
+  {
+    "objectID": "content/20240215-VoGIS_Lee_Macholz.html",
+    "href": "content/20240215-VoGIS_Lee_Macholz.html",
+    "title": "Voices of GIS: Missoula City GIS Services with Lee Macholz",
+    "section": "",
+    "text": "Lee Macholz is the GIS Manager for the City of Missoula. She holds a Master’s degree in Geography and GIS from the University of Montana (2004). Lee has 20 years of professional GIS experience spanning from GIS for Wildland Fire Management to public utilities to all things GIS in local government. Lee’s area of expertise are data design and management and building technical bridges from the staff collecting data in the field and creating data in the office to the managers and leadership making data-driven decisions.\nLee manages the GIS Services division which is responsible for providing the technical framework for any city employee to be able to engage with GIS at a level that is appropriate for their role and their skill with GIS. She has led the design of an extensive enterprise GIS framework that centralizes data storage and management and provides staff across the city with access to well over 100 feature services as well as dozens of web applications that are built within the City’s ESRI Portal environment. Lee’s goal is to facilitate data management and data access in a way that enables users to leverage spatial data regardless of their level of GIS training. This can take the form of facilitating direct database access for data and analysis for power users; to providing web-based data editing applications for non-GIS users to create and manage their own data; to web applications designed to answer task-specific questions for staff and management. The public is an additional audience for whom Lee has designed and built MissoulaMaps.com. This site is based on ESRI’s ArcGIS Online Hub technology and is built to provide the public with access to the city’s authoritative data and easy-to-use applications that can help answer common questions about the city as a whole and how the city is governed.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Voices of GIS: Missoula City GIS Services with Lee Macholz"
+    ]
+  },
+  {
+    "objectID": "content/20240215-VoGIS_Lee_Macholz.html#expert-biography",
+    "href": "content/20240215-VoGIS_Lee_Macholz.html#expert-biography",
+    "title": "Voices of GIS: Missoula City GIS Services with Lee Macholz",
+    "section": "",
+    "text": "Lee Macholz is the GIS Manager for the City of Missoula. She holds a Master’s degree in Geography and GIS from the University of Montana (2004). Lee has 20 years of professional GIS experience spanning from GIS for Wildland Fire Management to public utilities to all things GIS in local government. Lee’s area of expertise are data design and management and building technical bridges from the staff collecting data in the field and creating data in the office to the managers and leadership making data-driven decisions.\nLee manages the GIS Services division which is responsible for providing the technical framework for any city employee to be able to engage with GIS at a level that is appropriate for their role and their skill with GIS. She has led the design of an extensive enterprise GIS framework that centralizes data storage and management and provides staff across the city with access to well over 100 feature services as well as dozens of web applications that are built within the City’s ESRI Portal environment. Lee’s goal is to facilitate data management and data access in a way that enables users to leverage spatial data regardless of their level of GIS training. This can take the form of facilitating direct database access for data and analysis for power users; to providing web-based data editing applications for non-GIS users to create and manage their own data; to web applications designed to answer task-specific questions for staff and management. The public is an additional audience for whom Lee has designed and built MissoulaMaps.com. This site is based on ESRI’s ArcGIS Online Hub technology and is built to provide the public with access to the city’s authoritative data and easy-to-use applications that can help answer common questions about the city as a whole and how the city is governed.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Voices of GIS: Missoula City GIS Services with Lee Macholz"
+    ]
+  },
+  {
+    "objectID": "content/20240215-VoGIS_Lee_Macholz.html#preparation",
+    "href": "content/20240215-VoGIS_Lee_Macholz.html#preparation",
+    "title": "Voices of GIS: Missoula City GIS Services with Lee Macholz",
+    "section": "Preparation",
+    "text": "Preparation\nPlease visit MissoulaMaps.com and explore the site. Take note of the type of data that are available, how the data are organized, and whether and how the data are accessible.\n\nAssignment\nPlease submit two short questions you would like Kyle to consider asking Lee. These can be about the MissoulaMaps.com portal, Lee’s career and training, or more general questions about careers in GIS. Lee also mentors interns with the City of Missoula every year.\nPlease submit your questions by Tuesday, February 13 at 2:00 PM to this Microsoft Form: https://forms.office.com/r/Q2Ps4kUiXE.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Voices of GIS: Missoula City GIS Services with Lee Macholz"
+    ]
+  },
+  {
+    "objectID": "content/20240215-VoGIS_Lee_Macholz.html#voices-of-gis-recording",
+    "href": "content/20240215-VoGIS_Lee_Macholz.html#voices-of-gis-recording",
+    "title": "Voices of GIS: Missoula City GIS Services with Lee Macholz",
+    "section": "Voices of GIS Recording",
+    "text": "Voices of GIS Recording",
+    "crumbs": [
+      "Readings and Lectures",
+      "Voices of GIS: Missoula City GIS Services with Lee Macholz"
+    ]
+  },
+  {
+    "objectID": "content/20240208-whence_geospatial_data_II.html",
+    "href": "content/20240208-whence_geospatial_data_II.html",
+    "title": "Whence Geospatial Data II: (Mis)Placing things",
+    "section": "",
+    "text": "The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
+    "crumbs": [
+      "Readings and Lectures",
+      "Whence Geospatial Data II: (Mis)Placing things"
+    ]
+  },
+  {
+    "objectID": "content/20240208-whence_geospatial_data_II.html#slides",
+    "href": "content/20240208-whence_geospatial_data_II.html#slides",
+    "title": "Whence Geospatial Data II: (Mis)Placing things",
+    "section": "",
+    "text": "The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
+    "crumbs": [
+      "Readings and Lectures",
+      "Whence Geospatial Data II: (Mis)Placing things"
+    ]
+  },
+  {
+    "objectID": "content/20240130-scales_of_measurement.html",
+    "href": "content/20240130-scales_of_measurement.html",
+    "title": "Scales of Measurement",
+    "section": "",
+    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Scales of Measurement"
+    ]
+  },
+  {
+    "objectID": "content/20240130-scales_of_measurement.html#preparation",
+    "href": "content/20240130-scales_of_measurement.html#preparation",
+    "title": "Scales of Measurement",
+    "section": "",
+    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).\nAlso, ESRI has a review of scales of measurement as part of its documentation on the Spatial Analyst tools.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Scales of Measurement"
+    ]
+  },
+  {
+    "objectID": "content/20240130-scales_of_measurement.html#slides",
+    "href": "content/20240130-scales_of_measurement.html#slides",
+    "title": "Scales of Measurement",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
+    "crumbs": [
+      "Readings and Lectures",
+      "Scales of Measurement"
+    ]
+  },
+  {
+    "objectID": "content/20240123-scientific_method.html",
+    "href": "content/20240123-scientific_method.html",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "",
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "How is GIS applied to the scientific method?"
+    ]
+  },
+  {
+    "objectID": "content/20240123-scientific_method.html#preparation",
+    "href": "content/20240123-scientific_method.html#preparation",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "",
+    "text": "Please read Chapter 1: Maps, Society, and Technology from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "How is GIS applied to the scientific method?"
+    ]
+  },
+  {
+    "objectID": "content/20240123-scientific_method.html#content",
+    "href": "content/20240123-scientific_method.html#content",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "Content",
+    "text": "Content\n\nThe Scientific Method\nThe Geographic Approach\nGeographic Representation",
+    "crumbs": [
+      "Readings and Lectures",
+      "How is GIS applied to the scientific method?"
+    ]
+  },
+  {
+    "objectID": "content/20240123-scientific_method.html#slides",
+    "href": "content/20240123-scientific_method.html#slides",
+    "title": "How is GIS applied to the scientific method?",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
+    "crumbs": [
+      "Readings and Lectures",
+      "How is GIS applied to the scientific method?"
+    ]
+  },
+  {
+    "objectID": "content/20240118-syllabus_day.html",
+    "href": "content/20240118-syllabus_day.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "What I did during my winter break… as a map!\nIntroductions\nSyllabus, schedule, and learning objectives",
+    "crumbs": [
+      "Readings and Lectures",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "content/20240118-syllabus_day.html#content",
+    "href": "content/20240118-syllabus_day.html#content",
+    "title": "Introduction",
+    "section": "",
+    "text": "What I did during my winter break… as a map!\nIntroductions\nSyllabus, schedule, and learning objectives",
+    "crumbs": [
+      "Readings and Lectures",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "content/20240118-syllabus_day.html#winter-break-map-20-minutes",
+    "href": "content/20240118-syllabus_day.html#winter-break-map-20-minutes",
+    "title": "Introduction",
+    "section": "Winter Break Map (20 minutes)",
+    "text": "Winter Break Map (20 minutes)\nDraw a map (on paper, with your hands) that communicates something about what you did during winter break. Think about how your map tells a story… what would one of your colleagues or I glean from your map? How did you use text, color, and other map elements to convey your story? Please write your name on top of your map.\nAfter you complete your map in 20 minutes, trade maps with the person next to you and try to interpret what your partner’s map is trying to convey. What elements are confusing, or clear, about your partner’s map? How would you tell the same story differently? Discuss.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "content/20240118-syllabus_day.html#syllabus-intro-and-discussion",
+    "href": "content/20240118-syllabus_day.html#syllabus-intro-and-discussion",
+    "title": "Introduction",
+    "section": "Syllabus Intro and Discussion",
+    "text": "Syllabus Intro and Discussion\nFamiliarize yourself with the syllabus, schedule, content, and evaluations pages for this class.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "content/20240118-syllabus_day.html#slides",
+    "href": "content/20240118-syllabus_day.html#slides",
+    "title": "Introduction",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of slide-specific commands.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "content/20240125-projection_scale_geodatabases.html",
+    "href": "content/20240125-projection_scale_geodatabases.html",
+    "title": "Projection, Scale, and Geodatabase Review",
+    "section": "",
+    "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth\nAn August 2020 update on the development of new Low Distortion Projections (LDPs) for Montana\nThe Rocky Mountain Coordinate Reference System",
+    "crumbs": [
+      "Readings and Lectures",
+      "Projection, Scale, and Geodatabase Review"
+    ]
+  },
+  {
+    "objectID": "content/20240125-projection_scale_geodatabases.html#preparation",
+    "href": "content/20240125-projection_scale_geodatabases.html#preparation",
+    "title": "Projection, Scale, and Geodatabase Review",
+    "section": "",
+    "text": "Please read Chapter 3. Scale and Projections from Mapping, Society, and Technology (Manson, 2017).\nAlso, there are some very fun tools and websites that will be introduced during the lecture:\n\nhttps://map-projections.net — a very cool tool for comparing map projections\nhttps://epsg.io and https://epsg.org — the authoritative database of coordinate reference systems\nThe latest documentation on coordinate reference systems in ArcPro\nA new double-sided map projection of Earth\nAn August 2020 update on the development of new Low Distortion Projections (LDPs) for Montana\nThe Rocky Mountain Coordinate Reference System",
+    "crumbs": [
+      "Readings and Lectures",
+      "Projection, Scale, and Geodatabase Review"
+    ]
+  },
+  {
+    "objectID": "content/20240125-projection_scale_geodatabases.html#content",
+    "href": "content/20240125-projection_scale_geodatabases.html#content",
+    "title": "Projection, Scale, and Geodatabase Review",
+    "section": "Content",
+    "text": "Content\n\nSpheroids, Ellipsoids, and Geoids (Oh My!)\nProjecting Earth\nScale\nGeodatabases (and friends!)",
+    "crumbs": [
+      "Readings and Lectures",
+      "Projection, Scale, and Geodatabase Review"
+    ]
+  },
+  {
+    "objectID": "content/20240125-projection_scale_geodatabases.html#slides",
+    "href": "content/20240125-projection_scale_geodatabases.html#slides",
+    "title": "Projection, Scale, and Geodatabase Review",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as a Powerpoint or PDF file.\n\nDownload PPTX version\nDownload PDF version",
+    "crumbs": [
+      "Readings and Lectures",
+      "Projection, Scale, and Geodatabase Review"
+    ]
+  },
+  {
+    "objectID": "content/20240206-whence_geospatial_data_I.html",
+    "href": "content/20240206-whence_geospatial_data_I.html",
+    "title": "Whence Geospatial Data I: All data are spatial",
+    "section": "",
+    "text": "Please read Chapter 8. Surveillance from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Whence Geospatial Data I: All data are spatial"
+    ]
+  },
+  {
+    "objectID": "content/20240206-whence_geospatial_data_I.html#preparation",
+    "href": "content/20240206-whence_geospatial_data_I.html#preparation",
+    "title": "Whence Geospatial Data I: All data are spatial",
+    "section": "",
+    "text": "Please read Chapter 8. Surveillance from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Whence Geospatial Data I: All data are spatial"
+    ]
+  },
+  {
+    "objectID": "content/20240206-whence_geospatial_data_I.html#content",
+    "href": "content/20240206-whence_geospatial_data_I.html#content",
+    "title": "Whence Geospatial Data I: All data are spatial",
+    "section": "Content",
+    "text": "Content\n\nGeospatial Authorities: Who creates, distributes, and maintains authoritative geodata?\n\nFAIR Guiding Principles for scientific data management and stewardship\n\nSpatial metadata and data provenance\nSome geodata resources:\n\nThe US Geospatial Platform\nUSGS National Geospatial Program\n\n3D National Topography Model (3DNTM)\n\n3D Elevation Program (3DEP)\n3D Hydrography Program (3DHP)\n\nU.S. Board on Geographic Names\n\nGeographic Names Information System (GNIS)\n\nThe National Map\nTNM Supporting Themes\n\nMulti-Resolution Land Characteristics (MRLC) Consortium\nUS Census Tiger Database\nESRI Living Atlas of the World\nMontana Spatial Data Infrastructure (MSDI)\nMissoula Maps\n\nGetting data into ArcGIS Pro",
+    "crumbs": [
+      "Readings and Lectures",
+      "Whence Geospatial Data I: All data are spatial"
+    ]
+  },
+  {
+    "objectID": "content/20240206-whence_geospatial_data_I.html#slides",
+    "href": "content/20240206-whence_geospatial_data_I.html#slides",
+    "title": "Whence Geospatial Data I: All data are spatial",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
+    "crumbs": [
+      "Readings and Lectures",
+      "Whence Geospatial Data I: All data are spatial"
+    ]
+  },
+  {
+    "objectID": "content/20240213-whence_geospatial_data_III.html",
+    "href": "content/20240213-whence_geospatial_data_III.html",
+    "title": "Whence Geospatial Data III: Humans in space",
+    "section": "",
+    "text": "Please read Chapter 4. Design and Symbolization from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Whence Geospatial Data III: Humans in space"
+    ]
+  },
+  {
+    "objectID": "content/20240213-whence_geospatial_data_III.html#preparation",
+    "href": "content/20240213-whence_geospatial_data_III.html#preparation",
+    "title": "Whence Geospatial Data III: Humans in space",
+    "section": "",
+    "text": "Please read Chapter 4. Design and Symbolization from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Whence Geospatial Data III: Humans in space"
+    ]
+  },
+  {
+    "objectID": "content/20240213-whence_geospatial_data_III.html#slides",
+    "href": "content/20240213-whence_geospatial_data_III.html#slides",
+    "title": "Whence Geospatial Data III: Humans in space",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an PDF file.\n\n\nUnable to display PDF file. Download instead.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Whence Geospatial Data III: Humans in space"
+    ]
+  },
+  {
+    "objectID": "content/20240220-gis_as_process.html",
+    "href": "content/20240220-gis_as_process.html",
+    "title": "GIS as process: Organizing space, data, and analysis",
+    "section": "",
+    "text": "The slides for today are available online as an PDF file.\n\n\nUnable to display PDF file. Download instead.",
+    "crumbs": [
+      "Readings and Lectures",
+      "GIS as process: Organizing space, data, and analysis"
+    ]
+  },
+  {
+    "objectID": "content/20240220-gis_as_process.html#slides",
+    "href": "content/20240220-gis_as_process.html#slides",
+    "title": "GIS as process: Organizing space, data, and analysis",
+    "section": "",
+    "text": "The slides for today are available online as an PDF file.\n\n\nUnable to display PDF file. Download instead.",
+    "crumbs": [
+      "Readings and Lectures",
+      "GIS as process: Organizing space, data, and analysis"
+    ]
+  },
+  {
+    "objectID": "content/20240229-final_project.html",
+    "href": "content/20240229-final_project.html",
+    "title": "Final Group Projects: Overview, Topics, and Q&A",
+    "section": "",
+    "text": "We will be discussing the Final Group Projects today in class. The assignment can be found here: Group GIS Project",
+    "crumbs": [
+      "Readings and Lectures",
+      "Final Group Projects: Overview, Topics, and Q&A"
+    ]
+  },
+  {
+    "objectID": "content/20240229-final_project.html#preparation",
+    "href": "content/20240229-final_project.html#preparation",
+    "title": "Final Group Projects: Overview, Topics, and Q&A",
+    "section": "",
+    "text": "We will be discussing the Final Group Projects today in class. The assignment can be found here: Group GIS Project",
+    "crumbs": [
+      "Readings and Lectures",
+      "Final Group Projects: Overview, Topics, and Q&A"
+    ]
+  },
+  {
+    "objectID": "content/20240229-final_project.html#slides",
+    "href": "content/20240229-final_project.html#slides",
+    "title": "Final Group Projects: Overview, Topics, and Q&A",
+    "section": "Slides",
+    "text": "Slides\nThe slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n View all slides in new window  Download PDF of all slides",
+    "crumbs": [
+      "Readings and Lectures",
+      "Final Group Projects: Overview, Topics, and Q&A"
+    ]
+  },
+  {
+    "objectID": "content/20240307-midterm_exam.html",
+    "href": "content/20240307-midterm_exam.html",
+    "title": "Midterm Exam",
+    "section": "",
+    "text": "Please see the Midterm Study Guide for some useful information related to the Midterm Exam.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Midterm Exam"
+    ]
+  },
+  {
+    "objectID": "content/20240307-midterm_exam.html#preparation",
+    "href": "content/20240307-midterm_exam.html#preparation",
+    "title": "Midterm Exam",
+    "section": "",
+    "text": "Please see the Midterm Study Guide for some useful information related to the Midterm Exam.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Midterm Exam"
+    ]
+  },
+  {
+    "objectID": "content/20240502-project_presentations.html",
+    "href": "content/20240502-project_presentations.html",
+    "title": "Project Presentations",
+    "section": "",
+    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Project Presentations"
+    ]
+  },
+  {
+    "objectID": "content/20240502-project_presentations.html#preparation",
+    "href": "content/20240502-project_presentations.html#preparation",
+    "title": "Project Presentations",
+    "section": "",
+    "text": "Please read Chapter 2. Data from Mapping, Society, and Technology (Manson, 2017).",
+    "crumbs": [
+      "Readings and Lectures",
+      "Project Presentations"
+    ]
+  },
+  {
+    "objectID": "evaluations/final-project.html",
+    "href": "evaluations/final-project.html",
+    "title": "Group GIS Project",
+    "section": "",
+    "text": "A semester-long assignment, the group GIS project requires you to identify a unique resource management problem or environmental planning challenge that can be answered with a GIS analysis, design and run the analysis, and tell the story of that analysis using an ESRI StoryMap. Each group must submit a project proposal following a format that will be discussed in class. As a group, you will develop a research question, review the literature or documentation about your subject area (including, perhaps, techniques have been applied previously), decide what data is required, and design and complete your analysis. You will document your analysis in an ArcGIS StoryMap, and compile all of your project resources in an ArcGIS Pro Package. Your StoryMap should include maps, graphs, tables, and figures that support your research and its results. The project design, workflow and conclusions will be presented to the class at the end of the semester, and archived as part of our ArcGIS Online group.\nThe purpose of this project is twofold. First and foremost, it is to practice how to design, organize, and execute a research project within the ArcGIS ecosystem, and communicate it in an attractive and interactive format. You should leverage the skills you’ve learned in this course and others to address a real-world challenge, of the sort that you will engage in as a GIS professional. The second is to continue to practice engaging in group-based work. Group work is hard, but I truly believe it is among the most important professional skills to develop. This project will afford you the opportunity to consider your strengths — design, analysis, data cleaning, writing, presentation — and hopefully complement the strengths of others in your group in order to successfully execute your project.",
+    "crumbs": [
+      "Overview",
+      "Final Group Project"
+    ]
+  },
+  {
+    "objectID": "evaluations/final-project.html#deliverables-and-due-dates",
+    "href": "evaluations/final-project.html#deliverables-and-due-dates",
+    "title": "Group GIS Project",
+    "section": "Deliverables and Due Dates",
+    "text": "Deliverables and Due Dates\nThis 600 point project is worth 30 percent of your total grade and is divided as follows:\n\n\n\nComponent\nPoints\nDue Date\n\n\n\n\nProject Proposal\n100 pts.\nFriday, March 29, 11:59 PM\n\n\nFinal Group StoryMap\n400 pts.\nFriday, April 26, 11:59 PM\n\n\nStoryMap Presentation\n100 pts.\nIn class, April 30 & May 2\n\n\n\n\nProject Proposal\nThe final project is designed to give you experience in real-world GIS problem solving. The scope of the project proposal is to introduce your final project, explain the research question and approach, set the research within a contextual framework, and cover some preliminary methods.\nPlease use the following format including these sections:\n\nIntroduction (~250–500 words)\nProblem Statement (~500 words)\nContextual Framework (Literature Review; ~500–1000 words)\nProposed Methods (~250–500 words)\n\nThe introduction explains the project purpose and gives a short background to the site and setting of the geography. The problem statement outlines the research question or planning challenge and how you intend to answer it. Use the contextual framework to review at least three pieces of literature that ground the research in demonstrated science, or reference at least three examples of how your particular planning challenge has been addressed in other contexts. Finally, describe the proposed methods with an outline of the data, the GIS tools you may use on the data, and the GIS steps that could be followed in the analysis.1\nSee the provided example of a project proposal and use its format.2 There is no firm length for the project proposal, however, the more you write here, the further ahead you are for the final StoryMap — much of the text may be reused in your StoryMap. Try to follow the length guidelines above, plus the title page and references.\nYour group Project Proposal is due by 11:59 PM on Friday, March 29.\n\n\nFinal Group StoryMap\nYour group is tasked with using GIS analysis to address an environmental challenge or explore a specific problem. Rather than a traditional research paper, you will create an ESRI StoryMap to present your analysis, findings, and solutions in an engaging and visually appealing format.\n\nComponents\nThe final group StoryMap has two components: an ArcGIS Pro Project in which you will archive all databases, toolboxes, and maps for your project, and an ArcGIS StoryMap that you will use to communicate the process and results of your project.\n\nArcGIS Pro Project Package and ArcGIS Online Maps\nAll databases, toolboxes, and maps for your project should be stored in an ArcGIS Pro Project. Work with the course instructor to get access to a shared file space on the T:/ drive in which to start your project. There are other ways to share data and information using ArcGIS Online that you are free to explore; however, at the end of the project, you will need to encapsulate your project in an ArcGIS Pro Package, and upload it to the class ArcGIS Online group.\nDocument all raw data sets used in your project, and keep the raw data as part of your project. Describe where you got your data (i.e., from what authority?) and document any manipulations you made to the data, including re-projection. View and edit the metadata for your raw and derived data sets.3 While it isn’t mandatory, I strongly encourage you to use the ModelBuilder or a script to design and run your analysis. If you do, you may screen-shot and annotate your model as an illustration of your workflow.\nYou will likely need to upload your maps to ArcGIS Online for use in your ArcGIS StoryMap. Please label your maps with a consistent naming convention that clearly indicates your group’s project.\n\n\nESRI StoryMap\nDevelop an ESRI StoryMap that reports on your analysis and results. You are welcome to use edited text from your proposal, but the StoryMap should elaborate on and refine the proposal text. Use images, maps, and other graphics throughout to create an engaging and attractive presentation of your project.\nThere are lots of resources on the ArcGIS StoryMaps website, but two very helpful ones are the getting started guide and the Planning and outlining your story guide.\nPlease include the following sections in your StoryMap. You may use various StoryMap display elements for the sections (e.g., immersives, panels, slide shows), but all the sections need to be represented adequately.\n\nIntroduction\n\n\nBriefly introduce the chosen environmental problem.\nClearly state the research question or objective.\nProvide context on the significance of using GIS for analysis.\n\n\nContextual Framework (Literature Review)\n\n\nSummarize relevant literature on the environmental problem and GIS techniques.\nHighlight key findings from previous studies.\nJustify the chosen research question based on literature.\n\n\nMethods\n\n\nDetail the GIS analysis methods employed.\nDescribe data collection, processing, and analysis.\nUse visuals (flowcharts or diagrams) for clarity.\n\n\nResults\n\n\nShowcase results through maps, graphs, tables, and figures.\nClearly label and explain each visual element.\nProvide multiple layers of maps if applicable.\n\n\nDiscussion\n\n\nInterpret results in the context of the research question.\nDiscuss challenges faced and how your group addressed them.\nCompare findings to existing literature.\n\n\nConclusion\n\n\nSummarize main findings of the analysis.\nState implications of results for addressing the environmental problem.\nPropose recommendations or suggestions for future research/actions.\n\n\nCredits and Contributions\n\n\nList anyone (including organizations) that were particularly helpful to you.\nList the contributions of your team members. Include categories of contributions such as “designed the analysis”, “cleaned the data”, “developed map styles”, “developed the StoryMap”, etc. Consider using the Contributor Roles Taxonomy (CRediT) if appropriate.\n\n\nReferences\n\n\nAll sources—for maps, data, images, and references—should be cited in your StoryMap.\nYou may style citations however you like, but be consistent.\nESRI’s guide for Citations and references for sources in ArcGIS StoryMaps may be helpful.\nCheck out Citing Sources in a Storymap for inspiration and tips on citations in StoryMaps.\n\n\n\n\nSubmission\nUpload your final ArcGIS StoryMap and ArcGIS Pro Project Package to the class ArcGIS Online group. Your final group StoryMap is due by 11:59 PM on Friday, April 26.\n\n\n\nStoryMap Presentation\nDuring the last week of class, your group will give a brief demo of your StoryMap. In five minutes, hit the highlights of your analysis and StoryMap. Each member of your group should present at least one section of the StoryMap.",
+    "crumbs": [
+      "Overview",
+      "Final Group Project"
+    ]
+  },
+  {
+    "objectID": "evaluations/final-project.html#peer-feedback",
+    "href": "evaluations/final-project.html#peer-feedback",
+    "title": "Group GIS Project",
+    "section": "Peer Feedback",
+    "text": "Peer Feedback\nEach student will participate in a 360-degree peer feedback process, where you will be assessed by your teammates on your contribution to your group project. Each team member will be responsible for assessing all other team members, as well as themselves. Assessments will be anonymous, and are meant to provide constructive feedback, encourage equitable contributions to the project, and acknowledge exceptional collaboration. I will share the 360-degree peer feedback instrument during March. We will submit peer feedback twice, once after the Project Proposal deadline, and once after the StoryMap Presentation.",
+    "crumbs": [
+      "Overview",
+      "Final Group Project"
+    ]
+  },
+  {
+    "objectID": "evaluations/final-project.html#assessment",
+    "href": "evaluations/final-project.html#assessment",
+    "title": "Group GIS Project",
+    "section": "Assessment",
+    "text": "Assessment\nThere will be three components of the assessment of your project.\n\nThe Project Proposal (100 pts.) will receive comments and a grade from the instructor. Grammar and completeness matter!\nThe Final Group StoryMap (400 pts.) will be graded based on a rubric that accounts for design, implementation, completeness, and visual presentation of your project. Creativity is really important here! You will also be assessed on the completeness of your Project Package and documentation, including metadata.\nFinally, the StoryMap Presentation (100 pts.) will be graded by a panel of expert judges (including the instructor), using a scoring rubric.",
+    "crumbs": [
+      "Overview",
+      "Final Group Project"
+    ]
+  },
+  {
+    "objectID": "evaluations/lab1-model-builder.html#description",
+    "href": "evaluations/lab1-model-builder.html#description",
+    "title": "Lab 1: Model Builder and Automated Workflows",
     "section": "Description",
-    "text": "Description\nYou are required to do the Migrate from ArcMap to ArcGIS Pro tutorial, plus three (3) others of your choosing. The migration tutorial is not only useful for getting to know some of the new features and idiosyncrasies of ArcPro, but also is an gentle way to re-acquaint yourself with ArcGIS for the course.\nYou are responsible for writing up the three free-choice map tutorials in the format detailed below (no write-up is required for the migration tutorial). Each write-up is worth 50 points and will be graded as Excellent (50), Good (40), Fair (30), or Poor (20).",
+    "text": "Description\nBy now you should be starting to get comfortable with using ArcGIS Pro, so now it is time to start doing some spatial analysis. Using spatial analysis, GIS data can be used to answer geographic questions. For example, this map uses disease spread theory to predict the most dangerous places during a zombie apocalypse. Perhaps more practically, you could use your GIS skills to determine which areas of the U.S. you would most like to live. Consider what criteria you believe are most important for a happy and satisfying life. For example, you may wish to live a place that is not too rainy, doesn’t have too many people, and is in the mountains. How could you make a map that shows just the places that meet these criteria? One way would be to find data layers for each of those criteria, define a selection query for the attributes you want, and then intersect the layers by your selections. For the example above, the final polygons could represent areas of lightly populated temperate forests with under 30 cm of rain a year. Then you would simply select cities within those polygons.\nWhat if you weren’t satisfied with the results? You would have to start over with new selections. However, ArcGIS Pro has a tool which would allow you to quickly change parameters and run the analysis again. Model Builder is a GUI interface for combining a series of tools using flow-chart logic. Models can vastly reduce time spent on repetitive tasks and help troubleshoot errors through iteration. Just about every tool found in the Arc Toolbox can be added and run in Model Builder. There is also functionality for batch processing and iteration, which opens the door to automate tasks on entire geodatabases of files. All models are stored in a project toolbox, and can be modified during editing, or opened after chosen parameters are set. Finished Models can also be exported to Python, providing a gateway to writing scripts.\nFor this lab we are providing you with several different datasets. Average rainfall, average income, population density, biomes and education levels. Your task is to find an additional dataset (we will discuss where to look for data in class) to conduct an analysis of the continental U.S. in order to determine the cities you consider most livable. Use the data to create a custom map of your “ideal” places. Use model builder as demonstrated to run your analysis and plan on fine tuning the model with multiple iterations. You already have the skills needed to for this lab, but we will discuss possible workflows in class.",
     "crumbs": [
       "Overview",
-      "Map Tutorials"
+      "Lab 1"
     ]
   },
   {
-    "objectID": "evaluations/map-tutorials.html#deliverables",
-    "href": "evaluations/map-tutorials.html#deliverables",
-    "title": "Self-study Map Tutorials",
+    "objectID": "evaluations/lab1-model-builder.html#requirements",
+    "href": "evaluations/lab1-model-builder.html#requirements",
+    "title": "Lab 1: Model Builder and Automated Workflows",
+    "section": "Requirements",
+    "text": "Requirements\nYou will need to download the Lab 1 ArcPro package from here: ModelBuilder.ppkx. Click “Download” then double click the downloaded ModelBuilder.ppkx package to start the lab.\n\nUse the supplied ArcPro package and add any other variable layers you would like. Work in a geographic coordinate system in the Feature Dataset, and then set a projection in the data frame.\nUse the select by attribute and intersect tools, or other tools in a Model to reduce the data set by the criteria that are most important to you. Write a tutorial on how to use model builder and include an image of the model flowchart.\nThen map and label your unique towns and cities on an attractive layout. Take note of your top 3–5. What criteria could you use to narrow the field further?",
+    "crumbs": [
+      "Overview",
+      "Lab 1"
+    ]
+  },
+  {
+    "objectID": "evaluations/lab1-model-builder.html#deliverables",
+    "href": "evaluations/lab1-model-builder.html#deliverables",
+    "title": "Lab 1: Model Builder and Automated Workflows",
     "section": "Deliverables",
-    "text": "Deliverables\nPlease create a short write-up of your methods and approach to each free-choice tutorial. This should include a brief introduction describing why you chose the particular tutorial, followed by a high-level description of the steps you took to create your final map. It should end with your map. Always place maps as large as possible, one to a page, rotated if necessary. The map tutorial write-ups are rarely more than a page of text with a separate map.\nPlease use this map tutorial write-up template for your write-ups.1\nPlease save your map tutorial write-up as a Microsoft Word document. Give your map tutorial a file name in this format:\n\n[last name]_map-tutorial_[#].docx\n\nwhere # is the number of map tutorial you are turning in (i.e., 1, 2, 3). For example, my second tutorial would be Bocinsky_map-tutorial_2.docx.",
+    "text": "Deliverables\nYou are responsible for a partial lab write-up due a week after your lab session. This write-up is worth 100 points and will be graded as Excellent (100), Good (80), Fair (60), or Poor (40).\nPlease write a partial scientific report about your analysis of your personal city happiness index. Remember your research question and use your results to answer it. For this assignment, write just the Introduction, Results, and Discussion sections. Write the lab up in a report following the Scientific Report Template discussed in class. Please use the template. Copy and paste your data into the template; it is easier than rebuilding it from scratch. Insert the images of your maps, one to a page, full-size, rotated with the north to the left margin for landscape format images. This partial scientific report does not require the Literature Review, Methods, Conclusion, or Reference sections. Keep the Title page and Contents from the Template, but delete the sections you do not need.\nThe Introduction section is for briefly describing what you intend to do. Summarize the purpose of the analysis, your methods, and give a brief overview of the rest of the report.\nThe Results section is for displaying the model and maps. Insert a screenshot of your final model, and describe the tools used in your model, as well as the steps taken. Insert your final map (or maps). Describe what they show, but do not try to interpret them. Remember, in this section you do not have to analyze the results or add your interpretation. Just describe what the maps show, calling out key areas of interest for the audience.\nThe Discussion section is where you interpret what you found in the maps. What were the top cities or towns in your analysis? How did changing the parameters affect which places rose to the top of the list? How might you go about adapting this analysis to the results of a survey of UM undergraduate students about what factors they find most important when choosing a place to live?\nThis is meant to be a (partial) scientific report, and to give you some room to practice scientific writing. Please be neat, organized, and professional. Spelling and grammar count. Please try to avoid using the passive voice. Many people incorrectly assume passive voice makes scientific writing sound more authoritative. This is wrong; use of the passive voice can make your writing less clear and engaging. You are welcome to use the first-person active voice in your write-up (e.g., “I use the model builder to …”). There is no absolute number of pages required. Just use what it takes to cover the material: your introduction, results, and discussion.\nPlease save your lab write-up as a Microsoft Word or PDF document. Give your lab write-up a file name in this format:\n\n[last name]_lab-1.[format]\n\nFor example, my lab write-up would be Bocinsky_lab-1.docx or Bocinsky_lab-1.pdf.",
     "crumbs": [
       "Overview",
-      "Map Tutorials"
+      "Lab 1"
     ]
   },
   {
-    "objectID": "evaluations/map-tutorials.html#due-dates",
-    "href": "evaluations/map-tutorials.html#due-dates",
-    "title": "Self-study Map Tutorials",
+    "objectID": "evaluations/lab1-model-builder.html#due-dates",
+    "href": "evaluations/lab1-model-builder.html#due-dates",
+    "title": "Lab 1: Model Builder and Automated Workflows",
     "section": "Due Dates",
-    "text": "Due Dates\nMap tutorial write-ups are due weekly after your second lab session. You are expected to complete the Migration tutorial (no write-up) during the first week, and then a map tutorial per week for the following three weeks.\nMap tutorial write-ups are due by 2:00 PM Mountain Time.\nHere is a table of due dates:\n\n\n\n\nWednesday Section\nThursday Section\n\n\n\n\nMap Tutorial 1\nFebruary 7\nFebruary 8\n\n\nMap Tutorial 2\nFebruary 14\nFebruary 15\n\n\nMap Tutorial 3\nFebruary 21\nFebruary 22\n\n\n\nTurn in your map tutorials using this Microsoft Form: https://forms.office.com/r/BF15Ut95MR. You will be required to sign in using your UMConnect email address (NetID@umconnect.umt.edu). If you have trouble reaching the form, please let me know ASAP.",
+    "text": "Due Dates\nThis lab write-up is due one week your lab session. Lab write-ups are due by 2:00 PM Mountain Time.\nHere is a table of due dates:\n\n\n\n\nWednesday Section\nThursday Section\n\n\n\n\nLab 1\nMarch 6\nMarch 7\n\n\n\nTurn in your map tutorials using this Microsoft Form: https://forms.office.com/r/xAUpWkFRSS. You will be required to sign in using your UMConnect email address (NetID@umconnect.umt.edu). If you have trouble reaching the form, please let me know ASAP.",
     "crumbs": [
       "Overview",
-      "Map Tutorials"
+      "Lab 1"
     ]
+  },
+  {
+    "objectID": "evaluations/midterm-study-guide.html",
+    "href": "evaluations/midterm-study-guide.html",
+    "title": "Midterm Study Guide",
+    "section": "",
+    "text": "This guide is designed to help you prepare for the midterm exam. Not all topics in this guide will be on the midterm exam; no topic will be on the midterm that isn’t covered in this guide. This guide doesn’t have all of the definitions; please refer to the course content (lecture slides and readings)."
+  },
+  {
+    "objectID": "evaluations/midterm-study-guide.html#gis-and-the-scientific-method",
+    "href": "evaluations/midterm-study-guide.html#gis-and-the-scientific-method",
+    "title": "Midterm Study Guide",
+    "section": "GIS and the Scientific Method",
+    "text": "GIS and the Scientific Method\nFour rules of Cartesian inquiry\n\nAccept nothing as true that is not self-evident\nDivide each problem into as many parts as possible\nProceed from the simplest to the most complex\nReview everything to avoid errors\n\nSteps of the Geographic Approach\n\nAsk\n\n\nWhat is the problem?\n\n\nAcquire\n\n\nWhat data are needed to complete the analysis?\n\n\nExamine\n\n\nHow are they organized (schema)?\nHow do they relate to other data (topology)?\nWhere are they from (metadata)?\n\n\nAnalyze\n\n\nProcess and analyze data to achieve desired results\n\n\nAct\n\n\nPresent results as part of the decision-making process\n\nTypes of Maps\n\nReference maps store data and show a variety of features for a variety of uses.\nThematic maps highlight specific themes. Their chief goal is to focus the user’s attention on specific features or characteristics."
+  },
+  {
+    "objectID": "evaluations/midterm-study-guide.html#scale-and-projection",
+    "href": "evaluations/midterm-study-guide.html#scale-and-projection",
+    "title": "Midterm Study Guide",
+    "section": "Scale and Projection",
+    "text": "Scale and Projection\nMap scale measures how much the features of the world are reduced to fit on a map.\nThree ways to convey scale:\n\nRepresentative fraction. The most commonly used measure of map scale is the representative fraction (RF), where map scale is shown as a ratio.\nGraphic scale. Scale bars are graphical representations of distance on a map.\nVerbal description. Some maps, especially older ones, use a verbal description of scale.\n\nTypes of Distortion (know what they mean)\n\nShearing\nTearing\nCompressing\n\n\nOther definitions to know\n\nGraticule\nSpheroid\nEllipsoid\nGeoid\nDatum\nDecimal Degrees\nLatitude\nLongitude\nEquator\nMeridian\nProjection"
+  },
+  {
+    "objectID": "evaluations/midterm-study-guide.html#scales-of-measurement",
+    "href": "evaluations/midterm-study-guide.html#scales-of-measurement",
+    "title": "Midterm Study Guide",
+    "section": "Scales of Measurement",
+    "text": "Scales of Measurement\nQualitative Scales (know what they are)\n\nLogical\nNominal\nOrdinal\n\nQuantitative Scales (know what they are)\n\nInterval\nRatio\n\n\nOther definitions to know\n\nSpatial information – where an object is located or an event has occurred\nTemporal information – when the location and attributes were accurate (i.e., when collected)\nAttributes – what characteristics the object or event has\nGlobal positioning systems (GPS) are constellations of satellites that orbit the earth.\nGeocoding is the process of attaching a geographic location to some sort of address information, such as a house address or zip code, or a verbal description such as “the intersection of Elm Avenue and Main Street.”\nSurveys gather attribute information about individuals, households, businesses, or areas."
   },
   {
     "objectID": "example/installation.html",

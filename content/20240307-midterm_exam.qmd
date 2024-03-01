@@ -21,8 +21,8 @@ slide_details <- tibble::tribble(
 )
 ```
 
-<!-- ## Preparation -->
-<!-- Please read [Chapter 2. Data](https://open.lib.umn.edu/mapping/chapter/2-data/){target="_blank"} from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping/){target="_blank"} [@Manson:2017]. -->
+## Preparation
+Please see the [Midterm Study Guide](/evaluations/midterm-study-guide.html) for some useful information related to the Midterm Exam.
 
 <!-- ## Content -->
 

@@ -1,0 +1,86 @@
+---
+title: "Midterm Study Guide"
+---
+
+This guide is designed to help you prepare for the midterm exam. 
+**Not all topics in this guide will be on the midterm exam; no topic will be on the midterm that isn't covered in this guide.** This guide doesn't have all of the definitions; please refer to the course content (lecture slides and readings).
+
+## GIS and the Scientific Method 
+
+**Four rules of Cartesian inquiry**
+
+1. Accept nothing as true that is not self-evident
+2. Divide each problem into as many parts as possible
+3. Proceed from the simplest to the most complex
+4. Review everything to avoid errors
+
+**Steps of the Geographic Approach**
+
+1. Ask
+  - What is the problem?
+2. Acquire
+  - What data are needed to complete the analysis?
+3. Examine
+  - How are they organized (**schema**)?
+  - How do they relate to other data (**topology**)?
+  - Where are they from (**metadata**)?
+4. Analyze
+  - Process and analyze data to achieve desired results
+5. Act
+  - Present results as part of the decision-making process
+
+**Types of Maps**
+
+- **Reference maps** store data and show a variety of features for a variety of uses.
+- **Thematic maps** highlight specific themes. Their chief goal is to focus the user’s attention on specific features or characteristics.
+
+## Scale and Projection
+
+**Map scale** measures how much the features of the world are reduced to fit on a map.
+
+**Three ways to convey scale:**
+
+- **Representative fraction.** The most commonly used measure of map scale is the representative fraction (RF), where map scale is shown as a ratio.
+- **Graphic scale.** Scale bars are graphical representations of distance on a map.
+- **Verbal description.** Some maps, especially older ones, use a verbal description of scale.
+
+**Types of Distortion** (know what they mean)
+
+- Shearing
+- Tearing
+- Compressing
+
+### Other definitions to know
+
+- Graticule
+- Spheroid
+- Ellipsoid
+- Geoid
+- Datum
+- Decimal Degrees
+- Latitude
+- Longitude
+- Equator
+- Meridian
+- Projection
+
+## Scales of Measurement
+**Qualitative Scales** (know what they are)
+
+- Logical
+- Nominal
+- Ordinal
+
+**Quantitative Scales**  (know what they are)
+
+- Interval
+- Ratio
+
+### Other definitions to know
+
+- **Spatial information** – where an object is located or an event has occurred
+- **Temporal information** – when the location and attributes were accurate (i.e., when collected)
+- **Attributes** – what characteristics the object or event has
+- **Global positioning systems (GPS)** are constellations of satellites that orbit the earth.
+- **Geocoding** is the process of attaching a geographic location to some sort of address information, such as a house address or zip code, or a verbal description such as "the intersection of Elm Avenue and Main Street."
+- **Surveys** gather attribute information about individuals, households, businesses, or areas.
