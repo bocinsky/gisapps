@@ -44,7 +44,11 @@ WA Franke College of Forestry & Conservation
 
 ## {background-color="black"}
 
-{{< video https://www.youtube.com/embed/LntXC7bs5SU >}}
+:::{style="text-align: center"}
+
+{{< video https://www.youtube.com/embed/LntXC7bs5SU width="100%" height="100%" >}}
+
+:::
 
 ## {background-color="black"}
 
