@@ -1,0 +1,135 @@
+---
+format:
+  revealjs: 
+    theme: dark
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    css: ["css/ath-slides.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+editor_options: 
+  chunk_output_type: console
+---
+
+## Announcements
+- **Check in on labs**
+  - First lab write-ups are due by 2:00 PM Mountain Time Wed/Thurs
+  - Labs turned in using the Microsoft Form on the [Lab 1 assignment page](https://umtgis.github.io/apps/evaluations/lab1-model-builder.html){target="_blank"}
+
+- **Second Voices of GIS guest next Thursday!**
+  - Zach Hoylman, Montana Asst. State Climatologist on the [UMRB Drought Indicators Dashboard](https://drought.climate.umt.edu){target="_blank"}
+  - Submit questions for Zach by 2:00 PM on Tuesday (I'll send link)
+
+# Color and Choropleths
+
+::: {.class-info}
+
+Kyle Bocinsky
+
+::: light
+
+FORS350 / GPHY488<br>(Forestry) Applications of GIS<br>University of Montana<br>
+WA Franke College of Forestry & Conservation
+
+:::
+
+:::
+
+## {background-color="black"}
+
+:::{style="text-align: center"}
+
+![The distortion of unscientific color maps.^[[Crameri, Shephard, & Heron, 2020](https://doi.org/10.1038/s41467-020-19160-7)]](crameri-figs/MarieCurie_ScientificColourMaps_Batlow_Dark_Crameri_EtAl2020_dark.png){height=500}
+
+:::
+
+## {background-color="black"}
+
+{{< video https://www.youtube.com/embed/LntXC7bs5SU >}}
+
+## {background-color="black"}
+
+:::{style="text-align: center"}
+
+![Color vision deficiency accessibility. ^[[Crameri, Shephard, & Heron, 2020](https://doi.org/10.1038/s41467-020-19160-7)]](crameri-figs/CVDtest_ScientificColourMaps_Batlow_Dark_Crameri_EtAl2020.png){height=500}
+
+:::
+
+## Perception Matters! {background-color="black"}
+- Perceptually **uniform**: constant incremental colour and lightness contrast along a color map
+- Perceptually **ordered**: both lightness and brightness should increase linearly
+
+## {background-color="black"}
+
+:::{style="text-align: center"}
+
+![Perceptual uniformity and order.^[[Crameri, Shephard, & Heron, 2020](https://doi.org/10.1038/s41467-020-19160-7)]](crameri-figs/UniformityAndOrderDark_Crameri_EtAl2020.png){height=500}
+
+:::
+
+## {background-color="black"}
+
+:::{style="text-align: center"}
+
+![Color map classes and types.^[[Crameri, Shephard, & Heron, 2020](https://doi.org/10.1038/s41467-020-19160-7)]](crameri-figs/ScientificColourMaps_ClassAndType_Crameri_EtAl2020_Dark.png){height=500}
+
+:::
+
+## {background-color="white"}
+
+:::{style="text-align: center"}
+
+![Climate mapping.^[[Crameri, Shephard, & Heron, 2020](https://doi.org/10.1038/s41467-020-19160-7)]](crameri-figs/SurfaceTemperature_ScientificColourMaps_Crameri_etAl_2020_SupplementaryFig.png){height=500}
+
+:::
+
+## {background-color="white"}
+
+:::{style="text-align: center"}
+
+![Earth topography.^[[Crameri, Shephard, & Heron, 2020](https://doi.org/10.1038/s41467-020-19160-7)]](crameri-figs/EarthTopography.png){height=500}
+
+:::
+
+## {background-color="white"}
+
+:::{style="text-align: center"}
+
+![Moon topography.^[[Crameri, Shephard, & Heron, 2020](https://doi.org/10.1038/s41467-020-19160-7)]](crameri-figs/LunarTopography_ScientificColourMaps_Crameri_etAl_2020_SupplementaryFig.png){height=500}
+
+:::
+
+## {background-color="white"}
+
+:::{style="text-align: center"}
+
+![Mars topography.^[[Crameri, Shephard, & Heron, 2020](https://doi.org/10.1038/s41467-020-19160-7)]](crameri-figs/MartianTopography_ScientificColourMaps_Crameri_etAl_2020_SupplementaryFig.png){height=500}
+
+:::
+
+## {background-color="white"}
+
+:::{style="text-align: center"}
+
+![Guideline for choosing the right scientific colour map.^[[Crameri, Shephard, & Heron, 2020](https://doi.org/10.1038/s41467-020-19160-7)]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-19160-7/MediaObjects/41467_2020_19160_Fig6_HTML.png?as=webp){height=500}
+
+:::
+
+## Available colour maps and toolkits {.scrollable .smaller}
+
+\* Built into ArcGIS Pro<br>
+^+^ Available as ArcGIS Pro style
+
+- Colorbrewer* (<https://colorbrewer2.org>): The Colorbrewer colour maps are provided through an online tool to manually produce and export a variety of discrete colour maps, which can, optionally, be colour-vision deficiency friendly and exported to a given a variety of formats.
+
+- Matplotlib* (<https://bids.github.io/colormap/>): The MPL maps aim for the most accurate perceptual uniformity with its widely applied colour maps being: viridis, magma, plasma and inferno.
+
+- [Cividis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0199239)* : The cividis colour map aims to represent an almost identical appearance for red–green colour-vision deficiencies, the closest of all currently available colour maps, while also being perceptually uniform.
+
+- CMOcean^+^ (<https://matplotlib.org/cmocean/>): The CMOcean colour maps aim to provide the most intuitive colours for a given suite of physical parameters, while now also being perceptually uniform.
+
+- CET (<https://colorcet.com>): The CET colour maps aim to offer a large choice of the most common colour combinations in a wide variety of data formats.
+
+- Scientific colour maps^+^ (<https://www.fabiocrameri.ch/colourmaps/>): The Scientific colour maps are perceptually uniform, perceptually ordered, colour-vision deficiency and colour-blind friendly, readable in black and white prints, and, if applied properly, also data set specific and parameter intuitive.
+
+
+
