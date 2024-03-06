@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.446">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>(Forestry) Applications of GIS - Lab 2: GWR Analysis with Choropleth Maps</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">(Forestry) Applications of GIS</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus/index.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule/index.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../content/index.html"> 
+<span class="menu-text">Content</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../evaluations/index.html" aria-current="page"> 
+<span class="menu-text">Evaluations</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../evaluations/index.html">Overview</a></li><li class="breadcrumb-item"><a href="../evaluations/lab2-choropleths.html">Lab 2</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../evaluations/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../evaluations/syllabus-quiz.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus Quiz</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../evaluations/final-project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Group Project</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../evaluations/map-tutorials.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Map Tutorials</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../evaluations/lab1-model-builder.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../evaluations/lab2-choropleths.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Lab 2</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  <li><a href="#lab-videos" id="toc-lab-videos" class="nav-link" data-scroll-target="#lab-videos">Lab Videos</a></li>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a>
+  <ul class="collapse">
+  <li><a href="#part-1-developing-the-choropleth" id="toc-part-1-developing-the-choropleth" class="nav-link" data-scroll-target="#part-1-developing-the-choropleth">Part 1: Developing the Choropleth</a></li>
+  <li><a href="#part-2-gwr-analysis" id="toc-part-2-gwr-analysis" class="nav-link" data-scroll-target="#part-2-gwr-analysis">Part 2: GWR Analysis</a></li>
+  </ul></li>
+  <li><a href="#extra-credit-opportunity" id="toc-extra-credit-opportunity" class="nav-link" data-scroll-target="#extra-credit-opportunity"><span style="color: red;"><strong>EXTRA CREDIT OPPORTUNITY</strong></span></a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
+  <li><a href="#due-dates" id="toc-due-dates" class="nav-link" data-scroll-target="#due-dates">Due Dates</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header">
+<h1 class="title display-7">Lab 2: GWR Analysis with Choropleth Maps</h1>
+
+</header>
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-19160-7/MediaObjects/41467_2020_19160_Fig6_HTML.png?as=webp" class="img-fluid figure-img"></p>
+<figcaption>Guideline for choosing the right scientific colour map.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></figcaption>
+</figure>
+</div>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>The roots of the word choropleth come from the Greek “choro” — meaning space or place, and “pleth” — meaning multitude, as in a plethora. Therefore, choropleth maps literally display places full of data. This is commonly accomplished by classifying geographic enumeration units and symbolizing those classes with filled regions of progressive of color. As a cartographer, you have control over the analysis, classification, and color choices, but the shape and size of the regions are fixed by geography. Here in lies the inherent problem with choropleth maps. Human perception tends to assign more value to larger size. Unfortunately, data are rarely found with the highest value in the largest space. Smaller areas will be perceived as having less value regardless of the color assigned to the polygon.</p>
+<p>Therefore, it is imperative to <span style="color: red;"><strong>NEVER</strong></span> map raw data values using a choropleth map. <strong>Some form of normalization must be performed in order to account for the bias described by the modifiable areal unit problem (<a href="https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem" target="_blank">MAUP — look it up</a>).</strong> The most common normalization is division by total area of each unit, producing a density measurement. An example would be persons per km². Another common normalization is a proportion that gives the percent of a phenomenon in an area. An example would be percent of college graduates out of total county population. However, this measurement still suffers from the bias of randomly defined enumeration units — but it is better than mapping the raw data.</p>
+<p>To start this lab, as should be done with any mapping project, first ask, <strong>What is the purpose of the maps I am about to make?</strong> Of course, the connected question is whom are we making the maps for. So, let’s define a general audience concerned with higher education (people just like you!). In order to make a map that is interesting, always try to answer a spatial question that is not obvious in the data alone. If all you want to show the audience is numbers, give them a table.</p>
+<p>Our purpose here then is to use Census Data from the American Community Survey to explore the claim that education drives the economic health of a region. This is most often tied to the concept of “human capital,” where people with new ideas and skills drive economic growth. One measure of “human capital” is the percentage of educated persons in a city or region. The more educated the populace, the more robust the economy should be. When mapped, we should see regions with a higher percentage of educated people also having a higher average personal income. However, the economists <a href="https://www.theatlantic.com/business/archive/2010/05/the-density-of-smart-people/57384/" target="_blank">Jacobs and then Lucas</a> argue that it’s not the percentage of educated that matters, but the density of educated people. After all, smart people have to interact in order to produce “human capital.” The main hypotheses states that cities with a high education density will have stronger economies.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>Because analyzing all the cities in the US is beyond the scope of a mapping project at this scale, we will apply the concepts above to the county level aggregate. Play with the interactive map below to get a feel for educational attainment. You will make maps looking at both density and percentage of educated workers in US counties, as well as income density and average income. Finally, we will use Geographically Weighted Regression to test whether education percentage, or density, is a greater driver of income.</p>
+<iframe width="100%" height="500" src="https://interactives.americanprogress.org/maps/2018/12/Adult+Attainment+Report/index.html" title="Educational Attainment"></iframe>
+</section>
+<section id="lab-videos" class="level2">
+<h2 class="anchored" data-anchor-id="lab-videos">Lab Videos</h2>
+<p><span style="color: red;"><strong>Note</strong></span>: Both NHGIS’ website and ArcPro have changed since these videos were recorded. Most notably, we will be using updated data from the 2020 Census, whereas in the video data was from 2010. For the most accurate instructions, refer to this document. The video is a good guide but there are slight differences. When in doubt, read through the instructions here and feel free to reach out and email Patrick (TA) with any questions/discrepancies.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/cw5wvqimKRA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/AyfKYb7Fwrk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="requirements" class="level2">
+<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<section id="part-1-developing-the-choropleth" class="level3">
+<h3 class="anchored" data-anchor-id="part-1-developing-the-choropleth">Part 1: Developing the Choropleth</h3>
+<ol type="1">
+<li><p>Go to the National Historical Geographical Information System (NHGIS) data website. Click on the Login link in the upper right and follow the instructions to create an account. Back on the homepage, click on the Get Data link beside Start Here. Set the Filters as follows by choosing the selection, and then clicking Submit:</p>
+<p><code>Geographic Levels = county</code> <code>Datasets = 2020 American Community Survey = 2016_2020_ACS5a</code></p>
+<p>Under the source tables tab, select the <strong>(B01003)Total Population</strong>, <strong>(B15002)Sex by Educational Attainment for the Population 25 Years and Over</strong>, and <strong>(B19313)Aggregate Income in the Past 12 Months</strong>. Under the <em>GIS files</em> tab, select the <strong>2020 County</strong> file with the basis of <strong>2020 Tiger/Line +</strong>. Under the <em>Data Cart</em> window in the upper right, click <strong>continue</strong>. You may see a red prompt that says “One or more tables lack a geographic level selection (see below).” Click on <strong>Select Geographic Levels</strong> and choose <strong>county</strong>. Make sure that you have three tables and one GIS file to be downloaded, and then click <strong>continue</strong> again under the <em>Data Cart</em> in the upper right. Under <em>Table File Structure</em>, select <strong>Comma delimited (best for GIS)</strong>. Check the box to <strong>Include additional descriptive header row (best for spreadsheets)</strong> and click <strong>submit</strong>. After a bit, refresh the browser to see if the data is ready. Alternatively, check your email for a data link. Download the combined data table and the GIS County borders layers.</p></li>
+<li><p>Unzip the files into a “Raw_Data” folder that you create. Make sure to stay organized by putting the contents of each zip into a named folder (<strong>IMPORTANT!!!</strong>). You may notice that the shapefile is double zipped and needs to be extracted more than once.</p></li>
+<li><p>Start a new ArcPro project, copy the Raw_Data folder into the project folder, and then explore the GIS layer just downloaded to determine the projection. <strong>What projection is the data in?</strong> <strong>What will be the projection for the project?</strong> (You are mapping the contiguous United States, so this should sound familiar).</p></li>
+<li><p>In the new GDB, create a Feature Dataset in the appropriate spatial reference for the project (Hint: go with the projection of the original data, which you can import). Load the county borders for the US.</p></li>
+<li><p>Now we are going to clean up the data table. Open the <code>.csv</code> table in Excel. The matching <code>.txt</code> file has all the attribute name definitions and is important to study. In the <code>.csv</code> you can delete all the columns that don’t have any data. Use the information in row two to find and delete all the columns related to education attainment of an associate degree or lower for either sex. Delete all the <strong>Margins of Error</strong> columns. Delete columns <strong>AMRYE001</strong>, <strong>AMRYE002</strong>, and <strong>AMRYE019</strong>. Rename the <strong>Estimates: Total (AMPVE001)</strong> column to <strong>TOTAL_POP</strong> in row one. Rename the <strong>Estimates: Aggregate income in the past 12 months… (AMTME001)</strong> column to <strong>TOTAL_INCOME</strong> in row one. Keep the <strong>GIS Join</strong>, <strong>State</strong>, and <strong>County</strong> columns, but delete the others that are not related to a bachelor’s or higher education attainment, and that you have not renamed.</p>
+<p>Create a new column to the left of <strong>TOTAL_INCOME</strong> and name it <strong>TOTAL_EDU</strong>. Select all the higher education numbers for both sexes in row three, and then use the <em>AutoSum</em> button on the Formulas tab to sum them into the <strong>TOTAL_EDU</strong> column. Double-click on the small square on the lower right corner of the formula box in the <strong>TOTAL_EDU</strong> column to get a sum of all the counties’ education attainment. Copy the <strong>TOTAL_EDU</strong> column, and then use <em>Paste Special</em> to replace only the values, removing the formulas. You can then delete all the degree columns. Delete the second row with the extra information — you want only one header row with the names for the attribute columns. The final table should look like this (ensure that your numbers match!):</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="lab2-excel.jpg" class="img-fluid figure-img"></p>
+<figcaption>Your Excel spreadsheet should look like this.</figcaption>
+</figure>
+</div>
+<p>Perform a <em>Save As</em>, and name it <code>Edu_Income.csv</code>. ArcGIS Pro should be able to read a <code>.xlsx</code>, but since a <code>.csv</code> always works, stick with that.</p></li>
+<li><p>Now set up the map workspace. Insert a new Map Pane and add the counties. It should automatically take on the appropriate equal area projection. Join the raw table you just created to the county layer by the obvious join field (<strong>GIS Join</strong>). Check the attribute table to make sure the join was successful. <strong>Save the project.</strong></p></li>
+<li><p>Next, make the join permanent and reduce the dataset to the contiguous US. Using the <strong>Select by Attributes</strong> tool in the open attribute table, make a selection that includes Alaska, Hawaii, and Puerto Rico. <strong>Switch the Selection</strong> to get only the contiguous US. Export the selected data (right-click the joined layer → Data → Export Features) into the Feature Dataset and name it <code>Con_US_Join</code>. The original ACS data table is now part of the <code>Con_US_Join</code> attributes. Remove the original counties layer. Then symbolize the data by <strong>TOTAL_EDU</strong> using Graduated Colors. <strong>Is this a valid choropleth map? Why or why not?</strong></p></li>
+<li><p>Switch to the <em>Catalog View</em>, and from the Portal in the Contents Pane, search the Living Atlas for Colleges. The top return should be called Colleges and Universities. Right-click to add them to your map, but remove all the classes besides “Four or more years”. Symbolize with small dots.</p></li>
+<li><p><strong>You now need to calculate the area for each county.</strong> Open the <code>Con_US_Join</code> layer attribute table and in the upper left → click <strong>Add Field</strong> → name it <strong>Total_Area</strong> → Data Type = double → Number Format = Numeric with 2 decimal places. Then save the change in the upper ribbon. Back in the table, right-click on the header for the new column → Calculate Geometry. Choose the Area property → choose square kilometers under Units → choose Current Map under Coordinate System → then Run.</p></li>
+<li><p>Create two new columns called <strong>Percent_Educated</strong> and <strong>Average_Income</strong>. With the <strong>Calculate Field</strong> tool, derive the values using the formulas below. Now you can create <code>Percent Educated</code> and <code>Average Income</code> maps by inserting a new Map Pane for each one. You could have used the Normalization selection of the Graduated Colors option, but we will need the actual values later. We will also go over choosing the right classification in class next week, but remember that in order to compare these maps, the classification must be as close as possible. <span class="math display">\[{\text{Percent Educated}} =\frac{\text{Total Educated}}{\text{Total Pop}}\]</span><span class="math display">\[\text{Average Income} =\frac{\text{Total Income}}{\text{Total Pop}}\]</span> How do they compare? Conventional wisdom says they should look very similar if equally classified and displayed with the same color scheme. Where are the concentrations of “human capital”? Do they match the concentrations of actual capital? How well do the locations of universities correlate with the concentrations? Do you think that not accounting for the differences in geographic area is hiding or highlighting trends in the data? If so, how? (You may get a null for one of these calculations. Feel free to look on the internet, find a number that makes sense and fill it in to fix your nulls being sure to save your edits)</p></li>
+<li><p>Now create Education Density and Income Density maps by adding two more fields and calculating them using the formulas below. <span class="math display">\[{\text{Education Density}} =\frac{\text{Total Educated}}{\text{Total Area}}\]</span><span class="math display">\[\text{Income Density} =\frac{\text{Total Income}}{\text{Total Area}}\]</span> How do they compare? Are they more similar than the first set? Where are the concentrations of “human capital”? Do they match the concentrations of actual capital? What relationships do the Universities have with the concentrations? Do you think that accounting for the differences in area is hiding or highlight trends in the data? If so, how?</p></li>
+</ol>
+<p><strong>This is the end of the Part 1.</strong> You should have four clean quantitative choropleth maps exploring the relationships between education and income. Once finished, make sure to save them and export the <code>.jpg</code> files at 150 dpi for the report.</p>
+<p>In Part 2, we will get into some more advanced spatial analysis using the data you have already formatted. Remember our research question: <strong>What is the relationship between education and income?</strong> Is income more influenced by percent educated people, or the density of educated people? From the work you have completed thus far, what would be your prediction? <strong>Write down your thoughts now before you begin Part 2.</strong> It is important to have a hypothesis formulated before you are biased by the experimental results! Take a break, find the sun, breath the air!</p>
+</section>
+<section id="part-2-gwr-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="part-2-gwr-analysis">Part 2: GWR Analysis</h3>
+<p>To start part two, let’s review the research question. In part one you mapped both income and higher education by density and percentage. Our question is whether education explains income. As you read, some economists believe that it is the density of educated people that matters, not just the percentage. So, let’s refine the question. Starting with the dependent variable, we would like to know if average income goes up when there are more educated people in society. In other words, is the average personal income dependent on education? And if so, what is more important, the percent of educated, or the density? You are going to use a form of spatial statistics called <em>Geographically Weighted Regression (GWR)</em> to compare income dependency to both education percentage and density. The analysis takes into consideration spatial relationships of neighbors and tries to fit a regression equation to each enumeration unit. Read the <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/geographically-weighted-regression.htm" target="_blank">ArcGIS Pro GWR documentation</a> to get a feel for the tools and technique.</p>
+<ol type="1">
+<li><p>The GWR tool requires that your data be in a projection, not just a geographic coordinate system. This is why we set the Feature Dataset to <em>NAD 1983 Contiguous USA Albers</em> in Part 1. <strong>Check the coordinates of your joined county layer and make sure it has the proper projection.</strong> Also, make sure you have fields for <strong>Average Income</strong>, <strong>Percent Educated</strong> and <strong>Education Density</strong> in the attribute table. If not, create them —- But I wonder how you made the first four maps?</p></li>
+<li><p><strong>You are going to do many runs of analysis, so stay organized.</strong> You will first look at the relationship between <strong>Average Income</strong> and <strong>Percent Educated</strong> in the counties. Open the <em>Geographically Weighted Regression (GWR)</em> tool and set these parameters:</p>
+<p><strong>Input Features</strong>: Your Projected Counties Layer<br>
+<strong>Dependent Variable</strong>: Average Income<br>
+<strong>Model Type</strong>: Continuous (Gaussian)<br>
+<strong>Explanatory Variable</strong>: Percent Educated<br>
+<strong>Output Feature Class</strong>: Name and path to the GDB Feature Dataset (for example, <em>GWR_AvgIncome_PerEdu</em>)<br>
+<strong>Neighborhood Type</strong>: Number of Neighbors<br>
+<strong>Neighborhood Selection Method</strong>: Golden Search<br>
+<strong>Minimum Number of Neighbors</strong>: 30<br>
+<strong>Maximum Number of Neighbors</strong>: 100<br>
+<strong>Leave the Defaults on the other options.</strong></p>
+<p><strong>Click Run.</strong> When the tool finishes it will add a Feature Class that shows the Standard Residual classified by standard deviation. If you have adequately explained the dependent variable with the explanatory variable, the residual distribution should be spatially random. It may look like it, but as we know, our eyes can be fooled.</p></li>
+<li><p>Now you will check additional results by consulting the model diagnostics. The tool creates a table that can be opened by clicking on the View Details option under the Geoprocessing menu. You can view this Report at any time by going to the Geoprocessing menu bar and clicking History on the far left. Then click the GWR run and scroll down in the pop-up until you can view the messages. Look at these Model Diagnostics values:</p>
+<p><strong>R2 &amp; R2Adj</strong>: Closer to 1 is better<br>
+<strong>AICs</strong>: smaller is better<br>
+<strong>Sigma Squared</strong>: smaller is better<br>
+<strong>Sigma &amp; Sigma MLE</strong>: smaller is better<br>
+<strong>Effective Degrees of Freedom</strong>: closer to number of features is better</p>
+<p>When they say “better”, they mean compared to another GWR run that has the same dependent variable, but different explanatory variables. Both runs may still be “mis-specified”, however, one explains the dependent better. Also, take a look at the charts that were generated and placed in the Contents Pane, especially the relationship between variables.</p></li>
+<li><p>Now open the attribute table for the new feature class and look at the column statistics for these values:</p>
+<p><strong>StdErrorINTRCPT (Standard Error)</strong>: smaller is better<br>
+<strong>StdResid (Standard Residual)</strong>: smaller is better<br>
+<strong>Cond (Condition Number)</strong>: Average should be less than 30, smaller is better</p>
+<p>Again, these are compared to another GWR run that has the same dependent variable.</p></li>
+<li><p>Symbolize your GRW run by the <strong>Local R<sup>2</sup></strong> attribute with 10 classes using the <strong>Geometric Interval</strong> method. The areas closer to one have a better model fit. Are there clusters of low R-Squared values? What could be causing them; a missing explanatory variable? We usually try to keep the number of choropleth classes between 5–7, but in this case, the values should only fall between 0 and 1. Showing the data in 0.1 steps nicely displays the dispersion or clustering. Manually adjust your classes to 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, and 1. (Can you use a different interval method to accomplish this?) You can then import this symbology to all your GWR maps so they are directly comparable. Make a map of <strong>Local R<sup>2</sup></strong> for this regression run and export it to a .jpg for the report.</p></li>
+<li><p>To check for a truly random distribution open the <em>Spatial Autocorrelation (Global Moran’s I)</em> tool. Enter these parameters:</p>
+<p><strong>Input Feature Class</strong>: output Feature Class from the GWR tool just run (for example, <em>GWR_AvgIncome_PerEdu</em>). <strong>Input Field</strong>: Local R<sup>2</sup> <strong>Generate Report</strong>: Check <strong>Conceptualization of Spatial Relationships</strong>: K Nearest Neighbors <strong>Standardization</strong>: None <strong>Number of Neighbors</strong>: 30</p>
+<p><strong>Click Run.</strong> When it finishes, click on the <strong>View Details</strong> option under the <em>Geoprocessing</em> menu, find the <strong>Report File HTML</strong>, and double-click. (This html link is also placed in the project folder.) Examine the results that open in a browser. It will tell you if the <strong>Local R<sup>2</sup></strong> values are truly random. If they are random, then the explanatory variable has adequately explained the dependent variable, regardless of geography. If the results are clustered, geography is significant in the variable relationship, and the explanatory variable may only be valid in regional areas. They would say this model is mis-specified. If dispersed, the variables are related, but the geography effect is localized. This model is also mis-specified. In other words, dispersed and clustered runs are saying that the relationship is more complex and varies with geography; you have missed an important variable. What could it be? You can view this report at any time by going to the <strong>Catalog History</strong> and hovering over the <strong>Spatial Autocorrelation Tool</strong> run. You can also find it in the project folder.</p></li>
+</ol>
+<p>Now you must experiment with different explanatory variables to try and get the best model fit. Start by recreating the exact run you just did, but use <strong>Education Density</strong> as the explanatory variable. Remember that all the parameters in the tables are related. If one gets smaller, another may get larger. Consult <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/geographically-weighted-regression.htm" target="_blank">the GWR documentation</a> to gain a deeper understanding of the tools and how to interpret the results.</p>
+<p>There will be no perfectly fit model, only a compromise. It is also unlikely that you will get a well-fit model using only one explanatory variable. As you get to know the data, experiment with different variable combinations that are logical. Try to create the best model that explains Average Income. <strong>Should you include the location of universities as a weighted value?</strong> To do so, you would need perform a <em>Spatial Join</em> to the Counties layer first, and then add them to a GRW run as a dependent variable. You need to perform a minimum of four GWR runs to map. They will include the density and percent education explanatory variables, and two others, perhaps the locations of universities or other data you can find that helps explain average income. You can also choose more than one explanatory variable for a single GWR run.</p>
+</section>
+</section>
+<section id="extra-credit-opportunity" class="level2">
+<h2 class="anchored" data-anchor-id="extra-credit-opportunity"><span style="color: red;"><strong>EXTRA CREDIT OPPORTUNITY</strong></span></h2>
+<p>20 extra points are available if you create a model of the steps of your analysis in the ModelBuilder and show it in a methods section of your report. I’m generally opposed to extra credit, but I’ll make an exception for scientific reproducibility.</p>
+</section>
+<section id="deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
+<p><strong>You are responsible for a partial lab write-up due a week after your lab session.</strong> This write-up is worth 100 points and will be graded as Excellent (100), Good (80), Fair (60), or Poor (40).</p>
+<p>Please write a <em>partial</em> scientific report about your analysis of your analysis that uses choropleth maps as the main output. Remember your research question and use your results to answer it. For this assignment, write just the Introduction, Results, and Discussion sections. Write the lab up in a report following the <a href="../evaluations/ScientificReportTemplate.docx" target="_blank">Scientific Report Template</a> discussed in class. <strong>Please use the template.</strong> Copy and paste your data into the template; it is easier than rebuilding it from scratch. Insert the images of your maps, one to a page, full-size, rotated with the north to the left margin for landscape format images. This partial scientific report does not require the Literature Review, Methods, Conclusion, or Reference sections. Keep the Title page and Contents from the Template, but delete the sections you do not need.</p>
+<p>The Introduction section is for briefly describing what you intend to do. Summarize the purpose of the analysis, your methods, and give a brief overview of the rest of the report.</p>
+<p>The Results section is for displaying the maps. Describe what they show, but do not try to interpret them. Display the original four choropleth maps from Part 1. Also, include four GWR maps including the Percent Edu and Edu Density runs, along with your worst fit model and your best from Part 2. Write about their differences and similarities throughout the Results. Remember, in this section you do not have to analyze the results or add your interpretation. Just describe what the maps show, calling out key areas of interest for your reader.</p>
+<p>The Discussion section is where you interpret what you found in the maps. Is Average Income driven by Education Density more than Percent Educated? Can education alone even explain income variation? Is the relationship constant from one region to another? How well were you able to get the model to fit? What did you conclude about the relationship between education and income? (It’s complicated!)</p>
+<p>This is meant to be a (partial) scientific report, and to give you some room to practice scientific writing. Please be neat, organized, and professional. <strong>Spelling and grammar count.</strong> Please try to avoid using the passive voice. Many people incorrectly assume passive voice makes scientific writing sound more authoritative. <a href="https://writingcenter.unc.edu/tips-and-tools/sciences/" target="_blank">This is wrong</a>; use of the passive voice can make your writing less clear and engaging. You are welcome to use the first-person active voice in your write-up (e.g., “I use geographically weighted regression (GWR) to …”). There is no absolute number of pages required. Just use what it takes to cover the material: your introduction, results, and discussion.</p>
+<strong>Please save your lab write-up as a Microsoft Word or PDF document.</strong> Give your lab write-up a file name in this format:<br>
+<center>
+<code>[last name]_lab-2.[format]</code><br>
+</center>
+<p>For example, my lab write-up would be <code>Bocinsky_lab-2.docx</code> or <code>Bocinsky_lab-2.pdf</code>.</p>
+</section>
+<section id="due-dates" class="level2">
+<h2 class="anchored" data-anchor-id="due-dates">Due Dates</h2>
+<p>This lab write-up is due one week your lab session. <strong>Lab write-ups are due by 2:00 PM Mountain Time.</strong></p>
+<p>Here is a table of due dates:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Wednesday Section</th>
+<th style="text-align: left;">Thursday Section</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Lab 1</td>
+<td style="text-align: left;">March 13</td>
+<td style="text-align: left;">March 14</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Turn in your map tutorials using this Microsoft Form: <a href="https://forms.office.com/r/FdA7ku2pCa" target="_blank">https://forms.office.com/r/FdA7ku2pCa</a>.</strong> You will be required to sign in using your UMConnect email address (<code>NetID@umconnect.umt.edu</code>). If you have trouble reaching the form, please let me know ASAP.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://doi.org/10.1038/s41467-020-19160-7">Crameri, Shephard, &amp; Heron, 2020</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>It’s likely that population density alone is a driver of this as well. Luís Bettencourt and colleagues <a href="https://www.pnas.org/doi/abs/10.1073/pnas.0610172104" target="_blank">describe cities as “social reactors” akin to stars</a>, where wealth creation and innovation scale super-linearly with population.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2023–2024 by <a href="https://www.bocinsky.io">Kyle Bocinsky</a><br> Website template by <a href="https://www.andrewheiss.com/">Dr.&nbsp;Andrew Heiss</a> under <a href="https://mit-license.org/">MIT License</a><br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/umtgis/apps">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
