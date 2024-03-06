@@ -32,7 +32,7 @@ Because analyzing all the cities in the US is beyond the scope of a mapping proj
 
 ### Part 1: Developing the Choropleth
 
-1.	Go to the [National Historical Geographical Information System (NHGIS) data website](https://www.nhgis.org). Click on the Login link in the upper right and follow the instructions to create an account. Back on the homepage, click on the Get Data link beside Start Here. Set the Filters as follows by choosing the selection, and then clicking Submit:	
+1.	Go to the [National Historical Geographical Information System (NHGIS) data website](https://www.nhgis.org). Click on the Login link in the upper right and follow the instructions to create an account. [Back on the homepage](https://www.nhgis.org), click on the Get Data link beside Start Here. Set the Filters as follows by choosing the selection, and then clicking Submit:	
 
     **Geographic Levels**: county 
     **Datasets**: 2020 American Community Survey (2016_2020_ACS5a)  
