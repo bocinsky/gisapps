@@ -34,7 +34,7 @@ Because analyzing all the cities in the US is beyond the scope of a mapping proj
 
 1.	Go to the [National Historical Geographical Information System (NHGIS) data website](https://www.nhgis.org). Click on the Login link in the upper right and follow the instructions to create an account. [Back on the homepage](https://www.nhgis.org), click on the Get Data link beside Start Here. Set the Filters as follows by choosing the selection, and then clicking Submit:	
 
-    **Geographic Levels**: county 
+    **Geographic Levels**: county  
     **Datasets**: 2020 American Community Survey (2016_2020_ACS5a)  
 
     Under the source tables tab, select the **(B01003)Total Population**, **(B15002)Sex by Educational Attainment for the Population 25 Years and Over**, and **(B19313)Aggregate Income in the Past 12 Months**. Under the *GIS files* tab, select the **2020 County** file with the basis of **2020 Tiger/Line +**. Under the *Data Cart* window in the upper right, click **continue**. You may see a red prompt that says "One or more tables lack a geographic level selection (see below)." Click on **Select Geographic Levels** and choose **county**. Make sure that you have three tables and one GIS file to be downloaded, and then click **continue** again under the *Data Cart* in the upper right. Under *Table File Structure*, select **Comma delimited (best for GIS)**. Check the box to **Include additional descriptive header row (best for spreadsheets)** and click **submit**. After a bit, refresh the browser to see if the data is ready. Alternatively, check your email for a data link. Download the combined data table and the GIS County borders layers.
