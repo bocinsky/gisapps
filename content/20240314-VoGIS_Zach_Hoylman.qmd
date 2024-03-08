@@ -21,15 +21,24 @@ slide_details <- tibble::tribble(
 )
 ```
 
-<!-- ## Preparation -->
-<!-- Please read [Chapter 2. Data](https://open.lib.umn.edu/mapping/chapter/2-data/){target="_blank"} from [Mapping, Society, and Technology](https://open.lib.umn.edu/mapping/){target="_blank"} [@Manson:2017]. -->
+## Expert Biography
 
-<!-- ## Content -->
+![](/content/img/zach_hoylman.jpg){fig-align="center" fig-alt="Zach Hoylman."}
 
-<!-- - Spheroids, Ellipsoids, and Geoids (Oh My!) -->
-<!-- - Projecting Earth -->
-<!-- - Scale -->
-<!-- - Geodatabases (and friends!) -->
+Dr. Zach Hoylman is a Research Assistant Professor in the Department of Forest Management at the University of Montana. He is also Montana's Assistant State Climatologist as part of the [Montana Climate Office](https://climate.umt.edu){target="_blank"}. Zach received his BS in International Field Geosciences from the University College Cork, Ireland & the University of Montana. He then received his PhD Forestry and Watershed Hydrology from the University of Montana.  Zach's research is focused on understanding watershed-scale hydrology across the critical zone (from deep groundwater up through the forest canopy), drought assessment in an era of climate change and ecosystem sensitivity to change across the west. His work relies on efficient analysis of geospatial data and development of open source, web-based GIS applications.  He spends his personal time fishing, floating, backcountry skiing and biking across Montana.
+ 
+Zach serves on the Montana Governor's Drought and Water Supply Committee, Drought Monitoring Subcommittee, and is the creator and maintainer of the [Upper Missouri River Basin Drought Indicators Dashboard](https://drought.climate.umt.edu){target="_blank"}. The dashboard is used by the committee on a weekly basis to assess drought and water availability in Montana, and inform the [US Drought Monitor](https://droughtmonitor.unl.edu){target="_blank"}. The dashboard was created with funding support from the [NOAA National Integrated Drought Information System (NIDIS)](https://www.drought.gov){target="_blank"}.
+
+## Preparation
+Please visit the [UMRB Drought Indicators Dashboard](https://drought.climate.umt.edu){target="_blank"} and explore the dashboard. Take note of the type of data that are available, how the data are organized, and whether and how the data are accessible.
+
+### Assignment
+Please submit two short questions you would like Kyle to consider asking Zach. These can be about the [UMRB Drought Indicators Dashboard](https://drought.climate.umt.edu){target="_blank"} dashboard, Zach's career and training, or more general questions about careers in GIS.
+
+Please submit your questions by Tuesday, March 12 at 2:00 PM to this Microsoft Form: <https://forms.office.com/r/N5esxJPUD6>{target="_blank"}.
+
+<!-- ## Voices of GIS Recording -->
+<!-- {{< video https://www.youtube.com/embed/Q5gzpeDfdIo >}} -->
 
 <!-- ## Slides -->
 
