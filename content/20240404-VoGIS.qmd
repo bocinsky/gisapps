@@ -1,5 +1,5 @@
 ---
-title: "Voices of GIS: Expert TBD"
+title: "Voices of GIS: Spatial Epidemiology and Bioterrorism with Dr. Kimothy Smith"
 date: "2024-04-04"
 ---
 
