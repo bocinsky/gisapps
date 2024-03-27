@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>(Forestry) Applications of GIS - Voices of GIS: Mapping Drought with Dr.&nbsp;Zach Hoylman</title>
+<title>(Forestry) Applications of GIS - Lab 4: Exploring ArcGIS StoryMaps</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../content/index.html" aria-current="page"> 
+    <a class="nav-link" href="../content/index.html"> 
 <span class="menu-text">Content</span></a>
   </li>  
   <li class="nav-item">
@@ -109,212 +109,24 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/index.html">Readings and Lectures</a></li><li class="breadcrumb-item"><a href="../content/20240314-VoGIS_Zach_Hoylman.html">Voices of GIS: Mapping Drought with Dr.&nbsp;Zach Hoylman</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../content/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Readings and Lectures</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240118-syllabus_day.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240123-scientific_method.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How is GIS applied to the scientific method?</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240125-projection_scale_geodatabases.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Projection, Scale, and Geodatabase Review</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240130-scales_of_measurement.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Scales of Measurement</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240206-whence_geospatial_data_I.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Whence Geospatial Data I: All data are spatial</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240208-whence_geospatial_data_II.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Whence Geospatial Data II: (Mis)Placing things</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240213-whence_geospatial_data_III.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Whence Geospatial Data III: Humans in space</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240215-VoGIS_Lee_Macholz.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Voices of GIS: Missoula City GIS Services with Lee Macholz</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240220-gis_as_process.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">GIS as process: Organizing space, data, and analysis</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240227-gis_as_workflow.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">GIS as workflow: Introducing the Model Builder</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240229-final_project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Final Group Projects: Overview, Topics, and Q&amp;A</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240305-quantitative_maps.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Quantitative maps: Choropleth Mapping</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240307-midterm_exam.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Midterm Exam</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240312-qualitative_maps.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Qualitative maps: Classification</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240314-VoGIS_Zach_Hoylman.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Voices of GIS: Mapping Drought with Dr.&nbsp;Zach Hoylman</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240326-spatial_storytelling_I.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Spatial Storytelling I: A Human Tradition</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240328-spatial_storytelling_II.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Spatial Storytelling II: Introducing ESRI StoryMaps</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240402-spatial_storytelling_III.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Spatial Storytelling III: Maps in the Media</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240404-VoGIS.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Voices of GIS: Expert TBD</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240409-lying_with_maps_I.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lying with Maps I: Little white lies</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240411-lying_with_maps_II.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lying with Maps II: Placemaking and placetaking</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240416-watershed_hydrology.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Watershed Hydrology in GIS</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240418-VoGIS_Christine_Albano.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Voices of GIS: ARkStorm 2.0 with Dr.&nbsp;Christine Albano</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240423-mapping_montanas_climate.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mapping Montana’s Climate</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240425-VoGIS.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Voices of GIS: Expert TBD</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240430-project_presentations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project Presentations</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/20240502-project_presentations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project Presentations</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#expert-biography" id="toc-expert-biography" class="nav-link active" data-scroll-target="#expert-biography">Expert Biography</a></li>
-  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a>
   <ul class="collapse">
-  <li><a href="#assignment" id="toc-assignment" class="nav-link" data-scroll-target="#assignment">Assignment</a></li>
+  <li><a href="#part-1-get-started-with-arcgis-storymaps-30-minutes" id="toc-part-1-get-started-with-arcgis-storymaps-30-minutes" class="nav-link" data-scroll-target="#part-1-get-started-with-arcgis-storymaps-30-minutes">Part 1: Get started with ArcGIS StoryMaps (30 minutes)</a></li>
+  <li><a href="#part-2-map-the-impact-of-housing-shortage-on-oil-workers-90-minutes" id="toc-part-2-map-the-impact-of-housing-shortage-on-oil-workers-90-minutes" class="nav-link" data-scroll-target="#part-2-map-the-impact-of-housing-shortage-on-oil-workers-90-minutes">Part 2: Map the impact of housing shortage on oil workers (90 minutes)</a></li>
   </ul></li>
-  <li><a href="#voices-of-gis-recording" id="toc-voices-of-gis-recording" class="nav-link" data-scroll-target="#voices-of-gis-recording">Voices of GIS Recording</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
+  <li><a href="#due-dates" id="toc-due-dates" class="nav-link" data-scroll-target="#due-dates">Due Dates</a></li>
   </ul>
 </nav>
     </div>
@@ -322,47 +134,61 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7">Voices of GIS: Mapping Drought with Dr.&nbsp;Zach Hoylman</h1>
+<h1 class="title display-7">Lab 4: Exploring ArcGIS StoryMaps</h1>
 
-<div class="date-block bg-content text-white p-2">
-  <p class="date">Content for Thursday, March 14, 2024</p>
-</div>
 </header>
 
 
-<section id="expert-biography" class="level2">
-<h2 class="anchored" data-anchor-id="expert-biography">Expert Biography</h2>
-<p><img src="../content/img/zach_hoylman.jpg" class="img-fluid quarto-figure-center" alt="Zach Hoylman."></p>
-<p>Dr.&nbsp;Zach Hoylman is a Research Assistant Professor in the Department of Forest Management at the University of Montana. He is also Montana’s Assistant State Climatologist as part of the <a href="https://climate.umt.edu" target="_blank">Montana Climate Office</a>. Zach received his BS in International Field Geosciences from the University College Cork, Ireland &amp; the University of Montana. He then received his PhD Forestry and Watershed Hydrology from the University of Montana. Zach’s research is focused on understanding watershed-scale hydrology across the critical zone (from deep groundwater up through the forest canopy), drought assessment in an era of climate change and ecosystem sensitivity to change across the west. His work relies on efficient analysis of geospatial data and development of open source, web-based GIS applications. He spends his personal time fishing, floating, backcountry skiing and biking across Montana.</p>
-<p>Zach serves on the Montana Governor’s Drought and Water Supply Committee, Drought Monitoring Subcommittee, and is the creator and maintainer of the <a href="https://drought.climate.umt.edu" target="_blank">Upper Missouri River Basin Drought Indicators Dashboard</a>. The dashboard is used by the committee on a weekly basis to assess drought and water availability in Montana, and inform the <a href="https://droughtmonitor.unl.edu" target="_blank">US Drought Monitor</a>. The dashboard was created with funding support from the <a href="https://www.drought.gov" target="_blank">NOAA National Integrated Drought Information System (NIDIS)</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="storymap.png" class="img-fluid figure-img"></p>
+<figcaption>An example of a visually arresting ArcGIS StoryMap title image.</figcaption>
+</figure>
+</div>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>A core purpose of maps is to help tell a story — a story that engages space or geography in a meaningful way, a story grounded in place. <a href="https://storymaps.arcgis.com" target="_blank">ESRI ArcGIS StoryMaps</a> allow the cartographer to guide a reader through a map, building a story from map elements and weaving in other media, including photographs, video, and audio. There are <a href="https://doc.arcgis.com/en/arcgis-storymaps/gallery/?rsource=https%3A%2F%2Fwww.esri.com%2Fen-us%2Farcgis%2Fproducts%2Farcgis-storymaps%2Fstories" target="_blank">many examples of engaging StoryMaps</a>, including <a href="https://storymaps.arcgis.com/briefings/4d457508b2f348d2a3da90b78d039ab7" target="_blank">wildfire briefings</a>, <a href="https://storymaps.arcgis.com/collections/68ba1955f063424884fc7c77dea8480e?item=7" target="_blank">ecological restoration</a>, <a href="https://storymaps.arcgis.com/collections/68ba1955f063424884fc7c77dea8480e?item=9" target="_blank">Native languages</a>, <a href="https://storymaps.arcgis.com/collections/1551802e8e8c4a1d9f3bde7bc9bba1aa" target="_blank">climate change</a>, and many others.</p>
+<p>In this lab, you will get an introduction to ArcGIS StoryMaps, and move through the steps required to create your own StoryMap, including preparing data, uploading it to ArcGIS Online, creating a StoryMap, and adding design elements. As you move through the tutorials, take note of specific design elements that you like and that might be appropriate for the StoryMap you are developing for your final project. Be sure to check out the <a href="https://storymaps.arcgis.com/collections/d34681ac0d1a417894a3a3d955c6913f?item=3" target="_blank">Anatomy of a Story StoryMap cheat sheet</a> for great tips.</p>
 </section>
-<section id="preparation" class="level2">
-<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
-<p>Please visit the <a href="https://drought.climate.umt.edu" target="_blank">UMRB Drought Indicators Dashboard</a> and explore the dashboard. Take note of the type of data that are available, how the data are organized, and whether and how the data are accessible.</p>
-<section id="assignment" class="level3">
-<h3 class="anchored" data-anchor-id="assignment">Assignment</h3>
-<p>Please submit two short questions you would like Kyle to consider asking Zach. These can be about the <a href="https://drought.climate.umt.edu" target="_blank">UMRB Drought Indicators Dashboard</a> dashboard, Zach’s career and training, or more general questions about careers in GIS.</p>
-<p>Please submit your questions by Tuesday, March 12 at 2:00 PM to this Microsoft Form: <a href="https://forms.office.com/r/N5esxJPUD6" target="_blank">https://forms.office.com/r/N5esxJPUD6</a>.</p>
+<section id="requirements" class="level2">
+<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<section id="part-1-get-started-with-arcgis-storymaps-30-minutes" class="level3">
+<h3 class="anchored" data-anchor-id="part-1-get-started-with-arcgis-storymaps-30-minutes">Part 1: Get started with ArcGIS StoryMaps (30 minutes)</h3>
+<p>Your first task is to complete the <a href="https://learn.arcgis.com/en/projects/share-the-story-of-an-expedition/" target="_blank">Get started with ArcGIS StoryMaps</a> tutorial. This will introduce you to the elements of an ArcGIS StoryMap, and get you comfortable with working in ArcGIS Online and the StoryMap Builder.</p>
+<p><strong>In the last step, Publish and Share, please share your map with the <em>Applications of GIS — Spring 2024</em> group that you should already be a member of.</strong></p>
+<p>Sharing your results or discoveries is essential for demonstrating the value of any research effort. But communication can be tricky, especially if you’re trying to connect with people who aren’t experts in your area of study. The key to success is keeping your audience interested from start to finish. In this tutorial, you’ll use the ArcGIS StoryMaps builder to tell the story of a National Geographic expedition undertaken by three researchers. The combination of text, images, and maps creates a multimedia experience that is entertaining to read. You’ll start by looking at a great example: <a href="https://storymaps.arcgis.com/stories/f953d4489b1d4b4d99f2115eaacea424" target="_blank">a story about an expedition in Guatemala</a>. Then, you’ll use that as reference point to learn how to use ArcGIS StoryMaps.</p>
+</section>
+<section id="part-2-map-the-impact-of-housing-shortage-on-oil-workers-90-minutes" class="level3">
+<h3 class="anchored" data-anchor-id="part-2-map-the-impact-of-housing-shortage-on-oil-workers-90-minutes">Part 2: Map the impact of housing shortage on oil workers (90 minutes)</h3>
+<p>Now it is time to dive in a bit more. Complete the <a href="https://learn.arcgis.com/en/projects/homeless-in-the-badlands/arcgis-pro/" target="_blank">Map the impact of housing shortage on oil workers</a> tutorial. This tutorial will require you to gather and prepare data on homelessness, publish those data on ArcGIS Online, create a series of web maps for use in your StoryMap, and share the results through an ArcGIS StoryMap.</p>
+<p>From 2012 to 2013, North Dakota’s oil boom attracted thousands of new workers from across the continent seeking well-paying jobs. The state was historically not a densely populated area and did not have enough permanent or even temporary housing to accommodate the rapid influx of workers. As a result, the state experienced a rapid increase in the unhoused population, prompting the local government to reevaluate resource allocation and seek funding opportunities to support the growing vulnerable community. In this tutorial, you’re a GIS specialist documenting the crisis so government officials can prioritize resources to support people experiencing homelessness.</p>
+<p>The final step is to publish your story. <strong>In the final step, please set your sharing level to “Organization” and share your map with the <em>Applications of GIS — Spring 2024</em> group that you should already be a member of.</strong></p>
 </section>
 </section>
-<section id="voices-of-gis-recording" class="level2">
-<h2 class="anchored" data-anchor-id="voices-of-gis-recording">Voices of GIS Recording</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wOtO3LYPyfw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<!-- ## Slides -->
-<!-- The slides for today are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys. -->
-<!-- ```{r show-slide-tabs, echo=FALSE, results="asis"} -->
-<!-- slide_buttons("/slides/05-scales_of_measurement") -->
-<!-- # slide_tabs(slide_details, "/slides/01-slides.html") -->
-<!-- ``` -->
-<!-- ```{r show-slides-xaringan, echo=FALSE} -->
-<!-- xaringanExtra::embed_xaringan( -->
-<!--   url = "/slides/05-scales_of_measurement.html", -->
-<!--   ratio = "16:9" -->
-<!-- ) -->
-<!-- ``` -->
-<!-- :::{.callout-tip} -->
-<!-- **Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of slide-specific commands. -->
-<!-- ::: -->
+<section id="deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
+<p><strong>You are responsible for posting StoryMaps from each part of the lab on ArcGIS Online and sharing them with the <em>Applications of GIS — Spring 2024</em> group</strong>. These are together worth 100 points and will be graded as pass/fail. Do the tutorials, post the stories, and you will receive full credit.</p>
+</section>
+<section id="due-dates" class="level2">
+<h2 class="anchored" data-anchor-id="due-dates">Due Dates</h2>
+<p>Your StoryMaps are must be posted on ArcGIS Online and shared with the <em>Applications of GIS — Spring 2024</em> group by one week after your lab session. <strong>StoryMaps are due by 2:00 PM Mountain Time.</strong></p>
+<p>Here is a table of due dates:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Wednesday Section</th>
+<th style="text-align: left;">Thursday Section</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Lab 4</td>
+<td style="text-align: left;">April 3</td>
+<td style="text-align: left;">April 4</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>

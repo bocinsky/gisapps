@@ -154,6 +154,6 @@ Here is a table of due dates:
 
 |       | Wednesday Section | Thursday Section |
 | :---        |    :----   |          :--- |
-| Lab 1      | March 13       | March 14   |
+| Lab 2      | March 13       | March 14   |
 
 **Turn in your map tutorials using this Microsoft Form: <https://forms.office.com/r/FdA7ku2pCa>{target="_blank"}.** You will be required to sign in using your UMConnect email address (`NetID@umconnect.umt.edu`). If you have trouble reaching the form, please let me know ASAP.
