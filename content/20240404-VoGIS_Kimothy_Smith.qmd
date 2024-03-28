@@ -1,0 +1,66 @@
+---
+title: "Voices of GIS: Spatial Epidemiology and Bioterrorism with Dr. Kimothy Smith"
+date: "2024-04-04"
+---
+
+```{r}
+#| label: slides-videos
+#| echo: false
+#| include: false
+source(here::here("R", "slide-things.R"))
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- ""
+
+slide_details <- tibble::tribble(
+  ~youtube_id,   ~title, ~slide, ~active,
+  "", "Introduction", "1", TRUE,
+  "", "Motivation", "motivation", FALSE,
+  "", "Review", "review", FALSE,
+  "", "Key concepts", "keyconceptsexperimental", FALSE
+)
+```
+
+## Expert Biography
+
+![](/content/img/kimothy_smith.jpg){fig-align="center" fig-alt="Kimothy Smith."}
+
+Dr. Kimothy Smith is a veterinarian, spatial epidemiologist, biodefense expert, and entrepreneur. He earned his BS in Biochemistry and Doctorate of Veterinary Medicine from Oklahoma State University and was a practicing veterinarian for nearly 10 years in Oklahoma before going back to school to earn his PhD in molecular epidemiology from Louisiana State University in 1999. As a Postdoctoral Fellow and Assistant Research Professor at Northern Arizona University, Dr. Smith developed programs and conducted research in human and agricultural infectious disease ecology, molecular typing methods, and the application of molecular epidemiological techniques to forensic investigations. In 2005, Dr. Smith was named as the first Chief Veterinarian for the Department of Homeland Security and Chief Scientist for the Office of Health Affairs. While at DHS, he advised the Secretary of Homeland Security and the Department's senior leadership on strategies and emergency response plans for food and agricultural security. Dr. Smith set the vision and led the development of the U.S. Government-wide strategy to acquire and analyze biosurveillance information obtained from public and private sector organizations to support national biodefense, biosecurity, food and agricultural security, and health protection programs. Since leaving Washington, Dr. Smith co-founded [McCarthy & Smith Consulting, LLC](http://mccarthyandsmith.com){target="_blank"}, where he provides professional consulting services in the areas of biosurveillance, bioforensics, biodefense, biosecurity, molecular genetics and diagnostics, and food safety, defense, and security.
+
+**Dr. Smith shared a personal history of his work with GIS:**
+
+#### Late 1980's
+My first introduction to GIS was with an early precision agriculture modelling system for irrigated cotton production called [GOSSYM-COMAX](https://unfccc.int/files/adaptation/methodologies_for/vulnerability_and_adaptation/application/pdf/process_crop_models_-_gossym-comax.pdf){target="_blank"}. The GIS was mostly hidden within the modeling system.
+
+#### Early to late 1990's
+I "heads up" digitized 10 years of oyster bed lease closure maps along the Gulf Coast for the Louisiana Department of Natural Resources to help pay my way through graduate school at LSU Baton Rouge. I worked on an old Data General mainframe computer that required extreme air-conditioning to function which required that I wear sweaters in the summertime in South Louisiana.
+
+#### Mid-1990's
+I worked in the [World Health Organization Collaborating Center](https://www.who.int/about/collaboration/collaborating-centres){target="_blank"} for Remote Sensing and GIS for Public Health at Louisiana State University. During that time, I:
+
+  - Developed a simple GIS for studying *Fasciola hepatica* (a trematode liver fluke of cattle) as a model for *Schistosoma mansoni* (infects humans) on the spoil islands off the coast of Louisiana.
+  - Developed a simple GIS for studying translocation outcomes for the Red-cockaded Woodpecker (an endangered species of the Southern United States).
+  - Developed a simple GIS to plot and study growth of saw palmetto in the Kisatchie National Forest.
+  - Developed a working GIS for studying and modeling *Bacillus anthracis* (causative agent of anthrax) in the Kruger National Park, South Africa. So much to say about this one. In the end, we demonstrated significant association of anthrax with a host species type, with specific soil factors, and interactions of genotype with virulence and dispersion.
+
+#### During the early and mid-2000's
+
+- Developed a working GIS for studying and modeling *Bacillus anthracis* (causative agent of anthrax) in the United States. Cases of anthrax in livestock were mapped to the county level for 100 years of anthrax surveillance. There is a likelihood that the cattle trails and cattle feed (contaminated bone meal) introduced and spread anthrax throughout the US.
+- Used GIS software to map the geographic and temporal spread and genetic mutations of *Yersinia pestis* (causative agent of the Plague and Black Plague) in Prairie Dog populations in the United States.
+- Participated in studies to determine optimal location of biothreat detection technologies for the Department of Homeland Security ([BioWatch Program](https://www.dhs.gov/biowatch-program){target="_blank"}).
+- Assisted with the development of the Department of Homeland Security National Biosurveillance Integration System (NBIS) housed in the [National Biosurveillance Integration Center (NBIC)](https://www.dhs.gov/nbic){target="_blank"}. NBIS has GIS capability integrated into the system by necessity. All biological related information has time and place associated with it. Spatial analyses are often key to understand the spread of disease events as well as cluster detection.
+
+#### 2020's
+I have developed course content and taught GIS in Public Health at the University of Nevada, Reno for the MPH program. I am currently assisting a [commercial company](https://buildingwatersampling.com){target="_blank"} to construct a database with temporal and spatial data components for potable water parametric and biological measurements. The ultimate purpose will be to develop and use predictive maps of opportunistic pathogens of premise plumbing.
+
+
+## Preparation
+Kimothy shared several presentations about his work, including on the [history of anthrax](img/history-of-anthrax.pdf){target="_blank"}, [biodefense](img/biodefense.pdf){target="_blank"}, and [molecular epidemiology](img/molecular-epidemiology.pdf){target="_blank"}.  Please have a look at at least one of them in preparation for our discussion.
+
+### Assignment
+Please submit two short questions you would like Kyle to consider asking Kimothy. These can be about the presentations, Kimothy's career and training, or more general questions about careers in GIS related to spatial epidemiology, biodefense, and geointelligence.
+
+Please submit your questions by Tuesday, April 2 at 2:00 PM to this Microsoft Form: <https://forms.office.com/r/GwtVhd4eRC>{target="_blank"}.
+
+<!-- ## Voices of GIS Recording -->
+<!-- {{< video https://www.youtube.com/embed/wOtO3LYPyfw >}} -->
