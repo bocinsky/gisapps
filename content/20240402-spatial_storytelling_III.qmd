@@ -1,5 +1,5 @@
 ---
-title: "Spatial Storytelling III: Maps in the Media"
+title: "Spatial Storytelling III: Isarithmic Maps and Spatial Interpolation"
 date: "2024-04-02"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Spatial Storytelling II: Introducing ESRI StoryMaps"
+title: "Spatial Storytelling II: Maps in the Media"
 date: "2024-03-28"
 ---
 

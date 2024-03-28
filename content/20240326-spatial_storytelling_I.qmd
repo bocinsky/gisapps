@@ -1,5 +1,5 @@
 ---
-title: "Spatial Storytelling I: A Human Tradition"
+title: "Spatial Storytelling I: Introducing ESRI StoryMaps"
 date: "2024-03-26"
 ---
 
