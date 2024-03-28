@@ -75,6 +75,8 @@ website:
             file: evaluations/lab1-model-builder.qmd
           - text: "Lab 2"
             file: evaluations/lab2-choropleths.qmd
+          - text: "Lab 4"
+            file: evaluations/lab4-storymaps.qmd
           # - evaluations/index.qmd
           # - text: "Weekly check-in"
           #   file: evaluations/weekly-check-in.qmd
