@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>(Forestry) Applications of GIS - Evaluations</title>
+<title>(Forestry) Applications of GIS - Lab 5: Isarithmic Maps: Climate Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -114,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../evaluations/index.html">Overview</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../evaluations/index.html">Overview</a></li><li class="breadcrumb-item"><a href="../evaluations/lab5-isarithmic_maps.html">Lab 5</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../evaluations/index.html" class="sidebar-item-text sidebar-link active">
+            <a href="../evaluations/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -173,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../evaluations/lab5-isarithmic_maps.html" class="sidebar-item-text sidebar-link">
+  <a href="../evaluations/lab5-isarithmic_maps.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Lab 5</span></a>
   </div>
 </li>
@@ -189,12 +189,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#syllabus-quiz-10-points" id="toc-syllabus-quiz-10-points" class="nav-link active" data-scroll-target="#syllabus-quiz-10-points">Syllabus Quiz (10 points)</a></li>
-  <li><a href="#participationquizzescheck-ins-140-points" id="toc-participationquizzescheck-ins-140-points" class="nav-link" data-scroll-target="#participationquizzescheck-ins-140-points">Participation/Quizzes/Check-ins (140 points)</a></li>
-  <li><a href="#labs-500-points-and-map-tutorials-150-points" id="toc-labs-500-points-and-map-tutorials-150-points" class="nav-link" data-scroll-target="#labs-500-points-and-map-tutorials-150-points">Labs (500 points) and Map Tutorials (150 points)</a></li>
-  <li><a href="#resource-notebook-100-points" id="toc-resource-notebook-100-points" class="nav-link" data-scroll-target="#resource-notebook-100-points">Resource Notebook (100 points)</a></li>
-  <li><a href="#midterm-exam-200-points-and-final-exam-250-points" id="toc-midterm-exam-200-points-and-final-exam-250-points" class="nav-link" data-scroll-target="#midterm-exam-200-points-and-final-exam-250-points">Midterm Exam (200 points) and Final Exam (250 points)</a></li>
-  <li><a href="#final-group-projects-600-points" id="toc-final-group-projects-600-points" class="nav-link" data-scroll-target="#final-group-projects-600-points">Final Group Projects (600 points)</a></li>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  <li><a href="#lab-video" id="toc-lab-video" class="nav-link" data-scroll-target="#lab-video">Lab Video</a></li>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a>
+  <ul class="collapse">
+  <li><a href="#part-1-project-and-data-preparation" id="toc-part-1-project-and-data-preparation" class="nav-link" data-scroll-target="#part-1-project-and-data-preparation">Part 1: Project and Data Preparation</a></li>
+  <li><a href="#part-2-data-interpolation" id="toc-part-2-data-interpolation" class="nav-link" data-scroll-target="#part-2-data-interpolation">Part 2: Data Interpolation</a></li>
+  <li><a href="#part-3-upload-an-arcgis-package" id="toc-part-3-upload-an-arcgis-package" class="nav-link" data-scroll-target="#part-3-upload-an-arcgis-package">Part 3: Upload an ArcGIS Package</a></li>
+  </ul></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
+  <li><a href="#due-dates" id="toc-due-dates" class="nav-link" data-scroll-target="#due-dates">Due Dates</a></li>
   </ul>
 </nav>
     </div>
@@ -202,56 +206,100 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7">Evaluations</h1>
+<h1 class="title display-7">Lab 5: Isarithmic Maps: Climate Analysis</h1>
 
 </header>
 
 
-<p><strong>Instructions for the various evaluations and assessments will be posted here as the semester progresses, so please bookmark this site.</strong></p>
-<section id="syllabus-quiz-10-points" class="level2">
-<h2 class="anchored" data-anchor-id="syllabus-quiz-10-points"><a href="syllabus-quiz.html">Syllabus Quiz</a> (10 points)</h2>
-<p>There will be a syllabus quiz on Tuesday, January 30. Ten questions, ten points.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Change_in_Average_Temperature_With_Fahrenheit.svg" class="img-fluid figure-img"></p>
+<figcaption>Changes in surface air temperature over the past 50 years.</figcaption>
+</figure>
+</div>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>An Isarithmic map is simply one where isolines are of equal value. The most common example is contour maps were each line represents a constant elevation. This technique is very useful for showing the seamless distribution of an attribute over an area. In thematic mapping, isoline maps are used to show temperature, precipitation, air pressure, pollution, etc. The power of this technique lies in the use of interpolation methods to convert point-sampled data into a raster surface that estimates values for all intermediate locations. When classed, the breaks become the lines of equal value. ArcGIS Pro uses several types of interpolation, including <a href="https://pro.arcgis.com/en/pro-app/latest/help/analysis/geostatistical-analyst/how-inverse-distance-weighted-interpolation-works.htm" target="_blank">Inverse Distance Weighted (IDW)</a>, <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/3d-analyst/how-kriging-works.htm" target="_blank">Kriging</a>, <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/3d-analyst/how-natural-neighbor-works.htm" target="_blank">Natural Neighbor</a>, <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-spline-works.htm" target="_blank">Spline</a>, <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/topo-to-raster.htm" target="_blank">Topo to Raster</a>, and <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-trend-works.htm" target="_blank">Trend</a>. Each produces different results and is best suited for different types of data. <strong>The goal is to choose the method that creates the smoothest surface with the points used.</strong> You will experiment to find the best method for this lab.</p>
+<p>A “hot topic” lately, pun intended, is the debate over climate change. To gauge how much temperatures have changed recently, scientists have been very busy trying to use proxies to extend the temperature record back through time. Instrument records cover at best 200 years, and can be spotty, so it is common practice to use temperature data derived from proxies like tree rings, ice cores, pollen, coral and sea floor cores to fill in the gaps. One study, by <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009972" target="_blank">Guiot and Corona, 2010</a>, created 1400 years of average temperature in Europe for the growing season of April through September. How can we test the validity of this paleoclimate dataset? Using this data, it is possible to create a series of Isarithmic maps to show the anomalies from mean temperature over certain time spans. If we make maps of the <a href="https://en.wikipedia.org/wiki/Little_Ice_Age" target="_blank">Little Ice Age</a>, or the <a href="https://en.wikipedia.org/wiki/Medieval_Warm_Period" target="_blank">Medieval Warm Period</a>, what should they look like? What does it mean if they don’t match our assumptions? By reading their article and assessing the methods used, you can use your maps to evaluate their results and discuss the climate changes visible in the data.</p>
 </section>
-<section id="participationquizzescheck-ins-140-points" class="level2">
-<h2 class="anchored" data-anchor-id="participationquizzescheck-ins-140-points">Participation/Quizzes/Check-ins (140 points)</h2>
-<p>Throughout the semester, I will have short activities, participation quizzes, and check-ins. I use these to track progress and participation in the course. Each will generally be worth 10 points, for a total of 140 points.</p>
+<section id="lab-video" class="level2">
+<h2 class="anchored" data-anchor-id="lab-video">Lab Video</h2>
+<p><span style="color: red;"><strong>Note</strong></span>: ArcPro has changed since these videos were recorded. For the most accurate instructions, refer to this document. The video is a good guide but there are slight differences. When in doubt, read through the instructions here and feel free to reach out and email Patrick (TA) with any questions/discrepancies.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/xB6ID3XuiFo" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="labs-500-points-and-map-tutorials-150-points" class="level2">
-<h2 class="anchored" data-anchor-id="labs-500-points-and-map-tutorials-150-points">Labs (500 points) and <a href="map-tutorials.html">Map Tutorials</a> (150 points)</h2>
-<p>Labs will consist of exercises that provide a means to put theory as presented through the lectures and reading material into practice. The labs are software intensive utilizing ESRI ArcGIS Pro and sometimes Microsoft Excel. There will be instructions for each lab that outline the learning objectives and the steps that should be taken to complete the project. Although some steps will be written-up in detail, there will not be explicit instructions for every button-click in the software. The student is responsible for applying the on-screen demonstrations, technique videos, and outside resources that will be introduced by the instructor. Each lab will be documented in a report that follows the standard scientific format. This includes the following sections: Introduction, Methods, Results, Discussion, Conclusion and References. We will cover how to write the various sections of the report and build up to a complete paper for the final projects. The maps, tables, and graphs generated in labs are to be used as figures for the reports. <strong>Always place maps as large as possible, one to a page, rotated if necessary.</strong> A <em>Scientific Report Template</em> will be provided and must be used or points will be deducted. <strong>Each lab write-up is worth 100 points.</strong></p>
-<p>Three shorter <a href="map-tutorials.html"><strong>Map Tutorials</strong></a> will round out your GIS skill set, and/or will serve as an introduction to ArcPro for those of you who have taken past courses using the legacy ArcMap software. <strong>Each map tutorial write-up is worth 50 points.</strong></p>
-<p>All labs and map tutorials will be submitted into separate Microsoft Forms in <strong>Microsoft Word or PDF formats only</strong>. Please see the individual assignment pages for specific due dates and instructions.</p>
+<section id="requirements" class="level2">
+<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<section id="part-1-project-and-data-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="part-1-project-and-data-preparation">Part 1: Project and Data Preparation</h3>
+<ol type="1">
+<li><p>Open a new ArcGIS Pro project and name it <em>EuropeClimate</em>, making sure it is saved where you want it. In the newly created <code>EuropeClimate.gdb</code>, create a feature dataset in WGS 84 and import a world country border layer from one of the many resources you have used (<a href="https://www.naturalearthdata.com" target="_blank">Natural Earth</a>, perhaps). Create a new Map tab and add the countries. Check the coordinate system of the map and keep it in WGS 84 for now. SAVE the project.</p></li>
+<li><p>Navigate to the <a href="https://www.ncei.noaa.gov/products/paleoclimatology" target="_blank">NOAA Paleoclimatology</a> page, a great resource for paleoclimate data. Click on <strong>Paleo Data Search</strong> → <strong>Launch Search Tool</strong> → and enter “Guiot” in the search box. Click on the <em>European 1400 Year Spring-Summer Temperature Reconstructions</em> result and download the <code>guiot2010europe.xls</code> (Excel file) below. Explore the <em>Read Me</em> and <em>Proxies</em> sheets in the Excel workbook. It will give you a good overview of the research and where the temperatures were derived from. Ask yourself how ice core data from Greenland can be used to extrapolate temperature data for Europe in the past? What about tree rings, or grape harvests?</p></li>
+<li><p>On the <em>Europe Temperature Recons</em> sheet, notice that column A has all the information needed for the header. The data needs to be transposed, that is Y swapped for X. The easiest way to do this is as follows:</p></li>
+</ol>
+<ul>
+<li>Select the first cell (1A) and hit Ctrl + A to select all, then Ctrl + C to copy.</li>
+<li>In a new Excel workbook, select the first cell.</li>
+<li>Under Paste → Paste Special → Check Transpose → OK.</li>
+<li>Save the new Excel file and name it <code>Climate_Data.xlsx</code></li>
+</ul>
+<ol start="4" type="1">
+<li><p>Change the <strong>long</strong> and <strong>lati</strong> headers to <strong>LONG</strong> and <strong>LAT</strong>. Change the <strong>VAR</strong> header to <strong>STATION_ID</strong>. Remove the <strong>SE</strong> and <strong>Year AD</strong> columns. Notice that there is data from 600 all the way to 2007. <em>A table in ArcGIS Pro has a 256-column limit without some tricky import workarounds.</em> Luckily, we only need this data to create some average columns, and then it can be deleted.</p></li>
+<li><p>Create a new column at the far right with the header named <strong>AVG_ALL</strong> and format it as a number with 4 decimals. Populate the column using a formula finding the average temperature anomaly from 600 to 2007.</p></li>
+<li><p>Create a formatted column and find the average temperature anomaly from 1961 through 1990. Why is this timespan important?</p></li>
+<li><p>Create formatted columns and find the average temperature anomalies for the Medieval Warm Period and the Little Ice Age. Conduct some research to figure out what years these periods cover.</p></li>
+<li><p>Find the beginning year of the Industrial Revolution (more searching!) and calculate the average temperature anomaly from then to 2007 in another formatted column.</p></li>
+<li><p>Finally, calculate the average temperature anomaly for the last decade in the dataset. Will this decade be above or below average?</p></li>
+<li><p>Now copy all the derived values (the averages you just created), along with the <strong>STATION_ID</strong>, <strong>LAT</strong> and <strong>LONG</strong> columns. Open another workbook, select the first cell, and under Paste → Paste Special, select Values, and then hit OK. This will get rid of the formulas and reduce the data to just the stations, the coordinates, and the averages you need for analysis. Check the formatting and reset to a 4 decimal number if necessary. Save the spreadsheet, and then perform a Save As to a .csv called <code>Climate_Averages.csv</code>.</p></li>
+<li><p>Back in ArcGIS Pro, go to <strong>Add Data</strong> → <strong>XY Point Data</strong> and navigate to the <code>Climate_Averages.csv</code>. Make sure the <strong>X</strong> field is <strong>LONG</strong> and the <strong>Y</strong> field is <strong>LAT</strong>. The <strong>Z</strong> field should be none. Write the output feature class to your feature dataset in the project GDB named <code>Climate_Pts</code>. Click <em>Run</em>, and you should have the 125 temperature observation points displayed.</p></li>
+<li><p>Figure out your projection. <em>I recommend an equal area projection for Europe.</em> Perpaps search on <a href="https://epsg.io" target="_blank">epsg.io</a> and try out a few. Once set, use <em>Zoom to Layer</em> on the climate points so you only have Europe and northern Africa on screen. Then navigate to the <em>Clip Layers</em> tab within the <em>Map Frame</em> properties. From the drop-down, choose <strong>Clip to a custom extent</strong>, then <strong>Current visible extent</strong>. Click Apply, then OK. The countries and basemap will be masked to a rectangle.</p></li>
+<li><p>Save the project and take a break.</p></li>
+</ol>
 </section>
-<section id="resource-notebook-100-points" class="level2">
-<h2 class="anchored" data-anchor-id="resource-notebook-100-points">Resource Notebook (100 points)</h2>
-<p>Each student is required to create a digital notebook filled with the content featured in the class. The purpose of this notebook is to give the student a “take-away” resource of GIS techniques for future mapping projects. On the class server (“T:\\ Drive”), under your personal student folder, create a sub-folder called “Resources”, within which you should start documenting and useful information you glean from this course. You may develop your resource notebook in whatever organization you like, but a possible organization would be sub-folders named Readings, Lectures, Map Tutorials, and Labs. Do not wait until the last minute to put together the notebook. Start adding content the first week and continue to keep it organized throughout the semester. It will be your one-stop reference for the theory and techniques covered in class. Extra material can include exam study guides and other resources from the web. The notebook will be checked toward the end of the semester for a grade worth 100 points.</p>
+<section id="part-2-data-interpolation" class="level3">
+<h3 class="anchored" data-anchor-id="part-2-data-interpolation">Part 2: Data Interpolation</h3>
+<ol type="1">
+<li><p>Review the <a href="content/20240402-spatial_storytelling_III.html" target="_blank">class lecture on interpolation</a> and the data sources listed on the <strong>Proxies</strong> tab in the original spreadsheet. What kind of data you are using here? How was the data created and what kind of interpolation method is best suited to it?</p></li>
+<li><p>In the <strong>Spatial Analysis Toolbox</strong>, under <strong>Interpolation</strong>, use the defaults in the <strong>Spline</strong> tool to create a raster surface of your <strong>AVG_ALL</strong> points. <em>Choose a color ramp that best suits temperatures above and below an average.</em> Then, run the tool again changing the <strong>Spline Type</strong> from <em>Regularized</em> to <em>Tension</em>. How do the maps compare?</p></li>
+<li><p>Now run a <strong>Kriging</strong>, <strong>Natural Neighbor</strong> and <strong>IDW</strong> interpolation on the <strong>AVG_ALL</strong> data, experimenting with the default settings. Which method gives you the smoothest surface? Why?</p></li>
+<li><p>Remove all but your <strong>Spline Regularized</strong> run of the <strong>AVG_ALL</strong> attribute. It should be obvious that the <strong>Spline</strong> tool is the best choice for this data because it is an evenly spaced grid of interpolated data. Now use the Spline tool to create surfaces for all the temperature anomaly averages that you calculated.</p></li>
+<li><p>Next, you must create class breaks that are normalized so we can truthfully compare the maps of temperature anomalies. Look up the Min and Max values for each Isarithmic surface, making a list. There may be lower and higher values than the raw data. <strong>Why?</strong> Notice that the <strong>Last Decade</strong> averages have a much higher max temperature. We will have to treat the <strong>Last Decade</strong> as an outlier, and symbolize it with its own class breaks, or all of the maps will look quite bland. Therefore, only apply the normalized symbolization to the first five Splines. <em>To do this, choose a range that will cover all possible values, and then save class breaks that can be loaded into each spline.</em> For example, I found that a range of -0.6 to +0.6 with 0.1 degree breaks works on my runs. Once you figure out the range, go to the spline run that has the lowest value. Figure out how many classes you need and modify the breaks. Choose a color ramp that fits with temperature above and below a zero point. Now you can normalize all your maps with the same breaks and color ramp by using the <strong>Import from Layer</strong> function in the <strong>Symbology Pane</strong>.</p></li>
+<li><p>One last touch that will help users understand your maps is to include a zero-value contour. <strong>What will that contour represent?</strong> Find the <strong>Contour</strong> tool, use a Spline run as the <em>Input</em> raster, and save the feature class to the project GDB. <strong>When the contour interval is set above the range of data, and the base contour is set to zero, only one contour line will be created at the zero break.</strong> Create a zero contour for each of the Spline runs and symbolize it over the appropriate map.</p></li>
+<li><p><strong>Now create 6 maps of temperature anomalies in Europe over the different time-spans.</strong> All these maps show the anomalies in C° above or below an average temperature. What is that average temperature and where did it come from? What assumption underlies that average temperature? If that assumption is wrong, what consequences would that mistake have on the Guiot and Corona study? When comparing your maps to the late 20th Century average temperature, what would you expect the Little Ice temperatures to be; above or below average? What about the Medieval Warm period and your other averages. Do your maps look as you would expect them to considering what you know about climate change? Or, as in most geospatial analysis, do your expectations hold true in some areas and not in others. How robust do you believe the extended temperature records extrapolated from proxy data are? Would you be willing to predict future climate scenarios from that data? Why or why not?</p></li>
+</ol>
 </section>
-<section id="midterm-exam-200-points-and-final-exam-250-points" class="level2">
-<h2 class="anchored" data-anchor-id="midterm-exam-200-points-and-final-exam-250-points">Midterm Exam (200 points) and Final Exam (250 points)</h2>
-<p>You are responsible for knowing everything read or said in this class. Exams will have several sections starting with multiple choice and true or false questions. Then there will be a definition matching section based on the glossary terms in the readings. Finally, essay questions will require you to evaluate a map, outline the theory behind a GIS analysis technique, or discuss other course content. <strong>The final exam is comprehensive</strong>, including content evaluated by the midterm exam. The Final Exam is longer and is worth more points (250) than the Midterm (200). Exams are closed-book.</p>
+<section id="part-3-upload-an-arcgis-package" class="level3">
+<h3 class="anchored" data-anchor-id="part-3-upload-an-arcgis-package">Part 3: Upload an ArcGIS Package</h3>
+<p>Six Isarithmic temperature maps belong in your project. They should be maps of temperature anomalies for an Average of all 1400 years, the 1961 to 1990 Average, the Medieval Warm Period, the Little Ice Age, the Industrial Revolution, and the last decade in the data. All the maps should be normalized with the same class breaks and the same color ramp, except for the Last Decade map. That means the same legend for each.</p>
+<p>You will submit your final series of maps as an ArcGIS Pro Package uploaded ot ArcGIS Online.</p>
+<ol type="1">
+<li><p>Open the “Package Project” tool in the Geoprocessing toolbox. Select your <em>EuropeClimate</em> project as the input project, and create a <em>EuropeClimate_[YOUR LAST NAME]</em> package as your output file. <strong>Select the “Share outside of organization” parameter,</strong> which ensures all of your layers are included as part of the package. Scroll to the bottom of the tool, and <strong>un-check “Include TOolbooxes”</strong>. Keep all of the other parameters as their default values, and click <strong>Run</strong>.</p></li>
+<li><p>Sign in to ArcGIS Online. Under the <strong>Content</strong> tab, click “New Item” in the upper left hand corner, and either drag and drop your <em>EuropeClimate_[YOUR LAST NAME]</em> package into the window, or browse to the package to upload it.</p></li>
+<li><p>After the upload completes, edit the information about your package. Add a brief summary about your package, and then a description of its contents.</p></li>
+<li><p>Select “Share” on the right side of your package page, select “Edit Group Sharing” and share the package with the <em>Applications of GIS — Spring 2024</em> group. Select “OK” and “Save”, and your project will be shared with our group for download and viewing.</p></li>
+</ol>
 </section>
-<section id="final-group-projects-600-points" class="level2">
-<h2 class="anchored" data-anchor-id="final-group-projects-600-points">Final Group Projects (600 points)</h2>
-<p>A semester-long assignment, the group GIS project requires the students to identify a unique resource management problem that can be answered with GIS analysis. Each group must submit a project proposal following a format that will be discussed in class. As a group, you will develop a research question, review the literature for what techniques have been applied previously, decide what data is required, and design the methods for your analysis. You will document your analysis in an ESRI StoryMap that will roughly follow the scientific format used in the lab reports with the addition of a small literature review. You will include maps, graphs, tables, and figures that support your research and its results. The project design, workflow and conclusions will be presented to the class at the end of the semester. The 600 point project is worth 30 percent of your total grade and is divided as follows:</p>
+</section>
+<section id="deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
+<p><strong>You are responsible for uploading an ArcGIS Package of your project to ArcGIS Online and sharing it with the <em>Applications of GIS — Spring 2024</em> group</strong>. Your project package is worth 100 points.</p>
+</section>
+<section id="due-dates" class="level2">
+<h2 class="anchored" data-anchor-id="due-dates">Due Dates</h2>
+<p>Your ArcGIS Package must be posted on ArcGIS Online and shared with the <em>Applications of GIS — Spring 2024</em> group by one week after your lab session. <strong>Lab results are due by 2:00 PM Mountain Time.</strong></p>
+<p>Here is a table of due dates:</p>
 <table class="table">
 <thead>
 <tr class="header">
-<th>Component</th>
-<th>Points</th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Wednesday Section</th>
+<th style="text-align: left;">Thursday Section</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Project Proposal</td>
-<td>100 pts.</td>
-</tr>
-<tr class="even">
-<td>Final Group StoryMap</td>
-<td>400 pts.</td>
-</tr>
-<tr class="odd">
-<td>Presentation</td>
-<td>100 pts.</td>
+<td style="text-align: left;">Lab 5</td>
+<td style="text-align: left;">April 10</td>
+<td style="text-align: left;">April 11</td>
 </tr>
 </tbody>
 </table>

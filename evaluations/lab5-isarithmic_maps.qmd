@@ -1,0 +1,95 @@
+---
+title: "Lab 5: Isarithmic Maps: Climate Analysis"
+---
+
+![Changes in surface air temperature over the past 50 years.](https://upload.wikimedia.org/wikipedia/commons/e/e0/Change_in_Average_Temperature_With_Fahrenheit.svg){fig-align="center"}
+
+## Description
+
+An Isarithmic map is simply one where isolines are of equal value. The most common example is contour maps were each line represents a constant elevation. This technique is very useful for showing the seamless distribution of an attribute over an area. In thematic mapping, isoline maps are used to show temperature, precipitation, air pressure, pollution, etc. The power of this technique lies in the use of interpolation methods to convert point-sampled data into a raster surface that estimates values for all intermediate locations. When classed, the breaks become the lines of equal value. ArcGIS Pro uses several types of interpolation, including [Inverse Distance Weighted (IDW)](https://pro.arcgis.com/en/pro-app/latest/help/analysis/geostatistical-analyst/how-inverse-distance-weighted-interpolation-works.htm){target="_blank"}, [Kriging](https://pro.arcgis.com/en/pro-app/latest/tool-reference/3d-analyst/how-kriging-works.htm){target="_blank"}, [Natural Neighbor](https://pro.arcgis.com/en/pro-app/latest/tool-reference/3d-analyst/how-natural-neighbor-works.htm){target="_blank"}, [Spline](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-spline-works.htm){target="_blank"}, [Topo to Raster](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/topo-to-raster.htm){target="_blank"}, and [Trend](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-trend-works.htm){target="_blank"}. Each produces different results and is best suited for different types of data. **The goal is to choose the method that creates the smoothest surface with the points used.** You will experiment to find the best method for this lab.
+
+A "hot topic" lately, pun intended, is the debate over climate change. To gauge how much temperatures have changed recently, scientists have been very busy trying to use proxies to extend the temperature record back through time. Instrument records cover at best 200 years, and can be spotty, so it is common practice to use temperature data derived from proxies like tree rings, ice cores, pollen, coral and sea floor cores to fill in the gaps. One study, by [Guiot and Corona, 2010](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009972){target="_blank"}, created 1400 years of average temperature in Europe for the growing season of April through September. How can we test the validity of this paleoclimate dataset? Using this data, it is possible to create a series of Isarithmic maps to show the anomalies from mean temperature over certain time spans. If we make maps of the [Little Ice Age](https://en.wikipedia.org/wiki/Little_Ice_Age){target="_blank"}, or the [Medieval Warm Period](https://en.wikipedia.org/wiki/Medieval_Warm_Period){target="_blank"}, what should they look like? What does it mean if they don't match our assumptions? By reading their article and assessing the methods used, you can use your maps to evaluate their results and discuss the climate changes visible in the data.
+
+## Lab Video
+
+[**Note**]{style="color: red;"}: ArcPro has changed since these videos were recorded. For the most accurate instructions, refer to this document. The video is a good guide but there are slight differences. When in doubt, read through the instructions here and feel free to reach out and email Patrick (TA) with any questions/discrepancies.
+
+{{< video https://youtu.be/xB6ID3XuiFo >}}
+
+## Requirements
+
+### Part 1: Project and Data Preparation
+
+1.	Open a new ArcGIS Pro project and name it *EuropeClimate*, making sure it is saved where you want it. In the newly created `EuropeClimate.gdb`, create a feature dataset in WGS 84 and import a world country border layer from one of the many resources you have used ([Natural Earth](https://www.naturalearthdata.com){target="_blank"}, perhaps). Create a new Map tab and add the countries. Check the coordinate system of the map and keep it in WGS 84 for now. SAVE the project.
+
+2.	Navigate to the [NOAA Paleoclimatology](https://www.ncei.noaa.gov/products/paleoclimatology){target="_blank"} page, a great resource for paleoclimate data. Click on **Paleo Data Search** → **Launch Search Tool** → and enter "Guiot" in the search box. Click on the *European 1400 Year Spring-Summer Temperature Reconstructions* result and download the `guiot2010europe.xls` (Excel file) below. Explore the *Read Me* and *Proxies* sheets in the Excel workbook. It will give you a good overview of the research and where the temperatures were derived from. Ask yourself how ice core data from Greenland can be used to extrapolate temperature data for Europe in the past? What about tree rings, or grape harvests?
+
+3.	On the *Europe Temperature Recons* sheet, notice that column A has all the information needed for the header. The data needs to be transposed, that is Y swapped for X. The easiest way to do this is as follows:
+
+  - Select the first cell (1A) and hit Ctrl + A to select all, then Ctrl + C to copy.
+  - In a new Excel workbook, select the first cell.
+  - Under Paste → Paste Special → Check Transpose → OK.
+  - Save the new Excel file and name it `Climate_Data.xlsx`
+
+4.	Change the **long** and **lati** headers to **LONG** and **LAT**. Change the **VAR** header to **STATION_ID**. Remove the **SE** and **Year AD** columns. Notice that there is data from 600 all the way to 2007. *A table in ArcGIS Pro has a 256-column limit without some tricky import workarounds.* Luckily, we only need this data to create some average columns, and then it can be deleted.
+
+5.	Create a new column at the far right with the header named **AVG_ALL** and format it as a number with 4 decimals. Populate the column using a formula finding the average temperature anomaly from 600 to 2007.
+
+6.	Create a formatted column and find the average temperature anomaly from 1961 through 1990. Why is this timespan important?
+
+7.	Create formatted columns and find the average temperature anomalies for the Medieval Warm Period and the Little Ice Age. Conduct some research to figure out what years these periods cover.
+
+8.	Find the beginning year of the Industrial Revolution (more searching!) and calculate the average temperature anomaly from then to 2007 in another formatted column.
+
+9.	Finally, calculate the average temperature anomaly for the last decade in the dataset. Will this decade be above or below average?
+
+10.	Now copy all the derived values (the averages you just created), along with the **STATION_ID**, **LAT** and **LONG** columns. Open another workbook, select the first cell, and under Paste → Paste Special, select Values, and then hit OK. This will get rid of the formulas and reduce the data to just the stations, the coordinates, and the averages you need for analysis. Check the formatting and reset to a 4 decimal number if necessary. Save the spreadsheet, and then perform a Save As to a .csv called `Climate_Averages.csv`.
+
+11.	Back in ArcGIS Pro, go to **Add Data** → **XY Point Data** and navigate to the `Climate_Averages.csv`. Make sure the **X** field is **LONG** and the **Y** field is **LAT**. The **Z** field should be none. Write the output feature class to your feature dataset in the project GDB named `Climate_Pts`. Click *Run*, and you should have the 125 temperature observation points displayed. 
+
+12.	Figure out your projection. *I recommend an equal area projection for Europe.* Perpaps search on [epsg.io](https://epsg.io){target="_blank"} and try out a few. Once set, use *Zoom to Layer* on the climate points so you only have Europe and northern Africa on screen. Then navigate to the *Clip Layers* tab within the *Map Frame* properties. From the drop-down, choose **Clip to a custom extent**, then **Current visible extent**. Click Apply, then OK. The countries and basemap will be masked to a rectangle.
+
+13.	Save the project and take a break.
+
+### Part 2: Data Interpolation
+
+1.	Review the [class lecture on interpolation](content/20240402-spatial_storytelling_III.html){target="_blank"} and the data sources listed on the **Proxies** tab in the original spreadsheet. What kind of data you are using here? How was the data created and what kind of interpolation method is best suited to it?
+
+2.	In the **Spatial Analysis Toolbox**, under **Interpolation**, use the defaults in the **Spline** tool to create a raster surface of your **AVG_ALL** points. *Choose a color ramp that best suits temperatures above and below an average.* Then, run the tool again changing the **Spline Type** from *Regularized* to *Tension*. How do the maps compare?
+
+3.	Now run a **Kriging**, **Natural Neighbor** and **IDW** interpolation on the **AVG_ALL** data, experimenting with the default settings. Which method gives you the smoothest surface? Why?
+
+4.	Remove all but your **Spline Regularized** run of the **AVG_ALL** attribute. It should be obvious that the **Spline** tool is the best choice for this data because it is an evenly spaced grid of interpolated data. Now use the Spline tool to create surfaces for all the temperature anomaly averages that you calculated. 
+
+5.	Next, you must create class breaks that are normalized so we can truthfully compare the maps of temperature anomalies. Look up the Min and Max values for each Isarithmic surface, making a list. There may be lower and higher values than the raw data. **Why?** Notice that the **Last Decade** averages have a much higher max temperature. We will have to treat the **Last Decade** as an outlier, and symbolize it with its own class breaks, or all of the maps will look quite bland. Therefore, only apply the normalized symbolization to the first five Splines. *To do this, choose a range that will cover all possible values, and then save class breaks that can be loaded into each spline.* For example, I found that a range of -0.6 to +0.6 with 0.1 degree breaks works on my runs. Once you figure out the range, go to the spline run that has the lowest value. Figure out how many classes you need and modify the breaks. Choose a color ramp that fits with temperature above and below a zero point. Now you can normalize all your maps with the same breaks and color ramp by using the **Import from Layer** function in the **Symbology Pane**.
+
+6.	One last touch that will help users understand your maps is to include a zero-value contour. **What will that contour represent?** Find the **Contour** tool, use a Spline run as the *Input* raster, and save the feature class to the project GDB. **When the contour interval is set above the range of data, and the base contour is set to zero, only one contour line will be created at the zero break.** Create a zero contour for each of the Spline runs and symbolize it over the appropriate map.
+
+7. **Now create 6 maps of temperature anomalies in Europe over the different time-spans.** All these maps show the anomalies in C° above or below an average temperature. What is that average temperature and where did it come from? What assumption underlies that average temperature? If that assumption is wrong, what consequences would that mistake have on the Guiot and Corona study? When comparing your maps to the late 20th Century average temperature, what would you expect the Little Ice temperatures to be; above or below average? What about the Medieval Warm period and your other averages. Do your maps look as you would expect them to considering what you know about climate change? Or, as in most geospatial analysis, do your expectations hold true in some areas and not in others. How robust do you believe the extended temperature records extrapolated from proxy data are? Would you be willing to predict future climate scenarios from that data? Why or why not?
+
+### Part 3: Upload an ArcGIS Package
+
+Six Isarithmic temperature maps belong in your project. They should be maps of temperature anomalies for an Average of all 1400 years, the 1961 to 1990 Average, the Medieval Warm Period, the Little Ice Age, the Industrial Revolution, and the last decade in the data. All the maps should be normalized with the same class breaks and the same color ramp, except for the Last Decade map. That means the same legend for each. 
+
+You will submit your final series of maps as an ArcGIS Pro Package uploaded ot ArcGIS Online.
+
+1. Open the "Package Project" tool in the Geoprocessing toolbox. Select your *EuropeClimate* project as the input project, and create a *EuropeClimate_[YOUR LAST NAME]* package as your output file. **Select the "Share outside of organization" parameter,** which ensures all of your layers are included as part of the package. Scroll to the bottom of the tool, and **un-check "Include TOolbooxes"**. Keep all of the other parameters as their default values, and click **Run**.
+
+2. Sign in to ArcGIS Online. Under the **Content** tab, click "New Item" in the upper left hand corner, and either drag and drop your *EuropeClimate_[YOUR LAST NAME]* package into the window, or browse to the package to upload it.
+
+3. After the upload completes, edit the information about your package. Add a brief summary about your package, and then a description of its contents.
+
+4. Select "Share" on the right side of your package page, select "Edit Group Sharing" and share the package with the *Applications of GIS — Spring 2024* group. Select "OK" and "Save", and your project will be shared with our group for download and viewing.
+
+## Deliverables
+
+**You are responsible for uploading an ArcGIS Package of your project to ArcGIS Online and sharing it with the *Applications of GIS — Spring 2024* group**. Your project package is worth 100 points.
+
+## Due Dates
+Your ArcGIS Package must be posted on ArcGIS Online and shared with the *Applications of GIS — Spring 2024* group by one week after your lab session. **Lab results are due by 2:00 PM Mountain Time.**
+
+Here is a table of due dates:
+
+|       | Wednesday Section | Thursday Section |
+| :---        |    :----   |          :--- |
+| Lab 5      | April 10       | April 11   |
