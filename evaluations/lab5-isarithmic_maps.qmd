@@ -27,7 +27,7 @@ A "hot topic" lately, pun intended, is the debate over climate change. To gauge 
 3.	On the *Europe Temperature Recons* sheet, notice that column A has all the information needed for the header. The data needs to be transposed, that is Y swapped for X. The easiest way to do this is as follows:
 
     - Select the first cell (1A) and hit Ctrl + A to select all, then Ctrl + C to copy.
-    - In a new Excel workbook, select the first cell.
+    - **In a new Excel workbook**, select the first cell.
     - Under Paste → Paste Special → Check Transpose → OK.
     - Save the new Excel file and name it `Climate_Data.xlsx`
 
@@ -35,7 +35,7 @@ A "hot topic" lately, pun intended, is the debate over climate change. To gauge 
 
 5.	Create a new column at the far right with the header named **AVG_ALL** and format it as a number with 4 decimals. Populate the column using a formula finding the average temperature anomaly from 600 to 2007.
 
-6.	Create a formatted column and find the average temperature anomaly from 1961 through 1990. Why is this timespan important?
+6.	Create a formatted column and find the average temperature anomaly from 1961 through 1990. Why is this time span important?
 
 7.	Create formatted columns and find the average temperature anomalies for the Medieval Warm Period and the Little Ice Age. Conduct some research to figure out what years these periods cover.
 
