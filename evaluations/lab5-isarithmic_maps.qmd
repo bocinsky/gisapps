@@ -53,7 +53,7 @@ A "hot topic" lately, pun intended, is the debate over climate change. To gauge 
 
 ### Part 2: Data Interpolation
 
-1.	Review the [class lecture on interpolation](content/20240402-spatial_storytelling_III.html){target="_blank"} and the data sources listed on the **Proxies** tab in the original spreadsheet. What kind of data you are using here? How was the data created and what kind of interpolation method is best suited to it?
+1.	Review the [class lecture on interpolation](/apps/content/20240402-spatial_storytelling_III.html){target="_blank"} and the data sources listed on the **Proxies** tab in the original spreadsheet. What kind of data you are using here? How was the data created and what kind of interpolation method is best suited to it?
 
 2.	In the **Spatial Analysis Toolbox**, under **Interpolation**, use the defaults in the **Spline** tool to create a raster surface of your **AVG_ALL** points. *Choose a color ramp that best suits temperatures above and below an average.* Then, run the tool again changing the **Spline Type** from *Regularized* to *Tension*. How do the maps compare?
 
