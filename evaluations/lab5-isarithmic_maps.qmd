@@ -26,10 +26,10 @@ A "hot topic" lately, pun intended, is the debate over climate change. To gauge 
 
 3.	On the *Europe Temperature Recons* sheet, notice that column A has all the information needed for the header. The data needs to be transposed, that is Y swapped for X. The easiest way to do this is as follows:
 
-  - Select the first cell (1A) and hit Ctrl + A to select all, then Ctrl + C to copy.
-  - In a new Excel workbook, select the first cell.
-  - Under Paste → Paste Special → Check Transpose → OK.
-  - Save the new Excel file and name it `Climate_Data.xlsx`
+    - Select the first cell (1A) and hit Ctrl + A to select all, then Ctrl + C to copy.
+    - In a new Excel workbook, select the first cell.
+    - Under Paste → Paste Special → Check Transpose → OK.
+    - Save the new Excel file and name it `Climate_Data.xlsx`
 
 4.	Change the **long** and **lati** headers to **LONG** and **LAT**. Change the **VAR** header to **STATION_ID**. Remove the **SE** and **Year AD** columns. Notice that there is data from 600 all the way to 2007. *A table in ArcGIS Pro has a 256-column limit without some tricky import workarounds.* Luckily, we only need this data to create some average columns, and then it can be deleted.
 

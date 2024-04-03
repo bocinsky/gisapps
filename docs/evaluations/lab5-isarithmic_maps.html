@@ -234,15 +234,13 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Open a new ArcGIS Pro project and name it <em>EuropeClimate</em>, making sure it is saved where you want it. In the newly created <code>EuropeClimate.gdb</code>, create a feature dataset in WGS 84 and import a world country border layer from one of the many resources you have used (<a href="https://www.naturalearthdata.com" target="_blank">Natural Earth</a>, perhaps). Create a new Map tab and add the countries. Check the coordinate system of the map and keep it in WGS 84 for now. SAVE the project.</p></li>
 <li><p>Navigate to the <a href="https://www.ncei.noaa.gov/products/paleoclimatology" target="_blank">NOAA Paleoclimatology</a> page, a great resource for paleoclimate data. Click on <strong>Paleo Data Search</strong> → <strong>Launch Search Tool</strong> → and enter “Guiot” in the search box. Click on the <em>European 1400 Year Spring-Summer Temperature Reconstructions</em> result and download the <code>guiot2010europe.xls</code> (Excel file) below. Explore the <em>Read Me</em> and <em>Proxies</em> sheets in the Excel workbook. It will give you a good overview of the research and where the temperatures were derived from. Ask yourself how ice core data from Greenland can be used to extrapolate temperature data for Europe in the past? What about tree rings, or grape harvests?</p></li>
-<li><p>On the <em>Europe Temperature Recons</em> sheet, notice that column A has all the information needed for the header. The data needs to be transposed, that is Y swapped for X. The easiest way to do this is as follows:</p></li>
-</ol>
+<li><p>On the <em>Europe Temperature Recons</em> sheet, notice that column A has all the information needed for the header. The data needs to be transposed, that is Y swapped for X. The easiest way to do this is as follows:</p>
 <ul>
 <li>Select the first cell (1A) and hit Ctrl + A to select all, then Ctrl + C to copy.</li>
 <li>In a new Excel workbook, select the first cell.</li>
 <li>Under Paste → Paste Special → Check Transpose → OK.</li>
 <li>Save the new Excel file and name it <code>Climate_Data.xlsx</code></li>
-</ul>
-<ol start="4" type="1">
+</ul></li>
 <li><p>Change the <strong>long</strong> and <strong>lati</strong> headers to <strong>LONG</strong> and <strong>LAT</strong>. Change the <strong>VAR</strong> header to <strong>STATION_ID</strong>. Remove the <strong>SE</strong> and <strong>Year AD</strong> columns. Notice that there is data from 600 all the way to 2007. <em>A table in ArcGIS Pro has a 256-column limit without some tricky import workarounds.</em> Luckily, we only need this data to create some average columns, and then it can be deleted.</p></li>
 <li><p>Create a new column at the far right with the header named <strong>AVG_ALL</strong> and format it as a number with 4 decimals. Populate the column using a formula finding the average temperature anomaly from 600 to 2007.</p></li>
 <li><p>Create a formatted column and find the average temperature anomaly from 1961 through 1990. Why is this timespan important?</p></li>
