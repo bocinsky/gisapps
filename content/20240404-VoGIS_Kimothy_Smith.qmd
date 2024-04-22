@@ -62,5 +62,5 @@ Please submit two short questions you would like Kyle to consider asking Kimothy
 
 Please submit your questions by Tuesday, April 2 at 2:00 PM to this Microsoft Form: <https://forms.office.com/r/GwtVhd4eRC>{target="_blank"}.
 
-<!-- ## Voices of GIS Recording -->
-<!-- {{< video https://www.youtube.com/embed/wOtO3LYPyfw >}} -->
+## Voices of GIS Recording
+{{< video https://www.youtube.com/embed/6E26dyfCmwI >}}

@@ -38,4 +38,4 @@ Please submit two short questions you would like Kyle to consider asking Zach. T
 Please submit your questions by Tuesday, March 12 at 2:00 PM to this Microsoft Form: <https://forms.office.com/r/N5esxJPUD6>{target="_blank"}.
 
 ## Voices of GIS Recording
-{{< video https://www.youtube.com/embed/wOtO3LYPyfw >}}
+{{< video https://www.youtube.com/embed/NNmYRwWuaiU >}}

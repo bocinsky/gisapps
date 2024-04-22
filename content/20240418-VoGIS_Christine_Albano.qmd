@@ -38,3 +38,6 @@ Christine shared several resources about the ARkStorm scenarios. **Please have a
 Please submit two short questions you would like Kyle to consider asking Christine. These can be about the materials, Christine's career and training, or more general questions about careers in GIS related to hydroclimatology, climate variability and extremes, and scenario planning.
 
 Please submit your questions by Wednesday, April 17 at 11:59 PM to this Microsoft Form: <https://forms.office.com/r/tDDFD87yJK>{target="_blank"}.
+
+## Voices of GIS Recording
+{{< video https://www.youtube.com/embed/wSRuxKmoJkQ >}}
