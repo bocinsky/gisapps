@@ -279,6 +279,39 @@
     ]
   },
   {
+    "objectID": "content/20240425-VoGIS_Arin_Leopold.html",
+    "href": "content/20240425-VoGIS_Arin_Leopold.html",
+    "title": "Voices of GIS: Spatial Data and Land Access with onX Maps’ Arin Leopold",
+    "section": "",
+    "text": "Arin Leopold is a geospatial business intelligence analyst at onX. Arin graduated with my master’s degree in GIS & Cartography from UM in 2022. During his graduate program, Arin’s research and work focused on disability in rural communities; specifically, how the social determinants of health relate to disability employment outcomes. Arin worked as a research assistant at the Rural Institute during his grad program and then was hired on as an associate after completing the program.\nA few months into working at the Rural Institute full time, Arin accepted a position with onX as a geospatial analyst. His initial work focused on optimizing and prioritizing spatial processes and business outcomes, such as improving the routability of routing graphs and ingesting and serving high frequency imagery. Arin continues to do a good amount of ad-hoc spatial analyses, but his focus has shifted more to analyzing the return on investment in spatial data onX pays for, machine learning for predictive analytics and clustering, and occasional imagery analysis.\nMuch of Arin’s day-to-day work involves Python and SQL. His team “dabbles in data engineering” and uses Apache Airflow for data pipeline work. They also do a good bit of custom dashboarding and mapping using Python (Dash, Plotly, Folium/Leaflet) and have a few graph databases they interact with using GraphQL.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Voices of GIS: Spatial Data and Land Access with onX Maps' Arin Leopold"
+    ]
+  },
+  {
+    "objectID": "content/20240425-VoGIS_Arin_Leopold.html#expert-biography",
+    "href": "content/20240425-VoGIS_Arin_Leopold.html#expert-biography",
+    "title": "Voices of GIS: Spatial Data and Land Access with onX Maps’ Arin Leopold",
+    "section": "",
+    "text": "Arin Leopold is a geospatial business intelligence analyst at onX. Arin graduated with my master’s degree in GIS & Cartography from UM in 2022. During his graduate program, Arin’s research and work focused on disability in rural communities; specifically, how the social determinants of health relate to disability employment outcomes. Arin worked as a research assistant at the Rural Institute during his grad program and then was hired on as an associate after completing the program.\nA few months into working at the Rural Institute full time, Arin accepted a position with onX as a geospatial analyst. His initial work focused on optimizing and prioritizing spatial processes and business outcomes, such as improving the routability of routing graphs and ingesting and serving high frequency imagery. Arin continues to do a good amount of ad-hoc spatial analyses, but his focus has shifted more to analyzing the return on investment in spatial data onX pays for, machine learning for predictive analytics and clustering, and occasional imagery analysis.\nMuch of Arin’s day-to-day work involves Python and SQL. His team “dabbles in data engineering” and uses Apache Airflow for data pipeline work. They also do a good bit of custom dashboarding and mapping using Python (Dash, Plotly, Folium/Leaflet) and have a few graph databases they interact with using GraphQL.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Voices of GIS: Spatial Data and Land Access with onX Maps' Arin Leopold"
+    ]
+  },
+  {
+    "objectID": "content/20240425-VoGIS_Arin_Leopold.html#preparation",
+    "href": "content/20240425-VoGIS_Arin_Leopold.html#preparation",
+    "title": "Voices of GIS: Spatial Data and Land Access with onX Maps’ Arin Leopold",
+    "section": "Preparation",
+    "text": "Preparation\nArin shared a white paper on land access that you should look at in preparation for our interview, as well as checking out one of the onX apps. Please have a look at these before submitting your questions.\n\nAssignment\nPlease submit two short questions you would like Kyle to consider asking Arin. These can be about the materials, Arin’s career and training, or more general questions about careers in GIS related to app development, land access, and web GIS.\nPlease submit your questions by Wednesday, April 24 at 11:59 PM to this Microsoft Form: https://forms.office.com/r/2WkGR6KjKk.",
+    "crumbs": [
+      "Readings and Lectures",
+      "Voices of GIS: Spatial Data and Land Access with onX Maps' Arin Leopold"
+    ]
+  },
+  {
     "objectID": "content/20240418-VoGIS_Christine_Albano.html",
     "href": "content/20240418-VoGIS_Christine_Albano.html",
     "title": "Voices of GIS: ARkStorm 2.0 with Dr. Christine Albano",

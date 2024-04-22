@@ -1,0 +1,40 @@
+---
+title: "Voices of GIS: Spatial Data and Land Access with onX Maps' Arin Leopold"
+date: "2024-04-25"
+---
+
+```{r}
+#| label: slides-videos
+#| echo: false
+#| include: false
+source(here::here("R", "slide-things.R"))
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- ""
+
+slide_details <- tibble::tribble(
+  ~youtube_id,   ~title, ~slide, ~active,
+  "", "Introduction", "1", TRUE,
+  "", "Motivation", "motivation", FALSE,
+  "", "Review", "review", FALSE,
+  "", "Key concepts", "keyconceptsexperimental", FALSE
+)
+```
+
+## Expert Biography
+
+![](img/arin_leopold.jpg){width=50% fig-align="center" fig-alt="Arin Leopold."}
+
+Arin Leopold is a geospatial business intelligence analyst at [onX](https://www.onxmaps.com){target="_blank"}. Arin graduated with my master's degree in GIS & Cartography from UM in 2022. During his graduate program, Arin's research and work focused on disability in rural communities; specifically, how the social determinants of health relate to disability employment outcomes. Arin worked as a research assistant at the [Rural Institute](https://www.umt.edu/rural-institute/){target="_blank"} during his grad program and then was hired on as an associate after completing the program.
+
+A few months into working at the Rural Institute full time, Arin accepted a position with onX as a geospatial analyst. His initial work focused on optimizing and prioritizing spatial processes and business outcomes, such as improving the routability of routing graphs and ingesting and serving high frequency imagery. Arin continues to do a good amount of ad-hoc spatial analyses, but his focus has shifted more to analyzing the return on investment in spatial data onX pays for, machine learning for predictive analytics and clustering, and occasional imagery analysis.
+
+Much of Arin's day-to-day work involves Python and SQL. His team "dabbles in data engineering" and uses [Apache Airflow](https://airflow.apache.org){target="_blank"} for data pipeline work. They also do a good bit of custom dashboarding and mapping using Python ([Dash](https://plotly.com/dash/){target="_blank"}, [Plotly](https://plotly.com/graphing-libraries/){target="_blank"}, [Folium](https://python-visualization.github.io/folium/latest/){target="_blank"}/[Leaflet](https://leafletjs.com){target="_blank"}) and have a few graph databases they interact with using [GraphQL](https://graphql.org){target="_blank"}.
+
+## Preparation
+Arin shared a [white paper on land access](https://www.onxmaps.com/onx-access-initiatives/private-land-public-access){target="_blank"} that you should look at in preparation for our interview, as well as checking out one of the [onX apps](https://www.onxmaps.com){target="_blank"}. **Please have a look at these *before* submitting your questions.**
+
+### Assignment
+Please submit two short questions you would like Kyle to consider asking Arin. These can be about the materials, Arin's career and training, or more general questions about careers in GIS related to app development, land access, and web GIS.
+
+Please submit your questions by Wednesday, April 24 at 11:59 PM to this Microsoft Form: <https://forms.office.com/r/2WkGR6KjKk>{target="_blank"}.
