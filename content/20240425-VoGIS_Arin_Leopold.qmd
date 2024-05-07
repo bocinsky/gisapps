@@ -38,3 +38,6 @@ Arin shared a [white paper on land access](https://www.onxmaps.com/onx-access-in
 Please submit two short questions you would like Kyle to consider asking Arin. These can be about the materials, Arin's career and training, or more general questions about careers in GIS related to app development, land access, and web GIS.
 
 Please submit your questions by Wednesday, April 24 at 11:59 PM to this Microsoft Form: <https://forms.office.com/r/2WkGR6KjKk>{target="_blank"}.
+
+## Voices of GIS Recording
+{{< video https://www.youtube.com/embed/j83SDUXQGDE >}}
